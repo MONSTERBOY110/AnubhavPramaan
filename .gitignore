@@ -1,0 +1,30 @@
+# Internal strategy, deck sources and research snapshots (never public)
+docs/internal/
+.ppt-build/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Test and tooling output
+playwright-report/
+test-results/
+.remember/
+
+# OS
+.DS_Store
+Thumbs.db
