@@ -274,5 +274,5 @@ packs/qp/       CON-Q0602-v4.0.json, CON-Q0103.json
 data/calibration/  items, answer key, rater scores
 eval/           mapping eval set and runner
 tests/          unit/, e2e/
-tools/          extract_qp.py, capture_screens.mjs, record_demo.mjs
+tools/          extract_qp.py, verify_pack_text.py, build_pack.py, side_by_side.py, freeze_hints.py
 ```
