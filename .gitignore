@@ -42,3 +42,18 @@ scratch/
 
 # Cached TTS clips from the ElevenLabs stand-in (saves credits; regenerable)
 .cache/
+
+# Kept locally, not shown on GitHub (2 Oct 2026, as on SagarDrishti): CI, agent notes, editor and
+# formatter settings, the shadcn generator config, and the video and screenshot production tools.
+.github/
+CLAUDE.md
+.nvmrc
+.prettierrc
+.prettierignore
+components.json
+tools/capture_screens.mjs
+tools/record_demo.mjs
+tools/record_demo_av.mjs
+tools/cut_demo.py
+tools/voiceover_script.py
+tools/readme_shots.py
