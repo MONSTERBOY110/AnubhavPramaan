@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { JourneyBar } from "@/components/app-shell/journey-bar";
 import { AnswerPanel } from "@/components/bolo/answer-panel";
 import { ConsentStep } from "@/components/bolo/consent-step";
 import { MicButton } from "@/components/bolo/mic-button";
@@ -17,6 +18,7 @@ import {
 import type { Claim, SelfDeclaration } from "@/lib/declaration/schemas";
 import { ELECTRICIAN_TOPICS } from "@/lib/declaration/topics";
 import { playWav, speakWithDevice, startRecording, toBase64, toWav16k } from "@/lib/voice/capture";
+import { speechChunks } from "@/lib/voice/chunks";
 
 // Bolo: the worker's voice self-declaration (TRD M1). Consent, then one question at a time: speak
 // (or upload a recording, or type), see the words as heard, correct them if needed, and see the
@@ -50,6 +52,12 @@ export default function Declare() {
     setSummarising(false);
     setDraft("");
   }, [i]);
+
+  // Each step and question starts at the top: after the long read-back, the short thank-you
+  // screen would otherwise sit above the view and the worker would see an empty page.
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [step, i]);
   const answerIndex = decl?.answers.findIndex((a) => a.topic === topic.id) ?? -1;
   const answer = answerIndex >= 0 ? decl!.answers[answerIndex] : undefined;
   const claimsFor = (idx: number): Claim[] => decl?.claims.filter((c) => c.answer === idx) ?? [];
@@ -62,13 +70,17 @@ export default function Declare() {
   }, []);
 
   async function speak(text: string) {
-    try {
-      const out = await synthesise(text);
-      setVoiceLabel(out.label);
-      await playWav(out.audio);
-    } catch {
-      setVoiceLabel("Device voice (Bhashini TTS pending)");
-      await speakWithDevice(text);
+    const parts = speechChunks(text);
+    for (let k = 0; k < parts.length; k++) {
+      try {
+        const out = await synthesise(parts[k]!);
+        setVoiceLabel(out.label);
+        await playWav(out.audio);
+      } catch {
+        setVoiceLabel("Device voice (Bhashini TTS pending)");
+        await speakWithDevice(parts.slice(k).join(" "));
+        return;
+      }
     }
   }
 
@@ -230,19 +242,16 @@ export default function Declare() {
   }
 
   return (
-    <main className="mx-auto min-h-screen max-w-3xl px-5 py-8 sm:px-8">
-      <header className="mb-10 flex items-center justify-between gap-4">
-        <Link href="/" className="text-lg font-bold">
-          अनुभव प्रमाण{" "}
-          <span className="text-ink-soft hidden text-sm font-normal sm:inline">AnubhavPramaan</span>
-        </Link>
+    <>
+      <JourneyBar current="bolo" />
+      <main className="mx-auto max-w-3xl px-5 py-8 sm:px-8">
         {step === "interview" && (
           <div
-            className="flex items-center gap-3"
+            className="mb-8 flex items-center justify-end gap-3"
             aria-label={`Question ${i + 1} of ${ELECTRICIAN_TOPICS.length}`}
           >
             <span className="text-ink-soft text-sm whitespace-nowrap tabular-nums">
-              {i + 1} / {ELECTRICIAN_TOPICS.length}
+              प्रश्न {i + 1} / {ELECTRICIAN_TOPICS.length}
             </span>
             <div className="flex gap-1">
               {ELECTRICIAN_TOPICS.map((t, k) => (
@@ -254,200 +263,200 @@ export default function Declare() {
             </div>
           </div>
         )}
-      </header>
 
-      {error && (
-        <p role="alert" className="bg-alert-soft text-alert mb-6 rounded-lg px-4 py-3">
-          {error}
-        </p>
-      )}
-
-      {step === "consent" && (
-        <ConsentStep
-          busy={busy === "starting"}
-          onAgree={begin}
-          onDecline={() => setStep("declined")}
-        />
-      )}
-
-      {step === "declined" && (
-        <section className="max-w-2xl">
-          <h1 className="text-3xl font-bold">ठीक है, कुछ भी रिकॉर्ड नहीं हुआ।</h1>
-          <p className="text-ink-soft mt-2">
-            Nothing was recorded. The assessor can take your declaration on paper instead.
+        {error && (
+          <p role="alert" className="bg-alert-soft text-alert mb-6 rounded-lg px-4 py-3">
+            {error}
           </p>
-        </section>
-      )}
+        )}
 
-      {step === "interview" && (
-        <section aria-labelledby="question">
-          <h1 id="question" className="text-[1.9rem] leading-[1.5] font-semibold">
-            {topic.q}
-          </h1>
-          <p className="text-ink-soft mt-2">{topic.en}</p>
-          <button
-            type="button"
-            onClick={() => speak(topic.q)}
-            className="text-saffron-deep mt-3 text-sm underline underline-offset-4"
-          >
-            सवाल सुनें (hear the question)
-          </button>
+        {step === "consent" && (
+          <ConsentStep
+            busy={busy === "starting"}
+            onAgree={begin}
+            onDecline={() => setStep("declined")}
+          />
+        )}
 
-          <div className="mt-10 flex flex-col items-center gap-3">
-            <MicButton
-              recording={recording}
-              level={level}
-              disabled={busy !== null}
-              onStart={startMic}
-              onStop={stopMic}
-            />
-            <p className="text-lg" aria-live="polite">
-              {recording
-                ? "बोलिए... खत्म होने पर फिर दबाएँ"
-                : busy === "transcribing"
-                  ? "सुन रहे हैं... (transcribing)"
-                  : busy === "extracting"
-                    ? "समझ रहे हैं... (finding activities)"
-                    : answer
-                      ? "फिर से बोलने के लिए दबाएँ"
-                      : "बोलने के लिए दबाएँ"}
+        {step === "declined" && (
+          <section className="max-w-2xl">
+            <h1 className="text-3xl font-bold">ठीक है, कुछ भी रिकॉर्ड नहीं हुआ।</h1>
+            <p className="text-ink-soft mt-2">
+              Nothing was recorded. The assessor can take your declaration on paper instead.
             </p>
-            <div className="text-ink-soft flex flex-wrap justify-center gap-x-5 gap-y-1 text-sm">
-              <label className="cursor-pointer underline underline-offset-4">
-                या रिकॉर्डिंग चुनें (or choose a recording)
-                <input
-                  ref={fileRef}
-                  type="file"
-                  accept="audio/*"
-                  className="sr-only"
-                  onChange={(e) => onFile(e.target.files?.[0])}
-                />
-              </label>
-              <button
-                type="button"
-                onClick={() => {
-                  setSummarising(false);
-                  setTyping((t) => !t);
-                }}
-                aria-expanded={typing}
-                className="underline underline-offset-4"
-              >
-                या लिखकर बताएँ (or type it)
-              </button>
-            </div>
-          </div>
+          </section>
+        )}
 
-          {typing && (
-            <div className="mt-6">
-              <label className="text-ink-soft text-sm font-semibold" htmlFor="typed-answer">
-                {summarising
-                  ? "छोटा सार लिखें, बोला हुआ जवाब भी रखा जाएगा (type a short summary; the spoken answer is kept)"
-                  : "अपना जवाब लिखें (type your answer)"}
-              </label>
-              <textarea
-                id="typed-answer"
-                autoFocus={summarising}
-                value={draft}
-                onChange={(e) => setDraft(e.target.value)}
-                rows={4}
-                className="border-line mt-2 w-full rounded-lg border p-3 text-xl leading-relaxed"
-              />
-              <button
-                type="button"
-                disabled={!draft.trim() || busy !== null}
-                onClick={onType}
-                className="bg-ink mt-2 rounded-lg px-4 py-2 font-semibold text-white disabled:opacity-40"
-              >
-                सहेजें (save)
-              </button>
-            </div>
-          )}
-
-          {answer && (
-            <AnswerPanel
-              key={`${answer.topic}:${answer.text.length}`}
-              text={answer.text}
-              sourceLabel={
-                answer.edited ? `${answer.sourceLabel}, corrected by hand` : answer.sourceLabel
-              }
-              claims={claimsFor(answerIndex)}
-              claimsNote={notes[answerIndex] || null}
-              extraction={answer.extraction}
-              heard={answer.heard}
-              onEdit={onEdit}
-              onSummary={() => {
-                setSummarising(true);
-                setTyping(true);
-              }}
-            />
-          )}
-
-          <nav className="mt-10 flex items-center justify-between gap-3">
+        {step === "interview" && (
+          <section aria-labelledby="question">
+            <h1 id="question" className="text-[1.9rem] leading-[1.5] font-semibold">
+              {topic.q}
+            </h1>
+            <p className="text-ink-soft mt-2">{topic.en}</p>
             <button
               type="button"
-              disabled={i === 0 || busy !== null || recording}
-              onClick={() => setI(i - 1)}
-              className="border-line rounded-lg border px-5 py-3 disabled:opacity-40"
+              onClick={() => speak(topic.q)}
+              className="text-saffron-deep mt-3 text-sm underline underline-offset-4"
             >
-              पिछला (back)
+              सवाल सुनें (hear the question)
             </button>
-            {i < ELECTRICIAN_TOPICS.length - 1 ? (
-              <button
-                type="button"
-                disabled={busy !== null || recording}
-                onClick={() => setI(i + 1)}
-                className={`rounded-lg px-6 py-3 font-semibold disabled:opacity-40 ${
-                  answer ? "bg-ink text-white" : "border-line text-ink border"
-                }`}
-              >
-                {answer ? "अगला सवाल (next)" : "छोड़ें (skip)"}
-              </button>
-            ) : (
-              <button
-                type="button"
-                disabled={busy !== null || recording || !decl?.answers.length}
-                onClick={() => setStep("readback")}
-                className="bg-ink rounded-lg px-6 py-3 font-semibold text-white disabled:opacity-40"
-              >
-                पढ़कर सुनाएँ (read it back)
-              </button>
+
+            <div className="mt-10 flex flex-col items-center gap-3">
+              <MicButton
+                recording={recording}
+                level={level}
+                disabled={busy !== null}
+                onStart={startMic}
+                onStop={stopMic}
+              />
+              <p className="text-lg" aria-live="polite">
+                {recording
+                  ? "बोलिए... खत्म होने पर फिर दबाएँ"
+                  : busy === "transcribing"
+                    ? "सुन रहे हैं... (transcribing)"
+                    : busy === "extracting"
+                      ? "समझ रहे हैं... (finding activities)"
+                      : answer
+                        ? "फिर से बोलने के लिए दबाएँ"
+                        : "बोलने के लिए दबाएँ"}
+              </p>
+              <div className="text-ink-soft flex flex-wrap justify-center gap-x-5 gap-y-1 text-sm">
+                <label className="cursor-pointer underline underline-offset-4">
+                  या रिकॉर्डिंग चुनें (or choose a recording)
+                  <input
+                    ref={fileRef}
+                    type="file"
+                    accept="audio/*"
+                    className="sr-only"
+                    onChange={(e) => onFile(e.target.files?.[0])}
+                  />
+                </label>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSummarising(false);
+                    setTyping((t) => !t);
+                  }}
+                  aria-expanded={typing}
+                  className="underline underline-offset-4"
+                >
+                  या लिखकर बताएँ (or type it)
+                </button>
+              </div>
+            </div>
+
+            {typing && (
+              <div className="mt-6">
+                <label className="text-ink-soft text-sm font-semibold" htmlFor="typed-answer">
+                  {summarising
+                    ? "छोटा सार लिखें, बोला हुआ जवाब भी रखा जाएगा (type a short summary; the spoken answer is kept)"
+                    : "अपना जवाब लिखें (type your answer)"}
+                </label>
+                <textarea
+                  id="typed-answer"
+                  autoFocus={summarising}
+                  value={draft}
+                  onChange={(e) => setDraft(e.target.value)}
+                  rows={4}
+                  className="border-line mt-2 w-full rounded-lg border p-3 text-xl leading-relaxed"
+                />
+                <button
+                  type="button"
+                  disabled={!draft.trim() || busy !== null}
+                  onClick={onType}
+                  className="bg-ink mt-2 rounded-lg px-4 py-2 font-semibold text-white disabled:opacity-40"
+                >
+                  सहेजें (save)
+                </button>
+              </div>
             )}
-          </nav>
-        </section>
-      )}
 
-      {step === "readback" && (
-        <ReadbackStep
-          lines={
-            readBackLines.length
-              ? readBackLines
-              : [
-                  `${decl?.answers.length ?? 0} ${decl?.answers.length === 1 ? "answer" : "answers"} saved`,
-                ]
-          }
-          voiceLabel={voiceLabel}
-          busy={busy === "confirming"}
-          onListen={() => speak(readBackText)}
-          onConfirm={confirm}
-          onChange={() => setStep("interview")}
-        />
-      )}
+            {answer && (
+              <AnswerPanel
+                key={`${answer.topic}:${answer.text.length}`}
+                text={answer.text}
+                sourceLabel={
+                  answer.edited ? `${answer.sourceLabel}, corrected by hand` : answer.sourceLabel
+                }
+                claims={claimsFor(answerIndex)}
+                claimsNote={notes[answerIndex] || null}
+                extraction={answer.extraction}
+                heard={answer.heard}
+                onEdit={onEdit}
+                onSummary={() => {
+                  setSummarising(true);
+                  setTyping(true);
+                }}
+              />
+            )}
 
-      {step === "done" && decl && (
-        <section className="max-w-2xl">
-          <h1 className="text-3xl font-bold">धन्यवाद। आपकी जानकारी असेसर के पास पहुँच गई है।</h1>
-          <p className="text-ink-soft mt-2">Thank you. Your declaration is with the assessor.</p>
-          <p className="mt-6 text-lg">
-            आपका नंबर (reference): <span className="font-mono">{decl.candidateRef}</span>
-          </p>
-          <Link
-            href={`/match/${decl.id}`}
-            className="border-ink mt-8 inline-block rounded-lg border px-5 py-3"
-          >
-            Assessor: open the qualification match
-          </Link>
-        </section>
-      )}
-    </main>
+            <nav className="mt-10 flex items-center justify-between gap-3">
+              <button
+                type="button"
+                disabled={i === 0 || busy !== null || recording}
+                onClick={() => setI(i - 1)}
+                className="border-line rounded-lg border px-5 py-3 disabled:opacity-40"
+              >
+                पिछला (back)
+              </button>
+              {i < ELECTRICIAN_TOPICS.length - 1 ? (
+                <button
+                  type="button"
+                  disabled={busy !== null || recording}
+                  onClick={() => setI(i + 1)}
+                  className={`rounded-lg px-6 py-3 font-semibold disabled:opacity-40 ${
+                    answer ? "bg-ink text-white" : "border-line text-ink border"
+                  }`}
+                >
+                  {answer ? "अगला सवाल (next)" : "छोड़ें (skip)"}
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  disabled={busy !== null || recording || !decl?.answers.length}
+                  onClick={() => setStep("readback")}
+                  className="bg-ink rounded-lg px-6 py-3 font-semibold text-white disabled:opacity-40"
+                >
+                  पढ़कर सुनाएँ (read it back)
+                </button>
+              )}
+            </nav>
+          </section>
+        )}
+
+        {step === "readback" && (
+          <ReadbackStep
+            lines={
+              readBackLines.length
+                ? readBackLines
+                : [
+                    `${decl?.answers.length ?? 0} ${decl?.answers.length === 1 ? "answer" : "answers"} saved`,
+                  ]
+            }
+            voiceLabel={voiceLabel}
+            busy={busy === "confirming"}
+            onListen={() => speak(readBackText)}
+            onConfirm={confirm}
+            onChange={() => setStep("interview")}
+          />
+        )}
+
+        {step === "done" && decl && (
+          <section className="max-w-2xl">
+            <h1 className="text-3xl font-bold">धन्यवाद। आपकी जानकारी असेसर के पास पहुँच गई है।</h1>
+            <p className="text-ink-soft mt-2">Thank you. Your declaration is with the assessor.</p>
+            <p className="mt-6 text-lg">
+              आपका नंबर (reference): <span className="font-mono">{decl.candidateRef}</span>
+            </p>
+            <Link
+              href={`/match/${decl.id}`}
+              className="border-ink mt-8 inline-block rounded-lg border px-5 py-3"
+            >
+              Assessor: open the qualification match
+            </Link>
+          </section>
+        )}
+      </main>
+    </>
   );
 }

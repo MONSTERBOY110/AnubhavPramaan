@@ -126,7 +126,7 @@ CertificateRecord { id; packRef; declarationHash; evidenceHashes: string[]; scor
   1. A structured LLM call links each claim to zero or more PC ids. The schema's enum is the pack's PC ids, so unknown ids cannot appear. Each link carries a confidence and a rationale that cites the quote.
   2. Links below 0.6 confidence are dropped.
   3. **Coverage (code, not model):** for each NOS, covered PCs divided by total PCs. Overall coverage is covered PCs divided by all PCs in the pack (learning outcomes counted as PCs, the closest match to NCVET's wording [S1]). The marks-weighted figure is shown alongside.
-  4. **Route suggestion:** overall coverage of 70% or more suggests direct assessment; otherwise upskill first, with the uncovered PCs grouped by NOS as the bridge plan [S1].
+  4. **Route suggestion:** QP-weighted coverage (each NOS counted by its share of the QP's weightage, PCs equal within a NOS) of 70% or more suggests direct assessment (decided 2 Oct 2026: under the flat PC share, a worker who covers every core PC of CON/Q0602 reaches only 45%, because the 4 core NOS hold 80% of the weightage but 54 of 119 PCs; both figures are always shown and `NEXT_PUBLIC_ROUTE_RULE=flat` switches back); otherwise upskill first, with the uncovered PCs grouped by NOS as the bridge plan [S1].
 - With 2 or 3 packs in the prototype every pack is scored and the best is suggested. The scale path is embedding retrieval over all active NQR qualifications (2,685 [S4]) followed by the same constrained linking.
 
 ### M3. Assessment plan and viva generator

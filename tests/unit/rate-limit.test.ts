@@ -1,8 +1,20 @@
-import { beforeEach, describe, expect, it } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { rateLimit, resetRateLimit } from "@/lib/server/rate-limit";
 
 describe("rateLimit", () => {
   beforeEach(() => resetRateLimit());
+  afterEach(() => vi.unstubAllEnvs());
+
+  it("never limits under next dev, where one person and the e2e suite share one address", () => {
+    vi.stubEnv("NODE_ENV", "development");
+    for (let i = 0; i < 25; i++) expect(rateLimit("ip:dev", 10, 60_000, 1_000)).toBe(true);
+  });
+
+  it("limits in a production build", () => {
+    vi.stubEnv("NODE_ENV", "production");
+    for (let i = 0; i < 10; i++) expect(rateLimit("ip:prod", 10, 60_000, 1_000)).toBe(true);
+    expect(rateLimit("ip:prod", 10, 60_000, 1_000)).toBe(false);
+  });
 
   it("allows up to the limit inside one window and rejects the next call", () => {
     const t0 = 1_000_000;

@@ -4,6 +4,7 @@ import { CalibrateBoard, type CalibrationItemView } from "@/components/samaan/ca
 import { calibrationSet } from "@/lib/calibration/sets";
 import { getPack } from "@/lib/packs/load";
 import { allPcs } from "@/lib/packs/schema";
+import { JourneyBar } from "@/components/app-shell/journey-bar";
 
 export const dynamic = "force-dynamic";
 
@@ -43,19 +44,22 @@ export default async function CalibrateSet({
     }),
   }));
   return (
-    <main className="mx-auto max-w-[1100px] px-5 py-8 sm:px-8">
-      <Link href="/calibrate" className="text-ink-soft text-sm">
-        Calibration sets
-      </Link>
-      <h1 className="mt-1 text-3xl font-bold">{set.title}</h1>
-      <p className="text-ink-soft mt-1 text-sm">
-        {condition === "unaided"
-          ? "Unaided: the criterion and the 0 to 3 scale only."
-          : set.hintSource
-            ? `Assisted: the criterion's anchors, what to check, and hints frozen before scoring (${set.hintSource}).`
-            : "Assisted: the criterion's anchors and what to check. This set has no hints: none were frozen for it."}
-      </p>
-      <CalibrateBoard setId={set.id} condition={condition} items={items} />
-    </main>
+    <>
+      <JourneyBar current="samaan" />
+      <main className="mx-auto max-w-[1100px] px-5 py-8 sm:px-8">
+        <Link href="/calibrate" className="text-ink-soft text-sm">
+          Calibration sets
+        </Link>
+        <h1 className="text-3xl font-bold">{set.title}</h1>
+        <p className="text-ink-soft mt-1 text-sm">
+          {condition === "unaided"
+            ? "Unaided: the criterion and the 0 to 3 scale only."
+            : set.hintSource
+              ? `Assisted: the criterion's anchors, what to check, and hints frozen before scoring (${set.hintSource}).`
+              : "Assisted: the criterion's anchors and what to check. This set has no hints: none were frozen for it."}
+        </p>
+        <CalibrateBoard setId={set.id} condition={condition} items={items} />
+      </main>
+    </>
   );
 }

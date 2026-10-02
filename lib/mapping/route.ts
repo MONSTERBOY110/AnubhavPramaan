@@ -9,13 +9,14 @@ import type { Coverage } from "./coverage";
 export const ROUTE_THRESHOLD = 0.7;
 
 /**
- * Which coverage figure drives the suggestion. The design document says "flat" (share of PCs);
- * the build recommends "weighted" (the QP's own weightage) and the lead decides. Both figures are
- * always shown; this only picks the one the suggestion is computed from.
+ * Which coverage figure drives the suggestion. Default "weighted" (the QP's own weightage, lead's
+ * decision of 2 Oct 2026): CON/Q0602's 4 core NOS hold 80% of the weightage but only 54 of 119
+ * PCs, so the flat share would send a worker who covers every core PC to upskilling at 45%. Both
+ * figures are always shown; `NEXT_PUBLIC_ROUTE_RULE=flat` switches the suggestion back.
  */
 export type RouteRule = "flat" | "weighted";
 export const ROUTE_RULE: RouteRule =
-  process.env.NEXT_PUBLIC_ROUTE_RULE === "weighted" ? "weighted" : "flat";
+  process.env.NEXT_PUBLIC_ROUTE_RULE === "flat" ? "flat" : "weighted";
 
 export type Route = "direct-assessment" | "upskill-first";
 

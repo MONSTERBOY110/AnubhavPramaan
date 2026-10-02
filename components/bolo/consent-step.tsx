@@ -1,3 +1,4 @@
+import { Check } from "lucide-react";
 import { CONSENT_EN, CONSENT_HI } from "@/lib/declaration/consent";
 
 /** Consent before anything is recorded. Hindi first, English beneath each line for the assessor. */
@@ -18,9 +19,12 @@ export function ConsentStep({
       <p className="text-ink-soft mt-1">Before we start</p>
       <ol className="mt-8 grid gap-5">
         {CONSENT_HI.map((line, i) => (
-          <li key={line} className="border-line border-l-4 pl-4">
-            <p className="text-xl leading-relaxed">{line}</p>
-            <p className="text-ink-soft mt-1 text-sm">{CONSENT_EN[i]}</p>
+          <li key={line} className="flex gap-4">
+            <Check aria-hidden="true" className="text-ink mt-1.5 size-5 shrink-0" />
+            <div>
+              <p className="text-xl leading-relaxed">{line}</p>
+              <p className="text-ink-soft mt-1 text-sm">{CONSENT_EN[i]}</p>
+            </div>
           </li>
         ))}
       </ol>

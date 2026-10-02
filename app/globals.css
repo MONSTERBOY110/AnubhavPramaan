@@ -107,9 +107,27 @@
     @apply border-border;
   }
 
+  html {
+    scrollbar-color: var(--line) var(--paper);
+  }
+
   body {
     background-color: var(--paper);
     color: var(--ink);
+    caret-color: var(--saffron-deep);
+  }
+
+  h1,
+  h2 {
+    text-wrap: balance;
+  }
+
+  table {
+    font-variant-numeric: tabular-nums;
+  }
+
+  a {
+    text-underline-offset: 4px;
   }
 
   ::selection {

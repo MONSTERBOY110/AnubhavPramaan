@@ -48,7 +48,7 @@ export function DecisionPanel({
     return (
       <section
         aria-label="Assessor decision"
-        className="border-decide bg-decide-soft rounded-xl border-2 p-5"
+        className="border-decide bg-decide-soft self-start rounded-xl border-2 p-5"
       >
         <p className="text-decide text-sm font-semibold">
           Decided by assessor {decision.assessorId}
@@ -75,7 +75,10 @@ export function DecisionPanel({
     reason.trim().length >= 10 &&
     (qp !== suggestedQp || chosenRoute !== route.suggestion);
   return (
-    <section aria-label="Assessor decision" className="border-line rounded-xl border p-5">
+    <section
+      aria-label="Assessor decision"
+      className="border-line self-start rounded-xl border p-5"
+    >
       <h2 className="text-lg font-semibold">Your decision</h2>
       <p className="text-ink-soft text-sm">
         The tool suggests; you decide. Your choice and any reason are recorded.

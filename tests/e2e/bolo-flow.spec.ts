@@ -80,7 +80,7 @@ test("an answer the AI provider refuses keeps its words, asks for a check or a s
     ),
   ).toBeVisible();
   await expect(page.getByText(label)).toBeVisible();
-  await page.screenshot({ path: "screens/wip-bolo-content-filter.png", fullPage: true });
+  await page.screenshot({ path: "docs/internal/screens/wip-bolo-content-filter.png", fullPage: true });
 
   await page.getByRole("button", { name: /type a short summary/ }).click();
   await expect(page.getByLabel(/type a short summary; the spoken answer is kept/)).toBeFocused();

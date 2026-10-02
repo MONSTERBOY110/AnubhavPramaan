@@ -8,6 +8,7 @@ import type { MappingResult } from "@/lib/mapping/map";
 import { getPack } from "@/lib/packs/load";
 import { litePack } from "@/lib/packs/lite";
 import { getRecordStore } from "@/lib/store/records";
+import { JourneyBar } from "@/components/app-shell/journey-bar";
 
 export const dynamic = "force-dynamic";
 
@@ -34,31 +35,31 @@ export default async function Assess({ params }: { params: Promise<{ id: string 
   if (!decl) notFound();
   const mapping = await store.get<MappingRecord>("mapping", id);
   return (
-    <main className="mx-auto max-w-[1360px] px-5 py-8 sm:px-8">
-      <Link href="/" className="text-ink-soft text-sm">
-        अनुभव प्रमाण AnubhavPramaan
-      </Link>
-      <h1 className="mt-1 text-3xl font-bold">Practical assessment</h1>
-      {!mapping?.decision ? (
-        <p className="border-line mt-6 rounded-xl border p-6">
-          Decide the qualification and route first, on the{" "}
-          <Link href={`/match/${id}`} className="underline underline-offset-4">
-            match screen
-          </Link>
-          .
-        </p>
-      ) : (
-        <div className="mt-4">
-          <AssessBoard
-            declarationId={id}
-            candidateRef={decl.candidateRef}
-            pack={litePack(getPack(mapping.decision.qp)) as LitePack}
-            said={saidByPc(mapping, mapping.decision.qp)}
-            linkedBy={mapping.result?.label ?? null}
-            references={referencesByPc()}
-          />
-        </div>
-      )}
-    </main>
+    <>
+      <JourneyBar current="parkho" />
+      <main className="mx-auto max-w-[1360px] px-5 py-8 sm:px-8">
+        <h1 className="text-3xl font-bold">Practical assessment</h1>
+        {!mapping?.decision ? (
+          <p className="border-line mt-6 rounded-xl border p-6">
+            Decide the qualification and route first, on the{" "}
+            <Link href={`/match/${id}`} className="underline underline-offset-4">
+              match screen
+            </Link>
+            .
+          </p>
+        ) : (
+          <div className="mt-4">
+            <AssessBoard
+              declarationId={id}
+              candidateRef={decl.candidateRef}
+              pack={litePack(getPack(mapping.decision.qp)) as LitePack}
+              said={saidByPc(mapping, mapping.decision.qp)}
+              linkedBy={mapping.result?.label ?? null}
+              references={referencesByPc()}
+            />
+          </div>
+        )}
+      </main>
+    </>
   );
 }

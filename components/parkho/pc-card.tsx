@@ -81,9 +81,9 @@ export function PcCard({
       {said.length > 0 && (
         <div className="border-saffron mt-3 rounded-lg border border-dashed px-4 py-3">
           <p className="text-saffron-deep text-xs font-semibold">
-            From the worker&apos;s declaration, linked by the tool{linkedBy ? ` (${linkedBy})` : ""}
-            . Check it.
+            From the worker&apos;s declaration, linked by the tool. Check it.
           </p>
+          {linkedBy && <p className="text-ink-soft mt-0.5 text-xs">{linkedBy}</p>}
           {said.map((q) => (
             <p key={q} className="mt-1 text-base leading-relaxed">
               &ldquo;{q}&rdquo;

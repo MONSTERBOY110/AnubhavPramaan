@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { uniqueByQuote } from "@/lib/mapping/dedupe";
 import type { NosView, PcView } from "./view";
 
 /**
@@ -86,7 +87,7 @@ function PcDetail({ pc }: { pc: PcView }) {
       <p className="mt-1 text-base leading-relaxed">{pc.text}</p>
       {pc.covered ? (
         <div className="mt-4 grid gap-4">
-          {pc.links.map((l, i) => (
+          {uniqueByQuote(pc.links).map((l, i) => (
             <figure key={i} className="border-saffron border-l-2 border-dashed pl-3">
               <blockquote className="text-lg leading-relaxed">&ldquo;{l.quote}&rdquo;</blockquote>
               <figcaption className="text-ink-soft mt-1 text-xs">
