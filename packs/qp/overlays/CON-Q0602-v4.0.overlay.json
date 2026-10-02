@@ -1,0 +1,2691 @@
+{
+  "header": {
+    "sector": "Construction",
+    "subSector": "Real Estate and Infrastructure construction",
+    "occupation": "Construction Electrical Works",
+    "credits": 13,
+    "ncoCode": "NCO-2015/7411.0100",
+    "nqrCode": "QG-03-CO-03951-2025-V2-CSDCI",
+    "entryRoutes": [
+      "10th grade pass",
+      "9th grade pass with 1 Year of experience Relevant",
+      "8th grade pass with 2 Years of experience Relevant",
+      "5th grade pass with 5 Years of experience Relevant",
+      "Previous relevant Qualification of NSQF Level 2 (Helper Electrician) with 3 Years of experience Relevant Experience"
+    ],
+    "status": "active",
+    "use": "assessment",
+    "passRule": {
+      "qpPassPct": 70,
+      "minAggregatePct": 50,
+      "practicalPerNosPct": 70,
+      "quotes": [
+        { "text": "The passing percentage for the QP will be 70%. To pass the Qualification Pack.", "source": "CON/Q0602 v4.0, Assessment Guidelines, item b, page 46" },
+        { "text": "Minimum Aggregate Passing % at QP Level : 50", "source": "CON/Q0602 v4.0, page 47" },
+        { "text": "Min. passing marks out of 70: 49 for each NOS; 343/490 to pass the practical observation", "source": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), grading criteria for practical observation, pages 6 and 11" }
+      ],
+      "note": "The QP states both 70% and a 50% aggregate. The tool shows both and applies the rule the awarding body confirms; it never decides a pass on its own."
+    },
+    "notes": [
+      "Text of every NOS, element and PC is extracted from the official PDF by tools/extract_qp.py.",
+      "Observables are adapted from the CSDCI Assessment Guide for Assistant Electrician (CON/Q0602 ver. 1.0), whose observation checklist covers the same activities under older PC numbers. Anchors follow the WorldSkills judgement scale (0 below industry standard, 1 meets, 2 meets and in specific respects exceeds, 3 wholly exceeds and excellent).",
+      "Measurement items use only bands with a named source."
+    ]
+  },
+  "pcs": {
+    "CON/N0602.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Cable, plug and switch of the power tool are checked and undamaged before use",
+        "Safety guard is in place on the machine",
+        "Blade or drill bit is checked, in good condition and fitted firmly",
+        "Tool is run briefly to confirm it works normally before the job starts"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or starts the tool without looking at cable, plug, guard or bit, or uses one with visible damage.",
+        "Meets standard: checks cable, plug, switch, guard and bit before use and runs the tool briefly; does not use a faulty tool.",
+        "Exceeds in places: makes all basic checks in a set order and also confirms the bit or blade suits the material and is held tight.",
+        "Excellent: quick, complete checks as a habit; explains each check, tags and reports a faulty tool and keeps it out of use."
+      ],
+      "synonyms": [
+        "मशीन चेक करना",
+        "ड्रिल मशीन चेक करना",
+        "तार और प्लग देखना",
+        "बिट चेक करना",
+        "गार्ड लगा है कि नहीं",
+        "चालू करके देखना"
+      ]
+    },
+    "CON/N0602.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Uses the right tool for each step: stripper for insulation, matching screwdriver for terminal screws, crimper for lugs",
+        "Holds tools by their insulated handles and keeps fingers clear of blades and bits",
+        "Packs and carries power tools unplugged, with the cable coiled, in a box or case"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or uses wrong or damaged tools (pliers on screws, knife cutting into copper), or works on a live connection.",
+        "Meets standard: picks suitable tools for stripping, tightening and crimping, uses them correctly and makes a sound connection without damage.",
+        "Exceeds in places: uses each tool cleanly with no nicked strands or chewed screw heads, and packs and shifts power tools safely.",
+        "Excellent: fluent, safe tool use throughout; connections neat and tight first time, tools kept in order and use explained to a helper."
+      ],
+      "synonyms": [
+        "औज़ार चलाना",
+        "पेचकस",
+        "प्लास",
+        "कटिंग प्लायर",
+        "कनेक्शन करना",
+        "कनेक्शन खोलना",
+        "क्रिम्पिंग टूल"
+      ]
+    },
+    "CON/N0602.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Switches off and isolates the circuit before continuity, resistance or insulation checks",
+        "Uses a tester, multimeter or megger to locate the fault, not trial and error",
+        "Checks the circuit section by section and points out the faulty spot"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or tests with supply on in a resistance range, guesses by swapping parts, or cannot locate the fault.",
+        "Meets standard: isolates the circuit, uses a suitable tester or meter correctly and locates the short or leakage to a section or point.",
+        "Exceeds in places: works section by section in a logical order, finds the exact faulty spot quickly and explains how the fault occurred.",
+        "Excellent: systematic, safe and quick; confirms the fault, explains cause and fix, and retests after repair to prove it is cleared."
+      ],
+      "synonyms": [
+        "शॉर्ट सर्किट ढूंढना",
+        "फॉल्ट निकालना",
+        "लीकेज ढूंढना",
+        "करंट लीक",
+        "टेस्टर से चेक करना",
+        "फॉल्ट ट्रेस करना"
+      ]
+    },
+    "CON/N0602.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Measures conduit, cable or box size with a Vernier calliper or measuring tape",
+        "Calliper jaws or tape are held square and straight on the item",
+        "Reads and states each measurement with its unit and matches it to the required size"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or uses the wrong instrument, misreads the scale, or gives sizes with no unit or far from the actual.",
+        "Meets standard: uses Vernier calliper and tape correctly and gives sizes close to the actual, with units, matching the job requirement.",
+        "Exceeds in places: repeats readings to confirm them, reads the Vernier scale correctly and links each size to the right conduit or wire.",
+        "Excellent: precise, quick readings every time; explains the Vernier reading and spots a wrong size of wire or conduit by measuring."
+      ],
+      "synonyms": [
+        "तार नापना",
+        "पाइप नापना",
+        "वर्नियर",
+        "फीते से नापना",
+        "तार का साइज़",
+        "मोटाई नापना",
+        "गेज से नापना"
+      ]
+    },
+    "CON/N0602.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Cuts conduit square with a hacksaw and removes burrs from the cut end",
+        "Cuts wire to length with cutting pliers without damaging the conductor",
+        "Bends PVC conduit with a bending spring into a smooth bend with no kink or flattening"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or cuts are crooked or burred, conduit is kinked, cracked or flattened at bends, or wire is cut short.",
+        "Meets standard: cuts conduit and wire to the needed length with square ends, deburrs, and makes smooth bends without kinks.",
+        "Exceeds in places: cuts and bends match the marked lengths and angles closely, bends are uniform and wire has neat spare length.",
+        "Excellent: clean, accurate cuts and even bends that fit first time with no waste; ends deburred and work area left tidy."
+      ],
+      "synonyms": [
+        "पाइप काटना",
+        "पाइप मोड़ना",
+        "स्प्रिंग से मोड़ना",
+        "तार काटना",
+        "आरी से काटना",
+        "हैक्सॉ",
+        "बेंड बनाना"
+      ]
+    },
+    "CON/N0602.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Strips insulation with a stripper or splicer without nicking the copper",
+        "Twists the conductors together tightly and evenly with no loose strands",
+        "Finished joint is fully covered with insulation tape or a connector, no bare copper visible"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or copper is nicked or cut, the joint is loose or untwisted, or bare copper is left exposed.",
+        "Meets standard: strips the right length cleanly, makes a tight twisted joint and insulates it fully so no copper shows.",
+        "Exceeds in places: joint is neat and holds firm when pulled, strip length is exact and taping is even and overlapping.",
+        "Excellent: splices fast and flawlessly, picks the right joint type for the job, and explains why a poor joint heats up."
+      ],
+      "synonyms": [
+        "तार जोड़ना",
+        "तार छीलना",
+        "जोड़ लगाना",
+        "मरोड़ कर जोड़ना",
+        "टेप लगाना",
+        "स्प्लाइसर",
+        "जॉइंट बनाना"
+      ]
+    },
+    "CON/N0602.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Holds metal conduit in a pipe vice and cuts the threads with a die set",
+        "Threads are clean and full, and the coupling screws on fully with the conduits in line",
+        "Support bracket or saddle is fixed firmly and the conduit does not move when pushed"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or threads are torn or short, couplings loose or misaligned, or brackets so loose the conduit moves.",
+        "Meets standard: cuts clean threads, fits couplings tight and in line, and fixes brackets firmly so the conduit is secure.",
+        "Exceeds in places: deburrs the ends, threads only as long as needed, and brackets are level, evenly spaced and neatly fixed.",
+        "Excellent: neat, accurate work that fits first time; explains each step and checks every coupling and bracket for firmness."
+      ],
+      "synonyms": [
+        "चूड़ी काटना",
+        "थ्रेडिंग",
+        "डाई से चूड़ी काटना",
+        "कपलर लगाना",
+        "ब्रैकेट बनाना",
+        "क्लैंप लगाना",
+        "जीआई पाइप"
+      ]
+    },
+    "CON/N0602.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Picks the right instrument: voltmeter or multimeter for supply, continuity tester for breaks, megger for insulation",
+        "Sets the function and range before connecting the leads",
+        "Checks continuity only with the supply switched off",
+        "Reads the value correctly and says whether supply or continuity is present"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or uses the wrong instrument or range, tests continuity on a live circuit, or misreads the value.",
+        "Meets standard: selects the right instrument and range, tests safely and reads correctly whether supply or continuity is present.",
+        "Exceeds in places: also proves the meter on a known source before and after testing, and traces the break to a specific point.",
+        "Excellent: uses all instruments confidently and safely, explains what each reading means, and records results clearly."
+      ],
+      "synonyms": [
+        "मीटर से चेक करना",
+        "वोल्टेज देखना",
+        "करंट नापना",
+        "मल्टीमीटर",
+        "मेगर",
+        "कंटिन्यूटी चेक",
+        "लाइन आ रही है कि नहीं"
+      ]
+    },
+    "CON/N0602.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Reads the rating label (current, poles, voltage) on the breaker, starter or relay",
+        "Chosen device rating matches the drawing or the load it serves",
+        "Device is mounted and wired to its marked line and load terminals"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or picks a device without reading its rating, or one too large or too small for the circuit.",
+        "Meets standard: reads labels, chooses a breaker, starter or relay of the rating in the drawing or for the load, and wires it correctly.",
+        "Exceeds in places: explains why that rating suits the load and wire size, and checks pole count and type before fitting.",
+        "Excellent: selects and fits all devices correctly without help, explains each one's job and spots a wrongly rated device."
+      ],
+      "synonyms": [
+        "स्टार्टर लगाना",
+        "एमसीबी",
+        "MCB",
+        "ब्रेकर लगाना",
+        "रिले",
+        "रेटिंग देखना",
+        "एम्पियर के हिसाब से"
+      ]
+    },
+    "CON/N0602.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Measures voltage at the connection with the multimeter set to AC volts",
+        "Clamps the tong tester around one conductor only to read the load current",
+        "Notes each reading with its unit and packs the instrument away after use"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or wrong meter setting, clamps the whole cable, touches live parts, or cannot read the meter.",
+        "Meets standard: measures voltage and load current correctly with multimeter and tong tester and uses the readings to check the connection.",
+        "Exceeds in places: also uses the earth tester as its instructions say and compares readings with expected values to judge the work.",
+        "Excellent: confident, safe use of all devices; explains each reading, finds the problem from them and records results neatly."
+      ],
+      "synonyms": [
+        "मल्टीमीटर",
+        "टोंग टेस्टर",
+        "क्लैंप मीटर",
+        "अर्थ टेस्टर",
+        "करंट नापना",
+        "कनेक्शन ठीक करना"
+      ]
+    },
+    "CON/N0602.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Cleans dust and debris off tools and instruments after use",
+        "Returns tools to the tool box or set place, with sharp tools stored safely",
+        "Coils power tool cables and switches meters off before storing them"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or tools are left dirty or scattered, or damaged tools are mixed in with good ones.",
+        "Meets standard: cleans tools and devices after use and stores them in the proper place, with sharp tools covered or boxed.",
+        "Exceeds in places: also checks tools for damage while cleaning, tags or reports faulty ones, and coils cables neatly.",
+        "Excellent: thorough upkeep as routine: tools cleaned, checked, counted and stored in order, ready for the next job."
+      ],
+      "synonyms": [
+        "औज़ार साफ करना",
+        "औज़ार की देखभाल",
+        "टूल बॉक्स में रखना",
+        "औज़ार संभालना",
+        "मशीन साफ करना"
+      ]
+    },
+    "CON/N0603.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Checks cable and wire size and type against the requirement and looks for damage",
+        "Checks switches, sockets and MCBs for the needed rating and condition",
+        "Checks lights and fittings for damage and the correct type before installing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or uses items without checking, such as a damaged cable, wrong size wire or wrongly rated MCB.",
+        "Meets standard: checks cable, conduits, lights, sockets, MCBs and the temporary DB for rating, size and damage before use.",
+        "Exceeds in places: checks labels and markings against the manufacturer's specification and plans the shortest safe routing.",
+        "Excellent: complete, orderly check of every item, with faulty items set aside and reported; explains why each check matters."
+      ],
+      "synonyms": [
+        "सामान चेक करना",
+        "केबल चेक करना",
+        "लाइट चेक करना",
+        "सॉकेट चेक करना",
+        "बोर्ड चेक करना",
+        "माल जांचना"
+      ]
+    },
+    "CON/N0603.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Checks trench depth and width and looks for existing underground services before laying",
+        "Lays the cable without sharp bends, twists or dragging over sharp edges",
+        "Cable is protected in a pipe or duct where it crosses a path or rises from the ground"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or cable is dragged, kinked or laid in an unchecked trench, or left unprotected across paths.",
+        "Meets standard: checks the trench, lays the cable along the planned route without damage and protects it where it crosses or rises.",
+        "Exceeds in places: keeps the cable straight with gentle bends and marks the buried route so others know where it runs.",
+        "Excellent: neat, damage free laying exactly as planned; route marked and protected, and the method explained clearly."
+      ],
+      "synonyms": [
+        "केबल बिछाना",
+        "केबल डालना",
+        "खाई में केबल",
+        "अंडरग्राउंड केबल",
+        "खंभे पर केबल",
+        "ओवरहेड केबल",
+        "पाइप में केबल डालना"
+      ]
+    },
+    "CON/N0603.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Selects the light type and wattage given in the drawing or instruction",
+        "Light is mounted firmly at a height and angle that lights the work area",
+        "Fixture and its cable are secured so they cannot fall or be knocked"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or wrong type or wattage, or the light is left loose, too low, or aimed away from the work.",
+        "Meets standard: picks the type and wattage in the drawing and fixes the light securely where it lights the work area.",
+        "Exceeds in places: explains the choice from the area and task, and aims lights to avoid dark spots and glare in workers' eyes.",
+        "Excellent: selection and placement give even, glare free light; fixtures rigid and safe, and choices explained with reasons."
+      ],
+      "synonyms": [
+        "लाइट लगाना",
+        "हैलोजन लगाना",
+        "फ्लड लाइट",
+        "फोकस लाइट",
+        "कितने वाट की लाइट",
+        "एलईडी लाइट"
+      ]
+    },
+    "CON/N0603.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Light and bracket are fixed with screws, bolts or clamps and do not move when pushed",
+        "Pulls wires through the conduit to the junction box or DB without scraping the insulation",
+        "Routes the cable to the distribution board and connects it to the correct outgoing terminal"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or the fitting is loose, wires are scraped or forced, or the cable is left unconnected or misconnected.",
+        "Meets standard: fixes lights and brackets firmly, pulls wires cleanly through conduit and connects them at the box or DB.",
+        "Exceeds in places: fixings are level and evenly tightened, wires have neat spare length and the cable is clamped at entry.",
+        "Excellent: neat, rigid installation done in a logical order; all connections right first time and checked before switching on."
+      ],
+      "synonyms": [
+        "लाइट फिट करना",
+        "ब्रैकेट लगाना",
+        "बल्कहेड लाइट",
+        "पेंच कसना",
+        "तार खींचना",
+        "बोर्ड तक तार ले जाना"
+      ]
+    },
+    "CON/N0603.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Removes sheath and insulation with the right tool without cutting conductor strands",
+        "Joins each core tightly to its matching core",
+        "Each core joint and then the whole joint is insulated with PVC tape or a sleeve, no copper showing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or cores are nicked, mismatched or loosely joined, or copper is left exposed after taping.",
+        "Meets standard: strips cleanly, joins matching cores tightly and insulates each core joint and the whole joint fully.",
+        "Exceeds in places: staggers the core joints to keep the joint slim and tapes with even overlap carried over the sheath.",
+        "Excellent: neat, strong, fully sealed joint done to standard practice; tests continuity or insulation after jointing."
+      ],
+      "synonyms": [
+        "केबल जोड़ना",
+        "स्ट्रेट जॉइंट",
+        "जोड़ लगाना",
+        "टेप लगाना",
+        "इंसुलेशन टेप",
+        "केबल बढ़ाना"
+      ]
+    },
+    "CON/N0603.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Strips the conductor to the length the terminal needs, with no bare copper outside it",
+        "Uses a lug crimped with a crimping tool, or a cable gland, where the method needs one",
+        "Follows the sequence: strip, fit lug or ferrule, insert, tighten, then check by tugging"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or stray strands, bare copper outside the terminal, a loose screw, or a lug that is not crimped.",
+        "Meets standard: chooses a suitable termination method, strips correctly, crimps lugs where needed and tightens the terminals.",
+        "Exceeds in places: uses lugs and glands of the right size, follows the sequence neatly and tug-tests every termination.",
+        "Excellent: all terminations neat, tight and correctly sized first time; explains why loose terminations overheat."
+      ],
+      "synonyms": [
+        "टर्मिनेशन",
+        "लग लगाना",
+        "केबल कसना",
+        "ग्लैंड लगाना",
+        "क्रिम्पिंग",
+        "कनेक्शन देना"
+      ]
+    },
+    "CON/N0603.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Switches off and isolates the supply before connecting or disconnecting",
+        "Tests that the circuit is dead with a tester before touching the conductors",
+        "Wears insulated gloves and safety shoes and uses insulated tools",
+        "Stands on a dry surface or rubber mat, away from water"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or works on live parts without isolating and testing dead, or without gloves and insulated tools.",
+        "Meets standard: isolates the supply, tests dead, uses insulated tools and PPE, and restores supply only when the work is complete.",
+        "Exceeds in places: also locks or tags the isolating switch and warns others before switching off and back on.",
+        "Excellent: safe practice throughout without prompting; isolates, proves dead, tags, and explains each safety step."
+      ],
+      "synonyms": [
+        "लाइन बंद करके काम करना",
+        "सप्लाई काटना",
+        "मेन बंद करना",
+        "शटडाउन लेना",
+        "दस्ताने पहनना",
+        "करंट से बचाव"
+      ]
+    },
+    "CON/N0603.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Cleans tools and spare fittings after use",
+        "Stores tools and fixtures in a dry, safe, set place",
+        "Keeps damaged tools or fixtures apart and reports them"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or tools and fittings are left dirty, wet or scattered, or damaged items are mixed with good ones.",
+        "Meets standard: cleans tools and fixtures after use, stores them in a dry set place and reports damaged items.",
+        "Exceeds in places: also checks items while storing, keeps spares sorted by type and rating, and coils cables neatly.",
+        "Excellent: tools and fixtures kept clean, checked and orderly as routine, so the next job starts without delay."
+      ],
+      "synonyms": [
+        "औज़ार संभालना",
+        "औज़ार साफ करना",
+        "फिटिंग संभालकर रखना",
+        "सामान की देखभाल",
+        "स्टोर में रखना"
+      ]
+    },
+    "CON/N0603.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Tags are fixed on exposed and embedded cable routes and can be read",
+        "Caution board is displayed near the distribution board",
+        "Tags name the circuit or equipment and are placed where they can be seen"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or lines and equipment are left untagged, tags cannot be read, or there is no caution board at the DB.",
+        "Meets standard: tags exposed and embedded lines and key equipment with readable tags and puts a caution board near the DB.",
+        "Exceeds in places: tags state the circuit and source clearly, are fixed durably, and buried routes are marked at the surface.",
+        "Excellent: complete, consistent tagging that anyone on site can follow; explains how tags prevent accidents."
+      ],
+      "synonyms": [
+        "टैग लगाना",
+        "लेबल लगाना",
+        "निशान लगाना",
+        "डेंजर बोर्ड",
+        "चेतावनी बोर्ड",
+        "खतरे का बोर्ड"
+      ]
+    },
+    "CON/N0603.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Chooses a short and safe route for the cable",
+        "Routes the cable on supports and ties it at every vertical support",
+        "Cable runs not less than 2 m above ground level"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or shifts the light live, leaves cable on the ground or sagging, or leaves the fixture loose.",
+        "Meets standard: switches off, shifts the light, runs cable on supports at least 2 m high, ties it, then tests after reconnecting.",
+        "Exceeds in places: chooses the shortest safe route, keeps the cable taut without over sagging, and secures the fixture firmly.",
+        "Excellent: quick, tidy shift with no hazard left behind; cable neatly tied, light aimed well and working at first switch-on."
+      ],
+      "synonyms": [
+        "लाइट शिफ्ट करना",
+        "लाइट हटाना",
+        "दूसरी जगह लगाना",
+        "तार बांधना",
+        "लाइट खिसकाना"
+      ]
+    },
+    "CON/N0603.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Switches off and disconnects the cable before opening the fitting",
+        "Removes the screws, opens the light case and replaces the damaged part",
+        "Reassembles the case with all screws and checks that the light works"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or opens the fitting live, leaves screws or cover missing, or the light still does not work.",
+        "Meets standard: isolates, opens the fitting, replaces the faulty part, reassembles fully and confirms the light works.",
+        "Exceeds in places: finds the actual fault before replacing, so only the faulty part is changed, and seals the fitting properly.",
+        "Excellent: safe, quick repair done in the right order; fitting left clean and sealed, and the fault and fix explained."
+      ],
+      "synonyms": [
+        "लाइट ठीक करना",
+        "लाइट रिपेयर",
+        "फिटिंग बदलना",
+        "खराब लाइट बदलना",
+        "लाइट खोलना"
+      ]
+    },
+    "CON/N0603.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Switches off and disconnects before touching the fitting",
+        "New bulb, choke (ballast) or LED driver matches the old one in type, wattage and voltage",
+        "Reassembles the fitting and checks that the light works"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or changes the bulb live, fits a part of a different type or wattage, or leaves the cover off.",
+        "Meets standard: isolates, replaces the bulb, choke or driver with one of the same configuration and checks that the light works.",
+        "Exceeds in places: reads the old part's markings before getting a replacement and handles fragile lamps without breakage.",
+        "Excellent: safe, quick, correct replacement; disposes of the old lamp properly and explains why matching ratings matter."
+      ],
+      "synonyms": [
+        "बल्ब बदलना",
+        "फ्यूज़ बल्ब बदलना",
+        "चोक बदलना",
+        "ट्यूब बदलना",
+        "ड्राइवर बदलना",
+        "बैलास्ट"
+      ]
+    },
+    "CON/N0603.PC13": {
+      "type": "judgement",
+      "observables": [
+        "Checks continuity of the circuit with a test lamp or multimeter, supply off",
+        "Measures supply voltage at the fitting with the multimeter on the AC voltage range",
+        "Multimeter knob is set to the right function before the probes touch the circuit"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or wrong meter setting, continuity tested live, or the break in supply is not found.",
+        "Meets standard: checks voltage and continuity with a test lamp or correctly set multimeter and finds where supply is lost.",
+        "Exceeds in places: tests in a logical order from source to light and narrows the fault to one joint, switch or fitting.",
+        "Excellent: fast, safe and systematic; pinpoints the fault, explains the readings and confirms supply after the repair."
+      ],
+      "synonyms": [
+        "लाइन चेक करना",
+        "सीरीज़ लैंप",
+        "टेस्ट लैंप",
+        "कंटिन्यूटी चेक",
+        "सप्लाई आ रही है या नहीं",
+        "मल्टीमीटर से चेक करना"
+      ]
+    },
+    "CON/N0603.PC14": {
+      "type": "judgement",
+      "observables": [
+        "Identifies the damaged portion of cable and cuts it out with the right tools",
+        "Splices in cable of the same size and type by the proper method",
+        "Protects the joint with PVC insulation tape and tags it for identification"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or works live, leaves damaged cable in place, uses a different size, or leaves the joint bare.",
+        "Meets standard: isolates, cuts out the damaged part, joins in matching cable properly, tapes the joint and tags it.",
+        "Exceeds in places: replaces the full damaged length to avoid extra joints and tests continuity or insulation before re-energising.",
+        "Excellent: neat, safe repair with the fewest joints, tested and tagged; explains what caused the damage and how to prevent it."
+      ],
+      "synonyms": [
+        "खराब केबल बदलना",
+        "कटा तार बदलना",
+        "जली केबल बदलना",
+        "तार बदलना",
+        "केबल जोड़ना"
+      ]
+    },
+    "CON/N0603.PC15": {
+      "type": "judgement",
+      "observables": [
+        "Switches off the mains and disconnects the load before removing the faulty part",
+        "New breaker, fuse or switch has the same rating and type as the one removed",
+        "Load and supply wires go back on the correct terminals and are tightened",
+        "Supply is restored and operation is checked"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or replaces with supply on, fits a different rating, or swaps load and supply wires.",
+        "Meets standard: isolates the mains, removes the faulty part, fits one of the same rating, reconnects correctly and checks operation.",
+        "Exceeds in places: notes wire positions before removal, uses the right fuse wire or cartridge and tightens all terminals evenly.",
+        "Excellent: safe, orderly replacement right first time; finds why the part failed and explains it to the supervisor."
+      ],
+      "synonyms": [
+        "एमसीबी बदलना",
+        "MCB",
+        "फ्यूज़ बदलना",
+        "स्विच बदलना",
+        "फ्यूज़ बांधना",
+        "किटकैट फ्यूज़",
+        "खराब पार्ट बदलना"
+      ]
+    },
+    "CON/N0603.PC16": {
+      "type": "judgement",
+      "observables": [
+        "Checks fuel, lubricating oil and coolant levels with the engine stopped and cool",
+        "Watches the running set for unusual noise or smoke and reads the load and power factor meters",
+        "Records the checks in the DG log or inspection record"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 35",
+      "anchors": [
+        "Below standard: not attempted, or checks levels on a running or hot engine, opens a hot radiator cap, or skips checks and records.",
+        "Meets standard: checks fuel, oil and coolant levels, watches noise and smoke, reads the meters and records it as directed.",
+        "Exceeds in places: also looks for leaks and loose connections and reports overload or under load readings to the supervisor.",
+        "Excellent: complete, safe routine done at the scheduled interval; log kept accurately and early warning signs reported."
+      ],
+      "synonyms": [
+        "जनरेटर की सर्विस",
+        "डीजी",
+        "DG",
+        "डीज़ल चेक करना",
+        "मोबिल चेक करना",
+        "कूलेंट",
+        "जनरेटर की देखभाल"
+      ]
+    },
+    "CON/N0604.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Selected wire size matches the drawing, checked from the marking on the coil",
+        "Conduit type and diameter match the drawing",
+        "Boxes, bends, clamps or battens chosen fit the selected conduit"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or picks wire, conduit or accessories of the wrong size or type for the drawing.",
+        "Meets standard: selects wires, conduits and accessories of the size and type in the drawing, checking the markings on each.",
+        "Exceeds in places: checks quality marks and condition, and picks matching bends, boxes and clamps so parts fit without rework.",
+        "Excellent: complete, correct selection without help; explains why each size suits the load and spots wrong items."
+      ],
+      "synonyms": [
+        "वायरिंग का सामान",
+        "तार पाइप चुनना",
+        "केसिंग कैपिंग",
+        "केसिंग पट्टी",
+        "लकड़ी की पट्टी",
+        "फ्लेक्सिबल पाइप",
+        "क्लिप"
+      ]
+    },
+    "CON/N0604.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Identifies the symbols for switch, socket, light, fan and DB in the drawing",
+        "Traces the route from the DB to each point and states the conduit and wire size given",
+        "Points out on the wall where each switch, socket and fixture goes as per the drawing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or cannot read the symbols, or places points or routing differently from the drawing.",
+        "Meets standard: reads the symbols, follows the routing sequence and the conduit and wire sizes, and places points as drawn.",
+        "Exceeds in places: explains how each switch controls its light and spots missing or unclear details to ask about.",
+        "Excellent: reads the diagram fluently and explains the full circuit, including the phase, neutral and earth paths."
+      ],
+      "synonyms": [
+        "ड्राइंग पढ़ना",
+        "नक्शा समझना",
+        "वायरिंग डायग्राम",
+        "सर्किट डायग्राम",
+        "पॉइंट समझना"
+      ]
+    },
+    "CON/N0604.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Marks the fixture locations and the conduit route on the wall as per the drawing",
+        "Measures each run with a tape before cutting conduit or cable",
+        "Cuts conduits and wires to the required size with the correct tools"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or no marking, cuts by guess so pieces are short or wasted, or marks differ from the drawing.",
+        "Meets standard: marks points and route as per the drawing, measures the runs and cuts conduit and cable to the needed lengths.",
+        "Exceeds in places: uses level and plumb lines for marking, allows for bends and spare wire, and wastes very little material.",
+        "Excellent: accurate marking and cutting that fit first time with almost no waste; checks measurements twice before cutting."
+      ],
+      "synonyms": [
+        "नाप लेना",
+        "फीते से नापना",
+        "मार्किंग करना",
+        "नाप कर काटना",
+        "पाइप काटना",
+        "निशान लगाना"
+      ]
+    },
+    "CON/N0604.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Conduit is placed and fixed along the route shown in the drawing",
+        "Runs are straight, horizontal or vertical, and end in boxes",
+        "Conduit sits fully inside the chase, below the plaster line",
+        "Joints use couplers and bends, with no open gaps"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or the route differs from the drawing, conduit sticks out of the chase, or joints are open.",
+        "Meets standard: lays and fixes conduit as per the drawing with straight runs, closed joints and ends terminating in boxes.",
+        "Exceeds in places: keeps runs neat and parallel, uses smooth bends instead of sharp joints, and fixes conduit firmly before plastering.",
+        "Excellent: clean, accurate conduit layout matching the drawing exactly; open ends capped against concrete and debris."
+      ],
+      "synonyms": [
+        "छत में पाइप डालना",
+        "स्लैब में पाइप",
+        "कंसील्ड वायरिंग",
+        "दीवार में पाइप",
+        "पाइप बिछाना",
+        "दीवार काटकर पाइप डालना"
+      ]
+    },
+    "CON/N0604.PC5": {
+      "type": "measurement",
+      "measurementTask": "Measure the largest gap between consecutive saddles or clamps on the conduit run the candidate fixed.",
+      "tolerance": {
+        "kind": "max",
+        "max": 500,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 16: Provide support by fixing the saddles at 500 mm spacing."
+      },
+      "observables": [
+        "Saddles or clamps are fixed along the whole conduit run",
+        "Each saddle grips the conduit tightly, with screws in wall plugs",
+        "Conduit does not move or sag between supports"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 16",
+      "synonyms": [
+        "सैडल लगाना",
+        "क्लैंप लगाना",
+        "पाइप कसना",
+        "क्लिप लगाना",
+        "पाइप फिक्स करना"
+      ]
+    },
+    "CON/N0604.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Uses a GI fish wire or steel spring to draw the wires through the conduit",
+        "Pulls the circuit's wires together without forcing, scraping or kinking the insulation",
+        "Wires come out at each box with enough spare length to terminate"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or wires are forced so insulation tears or kinks, or wires end too short at the boxes.",
+        "Meets standard: uses a fish wire or spring to pull the wires through together without damage, leaving spare length at boxes.",
+        "Exceeds in places: keeps the wire coil from twisting, pulls steadily with a helper feeding, and leaves even, neat spare ends.",
+        "Excellent: smooth, damage free pulling on the first attempt; wires identified at both ends and conduit not overfilled."
+      ],
+      "synonyms": [
+        "तार खींचना",
+        "पाइप में तार डालना",
+        "स्प्रिंग डालना",
+        "जीआई तार से खींचना",
+        "फिश वायर"
+      ]
+    },
+    "CON/N0604.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Cuts the groove in the masonry wall along the marked line with a chasing machine",
+        "Wears goggles, dust mask and gloves while chasing or drilling",
+        "Groove depth and width suit the conduit, and holes are drilled at the marked points"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or cuts without PPE, off the marked line, or too deep or into RCC members, damaging the structure.",
+        "Meets standard: chases and drills at the marked positions with the right tool and PPE, with grooves that fit the conduit.",
+        "Exceeds in places: grooves are straight and uniform at the correct depth, wall damage is minimal and dust is kept down.",
+        "Excellent: clean, accurate chasing and drilling done safely and quickly, with full control of the tool throughout."
+      ],
+      "synonyms": [
+        "छेद करना",
+        "ड्रिल करना",
+        "दीवार काटना",
+        "चेज़िंग मशीन",
+        "कटर मशीन",
+        "नाली काटना"
+      ]
+    },
+    "CON/N0604.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Carries fixtures in their packing or on a trolley or wheelbarrow without knocks",
+        "Fixes switch and socket plates at the positions shown in the drawing",
+        "Plates and fittings are level, flush and firmly screwed"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or fixtures are dropped or damaged, fixed in the wrong positions, or left loose or crooked.",
+        "Meets standard: moves fixtures without damage and helps fix plates and fittings level and firm at the drawing positions.",
+        "Exceeds in places: follows the fixing sequence carefully, keeps fittings clean, and checks alignment with a level.",
+        "Excellent: careful handling and neat, level fixing throughout; anticipates the electrician's next need while assisting."
+      ],
+      "synonyms": [
+        "फिटिंग लगाना",
+        "पंखा लगाना",
+        "स्विच बोर्ड लगाना",
+        "प्लेट लगाना",
+        "सामान उठाना",
+        "लाइट फिटिंग"
+      ]
+    },
+    "CON/N0604.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Supply is off and confirmed dead before terminating",
+        "Phase, neutral and earth go to their correct terminals",
+        "No bare copper or stray strands outside the terminal, and screws are tight"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or terminates live, mixes up phase, neutral or earth, or leaves loose, bare or stray strands.",
+        "Meets standard: isolates, strips the right length and terminates each conductor in its correct terminal, tight and neat.",
+        "Exceeds in places: uses lugs or ferrules where needed, follows the colour code and tug-tests each termination.",
+        "Excellent: every termination safe, neat and correct first time; explains the colour code and why tight terminals matter."
+      ],
+      "synonyms": [
+        "तार कसना",
+        "टर्मिनेशन",
+        "लग लगाना",
+        "कनेक्शन करना",
+        "टर्मिनल में तार"
+      ]
+    },
+    "CON/N0604.PC10": {
+      "type": "measurement",
+      "measurementTask": "Insulation resistance between conductors and earth of the finished circuit, tested with a 500 V DC insulation tester (megger).",
+      "tolerance": {
+        "kind": "min",
+        "min": 1,
+        "unit": "Mohm",
+        "source": "IEC 60364-6, Table 6.1: circuits up to and including 500 V are tested at 500 V DC and need at least 1 megohm."
+      },
+      "observables": [
+        "Supply is isolated and loads are disconnected before the insulation test",
+        "Megger leads are connected between the conductors and earth and the test is run at 500 V",
+        "Continuity of the circuit conductors is checked with a multimeter",
+        "MCB and RCCB or ELCB operation is checked after switching on"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 17",
+      "synonyms": [
+        "मेगर टेस्ट",
+        "इंसुलेशन टेस्ट",
+        "मेगर लगाना",
+        "टेस्टिंग करना",
+        "कंटिन्यूटी चेक",
+        "वायरिंग चेक करना"
+      ]
+    },
+    "CON/N0604.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Connects the earth wire to the earth terminal with a lug, tightly",
+        "Checks continuity of the earth wire from end to end",
+        "Earth wire is green or green-and-yellow and reaches every metal box and socket earth"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or the earth wire is loose, broken or wrongly coloured, or continuity is not checked.",
+        "Meets standard: fixes earthing components as instructed, makes tight earth connections and checks earth continuity.",
+        "Exceeds in places: uses lugs on clean contact surfaces, runs the earth wire without joints, and checks every earth point.",
+        "Excellent: complete, reliable earthing; explains why low earth resistance matters and helps measure it with an earth tester."
+      ],
+      "synonyms": [
+        "अर्थिंग करना",
+        "अर्थ लगाना",
+        "अर्थ पिट",
+        "अर्थ का तार",
+        "पाइप अर्थिंग",
+        "प्लेट अर्थिंग"
+      ]
+    },
+    "CON/N0605.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Reads the SLD and names the incomer, RCCB, MCBs and sockets with their ratings",
+        "Checks the manufacturing date and ratings of materials against the test certificate or specification",
+        "Follows the safety guidelines and the manufacturer's instructions while assembling"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or starts assembling without reading the SLD, or misreads the ratings or the order of devices.",
+        "Meets standard: reads the SLD and specifications, checks materials against them and follows safety guidelines when assembling.",
+        "Exceeds in places: explains the power flow from incomer to outgoing circuits and flags any mismatch between SLD and material.",
+        "Excellent: reads all documents fluently and plans the assembly from them; spots errors before any work starts."
+      ],
+      "synonyms": [
+        "एसएलडी",
+        "SLD",
+        "सिंगल लाइन डायग्राम",
+        "ड्राइंग पढ़ना",
+        "बोर्ड का नक्शा",
+        "कंपनी की गाइड पढ़ना"
+      ]
+    },
+    "CON/N0605.PC2": {
+      "type": "judgement",
+      "observables": [
+        "DB has enough capacity and ways for the devices in the SLD",
+        "MCB, RCCB and sockets are fixed in the positions and ratings shown in the SLD",
+        "Wire size matches the device ratings and the drawing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or fits wrongly rated devices, leaves out devices shown in the SLD, or uses undersized wire.",
+        "Meets standard: selects a DB of the required capacity and fixes MCB, RCCB and sockets of the SLD ratings with matching wire.",
+        "Exceeds in places: lays out devices neatly in SLD order with room for wiring, and labels each outgoing way.",
+        "Excellent: complete, neat, correctly rated assembly; explains how each rating matches the circuit load."
+      ],
+      "synonyms": [
+        "एमसीबी लगाना",
+        "MCB",
+        "सॉकेट लगाना",
+        "आरसीसीबी",
+        "RCCB",
+        "इंडस्ट्रियल सॉकेट",
+        "डीबी",
+        "DB"
+      ]
+    },
+    "CON/N0605.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Checks each wire at its terminal for looseness before the board is connected to supply",
+        "All terminal and mounting screws are tightened",
+        "No bare copper, damaged insulation or stray strands at the terminals"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or connects to supply with loose screws, loose wires or exposed copper.",
+        "Meets standard: checks all wiring for loose connections and tightens every screw before the assembly is connected.",
+        "Exceeds in places: tug-tests every wire, checks insulation at entry points and closes unused openings before connection.",
+        "Excellent: methodical check of every point in a set order; finds and fixes all faults before connection."
+      ],
+      "synonyms": [
+        "कनेक्शन टाइट करना",
+        "पेंच कसना",
+        "लूज़ कनेक्शन",
+        "ढीला तार",
+        "कसकर चेक करना"
+      ]
+    },
+    "CON/N0605.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Connects the main incoming cable from the metering panel to the DB incomer",
+        "Checks continuity and insulation of the incoming cable before switching on",
+        "Connection is rigid, with the cable clamped or glanded at entry"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or connects live, skips the tests, or leaves the incoming connection loose or unclamped.",
+        "Meets standard: isolates supply, connects the incoming cable firmly to the incomer, tests continuity and insulation, then energises.",
+        "Exceeds in places: checks voltage and polarity or phase sequence at the outgoing ways and tests the RCCB with its test button.",
+        "Excellent: safe, orderly connection with a full set of tests recorded; explains each result before handing over."
+      ],
+      "synonyms": [
+        "मेन केबल जोड़ना",
+        "इनकमिंग जोड़ना",
+        "सप्लाई देना",
+        "बोर्ड चालू करना",
+        "बोर्ड टेस्ट करना"
+      ]
+    },
+    "CON/N0605.PC5": {
+      "type": "judgement",
+      "observables": [
+        "DB stands on a firm, level surface or stand",
+        "DB is covered or sheltered from rain, dust and sun, with its door closed",
+        "Area around the DB is barricaded and kept clear of water and flammable material"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or the DB is on unstable or wet ground, open to rain, or near flammable material.",
+        "Meets standard: places the DB firmly on a level surface in a secure spot, covered against rain and dust, with the area barricaded.",
+        "Exceeds in places: raises the DB clear of water, keeps cable entries sealed and keeps a fire extinguisher for electrical fires nearby.",
+        "Excellent: well chosen, fully protected location; explains the risks it guards against and checks the protection daily."
+      ],
+      "synonyms": [
+        "बोर्ड ढकना",
+        "बारिश से बचाना",
+        "बोर्ड स्टैंड पर लगाना",
+        "बोर्ड सुरक्षित रखना",
+        "पानी से बचाना"
+      ]
+    },
+    "CON/N0605.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Cable is cut and stripped to the right length for the socket terminals",
+        "Each core is in its correct terminal: phase, neutral and earth",
+        "Terminations are taped or sleeved where needed and labelled with the circuit"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or cores are in the wrong terminals, earth is left unconnected, screws are loose or copper shows.",
+        "Meets standard: cuts, strips and terminates each core in the correct socket terminal, taped where needed and labelled.",
+        "Exceeds in places: cable is gripped by the socket's cord clamp with no strain on the terminals, and labels are clear and durable.",
+        "Excellent: every socket terminated neatly and correctly first time; polarity and earth checked before use."
+      ],
+      "synonyms": [
+        "सॉकेट में तार लगाना",
+        "टर्मिनेशन",
+        "प्लग टॉप लगाना",
+        "तार कसना",
+        "लेबल लगाना"
+      ]
+    },
+    "CON/N0605.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Panel body is connected to the earthing strip or earth wire with a lug and bolt",
+        "Earth connection is tight and made on clean, bare metal",
+        "Earth wire from the panel runs to the site earth pit or earth bar"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or the panel body is not earthed, or the earth connection is loose or made over paint.",
+        "Meets standard: connects the panel body firmly to the earthing strip with a lug and can explain the earthing procedure.",
+        "Exceeds in places: cleans the contact surfaces, earths both door and body, and checks earth continuity with a meter.",
+        "Excellent: complete, reliable panel earthing proved by test; explains how it protects people from electric shock."
+      ],
+      "synonyms": [
+        "बोर्ड की अर्थिंग",
+        "बॉडी अर्थ",
+        "पैनल अर्थिंग",
+        "अर्थ पट्टी",
+        "अर्थ तार जोड़ना"
+      ]
+    },
+    "CON/N0605.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Caution board is displayed at the live DB",
+        "Area is barricaded with caution tape or barriers",
+        "DB and its circuits carry tags"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or a live DB is left with no caution board, tags or barricade.",
+        "Meets standard: tags the DB and circuits, puts up a caution board and barricades the area with tape or barriers.",
+        "Exceeds in places: barricade leaves safe working space, signs face the approach routes and tags state each circuit clearly.",
+        "Excellent: complete, durable tagging and barricading; checks it daily and explains it to workers nearby."
+      ],
+      "synonyms": [
+        "बैरिकेडिंग",
+        "घेरा बनाना",
+        "डेंजर बोर्ड",
+        "कॉशन टेप",
+        "टैग लगाना"
+      ]
+    },
+    "CON/N0605.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Checks that the panel cover is in place and unused openings are closed",
+        "Checks that cables entering the panel are protected from abrasion",
+        "Looks for loose screws, burn marks or untagged parts without touching live parts"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 41",
+      "anchors": [
+        "Below standard: not attempted, or touches live parts, or misses obvious defects like an open cover, burn marks or damaged cables.",
+        "Meets standard: inspects the live board without touching live parts and checks cover, openings, cable entries and tags.",
+        "Exceeds in places: also notes signs of heating such as discolouration or a burning smell and records findings on a checklist.",
+        "Excellent: regular, thorough inspection in a set routine; reports defects early and follows up until they are fixed."
+      ],
+      "synonyms": [
+        "बोर्ड चेक करना",
+        "रोज़ाना जांच",
+        "देखकर जांचना",
+        "बोर्ड गर्म तो नहीं",
+        "जला निशान"
+      ]
+    },
+    "CON/N0605.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Switches off unneeded outgoing circuits and the DB incomer at the end of the day as instructed",
+        "Leaves on only the circuits that must stay on, such as security lighting",
+        "Confirms lights and machines are off before leaving"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or leaves all circuits live after work, or switches off circuits that were meant to stay on.",
+        "Meets standard: switches off the DB and unneeded circuits after daily work as instructed, leaving the required circuits on.",
+        "Exceeds in places: checks each area for lights or machines left on and locks the DB after switching off.",
+        "Excellent: reliable end of day shutdown routine; suggests practical ways to cut wasted energy on site."
+      ],
+      "synonyms": [
+        "छुट्टी पर बोर्ड बंद करना",
+        "शाम को सप्लाई बंद करना",
+        "मेन स्विच बंद करना",
+        "बिजली बचाना",
+        "लाइन काटना"
+      ]
+    },
+    "CON/N0605.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Isolates the faulty circuit or panel promptly and stops its use",
+        "Identifies the failed part, such as a tripped MCB, burnt socket or damaged cable",
+        "States a short plan to put it right: what to replace, whom to inform, how to keep it safe"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or ignores the fault, resets a breaker repeatedly without checking, or keeps using the panel.",
+        "Meets standard: responds promptly, isolates the fault, identifies the failed part and prepares a plan to rectify it.",
+        "Exceeds in places: warns users, makes the area safe and keeps other circuits running where it is safe to do so.",
+        "Excellent: calm, quick and safe response; the plan is clear and complete and the supervisor is kept informed throughout."
+      ],
+      "synonyms": [
+        "ट्रिप होना",
+        "बोर्ड खराब होना",
+        "तुरंत ठीक करना",
+        "फॉल्ट आना",
+        "बोर्ड बंद करना"
+      ]
+    },
+    "CON/N0605.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Chooses tests suited to the fault, such as continuity, insulation, voltage or load current",
+        "Tests in order from the incomer to the outgoing circuit to find where the fault is",
+        "States the root cause found, such as a short, earth leakage, overload or loose connection"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or tests at random or unsafely, or replaces parts without finding the cause.",
+        "Meets standard: carries out suitable tests safely and identifies the root cause, not just the failed part.",
+        "Exceeds in places: tests in a logical order, cross-checks with a second test and explains how the cause produced the failure.",
+        "Excellent: systematic, efficient diagnosis; confirms the cause after repair and suggests how to stop it recurring."
+      ],
+      "synonyms": [
+        "फॉल्ट ढूंढना",
+        "कारण पता करना",
+        "ट्रिप क्यों हुआ",
+        "टेस्टिंग करना",
+        "जांच करना"
+      ]
+    },
+    "CON/N0605.PC13": {
+      "type": "judgement",
+      "observables": [
+        "Informs the supervisor and affected teams before switching off",
+        "Gets approval before shutting down, deactivating or repairing",
+        "Puts a tag or lock on the isolated switch so no one switches it on"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or shuts down or repairs without telling anyone or without approval.",
+        "Meets standard: informs the concerned authority and affected teams and gets approval before shut down or repair.",
+        "Exceeds in places: gives advance notice with the expected duration, tags the isolated switch and informs again on restoration.",
+        "Excellent: follows the site permit or shutdown procedure fully; nobody is caught unaware and restoration is coordinated."
+      ],
+      "synonyms": [
+        "शटडाउन लेना",
+        "परमिशन लेना",
+        "बताकर बंद करना",
+        "सुपरवाइज़र को बताना",
+        "शटडाउन की सूचना देना"
+      ]
+    },
+    "CON/N0605.PC14": {
+      "type": "judgement",
+      "observables": [
+        "Disconnects the supply and the load before removing the faulty component",
+        "Replacement has the same rating and type as in the SLD or specification",
+        "Reconnects load and supply terminals correctly, then switches on and checks operation"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or works live, fits a part of a different rating, or reconnects wires wrongly.",
+        "Meets standard: isolates, replaces the faulty part with one of the same rating per the SLD, reconnects and checks operation.",
+        "Exceeds in places: follows the manufacturer's fitting instructions, marks wires before removal and tightens all terminals.",
+        "Excellent: safe, orderly repair right first time; records the change and confirms the panel still matches the SLD."
+      ],
+      "synonyms": [
+        "खराब पार्ट बदलना",
+        "एमसीबी बदलना",
+        "रिपेयर करना",
+        "पार्ट बदलकर लगाना",
+        "सॉकेट बदलना"
+      ]
+    },
+    "CON/N0605.PC15": {
+      "type": "judgement",
+      "observables": [
+        "Fills the maintenance checklist or register with date, panel and work done",
+        "Records replaced parts with their ratings",
+        "Signs the record and hands it to the supervisor or keeps it in the set file"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or no record kept, or entries miss the date, the panel or the work done.",
+        "Meets standard: fills the maintenance checklist with date, panel, fault, work done and parts replaced.",
+        "Exceeds in places: entries are clear and complete, including test results, and kept where the team can find them.",
+        "Excellent: consistent, accurate records that let anyone trace the panel's history; flags repeat faults from them."
+      ],
+      "synonyms": [
+        "रजिस्टर भरना",
+        "रिकॉर्ड रखना",
+        "चेकलिस्ट भरना",
+        "लॉग बुक",
+        "लिखकर रखना"
+      ]
+    },
+    "CON/N0605.PC16": {
+      "type": "judgement",
+      "observables": [
+        "Isolates the panel at the source and confirms it dead before disconnecting",
+        "Barricades the area with caution tape and places a caution board near the DB",
+        "Panel is moved without damage and reinstalled securely"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or disconnects without isolating at source, leaves live ends exposed, or damages the panel.",
+        "Meets standard: isolates at source, proves dead, barricades with a caution board, disconnects and shifts the panel safely.",
+        "Exceeds in places: insulates and tags the disconnected cable ends and retests the panel after reinstalling it at the new spot.",
+        "Excellent: planned, safe shift with no live hazard at any point; panel back in service quickly and fully tested."
+      ],
+      "synonyms": [
+        "बोर्ड शिफ्ट करना",
+        "पैनल हटाना",
+        "सप्लाई काटना",
+        "दूसरी जगह लगाना",
+        "पैनल खिसकाना"
+      ]
+    },
+    "CON/N9001.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Points out hazards such as damaged cables or tools, unguarded machines or poor lighting",
+        "Reports a co-worker working at height without a harness",
+        "Reports the hazard promptly to the supervisor and keeps others away until it is safe"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 48",
+      "anchors": [
+        "Below standard: not attempted, or ignores an obvious hazard such as a damaged live cable or an unguarded machine.",
+        "Meets standard: identifies hazards and safety breaches in the work area and reports them promptly to the right person.",
+        "Exceeds in places: also makes the spot safe while waiting, such as barricading it or isolating supply, without taking undue risk.",
+        "Excellent: spots hazards others miss, reports clearly with location and risk, and follows up until fixed."
+      ],
+      "synonyms": [
+        "खतरा बताना",
+        "खतरे की रिपोर्ट करना",
+        "सेफ्टी वाले को बताना",
+        "खतरा पहचानना",
+        "असुरक्षित जगह"
+      ]
+    },
+    "CON/N9001.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Explains the escape route and assembly point for fire, building collapse or flood",
+        "Raises the alarm and switches off power at the main switch if safe to do so",
+        "Names the emergency contacts and the first aid point"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 48",
+      "anchors": [
+        "Below standard: not attempted, or cannot explain what to do in a fire or other emergency, or describes unsafe actions.",
+        "Meets standard: explains the alarm, evacuation route and assembly point for each emergency and follows them in a drill.",
+        "Exceeds in places: adds the electrical steps such as isolating supply, and knows the emergency contacts and first aid point.",
+        "Excellent: clear, confident account of all emergency steps and roles; helps others evacuate calmly in a drill."
+      ],
+      "synonyms": [
+        "आग लगने पर क्या करें",
+        "इमरजेंसी में बाहर निकलना",
+        "असेंबली पॉइंट",
+        "भागने का रास्ता",
+        "अलार्म बजाना"
+      ]
+    },
+    "CON/N9001.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Lifts and carries cable drums, conduit bundles and panels safely or with help",
+        "Uses gloves and keeps flames away when handling PVC solvent cement, diesel or other chemicals",
+        "Stacks materials safely, away from walkways and live parts"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or handles chemicals bare handed or near flames, or carries heavy items unsafely.",
+        "Meets standard: handles materials and chemicals safely with PPE, follows label instructions, and stacks materials securely.",
+        "Exceeds in places: reads the safety data sheet or label before using a chemical and stores it closed, away from heat.",
+        "Excellent: consistently safe handling; explains the hazards of each material and guides others to handle them safely."
+      ],
+      "synonyms": [
+        "सामान उठाना",
+        "केमिकल संभालना",
+        "सॉल्यूशन लगाना",
+        "डीज़ल संभालना",
+        "सामान रखना"
+      ]
+    },
+    "CON/N9001.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Attends the toolbox talk or safety briefing before work",
+        "States the key safety point of the day's talk",
+        "Applies the briefing in the task, such as the PPE, permit or barricade it called for"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or skips briefings, or ignores the precautions given in the toolbox talk or drill.",
+        "Meets standard: attends toolbox talks and drills and follows the precautions given during the task.",
+        "Exceeds in places: recalls the main points accurately and reminds co-workers of them while working.",
+        "Excellent: takes part actively, asks questions, applies every point and shares lessons from drills with the team."
+      ],
+      "synonyms": [
+        "टूलबॉक्स टॉक",
+        "सेफ्टी मीटिंग",
+        "मॉक ड्रिल",
+        "सुबह की सेफ्टी बात",
+        "सेफ्टी ट्रेनिंग"
+      ]
+    },
+    "CON/N9001.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Identifies DCP, CO2 and foam extinguishers by their labels",
+        "Picks a CO2 or DCP extinguisher for an electrical fire, not water or foam",
+        "Demonstrates operation: pull the pin, aim at the base of the fire, squeeze, sweep"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 48",
+      "anchors": [
+        "Below standard: not attempted, or picks water or foam for an electrical fire, or cannot operate the extinguisher.",
+        "Meets standard: identifies the extinguisher types, picks the right one for the type of fire and operates it correctly.",
+        "Exceeds in places: isolates the electrical supply first where safe, keeps an exit behind, and checks the gauge or seal.",
+        "Excellent: fast, correct choice and confident operation; explains why each type suits or does not suit each fire."
+      ],
+      "synonyms": [
+        "आग बुझाने का सिलेंडर",
+        "फायर सिलेंडर",
+        "फायर एक्सटिंग्विशर",
+        "सीओ2 सिलेंडर",
+        "पाउडर वाला सिलेंडर"
+      ]
+    },
+    "CON/N9001.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Identifies unsafe conditions such as poor lighting, a wet floor near electrical work or badly insulated cables",
+        "Identifies unsafe acts such as working without PPE or using faulty tools",
+        "Explains a near miss as an event that could have caused injury, and reports it"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 32",
+      "anchors": [
+        "Below standard: not attempted, or cannot tell an unsafe act from an unsafe condition, or misses obvious examples.",
+        "Meets standard: correctly identifies near misses, unsafe conditions and unsafe acts in the work area, with examples.",
+        "Exceeds in places: explains why each is dangerous and how to correct it, and reports near misses promptly.",
+        "Excellent: readily spots subtle unsafe conditions and acts, and uses near misses to suggest practical fixes."
+      ],
+      "synonyms": [
+        "बाल बाल बचना",
+        "नियर मिस",
+        "असुरक्षित काम",
+        "असुरक्षित हालत",
+        "गलत तरीका"
+      ]
+    },
+    "CON/N9001.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Wears a helmet and safety shoes throughout the task",
+        "Uses insulated gloves for electrical work and goggles when chasing, drilling or cutting",
+        "Wears a full body harness clipped to an anchor when working at height",
+        "Uses ear protection and a dust mask when running a chasing or cutting machine"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 22",
+      "anchors": [
+        "Below standard: not attempted, or any required PPE missing or worn wrongly, such as a helmet unstrapped or harness not clipped.",
+        "Meets standard: wears all PPE the task needs (head, foot, hand, eye, ear, fall, respiratory) and wears it correctly.",
+        "Exceeds in places: checks PPE for damage before use, adjusts it for fit and changes PPE as the task changes.",
+        "Excellent: always correctly protected without reminders; explains each PPE item and corrects co-workers' PPE use."
+      ],
+      "synonyms": [
+        "हेलमेट पहनना",
+        "सेफ्टी जूते",
+        "दस्ताने",
+        "सेफ्टी बेल्ट",
+        "हार्नेस",
+        "चश्मा",
+        "मास्क",
+        "पीपीई"
+      ]
+    },
+    "CON/N9001.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Carries tools in a bag or box with sharp edges covered",
+        "Places the ladder on firm ground at a safe angle, held or tied",
+        "Keeps power tool cables clear of the cutting path and unplugs before changing bits"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 48",
+      "anchors": [
+        "Below standard: not attempted, or throws or drops tools, uses an unsteady ladder, or changes bits with the tool plugged in.",
+        "Meets standard: handles tools, materials and equipment safely, places ladders securely and unplugs tools when not in use.",
+        "Exceeds in places: explains the handling method for each tool and lifts heavy items with help or lifting aids.",
+        "Excellent: consistently safe, controlled handling of every item; guides co-workers on safe handling."
+      ],
+      "synonyms": [
+        "औज़ार सावधानी से चलाना",
+        "सीढ़ी ठीक से लगाना",
+        "सामान सुरक्षित उठाना",
+        "मशीन संभालना",
+        "औज़ार बैग"
+      ]
+    },
+    "CON/N9001.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Puts cable offcuts, PVC scrap and packing into the marked bins",
+        "Keeps hazardous items such as fused tube lights, CFLs and batteries in a separate container",
+        "Clears and cleans the work area after work"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or dumps waste anywhere, or mixes broken lamps and batteries with general waste.",
+        "Meets standard: collects waste into the marked containers, keeps hazardous items separate, and clears the area.",
+        "Exceeds in places: handles broken lamps carefully to avoid cuts and mercury exposure and follows the site disposal rules.",
+        "Excellent: disposes of all waste correctly every time and explains why hazardous electrical waste needs separate handling."
+      ],
+      "synonyms": [
+        "कचरा फेंकना",
+        "कचरा सही जगह डालना",
+        "खराब ट्यूबलाइट",
+        "कबाड़",
+        "डस्टबिन"
+      ]
+    },
+    "CON/N9001.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Fits the protective devices the circuit needs, such as MCB and RCCB or ELCB",
+        "Terminates and joins cables properly so no live part is exposed",
+        "Checks that the fire extinguisher, rubber mat and first aid box are in place and usable"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or leaves a circuit without protective devices, or live parts exposed at joints or terminations.",
+        "Meets standard: installs the needed protective devices, makes safe terminations and joints, and checks the safety equipment.",
+        "Exceeds in places: tests the RCCB with its test button and checks that extinguisher and first aid box are in date and reachable.",
+        "Excellent: all safety equipment installed, checked and recorded without prompting; explains the purpose of each item."
+      ],
+      "synonyms": [
+        "सेफ्टी का सामान लगाना",
+        "आरसीसीबी लगाना",
+        "रबर मैट बिछाना",
+        "फायर सिलेंडर रखना",
+        "सेफ्टी चेक करना"
+      ]
+    },
+    "CON/N9001.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Follows site rules on PPE, permits, barricades and signage during the task",
+        "Describes the electrical and fire hazards at the work spot",
+        "Explains safety signs: triangle for warning, circle for mandatory, circle with a cross for prohibition"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or breaks a site safety rule such as working without a permit or crossing a barricade.",
+        "Meets standard: follows the site EHS rules throughout and can describe the electrical and fire hazards and the safety signs.",
+        "Exceeds in places: explains why each rule exists and uses signage and barricading correctly without being told.",
+        "Excellent: models safe behaviour; follows every protocol consistently and helps others understand and follow them."
+      ],
+      "synonyms": [
+        "सेफ्टी नियम",
+        "साइट के नियम",
+        "परमिट लेना",
+        "सेफ्टी वाले की बात मानना",
+        "ईएचएस"
+      ]
+    },
+    "CON/N9001.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Shows or asks for a valid height pass before climbing a ladder or scaffold",
+        "Does not start work at height until the clearance is given",
+        "Height pass carries the worker's own name and is in date"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or starts work at height without a valid height pass.",
+        "Meets standard: obtains the height pass clearance before any work at height and carries it as required.",
+        "Exceeds in places: knows how the pass is obtained, keeps it in date, and checks harness and access before climbing.",
+        "Excellent: always cleared before working at height, and reminds co-workers to obtain their pass too."
+      ],
+      "synonyms": [
+        "हाइट पास",
+        "ऊंचाई पर काम",
+        "ऊपर चढ़ने की परमिशन",
+        "हाइट परमिट",
+        "ऊंचाई का पास"
+      ]
+    },
+    "CON/N9001.PC13": {
+      "type": "judgement",
+      "observables": [
+        "Collects cable offcuts, PVC pieces and packing from the work area",
+        "Separates hazardous waste such as broken lamps, batteries and oily rags from general waste",
+        "Deposits each type of waste in its marked container"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or leaves waste scattered, or puts hazardous and general waste in the same container.",
+        "Meets standard: collects waste, separates hazardous from general waste and deposits each in the right container.",
+        "Exceeds in places: also separates recyclable scrap such as copper and PVC and keeps containers closed and labelled.",
+        "Excellent: thorough segregation every time; explains why each type goes where it does and keeps the area spotless."
+      ],
+      "synonyms": [
+        "कचरा अलग करना",
+        "कबाड़ इकट्ठा करना",
+        "डस्टबिन में डालना",
+        "मलबा हटाना",
+        "कचरा छांटना"
+      ]
+    },
+    "CON/N9001.PC14": {
+      "type": "judgement",
+      "observables": [
+        "Lifts loads with bent knees and a straight back, or shares heavy loads",
+        "Works at a comfortable height from a ladder or platform instead of overreaching",
+        "Changes posture or takes short breaks during long repetitive work such as chasing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or lifts heavy loads with a bent back, overreaches from ladders, or works in strained postures.",
+        "Meets standard: uses safe lifting, keeps work within comfortable reach and avoids awkward postures during the task.",
+        "Exceeds in places: arranges work and tools to reduce bending and reaching, and shares heavy lifts without being told.",
+        "Excellent: consistently good posture and work layout; explains ergonomic principles and helps others apply them."
+      ],
+      "synonyms": [
+        "सही तरीके से उठाना",
+        "कमर बचाना",
+        "झुककर न उठाना",
+        "आराम से काम करना",
+        "सही पोज़िशन"
+      ]
+    },
+    "CON/N9001.PC15": {
+      "type": "judgement",
+      "observables": [
+        "Washes or sanitises hands before and after work and before meals",
+        "Keeps the work area free of food waste and spit",
+        "Wears clean work clothes and uses toilets and drinking water points properly"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or poor hygiene such as spitting at site, eating with dirty hands, or leaving food waste around.",
+        "Meets standard: follows hand washing, clean clothing and workplace hygiene and sanitization practices as advised.",
+        "Exceeds in places: keeps own work spot and shared areas clean and reminds others of hygiene practices.",
+        "Excellent: consistently high hygiene standards; follows every sanitization step and sets an example for the team."
+      ],
+      "synonyms": [
+        "साफ सफाई",
+        "हाथ धोना",
+        "सैनिटाइज़र",
+        "स्वच्छता",
+        "साफ कपड़े"
+      ]
+    },
+    "CON/N9001.PC16": {
+      "type": "judgement",
+      "observables": [
+        "Wipes tool handles and shared instruments before and after use",
+        "Disinfects shared PPE such as helmets before passing them on",
+        "Applies disinfectant with a cloth, not sprayed into power tools or onto live parts"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or shares tools and PPE without cleaning, or sprays liquid onto electrical parts.",
+        "Meets standard: cleans and disinfects tools, PPE and supplies before and after use with a suitable method.",
+        "Exceeds in places: pays attention to high touch items such as grips and switches and keeps cleaned items separate.",
+        "Excellent: thorough, safe disinfection routine every time; explains why liquids must be kept away from electrical parts."
+      ],
+      "synonyms": [
+        "औज़ार साफ करना",
+        "सैनिटाइज़ करना",
+        "कीटाणु मुक्त करना",
+        "हेलमेट साफ करना",
+        "पोंछना"
+      ]
+    },
+    "CON/N9001.PC17": {
+      "type": "judgement",
+      "observables": [
+        "Tells the supervisor promptly about fever, cough or other symptoms in self or co-workers",
+        "Knows the site first aid or medical contact",
+        "Follows advice such as wearing a mask or staying away from others until cleared"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or hides symptoms, or keeps working closely with others while unwell.",
+        "Meets standard: reports signs of illness in self or others immediately to the concerned person and follows the advice given.",
+        "Exceeds in places: describes the symptoms clearly and helps an unwell co-worker reach first aid.",
+        "Excellent: acts promptly and responsibly every time and helps keep the team informed and safe."
+      ],
+      "synonyms": [
+        "बीमारी बताना",
+        "बुखार हो तो बताना",
+        "तबीयत खराब",
+        "डॉक्टर को दिखाना",
+        "सुपरवाइज़र को बताना"
+      ]
+    },
+    "CON/N8001.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Explains the task, the sequence and each person's part before starting",
+        "Gives clear calls during joint work such as transferring levels with a tube level",
+        "Checks that team members have understood"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 43",
+      "anchors": [
+        "Below standard: not attempted, or gives no information or confusing information, so team members make mistakes or wait.",
+        "Meets standard: passes on work information clearly and in time, so team members know what to do.",
+        "Exceeds in places: uses simple words and the drawing to explain, and checks understanding by asking back.",
+        "Excellent: consistently clear, timely communication; the team works smoothly with no repeated questions."
+      ],
+      "synonyms": [
+        "काम समझाना",
+        "टीम को बताना",
+        "जानकारी देना",
+        "साथियों को बताना",
+        "काम की बात बताना"
+      ]
+    },
+    "CON/N8001.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Informs the supervisor before changing the drawn route because of an obstruction",
+        "Reports when plumbing, fire or AC lines clash with the electrical route",
+        "Tells the co-workers affected by the change"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 43",
+      "anchors": [
+        "Below standard: not attempted, or changes the work from the plan without telling anyone, or hides a deviation.",
+        "Meets standard: informs co-workers and superiors about any deviation from the work as soon as it is found.",
+        "Exceeds in places: explains the deviation clearly with its reason and suggests an option for the supervisor to decide.",
+        "Excellent: reports every deviation promptly and clearly, records it, and makes sure everyone affected is informed."
+      ],
+      "synonyms": [
+        "बदलाव बताना",
+        "रास्ता बदलना हो तो बताना",
+        "गड़बड़ बताना",
+        "सुपरवाइज़र को बताना",
+        "ड्राइंग से अलग काम"
+      ]
+    },
+    "CON/N8001.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Reports damaged cables, fixtures or tools instead of using them",
+        "Reports a material shortage or a safety violation as soon as it is noticed",
+        "Takes the problem to the supervisor, not only to co-workers"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or works around problems silently, uses damaged items, or reports too late.",
+        "Meets standard: reports problems such as damaged material, shortages or safety issues to the supervisor immediately.",
+        "Exceeds in places: reports with clear details (what, where, effect on work) and tries simple safe fixes within own role first.",
+        "Excellent: reports promptly and precisely, follows up until resolved and keeps the team informed."
+      ],
+      "synonyms": [
+        "दिक्कत बताना",
+        "समस्या बताना",
+        "सामान कम पड़ना",
+        "ठेकेदार को बताना",
+        "शिकायत करना"
+      ]
+    },
+    "CON/N8001.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Listens to the instruction and repeats back the key points",
+        "Carries out the task as instructed",
+        "Reports back when the task is done or if it cannot be done"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or ignores or misunderstands instructions and does the task differently.",
+        "Meets standard: receives instructions, follows them correctly and responds to the superior on progress.",
+        "Exceeds in places: confirms understanding before starting and reports completion promptly without being asked.",
+        "Excellent: follows instructions precisely every time and gives clear, timely feedback on the result."
+      ],
+      "synonyms": [
+        "निर्देश लेना",
+        "बात सुनकर काम करना",
+        "मिस्त्री की बात मानना",
+        "आदेश समझना",
+        "काम पूरा करके बताना"
+      ]
+    },
+    "CON/N8001.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Shows a helper the right way to do a step, such as using a bending spring or stripping a wire",
+        "Points out a wrong or unsafe method politely and shows the correct one",
+        "Explains the standard method in simple words"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or gives wrong or unsafe advice on method, or ignores a helper's wrong method.",
+        "Meets standard: tells team members the right technique and method for the task, as per standard practice.",
+        "Exceeds in places: demonstrates the technique, explains why it matters and checks the helper's first attempt.",
+        "Excellent: teaches methods clearly and patiently; the team's work quality visibly improves from the guidance."
+      ],
+      "synonyms": [
+        "हेल्पर को सिखाना",
+        "सही तरीका बताना",
+        "काम का तरीका समझाना",
+        "करके दिखाना"
+      ]
+    },
+    "CON/N8001.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Asks about missing or unclear details before starting",
+        "Seeks permission before deciding on an unfamiliar task",
+        "Consults the electrician or supervisor during troubleshooting instead of guessing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or guesses when unsure and does wrong work, or never asks when information is missing.",
+        "Meets standard: seeks clarification and advice when instructions are unclear or the task is unfamiliar.",
+        "Exceeds in places: asks specific, well framed questions at the right time and applies the advice correctly.",
+        "Excellent: spots gaps early, asks precise questions and shares the clarified information with the team."
+      ],
+      "synonyms": [
+        "पूछ लेना",
+        "सलाह लेना",
+        "शक हो तो पूछना",
+        "समझ न आए तो पूछना",
+        "मिस्त्री से पूछना"
+      ]
+    },
+    "CON/N8001.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Collects the needed tools from the store before starting",
+        "Hands over tools and materials to the right person after use, in safe condition",
+        "Completes and hands over the work front on time, such as a conduited wall ready for plastering"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 20",
+      "anchors": [
+        "Below standard: not attempted, or holds on to tools or work fronts and delays others, or hands over damaged items.",
+        "Meets standard: hands over materials, tools and work fronts to interfacing teams on time and in safe condition.",
+        "Exceeds in places: tells the next team in advance what is ready and any points they need to take care of.",
+        "Excellent: handovers always timely, complete and clearly communicated, with nothing missing or damaged."
+      ],
+      "synonyms": [
+        "सामान सौंपना",
+        "औज़ार वापस देना",
+        "काम हैंडओवर करना",
+        "समय पर देना",
+        "मिस्त्री को जगह देना"
+      ]
+    },
+    "CON/N8001.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Coordinates with a co-worker on shared tasks such as pulling wires or holding a ladder",
+        "Coordinates timing with other trades such as masons or plumbers",
+        "Reports conflicts to the supervisor instead of arguing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 20",
+      "anchors": [
+        "Below standard: not attempted, or works against others, causes clashes, or argues instead of coordinating.",
+        "Meets standard: works in step with co-workers and other trades, shares tasks and coordinates timing.",
+        "Exceeds in places: anticipates what co-workers need next and promotes safe working in the group.",
+        "Excellent: a strong team player; the group works smoothly and conflicts are resolved calmly or escalated properly."
+      ],
+      "synonyms": [
+        "मिलकर काम करना",
+        "साथ में काम करना",
+        "तालमेल",
+        "टीम वर्क",
+        "दूसरे मिस्त्री के साथ काम"
+      ]
+    },
+    "CON/N8001.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Speaks respectfully to co-workers of any region, language, caste or religion",
+        "Avoids jokes or slurs about caste, religion, region or language",
+        "Includes all co-workers in work talk, such as using a common language or helping translate"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or makes remarks, jokes or exclusions based on caste, religion, region or language.",
+        "Meets standard: treats co-workers of all backgrounds with respect and includes them in work and talk.",
+        "Exceeds in places: helps bridge language gaps and respects others' customs, such as food or prayer times.",
+        "Excellent: actively builds an inclusive team and calmly discourages any exclusion by others."
+      ],
+      "synonyms": [
+        "सबका सम्मान",
+        "हर धर्म जाति का सम्मान",
+        "भाषा का सम्मान",
+        "भेदभाव न करना",
+        "सबको साथ रखना"
+      ]
+    },
+    "CON/N8001.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Keeps walkways and access routes clear of cables and materials",
+        "Offers help to a co-worker with a disability by asking first",
+        "Uses respectful words when speaking to or about persons with disabilities"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or blocks access routes, or mocks or ignores a co-worker with a disability.",
+        "Meets standard: keeps the workplace accessible and treats co-workers with disabilities respectfully, helping when asked.",
+        "Exceeds in places: adapts the task or layout so a co-worker with a disability can work safely and fully.",
+        "Excellent: consistently inclusive practice; spots barriers early and suggests practical changes."
+      ],
+      "synonyms": [
+        "दिव्यांग साथी",
+        "दिव्यांग की मदद",
+        "रास्ता खाली रखना",
+        "सम्मान से बात करना"
+      ]
+    },
+    "CON/N8001.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Shares tasks by skill, not by gender",
+        "Speaks to women and men co-workers with the same respect",
+        "Respects personal space and makes no comments on appearance"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or assigns or refuses work by gender, or makes remarks about appearance or gender.",
+        "Meets standard: treats all genders equally in tasks, talk and behaviour at work.",
+        "Exceeds in places: supports women co-workers' full participation, such as sharing training and tools equally.",
+        "Excellent: consistently fair to all genders and encourages others to follow gender neutral practice."
+      ],
+      "synonyms": [
+        "महिला पुरुष बराबर",
+        "बराबरी का व्यवहार",
+        "लिंग भेद न करना",
+        "सबको बराबर काम"
+      ]
+    },
+    "CON/N8001.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Calmly tells the person the behaviour is not acceptable, or reports it",
+        "Does not respond with abuse or violence",
+        "Names the site channel for complaints, such as the supervisor or HR"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or ignores it, joins in, or responds with abuse or violence.",
+        "Meets standard: addresses discriminatory or offensive behaviour calmly and reports it through the organisation's process.",
+        "Exceeds in places: supports the affected person and gives the supervisor a factual account of what happened.",
+        "Excellent: handles incidents firmly, fairly and confidentially, and helps prevent repeat behaviour in the team."
+      ],
+      "synonyms": [
+        "गलत बात का विरोध",
+        "भेदभाव की शिकायत",
+        "गाली गलौज रोकना",
+        "शिकायत करना",
+        "बदतमीज़ी रोकना"
+      ]
+    },
+    "CON/N8002.PC1": {
+      "type": "judgement",
+      "observables": [
+        "States the day's target, such as the number of points or boards, and the deadline",
+        "Interprets the senior's instructions correctly",
+        "Gives a realistic duration for each task"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 20",
+      "anchors": [
+        "Below standard: not attempted, or cannot state the target or deadline, or misunderstands what is required.",
+        "Meets standard: states the targets and timelines set by superiors correctly and estimates task durations sensibly.",
+        "Exceeds in places: breaks the target into daily or hourly steps and flags early if the timeline is at risk.",
+        "Excellent: clear grasp of targets and timelines; plans and tracks own progress against them without reminders."
+      ],
+      "synonyms": [
+        "टारगेट",
+        "आज का काम",
+        "कितने दिन में",
+        "समय सीमा",
+        "डेडलाइन"
+      ]
+    },
+    "CON/N8002.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Lists the drawings, tools, materials and PPE needed before starting",
+        "Checks the drawing and instructions for the method and quantities",
+        "Identifies safety needs such as isolation, a permit or height work before starting"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or starts without checking drawings, safety needs, tools or materials.",
+        "Meets standard: determines the drawings, method, safety needs, tools and equipment required before starting the task.",
+        "Exceeds in places: prepares a short checklist of requirements and confirms unclear points with the supervisor.",
+        "Excellent: complete, accurate requirement list every time, so work runs without stoppages for missing items."
+      ],
+      "synonyms": [
+        "ड्राइंग देखना",
+        "काम से पहले तैयारी",
+        "सामान की लिस्ट",
+        "क्या क्या चाहिए",
+        "औज़ार की लिस्ट"
+      ]
+    },
+    "CON/N8002.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Explains the steps in order before starting, such as mark, chase, fix conduit, pull wire, terminate, test",
+        "Follows the planned sequence during the work",
+        "Plan fits the allotted time and the resources available"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 20",
+      "anchors": [
+        "Below standard: not attempted, or no plan, with steps done out of order causing rework or delay.",
+        "Meets standard: plans the work from the required outcome, procedure, time and resources, and follows the sequence.",
+        "Exceeds in places: sets priorities sensibly and adjusts the plan when resources or conditions change.",
+        "Excellent: clear, efficient plan explained confidently; work flows with no rework or idle time."
+      ],
+      "synonyms": [
+        "काम की प्लानिंग",
+        "पहले क्या फिर क्या",
+        "योजना बनाना",
+        "काम का क्रम",
+        "प्लान बनाना"
+      ]
+    },
+    "CON/N8002.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Clears and marks the work area together with the team before starting",
+        "Sets up ladder, lighting and tools so everyone can work safely",
+        "Barricades the area where live or overhead work is planned"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or starts in a cluttered or unsafe area without agreeing the setup with the team.",
+        "Meets standard: prepares the work area with the team: cleared, lit, and with tools and access set up safely.",
+        "Exceeds in places: agrees roles and space with the team and other trades so that work areas do not clash.",
+        "Excellent: well organised, safe work area set up quickly through good coordination with everyone."
+      ],
+      "synonyms": [
+        "जगह तैयार करना",
+        "काम की जगह साफ करना",
+        "साइट तैयार करना",
+        "जगह खाली करना"
+      ]
+    },
+    "CON/N8002.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Places a bin or bag for offcuts at the work spot before starting",
+        "Collects waste during the work instead of scattering it",
+        "Clears the waste to the set place after finishing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or no arrangement for waste, which is left scattered after work.",
+        "Meets standard: arranges for waste collection before work and disposes of it properly after completion.",
+        "Exceeds in places: plans separate collection for hazardous and recyclable waste and keeps the area clear during work.",
+        "Excellent: waste planning built into every task; the area stays clean throughout and is left spotless."
+      ],
+      "synonyms": [
+        "कचरे का इंतज़ाम",
+        "कचरा उठाने की योजना",
+        "बोरी रखना",
+        "सफाई की योजना"
+      ]
+    },
+    "CON/N8002.PC6": {
+      "type": "judgement",
+      "observables": [
+        "States how many helpers the task needs",
+        "Arranges the helpers before work starts",
+        "Gives each helper a clear role"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 46",
+      "anchors": [
+        "Below standard: not attempted, or starts short handed or with idle extra hands, with no thought for manpower.",
+        "Meets standard: works out and arranges the manpower the task needs before starting.",
+        "Exceeds in places: matches helpers to tasks by skill and plans their timing to avoid idle waiting.",
+        "Excellent: accurate manpower planning; the task is fully staffed at the right time with no waste."
+      ],
+      "synonyms": [
+        "हेल्पर बुलाना",
+        "आदमी लगाना",
+        "लेबर का इंतज़ाम",
+        "कितने आदमी चाहिए"
+      ]
+    },
+    "CON/N8002.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Collects tools and materials from the store or authorised person before starting",
+        "Brings the right quantity of conduit, wire, boxes and fittings",
+        "Keeps tools and materials laid out in order near the work spot"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or starts without needed items, making repeated trips or using wrong materials.",
+        "Meets standard: organises the required materials, tools and tackles from authorised sources before the task.",
+        "Exceeds in places: brings close to exact quantities and arranges items in order of use.",
+        "Excellent: everything needed is ready, checked and neatly arranged, so work runs without interruption."
+      ],
+      "synonyms": [
+        "सामान जुटाना",
+        "स्टोर से सामान लाना",
+        "औज़ार इकट्ठा करना",
+        "माल मंगाना"
+      ]
+    },
+    "CON/N8002.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Gives each helper a task suited to their skill",
+        "Explains the work and the use of tools to the helpers",
+        "Keeps helpers usefully engaged without idle waiting"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or helpers are left idle, or given unsafe tasks or tasks beyond their skill.",
+        "Meets standard: engages the allocated helpers in suitable tasks with clear information.",
+        "Exceeds in places: balances the workload and rotates tasks so helpers stay productive and safe.",
+        "Excellent: manpower used efficiently all through; helpers are clear on their roles and work well together."
+      ],
+      "synonyms": [
+        "हेल्पर से काम लेना",
+        "आदमियों को काम बांटना",
+        "लेबर लगाना",
+        "काम बांटना"
+      ]
+    },
+    "CON/N8002.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Uses the right tool for each step, such as a chasing machine for grooves and a crimping tool for lugs",
+        "Does not misuse tools, such as using pliers as a hammer",
+        "Can say why the chosen tool suits the job"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or uses wrong or makeshift tools that damage the work or are unsafe.",
+        "Meets standard: uses the correct tools, tackles and equipment for each part of the work.",
+        "Exceeds in places: chooses tools that make the job safer and quicker and explains why.",
+        "Excellent: always the right tool, used skilfully; advises others on the correct tool for each job."
+      ],
+      "synonyms": [
+        "सही औज़ार",
+        "सही मशीन",
+        "काम के हिसाब से औज़ार",
+        "औज़ार चुनना"
+      ]
+    },
+    "CON/N8002.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Explains to a helper how to do the step and its safety point",
+        "Demonstrates the use of a tool or device to the helper",
+        "Checks the helper's work and corrects it"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or gives no guidance or wrong guidance, leaving helpers to make mistakes.",
+        "Meets standard: guides subordinates with work information and use of tools so they deliver the required outcome.",
+        "Exceeds in places: demonstrates first, checks the helper's attempt and gives clear feedback.",
+        "Excellent: guides patiently and clearly; helpers become able to do the step correctly on their own."
+      ],
+      "synonyms": [
+        "हेल्पर को समझाना",
+        "सिखाना",
+        "गाइड करना",
+        "काम बताना",
+        "करके दिखाना"
+      ]
+    },
+    "CON/N8002.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Measures exactly before cutting so offcuts stay short",
+        "Reuses usable offcuts and returns excess material to the store",
+        "Keeps usable material separate from waste"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 47",
+      "anchors": [
+        "Below standard: not attempted, or heavy wastage from rough measuring, damaged material, or usable stock thrown away.",
+        "Meets standard: uses materials carefully with accurate measuring and returns or reuses the excess.",
+        "Exceeds in places: plans cuts to use full lengths and offcuts and keeps wastage visibly low.",
+        "Excellent: minimal waste throughout; explains how planning and careful handling saved material."
+      ],
+      "synonyms": [
+        "बर्बादी न करना",
+        "सामान बचाना",
+        "कम वेस्टेज",
+        "नाप कर काटना",
+        "बचा सामान लौटाना"
+      ]
+    },
+    "CON/N8002.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Uses each tool only for its purpose and within its rating",
+        "Does not drop, throw or drag tools and instruments",
+        "Puts tools back after use instead of leaving them on the floor"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or tools are dropped, thrown, overloaded or used for the wrong job, causing damage.",
+        "Meets standard: uses tools and equipment carefully within their limits so none get damaged.",
+        "Exceeds in places: keeps instruments in their cases, keeps cables off sharp edges and stops at the first sign of a fault.",
+        "Excellent: consistently careful handling; tools stay in good condition and the reasons are explained to others."
+      ],
+      "synonyms": [
+        "औज़ार संभालकर चलाना",
+        "मशीन को नुकसान न हो",
+        "ध्यान से इस्तेमाल",
+        "औज़ार न फेंकना"
+      ]
+    },
+    "CON/N8002.PC13": {
+      "type": "judgement",
+      "observables": [
+        "Follows the method in the drawing and instruction, such as route, colour code and terminations",
+        "Wears PPE and follows safe practice throughout",
+        "Finished work matches the specification when checked"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 22",
+      "anchors": [
+        "Below standard: not attempted, or takes shortcuts that break the standard or instruction, or uses unsafe methods.",
+        "Meets standard: follows the specified standards, instructions and safe practices throughout the work.",
+        "Exceeds in places: checks own work against the standard at each stage and corrects deviations promptly.",
+        "Excellent: work fully to standard at every step; explains the standard behind each method used."
+      ],
+      "synonyms": [
+        "नियम से काम करना",
+        "ड्राइंग के हिसाब से",
+        "स्टैंडर्ड तरीके से",
+        "क्वालिटी का काम"
+      ]
+    },
+    "CON/N8002.PC14": {
+      "type": "judgement",
+      "observables": [
+        "Finishes the task within the allotted time",
+        "Uses the issued lengths of conduit and cable and the fittings as per the drawing",
+        "No part of the task is left unfinished"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 46",
+      "anchors": [
+        "Below standard: not attempted, or the task is left incomplete, overruns badly, or needs extra material because of waste.",
+        "Meets standard: completes the work within the specified time using the allocated resources.",
+        "Exceeds in places: finishes ahead of time or with material to spare, without cutting corners on quality or safety.",
+        "Excellent: consistently completes on time and within resources at full quality; planning keeps the work on track."
+      ],
+      "synonyms": [
+        "समय पर काम पूरा करना",
+        "दिए गए सामान में काम",
+        "टाइम पर खत्म",
+        "काम पूरा करना"
+      ]
+    },
+    "CON/N8002.PC15": {
+      "type": "judgement",
+      "observables": [
+        "Clears offcuts and dust from the work area after finishing",
+        "Lists and stacks leftover materials neatly",
+        "Collects, counts and stores the tools"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Assistant Electrician (CON/Q0602 ver. 1.0), page 22",
+      "anchors": [
+        "Below standard: not attempted, or the work area is left with offcuts, dust, loose tools or leftover material.",
+        "Meets standard: cleans the work area and organises leftover materials and tools after completion.",
+        "Exceeds in places: lists the material used and returned, and leaves the area ready for the next trade.",
+        "Excellent: area left spotless and orderly every time, with tools and materials accounted for."
+      ],
+      "synonyms": [
+        "काम के बाद सफाई",
+        "सामान समेटना",
+        "जगह साफ करना",
+        "औज़ार समेटना",
+        "साफ सफाई"
+      ]
+    },
+    "DGT/VSQ/N0101.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Names employability skills such as communication, teamwork, punctuality and safety",
+        "Explains in own words why employers value them",
+        "Links one skill to own work, such as clear communication preventing wiring mistakes"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or cannot name any employability skill or say why it matters.",
+        "Meets standard: names key employability skills and explains how they help meet job requirements.",
+        "Exceeds in places: gives real examples from own work where these skills made a difference.",
+        "Excellent: explains clearly and convincingly, linking each skill to success in the job and own growth."
+      ],
+      "synonyms": [
+        "रोज़गार कौशल",
+        "नौकरी के लिए गुण",
+        "काम की आदतें",
+        "एम्प्लॉयबिलिटी स्किल"
+      ]
+    },
+    "DGT/VSQ/N0101.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Names a constitutional value or duty, such as equality or protecting public property",
+        "Gives an example of honest, ethical behaviour at work",
+        "Gives an example of an environment friendly practice at site, such as switching off unused lights"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or cannot name any value, right or duty, or any sustainable practice.",
+        "Meets standard: identifies constitutional values, civic rights and duties, personal ethics and sustainable practices, with examples.",
+        "Exceeds in places: relates these values to daily work situations with clear examples.",
+        "Excellent: explains values, rights and duties confidently and shows how they guide own conduct at work."
+      ],
+      "synonyms": [
+        "संविधान",
+        "नागरिक के अधिकार",
+        "कर्तव्य",
+        "ईमानदारी",
+        "पर्यावरण बचाना"
+      ]
+    },
+    "DGT/VSQ/N0101.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Explains at least two 21st century skills in own words",
+        "Gives an example of solving a problem or managing time at work",
+        "Describes how they keep learning new skills"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or cannot explain any of the listed skills.",
+        "Meets standard: explains several 21st century skills such as problem solving, time management and positive attitude.",
+        "Exceeds in places: gives clear examples of using these skills in own work.",
+        "Excellent: explains the skills with insight, shows self awareness and has a plan for continuous learning."
+      ],
+      "synonyms": [
+        "समय का पालन",
+        "सकारात्मक सोच",
+        "समस्या सुलझाना",
+        "नया सीखना",
+        "आत्मविश्वास"
+      ]
+    },
+    "DGT/VSQ/N0101.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Greets and introduces self in simple English",
+        "Uses common site English words correctly, such as switch, socket, wire, earth and MCB",
+        "Understands and responds to a simple English instruction"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or cannot use any English phrase or follow a simple English instruction.",
+        "Meets standard: uses basic English phrases to greet, introduce self and exchange simple work information.",
+        "Exceeds in places: speaks short English sentences about own work with fair clarity.",
+        "Excellent: communicates simple work matters in English confidently and understands follow up questions."
+      ],
+      "synonyms": [
+        "अंग्रेज़ी बोलना",
+        "इंग्लिश में बात करना",
+        "थोड़ी अंग्रेज़ी",
+        "इंग्लिश"
+      ]
+    },
+    "DGT/VSQ/N0101.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Greets, listens without interrupting and speaks politely",
+        "Uses respectful forms of address",
+        "Waits for own turn and thanks the other person"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or is rude, interrupts, or uses disrespectful language.",
+        "Meets standard: communicates politely: greets, listens, waits for turn and uses respectful words.",
+        "Exceeds in places: stays courteous even in disagreement and adjusts tone to the listener.",
+        "Excellent: consistently courteous and attentive; others find communicating with them easy."
+      ],
+      "synonyms": [
+        "तमीज़ से बात करना",
+        "अच्छे से बात करना",
+        "शिष्टाचार",
+        "आदर से बोलना"
+      ]
+    },
+    "DGT/VSQ/N0101.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Shares tasks and tools with team members",
+        "Helps a team member who is falling behind",
+        "Agrees on who does what before starting"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or works alone against the team, or refuses to share or help.",
+        "Meets standard: works cooperatively in a team, sharing tasks, tools and information.",
+        "Exceeds in places: helps others without being asked and resolves small disagreements calmly.",
+        "Excellent: a valued team member who strengthens cooperation and team results."
+      ],
+      "synonyms": [
+        "टीम में काम",
+        "मिलजुल कर काम",
+        "साथ काम करना",
+        "मदद करना"
+      ]
+    },
+    "DGT/VSQ/N0101.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Speaks respectfully to women, men and persons with disabilities alike",
+        "Offers help to a person with disability by asking first",
+        "Avoids remarks about gender, appearance or disability"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or makes disrespectful remarks or behaves inappropriately with any gender or with PwD.",
+        "Meets standard: communicates and behaves respectfully and appropriately with all genders and persons with disabilities.",
+        "Exceeds in places: uses inclusive language and adapts communication to the person's needs.",
+        "Excellent: consistently respectful and inclusive; encourages the same behaviour in others."
+      ],
+      "synonyms": [
+        "महिलाओं से सम्मान से बात",
+        "दिव्यांग से व्यवहार",
+        "बराबरी",
+        "सम्मान करना"
+      ]
+    },
+    "DGT/VSQ/N0101.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Explains what sexual harassment is, such as unwelcome comments, touch or requests",
+        "Names whom to report to: the supervisor, the Internal Committee or the Local Committee",
+        "States that complaints are kept confidential"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or does not know what sexual harassment is or where to report it.",
+        "Meets standard: recognises sexual harassment and knows how and to whom to report it.",
+        "Exceeds in places: explains the complaint process and supports a colleague in reporting.",
+        "Excellent: clear, accurate knowledge of rights and process; would act promptly and respectfully on any incident."
+      ],
+      "synonyms": [
+        "यौन उत्पीड़न",
+        "छेड़छाड़ की शिकायत",
+        "गलत हरकत की शिकायत",
+        "शिकायत समिति",
+        "आंतरिक समिति"
+      ]
+    },
+    "DGT/VSQ/N0101.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Explains the use of a bank account, UPI or debit card for wages and payments",
+        "Never shares PIN or OTP with anyone",
+        "Checks the payee name and amount before sending money"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or would share a PIN or OTP, or cannot use any basic financial service.",
+        "Meets standard: uses basic banking and digital payments safely, protecting PIN, OTP and personal details.",
+        "Exceeds in places: recognises common frauds such as fake calls or collect requests and knows how to report them.",
+        "Excellent: confident, safe use of financial services; explains safe practices clearly to others."
+      ],
+      "synonyms": [
+        "बैंक खाता",
+        "यूपीआई",
+        "UPI",
+        "एटीएम कार्ड",
+        "पिन किसी को न बताना",
+        "ओटीपी"
+      ]
+    },
+    "DGT/VSQ/N0101.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Calculates monthly income from the daily wage and days worked",
+        "Lists monthly expenses and works out savings correctly",
+        "Checks the sums on paper or with a phone calculator"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or cannot calculate income or expenses, or makes large errors.",
+        "Meets standard: calculates income, expenses and savings correctly for a simple monthly example.",
+        "Exceeds in places: plans a simple budget and identifies where savings can be increased.",
+        "Excellent: accurate, quick calculations and a realistic savings plan explained clearly."
+      ],
+      "synonyms": [
+        "कमाई खर्च का हिसाब",
+        "बचत",
+        "हिसाब किताब",
+        "महीने का बजट",
+        "दिहाड़ी का हिसाब"
+      ]
+    },
+    "DGT/VSQ/N0101.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Names a work right, such as minimum wages, timely payment or safe working conditions",
+        "Names whom to approach, such as the labour department or the construction workers' welfare board",
+        "Keeps proof such as attendance or wage records"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or does not know any right or where to seek help against exploitation.",
+        "Meets standard: knows basic legal rights at work and which authority to approach in case of exploitation.",
+        "Exceeds in places: explains the steps to file a complaint and the records needed to support it.",
+        "Excellent: clear, accurate knowledge of rights and remedies; would help a co-worker seek help."
+      ],
+      "synonyms": [
+        "मज़दूरी न मिलना",
+        "श्रम विभाग",
+        "लेबर ऑफिस",
+        "शोषण की शिकायत",
+        "मज़दूर का हक"
+      ]
+    },
+    "DGT/VSQ/N0101.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Uses phone features such as camera, calls, messages, mobile data and Wi-Fi settings",
+        "Keeps a screen lock and installs apps only from the official app store",
+        "Does not share passwords or OTPs"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or cannot operate basic phone features, or uses the device unsafely.",
+        "Meets standard: operates the basic features and apps of a phone or computer securely, with a screen lock and safe app use.",
+        "Exceeds in places: manages app permissions and updates and backs up important documents.",
+        "Excellent: confident, secure use of digital devices; helps others set them up safely."
+      ],
+      "synonyms": [
+        "मोबाइल चलाना",
+        "स्मार्टफोन",
+        "फोन लॉक",
+        "ऐप डाउनलोड करना",
+        "कंप्यूटर चलाना"
+      ]
+    },
+    "DGT/VSQ/N0101.PC13": {
+      "type": "judgement",
+      "observables": [
+        "Recognises a fake link or message, such as a prize or job offer asking for money",
+        "Does not post personal ID details such as Aadhaar online",
+        "Blocks or reports suspicious contacts"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or would click unknown links, share ID details or fall for an obvious scam.",
+        "Meets standard: uses internet and social media safely, avoiding suspicious links and protecting personal information.",
+        "Exceeds in places: checks information before forwarding it and adjusts privacy settings.",
+        "Excellent: confident, responsible online behaviour; warns others about scams and fake news."
+      ],
+      "synonyms": [
+        "इंटरनेट चलाना",
+        "व्हाट्सएप",
+        "फर्जी लिंक",
+        "सोशल मीडिया",
+        "ऑनलाइन ठगी"
+      ]
+    },
+    "DGT/VSQ/N0101.PC14": {
+      "type": "judgement",
+      "observables": [
+        "Names a small business idea, such as house wiring contracts or an appliance repair shop",
+        "Lists the customers, tools and money it would need",
+        "Weighs local demand and competition"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or cannot name any business opportunity.",
+        "Meets standard: identifies a realistic business opportunity and assesses basic needs, demand and risks.",
+        "Exceeds in places: compares two options on cost, demand and own skills and picks one with reasons.",
+        "Excellent: presents a clear, realistic small business idea with a simple plan."
+      ],
+      "synonyms": [
+        "अपना काम शुरू करना",
+        "खुद की दुकान",
+        "ठेका लेना",
+        "बिज़नेस",
+        "अपना धंधा"
+      ]
+    },
+    "DGT/VSQ/N0101.PC15": {
+      "type": "judgement",
+      "observables": [
+        "Names sources such as savings, a bank loan, a MUDRA loan or a self help group",
+        "Mentions legal needs such as registration and licences",
+        "Notes risks such as interest and repayment"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or cannot name any source of funds or related challenge.",
+        "Meets standard: identifies sources of money for a business and the main financial and legal challenges.",
+        "Exceeds in places: compares sources on cost and conditions and explains the basic paperwork needed.",
+        "Excellent: clear, realistic funding plan that addresses repayment and legal requirements."
+      ],
+      "synonyms": [
+        "लोन",
+        "मुद्रा लोन",
+        "बैंक से कर्ज़",
+        "पैसे का इंतज़ाम",
+        "स्वयं सहायता समूह"
+      ]
+    },
+    "DGT/VSQ/N0101.PC16": {
+      "type": "judgement",
+      "observables": [
+        "Distinguishes customer types such as households, builders or contractors, shops and offices",
+        "Describes what each type usually expects, such as price, speed, quality or a bill"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or cannot distinguish any types of customers.",
+        "Meets standard: identifies different types of customers and what each usually expects.",
+        "Exceeds in places: explains how to deal with each type differently, with examples from own work.",
+        "Excellent: clear understanding of customer types and how to serve each one well."
+      ],
+      "synonyms": [
+        "ग्राहक",
+        "कस्टमर",
+        "पार्टी",
+        "ठेकेदार",
+        "घर वाले ग्राहक"
+      ]
+    },
+    "DGT/VSQ/N0101.PC17": {
+      "type": "judgement",
+      "observables": [
+        "Asks questions to understand what the customer needs before starting",
+        "Explains the work, cost and time clearly to the customer",
+        "Checks that the customer is satisfied after finishing"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or ignores customer needs or communicates poorly.",
+        "Meets standard: identifies the customer's needs by asking and addresses them appropriately.",
+        "Exceeds in places: explains options clearly and handles a complaint politely.",
+        "Excellent: consistently understands and meets customer needs, leaving the customer satisfied."
+      ],
+      "synonyms": [
+        "ग्राहक की ज़रूरत",
+        "कस्टमर की बात सुनना",
+        "ग्राहक को संतुष्ट करना",
+        "ग्राहक सेवा"
+      ]
+    },
+    "DGT/VSQ/N0101.PC18": {
+      "type": "judgement",
+      "observables": [
+        "Clean clothes or uniform, trimmed nails and neat hair",
+        "Washes hands after work and before meals",
+        "No spitting or chewing tobacco at the workplace"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or poor hygiene or grooming, such as dirty clothes or spitting at work.",
+        "Meets standard: follows appropriate hygiene and grooming standards at work.",
+        "Exceeds in places: stays clean and presentable through the day, including when visiting customers.",
+        "Excellent: consistently well groomed and hygienic; sets an example for others."
+      ],
+      "synonyms": [
+        "साफ कपड़े",
+        "साफ सुथरा रहना",
+        "नहाना धोना",
+        "हाथ धोना",
+        "ग्रूमिंग"
+      ]
+    },
+    "DGT/VSQ/N0101.PC19": {
+      "type": "judgement",
+      "observables": [
+        "Biodata has name, contact, education, skills and work experience",
+        "Lists electrical work done with years and places",
+        "Leaves out Aadhaar and bank details"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or the biodata misses key details or has wrong information.",
+        "Meets standard: creates a basic biodata with personal details, education, skills and experience.",
+        "Exceeds in places: biodata is neat and clearly lists electrical skills and work done.",
+        "Excellent: complete, accurate and well presented biodata that suits the job sought."
+      ],
+      "synonyms": [
+        "बायोडाटा",
+        "रिज़्यूमे",
+        "अपनी जानकारी लिखना",
+        "सीवी"
+      ]
+    },
+    "DGT/VSQ/N0101.PC20": {
+      "type": "judgement",
+      "observables": [
+        "Finds job openings through job portals, contractors or notices",
+        "Applies with a biodata and follows up",
+        "Checks that the job is genuine and does not pay agents for a job"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or cannot find or apply for a job, or would pay an agent for a job.",
+        "Meets standard: searches suitable job openings and applies through a proper channel.",
+        "Exceeds in places: uses more than one channel, such as an online portal and contacts, and tracks applications.",
+        "Excellent: searches effectively, applies well and checks offers for genuineness."
+      ],
+      "synonyms": [
+        "नौकरी ढूंढना",
+        "नौकरी के लिए आवेदन",
+        "जॉब",
+        "एप्लाई करना",
+        "काम ढूंढना"
+      ]
+    },
+    "DGT/VSQ/N0101.PC21": {
+      "type": "judgement",
+      "observables": [
+        "Names the apprenticeship portal and how to register on it",
+        "Fills in the registration with correct details",
+        "Identifies an electrical apprenticeship suited to own level"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or does not know about apprenticeships or how to register for one.",
+        "Meets standard: identifies suitable apprenticeship opportunities and registers as required.",
+        "Exceeds in places: explains the benefits and terms of an apprenticeship and compares options.",
+        "Excellent: registers correctly and applies to apprenticeships that match own trade and level."
+      ],
+      "synonyms": [
+        "अप्रेंटिसशिप",
+        "ट्रेनी बनना",
+        "अप्रेंटिस पोर्टल",
+        "रजिस्ट्रेशन करना"
+      ]
+    }
+  }
+}

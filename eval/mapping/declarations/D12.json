@@ -1,0 +1,88 @@
+{
+  "id": "D12",
+  "category": "short",
+  "style": "hindi",
+  "persona": "Experienced electrician, about ten years of flat wiring in Indore, who answers in as few words as possible. Most of his answers name the trade or list tools rather than describe an activity.",
+  "lang": "hi",
+  "turns": [
+    {
+      "topic": "intro",
+      "q": "अपने काम के बारे में बताइए। कितने साल से कर रहे हैं, कहाँ-कहाँ काम किया है?",
+      "answer": "वायरिंग करता हूँ, दस साल से। इंदौर में, फ्लैट में।"
+    },
+    {
+      "topic": "tools",
+      "q": "कौन-कौन से औज़ार और मीटर चलाते हैं, और उनसे क्या-क्या करते हैं?",
+      "answer": "सब चलाता हूँ। मल्टीमीटर, मेगर, ड्रिल।"
+    },
+    {
+      "topic": "wiring",
+      "q": "मकान या बिल्डिंग में वायरिंग कैसे करते हैं? शुरू से आख़िर तक बताइए।",
+      "answer": "स्लैब में पाइप डालते हैं, फिर तार खींचते हैं।"
+    },
+    {
+      "topic": "site-lighting",
+      "q": "कंस्ट्रक्शन साइट पर अस्थायी लाइट का काम किया है? क्या-क्या करते हैं?",
+      "answer": "हाँ, किया है।"
+    },
+    {
+      "topic": "panels",
+      "q": "डिस्ट्रीब्यूशन बोर्ड या पैनल लगाने, जोड़ने या ठीक करने का काम किया है?",
+      "answer": "डीबी भी लगाता हूँ।"
+    },
+    {
+      "topic": "safety",
+      "q": "काम के समय अपनी और दूसरों की सुरक्षा के लिए क्या-क्या करते हैं?",
+      "answer": "बिना दस्ताने के काम नहीं करता।"
+    },
+    {
+      "topic": "team-planning",
+      "q": "टीम में काम कैसे करते हैं, और काम शुरू करने से पहले तैयारी कैसे करते हैं?",
+      "answer": "हेल्पर को काम बता देता हूँ।"
+    },
+    {
+      "topic": "other",
+      "q": "फ़ोन से भुगतान, पैसों का हिसाब या ग्राहक से बात, ये सब कैसे करते हैं?",
+      "answer": "घरवाली देखती है।"
+    }
+  ],
+  "labels": [
+    {
+      "pc": "CON/N0604.PC4",
+      "evidence": "स्लैब में पाइप डालते हैं"
+    },
+    {
+      "pc": "CON/N0604.PC6",
+      "evidence": "तार खींचते हैं"
+    },
+    {
+      "pc": "CON/N9001.PC7",
+      "evidence": "बिना दस्ताने के काम नहीं करता",
+      "note": "A double negative: he never works without gloves, so he wears them."
+    },
+    {
+      "pc": "CON/N8001.PC1",
+      "evidence": "हेल्पर को काम बता देता हूँ"
+    },
+    {
+      "pc": "CON/N8002.PC8",
+      "evidence": "हेल्पर को काम बता देता हूँ",
+      "note": "Same span as N8001.PC1: giving the helper his task is engaging the allocated manpower, as in D01."
+    }
+  ],
+  "expected": {
+    "qp": "CON/Q0602",
+    "pcIds": [
+      "CON/N0604.PC4",
+      "CON/N0604.PC6",
+      "CON/N8001.PC1",
+      "CON/N8002.PC8",
+      "CON/N9001.PC7"
+    ],
+    "coverageFlat": 0.042,
+    "coverageWeighted": 0.0487,
+    "routeFlat": "upskill-first",
+    "routeWeighted": "upskill-first"
+  },
+  "notes": "A terse but experienced worker. Not labelled: 'वायरिंग करता हूँ' (names the trade), the tool list (names no activity), 'हाँ, किया है' for site lighting and 'डीबी भी लगाता हूँ' for panels (claims at the level of a whole NOS, no PC activity named), and money matters, which his wife handles (someone else's work). Only conduit in the slab, pulling wire, gloves and giving the helper his work are concrete. His real competence is probably much higher; the file checks that ten years of experience alone do not fill the gaps."
+}

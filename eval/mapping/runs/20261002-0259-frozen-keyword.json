@@ -1,0 +1,1622 @@
+{
+  "summary": {
+    "set": "frozen",
+    "mode": "keyword",
+    "n": 20,
+    "top1": 19,
+    "pcMicro": {
+      "tp": 618,
+      "fp": 332,
+      "fn": 307,
+      "precision": 0.6505263157894737,
+      "recall": 0.6681081081081081
+    },
+    "pcMacro": {
+      "precision": 0.6312446413764985,
+      "recall": 0.6561714012017511
+    },
+    "routeFlat": 18,
+    "routeWeighted": 15,
+    "byCategory": {
+      "full": {
+        "n": 6,
+        "top1": 6,
+        "precision": 0.8678304239401496,
+        "recall": 0.696
+      },
+      "partial": {
+        "n": 5,
+        "top1": 5,
+        "precision": 0.5118483412322274,
+        "recall": 0.5934065934065934
+      },
+      "short": {
+        "n": 4,
+        "top1": 3,
+        "precision": 0.4827586206896552,
+        "recall": 0.6363636363636364
+      },
+      "hinglish": {
+        "n": 3,
+        "top1": 3,
+        "precision": 0.5948275862068966,
+        "recall": 0.552
+      },
+      "other-trade": {
+        "n": 2,
+        "top1": 2,
+        "precision": 0.40932642487046633,
+        "recall": 0.8229166666666666
+      }
+    },
+    "models": [],
+    "tokens": {
+      "prompt": 0,
+      "completion": 0
+    },
+    "linkErrors": 0,
+    "extractionFallbacks": 0,
+    "promptVersion": "keyword-v1",
+    "startedAt": "2026-10-01T21:29:19.971Z",
+    "seconds": 0
+  },
+  "rows": [
+    {
+      "id": "D01",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 98,
+      "predictedPcs": 91,
+      "tp": 84,
+      "fp": 7,
+      "fn": 14,
+      "precision": 0.9230769230769231,
+      "recall": 0.8571428571428571,
+      "coverage": {
+        "flat": 0.7647058823529411,
+        "weighted": 0.8539491341991342
+      },
+      "routeFlat": {
+        "expected": "direct-assessment",
+        "predicted": "direct-assessment"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "direct-assessment"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "DGT/VSQ/N0101.PC16": 1,
+        "CON/N8002.PC9": 1,
+        "DGT/VSQ/N0101.PC21": 1,
+        "CON/N9001.PC3": 1,
+        "DGT/VSQ/N0101.PC20": 1,
+        "DGT/VSQ/N0101.PC1": 1,
+        "CON/N9001.PC11": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0605.PC11": 1,
+        "CON/N0605.PC16": 1,
+        "CON/N8001.PC3": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8002.PC7": 1,
+        "CON/N8002.PC8": 1,
+        "CON/N9001.PC13": 1,
+        "CON/N9001.PC14": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC12": 1,
+        "DGT/VSQ/N0101.PC13": 1,
+        "DGT/VSQ/N0101.PC14": 1
+      }
+    },
+    {
+      "id": "D02",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 97,
+      "predictedPcs": 65,
+      "tp": 59,
+      "fp": 6,
+      "fn": 38,
+      "precision": 0.9076923076923077,
+      "recall": 0.6082474226804123,
+      "coverage": {
+        "flat": 0.5462184873949579,
+        "weighted": 0.6918540764790766
+      },
+      "routeFlat": {
+        "expected": "direct-assessment",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "DGT/VSQ/N0101.PC7": 1,
+        "DGT/VSQ/N0101.PC16": 1,
+        "CON/N0605.PC16": 1,
+        "DGT/VSQ/N0101.PC18": 1,
+        "DGT/VSQ/N0101.PC1": 1,
+        "CON/N9001.PC17": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0602.PC3": 1,
+        "CON/N0602.PC11": 1,
+        "CON/N0603.PC1": 1,
+        "CON/N0603.PC8": 1,
+        "CON/N0603.PC13": 1,
+        "CON/N0603.PC16": 1,
+        "CON/N0604.PC1": 1,
+        "CON/N0605.PC3": 1,
+        "CON/N0605.PC5": 1,
+        "CON/N0605.PC10": 1,
+        "CON/N0605.PC12": 1,
+        "CON/N0605.PC15": 1,
+        "CON/N8001.PC1": 1,
+        "CON/N8001.PC6": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8001.PC9": 1,
+        "CON/N8001.PC12": 1,
+        "CON/N8002.PC3": 1,
+        "CON/N8002.PC4": 1,
+        "CON/N8002.PC6": 1,
+        "CON/N8002.PC7": 1,
+        "CON/N8002.PC8": 1,
+        "CON/N8002.PC11": 1,
+        "CON/N8002.PC13": 1,
+        "CON/N9001.PC1": 1,
+        "CON/N9001.PC3": 1,
+        "CON/N9001.PC5": 1,
+        "CON/N9001.PC8": 1,
+        "CON/N9001.PC9": 1,
+        "CON/N9001.PC13": 1,
+        "CON/N9001.PC14": 1,
+        "DGT/VSQ/N0101.PC5": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC10": 1,
+        "DGT/VSQ/N0101.PC12": 1,
+        "DGT/VSQ/N0101.PC13": 1,
+        "DGT/VSQ/N0101.PC17": 1
+      }
+    },
+    {
+      "id": "D03",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 70,
+      "predictedPcs": 55,
+      "tp": 42,
+      "fp": 13,
+      "fn": 28,
+      "precision": 0.7636363636363637,
+      "recall": 0.6,
+      "coverage": {
+        "flat": 0.46218487394957986,
+        "weighted": 0.6365021645021647
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "DGT/VSQ/N0101.PC3": 1,
+        "DGT/VSQ/N0101.PC16": 1,
+        "CON/N8001.PC5": 1,
+        "CON/N8002.PC10": 1,
+        "CON/N0602.PC7": 1,
+        "CON/N0605.PC6": 1,
+        "CON/N0605.PC5": 1,
+        "CON/N0605.PC9": 1,
+        "CON/N0605.PC7": 1,
+        "CON/N8002.PC14": 1,
+        "DGT/VSQ/N0101.PC18": 1,
+        "DGT/VSQ/N0101.PC1": 1,
+        "CON/N8002.PC9": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0602.PC11": 1,
+        "CON/N0603.PC7": 1,
+        "CON/N0603.PC8": 1,
+        "CON/N0603.PC9": 1,
+        "CON/N0604.PC5": 1,
+        "CON/N0605.PC10": 1,
+        "CON/N0605.PC12": 1,
+        "CON/N0605.PC13": 1,
+        "CON/N8001.PC2": 1,
+        "CON/N8001.PC3": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8001.PC6": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8001.PC9": 1,
+        "CON/N8002.PC2": 1,
+        "CON/N8002.PC4": 1,
+        "CON/N8002.PC7": 1,
+        "CON/N8002.PC11": 1,
+        "CON/N8002.PC12": 1,
+        "CON/N9001.PC1": 1,
+        "CON/N9001.PC8": 1,
+        "CON/N9001.PC12": 1,
+        "CON/N9001.PC14": 1,
+        "CON/N9001.PC17": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC10": 1,
+        "DGT/VSQ/N0101.PC12": 1
+      }
+    },
+    {
+      "id": "D04",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 69,
+      "predictedPcs": 56,
+      "tp": 45,
+      "fp": 11,
+      "fn": 24,
+      "precision": 0.8035714285714286,
+      "recall": 0.6521739130434783,
+      "coverage": {
+        "flat": 0.47058823529411764,
+        "weighted": 0.6635358946608948
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N0603.PC6": 1,
+        "CON/N0603.PC3": 1,
+        "DGT/VSQ/N0101.PC16": 1,
+        "CON/N0603.PC2": 1,
+        "CON/N0603.PC5": 1,
+        "CON/N0603.PC9": 1,
+        "DGT/VSQ/N0101.PC1": 1,
+        "CON/N0603.PC1": 1,
+        "CON/N0603.PC11": 1,
+        "DGT/VSQ/N0101.PC18": 1,
+        "CON/N8002.PC4": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0602.PC3": 1,
+        "CON/N0602.PC11": 1,
+        "CON/N0605.PC1": 1,
+        "CON/N0605.PC5": 1,
+        "CON/N0605.PC8": 1,
+        "CON/N0605.PC10": 1,
+        "CON/N0605.PC13": 1,
+        "CON/N8001.PC5": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8002.PC3": 1,
+        "CON/N8002.PC7": 1,
+        "CON/N8002.PC8": 1,
+        "CON/N8002.PC11": 1,
+        "CON/N8002.PC13": 1,
+        "CON/N9001.PC1": 1,
+        "CON/N9001.PC3": 1,
+        "CON/N9001.PC5": 1,
+        "CON/N9001.PC8": 1,
+        "CON/N9001.PC13": 1,
+        "CON/N9001.PC14": 1,
+        "DGT/VSQ/N0101.PC5": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC17": 1
+      }
+    },
+    {
+      "id": "D05",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 106,
+      "predictedPcs": 78,
+      "tp": 75,
+      "fp": 3,
+      "fn": 31,
+      "precision": 0.9615384615384616,
+      "recall": 0.7075471698113207,
+      "coverage": {
+        "flat": 0.6554621848739496,
+        "weighted": 0.7520371572871574
+      },
+      "routeFlat": {
+        "expected": "direct-assessment",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "direct-assessment"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "DGT/VSQ/N0101.PC16": 1,
+        "DGT/VSQ/N0101.PC18": 1,
+        "DGT/VSQ/N0101.PC1": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0602.PC3": 1,
+        "CON/N0603.PC7": 1,
+        "CON/N0603.PC13": 1,
+        "CON/N0605.PC3": 1,
+        "CON/N0605.PC5": 1,
+        "CON/N0605.PC9": 1,
+        "CON/N0605.PC10": 1,
+        "CON/N0605.PC13": 1,
+        "CON/N0605.PC15": 1,
+        "CON/N0605.PC16": 1,
+        "CON/N8001.PC2": 1,
+        "CON/N8001.PC3": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8001.PC6": 1,
+        "CON/N8001.PC9": 1,
+        "CON/N8001.PC10": 1,
+        "CON/N8001.PC11": 1,
+        "CON/N8001.PC12": 1,
+        "CON/N8002.PC5": 1,
+        "CON/N8002.PC7": 1,
+        "CON/N8002.PC8": 1,
+        "CON/N8002.PC9": 1,
+        "CON/N9001.PC13": 1,
+        "CON/N9001.PC14": 1,
+        "DGT/VSQ/N0101.PC5": 1,
+        "DGT/VSQ/N0101.PC8": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC11": 1,
+        "DGT/VSQ/N0101.PC12": 1,
+        "DGT/VSQ/N0101.PC13": 1
+      }
+    },
+    {
+      "id": "D06",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 60,
+      "predictedPcs": 56,
+      "tp": 43,
+      "fp": 13,
+      "fn": 17,
+      "precision": 0.7678571428571429,
+      "recall": 0.7166666666666667,
+      "coverage": {
+        "flat": 0.47058823529411764,
+        "weighted": 0.6340762987012989
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N0605.PC6": 1,
+        "CON/N8001.PC5": 1,
+        "CON/N8002.PC10": 1,
+        "CON/N0603.PC14": 1,
+        "CON/N0603.PC9": 1,
+        "CON/N0605.PC13": 1,
+        "CON/N9001.PC17": 1,
+        "CON/N8001.PC2": 1,
+        "DGT/VSQ/N0101.PC18": 1,
+        "CON/N8001.PC1": 1,
+        "CON/N8002.PC1": 1,
+        "CON/N8002.PC4": 1,
+        "DGT/VSQ/N0101.PC1": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC11": 1,
+        "CON/N0603.PC1": 1,
+        "CON/N0603.PC7": 1,
+        "CON/N0603.PC13": 1,
+        "CON/N0604.PC5": 1,
+        "CON/N0604.PC10": 1,
+        "CON/N0605.PC3": 1,
+        "CON/N0605.PC8": 1,
+        "CON/N0605.PC11": 1,
+        "CON/N0605.PC12": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8002.PC2": 1,
+        "CON/N8002.PC7": 1,
+        "CON/N9001.PC1": 1,
+        "CON/N9001.PC8": 1,
+        "CON/N9001.PC13": 1,
+        "DGT/VSQ/N0101.PC12": 1
+      }
+    },
+    {
+      "id": "D07",
+      "category": "partial",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 27,
+      "predictedPcs": 36,
+      "tp": 18,
+      "fp": 18,
+      "fn": 9,
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "coverage": {
+        "flat": 0.3025210084033613,
+        "weighted": 0.39274657287157294
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N8002.PC1": 1,
+        "CON/N0603.PC3": 1,
+        "CON/N0603.PC6": 1,
+        "CON/N0605.PC6": 1,
+        "CON/N0605.PC3": 1,
+        "CON/N0603.PC9": 1,
+        "CON/N0603.PC5": 1,
+        "CON/N0603.PC4": 1,
+        "CON/N0605.PC2": 1,
+        "DGT/VSQ/N0101.PC7": 1,
+        "CON/N0602.PC9": 1,
+        "CON/N0604.PC11": 1,
+        "CON/N0603.PC15": 1,
+        "CON/N8002.PC2": 1,
+        "CON/N8002.PC14": 1,
+        "DGT/VSQ/N0101.PC1": 1,
+        "CON/N9001.PC15": 1,
+        "DGT/VSQ/N0101.PC16": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0602.PC11": 1,
+        "CON/N0604.PC5": 1,
+        "CON/N0604.PC10": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N9001.PC8": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC12": 1
+      }
+    },
+    {
+      "id": "D08",
+      "category": "partial",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 31,
+      "predictedPcs": 37,
+      "tp": 19,
+      "fp": 18,
+      "fn": 12,
+      "precision": 0.5135135135135135,
+      "recall": 0.6129032258064516,
+      "coverage": {
+        "flat": 0.31092436974789917,
+        "weighted": 0.38872240259740265
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N0604.PC9": 1,
+        "CON/N8001.PC1": 1,
+        "CON/N0604.PC3": 1,
+        "CON/N0605.PC6": 1,
+        "CON/N0605.PC3": 1,
+        "CON/N0605.PC12": 1,
+        "CON/N0602.PC9": 1,
+        "CON/N9001.PC15": 1,
+        "CON/N0605.PC2": 1,
+        "CON/N0605.PC14": 1,
+        "CON/N0605.PC13": 1,
+        "CON/N9001.PC17": 1,
+        "CON/N8001.PC2": 1,
+        "CON/N9001.PC4": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8002.PC1": 1,
+        "CON/N8002.PC4": 1,
+        "DGT/VSQ/N0101.PC1": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC3": 1,
+        "CON/N0602.PC11": 1,
+        "CON/N0603.PC7": 1,
+        "CON/N0603.PC8": 1,
+        "CON/N0603.PC10": 1,
+        "CON/N0603.PC13": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8001.PC8": 1,
+        "CON/N9001.PC1": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC12": 1
+      }
+    },
+    {
+      "id": "D09",
+      "category": "partial",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 37,
+      "predictedPcs": 54,
+      "tp": 26,
+      "fp": 28,
+      "fn": 11,
+      "precision": 0.48148148148148145,
+      "recall": 0.7027027027027027,
+      "coverage": {
+        "flat": 0.453781512605042,
+        "weighted": 0.6025005411255414
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N0603.PC6": 1,
+        "CON/N0604.PC9": 1,
+        "CON/N0604.PC10": 1,
+        "CON/N0603.PC1": 1,
+        "CON/N0603.PC13": 1,
+        "CON/N0603.PC4": 1,
+        "CON/N0603.PC3": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "CON/N0603.PC11": 1,
+        "CON/N0603.PC5": 1,
+        "CON/N0603.PC14": 1,
+        "CON/N0602.PC6": 1,
+        "CON/N8002.PC1": 1,
+        "CON/N0604.PC11": 1,
+        "CON/N0603.PC9": 1,
+        "DGT/VSQ/N0101.PC1": 1,
+        "CON/N0604.PC8": 1,
+        "CON/N0603.PC7": 1,
+        "CON/N0603.PC10": 1,
+        "CON/N0605.PC15": 1,
+        "DGT/VSQ/N0101.PC7": 1,
+        "CON/N9001.PC3": 1,
+        "CON/N8002.PC11": 1,
+        "CON/N9001.PC15": 1,
+        "CON/N8002.PC15": 1,
+        "CON/N0603.PC2": 1,
+        "CON/N8001.PC2": 1,
+        "CON/N0603.PC8": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC11": 1,
+        "CON/N0605.PC9": 1,
+        "CON/N0605.PC10": 1,
+        "CON/N0605.PC11": 1,
+        "CON/N0605.PC13": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N9001.PC1": 1,
+        "CON/N9001.PC11": 1,
+        "CON/N9001.PC13": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC12": 1
+      }
+    },
+    {
+      "id": "D10",
+      "category": "partial",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 30,
+      "predictedPcs": 37,
+      "tp": 14,
+      "fp": 23,
+      "fn": 16,
+      "precision": 0.3783783783783784,
+      "recall": 0.4666666666666667,
+      "coverage": {
+        "flat": 0.31092436974789917,
+        "weighted": 0.3912911255411257
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N9001.PC3": 1,
+        "CON/N8002.PC1": 1,
+        "CON/N0603.PC6": 1,
+        "CON/N0603.PC13": 1,
+        "CON/N0603.PC15": 1,
+        "CON/N0605.PC2": 1,
+        "CON/N0605.PC1": 1,
+        "CON/N0605.PC3": 1,
+        "CON/N0605.PC4": 1,
+        "CON/N0605.PC6": 1,
+        "CON/N0603.PC5": 1,
+        "CON/N0603.PC8": 1,
+        "CON/N9001.PC15": 1,
+        "CON/N9001.PC16": 1,
+        "CON/N0603.PC7": 1,
+        "CON/N0605.PC11": 1,
+        "CON/N0603.PC4": 1,
+        "CON/N0605.PC14": 1,
+        "DGT/VSQ/N0101.PC1": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "CON/N0603.PC3": 1,
+        "CON/N8002.PC11": 1,
+        "CON/N0605.PC10": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0602.PC3": 1,
+        "CON/N0604.PC1": 1,
+        "CON/N0604.PC7": 1,
+        "CON/N8001.PC1": 1,
+        "CON/N8001.PC5": 1,
+        "CON/N8002.PC8": 1,
+        "CON/N8002.PC10": 1,
+        "CON/N8002.PC14": 1,
+        "CON/N9001.PC8": 1,
+        "DGT/VSQ/N0101.PC5": 1,
+        "DGT/VSQ/N0101.PC12": 1,
+        "DGT/VSQ/N0101.PC13": 1,
+        "DGT/VSQ/N0101.PC14": 1,
+        "DGT/VSQ/N0101.PC15": 1,
+        "DGT/VSQ/N0101.PC17": 1
+      }
+    },
+    {
+      "id": "D11",
+      "category": "partial",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 57,
+      "predictedPcs": 47,
+      "tp": 31,
+      "fp": 16,
+      "fn": 26,
+      "precision": 0.6595744680851063,
+      "recall": 0.543859649122807,
+      "coverage": {
+        "flat": 0.3949579831932773,
+        "weighted": 0.5193284632034634
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "DGT/VSQ/N0101.PC16": 1,
+        "CON/N8002.PC1": 1,
+        "CON/N9001.PC15": 1,
+        "CON/N0602.PC9": 1,
+        "CON/N0604.PC10": 1,
+        "CON/N0604.PC11": 1,
+        "CON/N0605.PC12": 1,
+        "CON/N0603.PC15": 1,
+        "CON/N0603.PC9": 1,
+        "CON/N0605.PC14": 1,
+        "CON/N0605.PC13": 1,
+        "CON/N9001.PC17": 1,
+        "CON/N8001.PC2": 1,
+        "DGT/VSQ/N0101.PC1": 1,
+        "CON/N9001.PC14": 1,
+        "DGT/VSQ/N0101.PC7": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC3": 1,
+        "CON/N0602.PC11": 1,
+        "CON/N0603.PC7": 1,
+        "CON/N0603.PC8": 1,
+        "CON/N0603.PC10": 1,
+        "CON/N0603.PC13": 1,
+        "CON/N0604.PC1": 1,
+        "CON/N0604.PC5": 1,
+        "CON/N0604.PC8": 1,
+        "CON/N0605.PC3": 1,
+        "CON/N0605.PC8": 1,
+        "CON/N0605.PC9": 1,
+        "CON/N0605.PC10": 1,
+        "CON/N0605.PC16": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8001.PC6": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8001.PC9": 1,
+        "CON/N8002.PC11": 1,
+        "CON/N8002.PC12": 1,
+        "CON/N9001.PC1": 1,
+        "CON/N9001.PC8": 1,
+        "CON/N9001.PC13": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC10": 1,
+        "DGT/VSQ/N0101.PC12": 1
+      }
+    },
+    {
+      "id": "D12",
+      "category": "short",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 5,
+      "predictedPcs": 10,
+      "tp": 3,
+      "fp": 7,
+      "fn": 2,
+      "precision": 0.3,
+      "recall": 0.6,
+      "coverage": {
+        "flat": 0.08403361344537816,
+        "weighted": 0.12325631313131316
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N0602.PC8": 1,
+        "CON/N0602.PC10": 1,
+        "CON/N0603.PC4": 1,
+        "CON/N0603.PC6": 1,
+        "CON/N0604.PC9": 1,
+        "CON/N8002.PC10": 1,
+        "DGT/VSQ/N0101.PC1": 1
+      },
+      "falseNegatives": {
+        "CON/N8002.PC8": 1,
+        "CON/N9001.PC7": 1
+      }
+    },
+    {
+      "id": "D13",
+      "category": "short",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": null,
+      "top1": false,
+      "expectedPcs": 0,
+      "predictedPcs": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "coverage": {
+        "flat": 0,
+        "weighted": 0
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {},
+      "falseNegatives": {}
+    },
+    {
+      "id": "D14",
+      "category": "short",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 13,
+      "predictedPcs": 16,
+      "tp": 9,
+      "fp": 7,
+      "fn": 4,
+      "precision": 0.5625,
+      "recall": 0.6923076923076923,
+      "coverage": {
+        "flat": 0.13445378151260504,
+        "weighted": 0.2097886002886003
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N0604.PC3": 1,
+        "CON/N0603.PC6": 1,
+        "CON/N0604.PC9": 1,
+        "DGT/VSQ/N0101.PC10": 1,
+        "CON/N0603.PC3": 1,
+        "CON/N0603.PC14": 1,
+        "CON/N8002.PC1": 1
+      },
+      "falseNegatives": {
+        "CON/N0604.PC8": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8002.PC7": 1,
+        "DGT/VSQ/N0101.PC9": 1
+      }
+    },
+    {
+      "id": "D15",
+      "category": "short",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 4,
+      "predictedPcs": 3,
+      "tp": 2,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "coverage": {
+        "flat": 0.025210084033613446,
+        "weighted": 0.03663419913419914
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N0602.PC2": 1
+      },
+      "falseNegatives": {
+        "CON/N0603.PC12": 1,
+        "CON/N8001.PC4": 1
+      }
+    },
+    {
+      "id": "D16",
+      "category": "hinglish",
+      "style": "hinglish-roman",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 70,
+      "predictedPcs": 54,
+      "tp": 43,
+      "fp": 11,
+      "fn": 27,
+      "precision": 0.7962962962962963,
+      "recall": 0.6142857142857143,
+      "coverage": {
+        "flat": 0.453781512605042,
+        "weighted": 0.5960604256854258
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N9001.PC15": 1,
+        "CON/N9001.PC2": 1,
+        "CON/N8002.PC11": 1,
+        "CON/N9001.PC11": 1,
+        "DGT/VSQ/N0101.PC10": 1,
+        "DGT/VSQ/N0101.PC20": 1,
+        "CON/N9001.PC17": 1,
+        "CON/N8001.PC2": 1,
+        "CON/N8002.PC10": 1,
+        "DGT/VSQ/N0101.PC1": 1,
+        "DGT/VSQ/N0101.PC13": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0602.PC3": 1,
+        "CON/N0602.PC11": 1,
+        "CON/N0603.PC1": 1,
+        "CON/N0603.PC2": 1,
+        "CON/N0603.PC4": 1,
+        "CON/N0603.PC10": 1,
+        "CON/N0603.PC13": 1,
+        "CON/N0603.PC14": 1,
+        "CON/N0604.PC1": 1,
+        "CON/N0605.PC3": 1,
+        "CON/N0605.PC4": 1,
+        "CON/N0605.PC6": 1,
+        "CON/N0605.PC9": 1,
+        "CON/N0605.PC11": 1,
+        "CON/N0605.PC16": 1,
+        "CON/N8001.PC3": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8002.PC7": 1,
+        "CON/N8002.PC8": 1,
+        "CON/N9001.PC1": 1,
+        "CON/N9001.PC4": 1,
+        "CON/N9001.PC12": 1,
+        "CON/N9001.PC13": 1,
+        "CON/N9001.PC14": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC12": 1
+      }
+    },
+    {
+      "id": "D17",
+      "category": "hinglish",
+      "style": "hinglish-devanagari",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 25,
+      "predictedPcs": 35,
+      "tp": 13,
+      "fp": 22,
+      "fn": 12,
+      "precision": 0.37142857142857144,
+      "recall": 0.52,
+      "coverage": {
+        "flat": 0.29411764705882354,
+        "weighted": 0.42783062770562785
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N0603.PC15": 1,
+        "CON/N0605.PC2": 1,
+        "CON/N9001.PC15": 1,
+        "CON/N8002.PC15": 1,
+        "CON/N0603.PC6": 1,
+        "CON/N0605.PC6": 1,
+        "CON/N0605.PC1": 1,
+        "CON/N0605.PC7": 1,
+        "CON/N8002.PC1": 1,
+        "CON/N8002.PC3": 1,
+        "CON/N0603.PC12": 1,
+        "CON/N0605.PC12": 1,
+        "CON/N0605.PC13": 1,
+        "CON/N9001.PC17": 1,
+        "CON/N8001.PC2": 1,
+        "CON/N0603.PC9": 1,
+        "CON/N0605.PC8": 1,
+        "CON/N0603.PC10": 1,
+        "CON/N0605.PC11": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "CON/N0603.PC8": 1,
+        "DGT/VSQ/N0101.PC13": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0602.PC2": 1,
+        "CON/N0602.PC3": 1,
+        "CON/N0602.PC11": 1,
+        "CON/N8001.PC3": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8002.PC7": 1,
+        "CON/N9001.PC1": 1,
+        "CON/N9001.PC5": 1,
+        "CON/N9001.PC7": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC12": 1
+      }
+    },
+    {
+      "id": "D18",
+      "category": "hinglish",
+      "style": "hinglish-roman",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 30,
+      "predictedPcs": 27,
+      "tp": 13,
+      "fp": 14,
+      "fn": 17,
+      "precision": 0.48148148148148145,
+      "recall": 0.43333333333333335,
+      "coverage": {
+        "flat": 0.226890756302521,
+        "weighted": 0.3300045093795095
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N8001.PC8": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "CON/N0603.PC6": 1,
+        "CON/N0605.PC12": 1,
+        "DGT/VSQ/N0101.PC14": 1,
+        "CON/N0602.PC8": 1,
+        "CON/N0602.PC10": 1,
+        "CON/N9001.PC11": 1,
+        "CON/N8002.PC1": 1,
+        "CON/N0602.PC9": 1,
+        "CON/N0603.PC15": 1,
+        "CON/N0605.PC2": 1,
+        "DGT/VSQ/N0101.PC1": 1,
+        "CON/N9001.PC15": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0602.PC2": 1,
+        "CON/N0602.PC3": 1,
+        "CON/N0602.PC11": 1,
+        "CON/N0603.PC1": 1,
+        "CON/N0603.PC2": 1,
+        "CON/N0603.PC4": 1,
+        "CON/N0603.PC5": 1,
+        "CON/N0603.PC10": 1,
+        "CON/N0603.PC13": 1,
+        "CON/N0603.PC14": 1,
+        "CON/N0604.PC1": 1,
+        "CON/N0604.PC8": 1,
+        "CON/N0604.PC10": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N9001.PC7": 1,
+        "DGT/VSQ/N0101.PC9": 1
+      }
+    },
+    {
+      "id": "D19",
+      "category": "other-trade",
+      "style": "hindi",
+      "expectedQp": "CON/Q0103",
+      "predictedQp": "CON/Q0103",
+      "top1": true,
+      "expectedPcs": 67,
+      "predictedPcs": 110,
+      "tp": 56,
+      "fp": 54,
+      "fn": 11,
+      "precision": 0.509090909090909,
+      "recall": 0.835820895522388,
+      "coverage": {
+        "flat": 0.6666666666666666,
+        "weighted": 0.664841666666667
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N0111.PC1": 1,
+        "CON/N0112.PC3": 1,
+        "CON/N0114.PC8": 1,
+        "CON/N0113.PC1": 1,
+        "CON/N0110.PC22": 1,
+        "CON/N0113.PC20": 1,
+        "CON/N0110.PC31": 1,
+        "CON/N0113.PC24": 1,
+        "CON/N0110.PC32": 1,
+        "CON/N0113.PC16": 1,
+        "CON/N0113.PC22": 1,
+        "CON/N0114.PC30": 1,
+        "CON/N0112.PC5": 1,
+        "CON/N0112.PC11": 1,
+        "CON/N0114.PC2": 1,
+        "CON/N0113.PC19": 1,
+        "CON/N0114.PC6": 1,
+        "CON/N0114.PC18": 1,
+        "CON/N0110.PC21": 1,
+        "CON/N0112.PC7": 1,
+        "CON/N0112.PC15": 1,
+        "CON/N0113.PC7": 1,
+        "CON/N0114.PC1": 1,
+        "CON/N0114.PC9": 1,
+        "CON/N0114.PC17": 1,
+        "CON/N8002.PC4": 1,
+        "CON/N0112.PC1": 1,
+        "CON/N0112.PC14": 1,
+        "CON/N0113.PC9": 1,
+        "CON/N0114.PC25": 1,
+        "CON/N0110.PC29": 1,
+        "CON/N0110.PC30": 1,
+        "CON/N0114.PC28": 1,
+        "CON/N0110.PC15": 1,
+        "CON/N0113.PC18": 1,
+        "CON/N0113.PC26": 1,
+        "CON/N0114.PC14": 1,
+        "CON/N8002.PC6": 1,
+        "CON/N0111.PC17": 1,
+        "CON/N0113.PC4": 1,
+        "CON/N0113.PC2": 1,
+        "CON/N0111.PC4": 1,
+        "CON/N0114.PC11": 1,
+        "CON/N8001.PC3": 1,
+        "CON/N0114.PC13": 1,
+        "CON/N0114.PC15": 1,
+        "CON/N0110.PC25": 1,
+        "CON/N0112.PC20": 1,
+        "CON/N0113.PC8": 1,
+        "CON/N0113.PC25": 1,
+        "CON/N0114.PC5": 1,
+        "CON/N0114.PC21": 1,
+        "CON/N0114.PC31": 1,
+        "CON/N8002.PC7": 1
+      },
+      "falseNegatives": {
+        "CON/N0110.PC34": 1,
+        "CON/N0112.PC13": 1,
+        "CON/N0112.PC19": 1,
+        "CON/N8001.PC1": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8001.PC5": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8002.PC2": 1,
+        "CON/N8002.PC10": 1,
+        "CON/N9001.PC1": 1,
+        "CON/N9001.PC11": 1
+      }
+    },
+    {
+      "id": "D20",
+      "category": "other-trade",
+      "style": "hindi",
+      "expectedQp": "CON/Q0103",
+      "predictedQp": "CON/Q0103",
+      "top1": true,
+      "expectedPcs": 29,
+      "predictedPcs": 83,
+      "tp": 23,
+      "fp": 60,
+      "fn": 6,
+      "precision": 0.27710843373493976,
+      "recall": 0.7931034482758621,
+      "coverage": {
+        "flat": 0.503030303030303,
+        "weighted": 0.4929780952380954
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 0,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "keyword-v1",
+        "models": [],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N0110.PC12": 1,
+        "CON/N0111.PC14": 1,
+        "CON/N0112.PC11": 1,
+        "CON/N0112.PC19": 1,
+        "CON/N0114.PC13": 1,
+        "CON/N0110.PC21": 1,
+        "CON/N0111.PC8": 1,
+        "CON/N0111.PC11": 1,
+        "CON/N0112.PC9": 1,
+        "CON/N0112.PC15": 1,
+        "CON/N0113.PC19": 1,
+        "CON/N8002.PC4": 1,
+        "CON/N0110.PC7": 1,
+        "CON/N0110.PC30": 1,
+        "CON/N0111.PC6": 1,
+        "CON/N0111.PC12": 1,
+        "CON/N0114.PC8": 1,
+        "CON/N0110.PC2": 1,
+        "CON/N0110.PC19": 1,
+        "CON/N0110.PC22": 1,
+        "CON/N0110.PC31": 1,
+        "CON/N0110.PC35": 1,
+        "CON/N0112.PC18": 1,
+        "CON/N0113.PC14": 1,
+        "CON/N0113.PC21": 1,
+        "CON/N0114.PC29": 1,
+        "CON/N0110.PC3": 1,
+        "CON/N0110.PC5": 1,
+        "CON/N0112.PC20": 1,
+        "CON/N0113.PC8": 1,
+        "CON/N0113.PC25": 1,
+        "CON/N0111.PC5": 1,
+        "CON/N0110.PC9": 1,
+        "CON/N0110.PC17": 1,
+        "CON/N0111.PC15": 1,
+        "CON/N0111.PC16": 1,
+        "CON/N0112.PC5": 1,
+        "CON/N0112.PC16": 1,
+        "CON/N0112.PC21": 1,
+        "CON/N0114.PC12": 1,
+        "CON/N0110.PC14": 1,
+        "CON/N0110.PC16": 1,
+        "CON/N0110.PC25": 1,
+        "CON/N0110.PC26": 1,
+        "CON/N0111.PC2": 1,
+        "CON/N0111.PC9": 1,
+        "CON/N0112.PC4": 1,
+        "CON/N0114.PC1": 1,
+        "CON/N0111.PC7": 1,
+        "CON/N0113.PC24": 1,
+        "CON/N0110.PC24": 1,
+        "CON/N0110.PC32": 1,
+        "CON/N0111.PC17": 1,
+        "CON/N0112.PC22": 1,
+        "CON/N0114.PC30": 1,
+        "CON/N0114.PC31": 1,
+        "CON/N0110.PC11": 1,
+        "CON/N0112.PC10": 1,
+        "CON/N0114.PC7": 1,
+        "CON/N0112.PC17": 1
+      },
+      "falseNegatives": {
+        "CON/N0113.PC3": 1,
+        "CON/N0113.PC4": 1,
+        "CON/N0114.PC19": 1,
+        "CON/N8001.PC1": 1,
+        "CON/N8002.PC5": 1,
+        "CON/N9001.PC12": 1
+      }
+    }
+  ]
+}

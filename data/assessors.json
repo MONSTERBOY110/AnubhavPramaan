@@ -1,0 +1,10 @@
+[
+  {
+    "id": "AS-0142",
+    "name": "Demo Assessor",
+    "agency": "Demo Assessment Agency (prototype only)",
+    "salt": "ap-demo-2026",
+    "pinSha256": "8392a1a19414b7c5c901bddf824c6d7cc4839fb810e9ab2e50b97ccac100dbbf",
+    "demo": true
+  }
+]

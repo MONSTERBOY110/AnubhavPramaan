@@ -79,7 +79,7 @@ Must-cite references for the idea deck are marked ★.
 **Typical values in practical-skill exams**
 - Clinical skills exams (OSCE), meta-analysis: reliability 0.66 across stations and 0.78 within a station [M5].
 - Examiner stringency or leniency explained 12% of score variance in a UK medical exam [M6].
-- 10 examiners scoring the same 4 videos agreed on pass or fail at a **Fleiss' kappa of 0.07**, with disagreement concentrated on borderline candidates [M7★]. Our grand finale study copies this design.
+- 10 examiners scoring the same 4 videos of mock oral exams agreed on pass, borderline or fail at a **Fleiss' kappa of 0.07**, with disagreement concentrated on borderline candidates [M7★]. Our grand finale study copies this design.
 
 **Rubrics:** a review of 75 studies found rubrics improve scoring reliability, especially when analytic, task-specific, and backed by exemplars and rater training [M1★].
 

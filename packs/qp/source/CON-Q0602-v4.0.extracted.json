@@ -1,0 +1,1289 @@
+{
+  "id": "CON/Q0602",
+  "version": "4.0",
+  "title": "Assistant Electrician",
+  "nsqfLevel": "3",
+  "nos": [
+    {
+      "id": "CON/N0602",
+      "title": "Handle hand and power tools relevant to construction electrical works",
+      "version": "5.0",
+      "nsqfLevel": "3",
+      "credits": "2",
+      "weightagePct": 20,
+      "marks": {
+        "theory": 30,
+        "practical": 70,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Handle hand/power tools for electrical works.",
+          "marks": {
+            "theory": 30,
+            "practical": 70,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 5
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N0602.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "perform basic checks on power tools prior to use",
+          "page": 5
+        },
+        {
+          "id": "CON/N0602.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "handle hand/power tools for establishing/ terminating electrical connections as per requirement",
+          "page": 5
+        },
+        {
+          "id": "CON/N0602.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "use appropriate tools to trace out short circuits/faults and leakages in electrical wiring",
+          "page": 5
+        },
+        {
+          "id": "CON/N0602.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "use measuring instruments to measure size and dimension of wires, conduits as per electrical installation or maintenance work requirement",
+          "page": 5
+        },
+        {
+          "id": "CON/N0602.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "use hand/ power tools to cut, and bend wire and conduit as per electrical installation or maintenance work requirement",
+          "page": 5
+        },
+        {
+          "id": "CON/N0602.PC6",
+          "code": "PC6",
+          "element": "E1",
+          "text": "use appropriate tools to splice wires by stripping insulation from terminal leads and twisting wires together",
+          "page": 5
+        },
+        {
+          "id": "CON/N0602.PC7",
+          "code": "PC7",
+          "element": "E1",
+          "text": "use appropriate hand/power tools to thread conduit ends, connect couplings, and fabricate and secure conduit support brackets",
+          "page": 5
+        },
+        {
+          "id": "CON/N0602.PC8",
+          "code": "PC8",
+          "element": "E1",
+          "text": "use appropriate electrical measuring devices like ammmeter, voltmeter,meggers etc.to examine electrical units for power interruptions/ continuity",
+          "page": 5
+        },
+        {
+          "id": "CON/N0602.PC9",
+          "code": "PC9",
+          "element": "E1",
+          "text": "use electrical devices such as starters, circuit breakers, relays as per equipment/ wiring installation rating or current rating",
+          "page": 5
+        },
+        {
+          "id": "CON/N0602.PC10",
+          "code": "PC10",
+          "element": "E1",
+          "text": "use diagnostic devices like multi-meter, tong tester, earth tester or similar devices to install, repair power connections",
+          "page": 5
+        },
+        {
+          "id": "CON/N0602.PC11",
+          "code": "PC11",
+          "element": "E1",
+          "text": "perform maintenance and upkeep of relevant tools and devices after use",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "CON/N0603",
+      "title": "Install temporary lighting arrangement at construction sites",
+      "version": "5.0",
+      "nsqfLevel": "3",
+      "credits": "2",
+      "weightagePct": 20,
+      "marks": {
+        "theory": 30,
+        "practical": 70,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Installation of temporary lighting arrangement at construction sites",
+          "marks": {
+            "theory": 15,
+            "practical": 35,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 9
+        },
+        {
+          "id": "E2",
+          "title": "Maintenance of installed lighting arrangements",
+          "marks": {
+            "theory": 15,
+            "practical": 35,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 9
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N0603.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "check cable, conduits , lights, sockets, temporary power distribution panels at power source and other required fixtures and accessories as per manufacturers guidelines and specification",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "lay cables through ducts or conduits, underground or through poles (overhead) as per plans and instructions",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "select the type and wattage of lights considering illumination requirement at worksite and install them at secured positions",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "fix lights and its accessories, brackets, bulkheads with screws and bolts or by other standard means, pull wires through conduit leading to connection boxes, temporary panels/ distribution boards or other temporary electrical terminals",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "extend/ join LV electrical cable using straight through joints, splicing them together and secure joints by applying PVC insulation tapes, caps or by other safe method as and when necessary",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC6",
+          "code": "PC6",
+          "element": "E1",
+          "text": "carry out termination of LV cables selecting the right method as per standard practice",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC7",
+          "code": "PC7",
+          "element": "E1",
+          "text": "work safely as per electrical safety guidelines provided by manufacturer, standard safety practice or organizational safety norms while establishing or disconnecting live electrical connections",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC8",
+          "code": "PC8",
+          "element": "E1",
+          "text": "upkeep of all relevant key electrical tools and fixtures",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC9",
+          "code": "PC9",
+          "element": "E1",
+          "text": "tag embedded, exposed electrical lines and other key equipment appropriately",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC10",
+          "code": "PC10",
+          "element": "E2",
+          "text": "shift light at various locations during construction activity as per requirement",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC11",
+          "code": "PC11",
+          "element": "E2",
+          "text": "repair and replace light arrangements as per instruction or requirement",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC12",
+          "code": "PC12",
+          "element": "E2",
+          "text": "replace burned out bulbs, light units and ballast in light fixtures as needed",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC13",
+          "code": "PC13",
+          "element": "E2",
+          "text": "carry out relevant tests to trace out power interruptions/ continuity at lighting arrangements",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC14",
+          "code": "PC14",
+          "element": "E2",
+          "text": "replace damaged cable, other relevant parts as and when necessary",
+          "page": 9
+        },
+        {
+          "id": "CON/N0603.PC15",
+          "code": "PC15",
+          "element": "E2",
+          "text": "replace faulty circuit breakers, fuses, switches, electrical and electronic components and wire as per requirement",
+          "page": 10
+        },
+        {
+          "id": "CON/N0603.PC16",
+          "code": "PC16",
+          "element": "E2",
+          "text": "perform preventive maintenance on diesel generators at site provided for temporary lighting (if any) at scheduled intervals as per direction of concerned authority",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "id": "CON/N0604",
+      "title": "Assist in LV (Low Voltage) electrical wiring at permanent structures",
+      "version": "5.0",
+      "nsqfLevel": "3",
+      "credits": "2",
+      "weightagePct": 20,
+      "marks": {
+        "theory": 30,
+        "practical": 70,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Provide assistance for LV electrical wiring work in permanent structures",
+          "marks": {
+            "theory": 30,
+            "practical": 70,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 15
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N0604.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "select house wiring components (such as wires flexible and rigid conduits, PVC raceways wooden battens, clamps etc according to their specification size",
+          "page": 15
+        },
+        {
+          "id": "CON/N0604.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "read and interpret single phase LV wiring diagram",
+          "page": 15
+        },
+        {
+          "id": "CON/N0604.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "carry out necessary linear measurement to cut bend join conduits and cables and use them as per requirement or instruction",
+          "page": 15
+        },
+        {
+          "id": "CON/N0604.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "lay conduit through RCC structures (slabs beams walls) or through chased wall (brick wall) surface as per instruction",
+          "page": 15
+        },
+        {
+          "id": "CON/N0604.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "lock conduit pipe in its location by means of clamp or other standard means as per instruction",
+          "page": 15
+        },
+        {
+          "id": "CON/N0604.PC6",
+          "code": "PC6",
+          "element": "E1",
+          "text": "pull, push wires through conduits in order to expose them at desired locations as per requirement",
+          "page": 15
+        },
+        {
+          "id": "CON/N0604.PC7",
+          "code": "PC7",
+          "element": "E1",
+          "text": "perform drilling and cutting using appropriate tools as per requirement",
+          "page": 15
+        },
+        {
+          "id": "CON/N0604.PC8",
+          "code": "PC8",
+          "element": "E1",
+          "text": "handle shift and assist in fixing electrical fixtures and fittings as per instructions",
+          "page": 15
+        },
+        {
+          "id": "CON/N0604.PC9",
+          "code": "PC9",
+          "element": "E1",
+          "text": "carry out termination of cables safely as per instruction",
+          "page": 15
+        },
+        {
+          "id": "CON/N0604.PC10",
+          "code": "PC10",
+          "element": "E1",
+          "text": "test electrical circuit during and post wiring activity using appropriate tools as per direction of electrician",
+          "page": 15
+        },
+        {
+          "id": "CON/N0604.PC11",
+          "code": "PC11",
+          "element": "E1",
+          "text": "assist in carrying out electrical earthing work by installing earthing components as per instructions",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "CON/N0605",
+      "title": "Assemble, install and maintain temporary LV electrical panels (distribution boards) at construction site",
+      "version": "5.0",
+      "nsqfLevel": "3",
+      "credits": "3",
+      "weightagePct": 20,
+      "marks": {
+        "theory": 30,
+        "practical": 70,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Assemble temporary LV power distribution panels (distribution boards)",
+          "marks": {
+            "theory": 20,
+            "practical": 40,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 20
+        },
+        {
+          "id": "E2",
+          "title": "Repair/ replace faulty parts/ fixtures as per requirement",
+          "marks": {
+            "theory": 10,
+            "practical": 30,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 20
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N0605.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "read relevant SLDs(Single Line Diagrams), instructions, safety guidelines, manufacturers specifications prior to assembling temporary panel/ distribution boards",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "install required fixtures like power sockets, switches, wires, MCBs(Miniature Circuit Breakers) of appropriate specification as per circuit load requirement",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "ensure tightness and safe working condition of wires, fixtures prior to the connection of the assembly with power source",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "connect DB (Distribution Board) to main power cable and perform standard tests to ensure its safe and desired working",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "place and secure the distribution board against external damaging agents like water, fire etc",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC6",
+          "code": "PC6",
+          "element": "E1",
+          "text": "carry out proper termination of cables as per standard practice while connecting to the sockets of the panel",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC7",
+          "code": "PC7",
+          "element": "E1",
+          "text": "carry out earthing of the panels as per standard procedure",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC8",
+          "code": "PC8",
+          "element": "E1",
+          "text": "check and ensure necessary tagging and barrication near the live/ active electrical distribution boards",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC9",
+          "code": "PC9",
+          "element": "E2",
+          "text": "carry out visual inspection of the live/ active board regularly to ensure safe working condition of all components",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC10",
+          "code": "PC10",
+          "element": "E2",
+          "text": "ensure that the live connections get discontinued after completion of daily construction works in order to minimize energy wastage and enhance working efficiency of electrical units",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC11",
+          "code": "PC11",
+          "element": "E2",
+          "text": "respond promptly to failure/ damage or malfunctioning of panel or any of its components",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC12",
+          "code": "PC12",
+          "element": "E2",
+          "text": "carry out necessary tests in order to determine root cause of failure",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC13",
+          "code": "PC13",
+          "element": "E2",
+          "text": "notify concerned authorities prior to shut down, deactivation or repair of the electrical unit",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC14",
+          "code": "PC14",
+          "element": "E2",
+          "text": "replace/ repair faulty components as per SLD, instructions, safety guidelines and manufacturers specifications",
+          "page": 20
+        },
+        {
+          "id": "CON/N0605.PC15",
+          "code": "PC15",
+          "element": "E2",
+          "text": "document and keep records relevant to maintenance/ repair of panels as per organizational norms",
+          "page": 21
+        },
+        {
+          "id": "CON/N0605.PC16",
+          "code": "PC16",
+          "element": "E2",
+          "text": "isolate the panel safely and shift to another location as per requirement",
+          "page": 21
+        }
+      ]
+    },
+    {
+      "id": "CON/N9001",
+      "title": "Work according to personal health, safety and environment protocols at construction site",
+      "version": "3.0",
+      "nsqfLevel": "4",
+      "credits": "1",
+      "weightagePct": 5,
+      "marks": {
+        "theory": 30,
+        "practical": 70,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Follow safety norms as defined by the organization",
+          "marks": {
+            "theory": 5,
+            "practical": 15,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 26
+        },
+        {
+          "id": "E2",
+          "title": "Adopt healthy & safe work practices",
+          "marks": {
+            "theory": 15,
+            "practical": 35,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 26
+        },
+        {
+          "id": "E3",
+          "title": "Implement good housekeeping practices",
+          "marks": {
+            "theory": 5,
+            "practical": 15,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 26
+        },
+        {
+          "id": "E4",
+          "title": "Follow infection control guidelines as per applicability",
+          "marks": {
+            "theory": 5,
+            "practical": 5,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 27
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N9001.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "identify and report any hazards, risks or breaches in site safety to the appropriate authority",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "follow emergency and evacuation procedures in case of accidents, fires, natural calamities",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "follow recommended safe practices in handling construction materials, including chemical and hazardous material whenever applicable",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "follow all the protocols and safety techniques conveyed during safety awareness programs like Tool Box Talks, safety demonstrations and mock drills conducted at the site",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "select and operate different types of fire extinguishers corresponding to various types of fires as per EHS guideline",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC6",
+          "code": "PC6",
+          "element": "E1",
+          "text": "identify near miss, unsafe condition and unsafe act",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC7",
+          "code": "PC7",
+          "element": "E2",
+          "text": "use appropriate Personal Protective Equipment (PPE) as per work requirements for : Head Protection, Ear protection, Fall Protection ,Foot Protection, Face and Eye Protection, Hand and Body Protection , and Respiratory Protection (if required)",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC8",
+          "code": "PC8",
+          "element": "E2",
+          "text": "handle all required tools, tackles, materials and equipment safely",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC9",
+          "code": "PC9",
+          "element": "E2",
+          "text": "follow safe disposal of waste, harmful and hazardous materials as per EHS guidelines",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC10",
+          "code": "PC10",
+          "element": "E2",
+          "text": "check and install all safety equipment as per standard guidelines",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC11",
+          "code": "PC11",
+          "element": "E2",
+          "text": "follow safety protocols and practices as laid down by site EHS department",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC12",
+          "code": "PC12",
+          "element": "E2",
+          "text": "obtain \"height pass\" clearance for working at heights",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC13",
+          "code": "PC13",
+          "element": "E3",
+          "text": "collect, segregate and deposit construction waste into appropriate containers based on their toxicity or hazardous nature",
+          "page": 26
+        },
+        {
+          "id": "CON/N9001.PC14",
+          "code": "PC14",
+          "element": "E3",
+          "text": "apply ergonomic principles wherever required",
+          "page": 27
+        },
+        {
+          "id": "CON/N9001.PC15",
+          "code": "PC15",
+          "element": "E4",
+          "text": "follow recommended personal hygiene, workplace hygiene and sanitization practices",
+          "page": 27
+        },
+        {
+          "id": "CON/N9001.PC16",
+          "code": "PC16",
+          "element": "E4",
+          "text": "clean and disinfect all materials, tools and supplies before and after use",
+          "page": 27
+        },
+        {
+          "id": "CON/N9001.PC17",
+          "code": "PC17",
+          "element": "E4",
+          "text": "report immediately to concerned authorities regarding signs and symptoms of illness of self and others",
+          "page": 27
+        }
+      ]
+    },
+    {
+      "id": "CON/N8001",
+      "title": "Work effectively in a team to deliver desired results at the workplace",
+      "version": "3.0",
+      "nsqfLevel": "4",
+      "credits": "1",
+      "weightagePct": 5,
+      "marks": {
+        "theory": 30,
+        "practical": 70,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Interact and communicate in an effective manner",
+          "marks": {
+            "theory": 20,
+            "practical": 40,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 32
+        },
+        {
+          "id": "E2",
+          "title": "Support co-workers to execute the project requirements",
+          "marks": {
+            "theory": 5,
+            "practical": 15,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 32
+        },
+        {
+          "id": "E3",
+          "title": "Practice inclusion",
+          "marks": {
+            "theory": 5,
+            "practical": 15,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 32
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N8001.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "pass on work related information/ requirement clearly to the team members",
+          "page": 32
+        },
+        {
+          "id": "CON/N8001.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "inform co-workers and superiors about any kind of deviations from work",
+          "page": 32
+        },
+        {
+          "id": "CON/N8001.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "report any unresolved problem to the supervisor immediately",
+          "page": 32
+        },
+        {
+          "id": "CON/N8001.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "obtain instructions from superiors and respond on the same",
+          "page": 32
+        },
+        {
+          "id": "CON/N8001.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "communicate to team members/subordinates for appropriate work technique and method",
+          "page": 32
+        },
+        {
+          "id": "CON/N8001.PC6",
+          "code": "PC6",
+          "element": "E1",
+          "text": "seek clarification and advice as per the requirement",
+          "page": 32
+        },
+        {
+          "id": "CON/N8001.PC7",
+          "code": "PC7",
+          "element": "E2",
+          "text": "hand over the required material, tools, tackles, equipment and work fronts timely to interfacing teams",
+          "page": 32
+        },
+        {
+          "id": "CON/N8001.PC8",
+          "code": "PC8",
+          "element": "E2",
+          "text": "work together with co-workers in a synchronized manner",
+          "page": 32
+        },
+        {
+          "id": "CON/N8001.PC9",
+          "code": "PC9",
+          "element": "E3",
+          "text": "maintain cultural inclusivity at work place",
+          "page": 32
+        },
+        {
+          "id": "CON/N8001.PC10",
+          "code": "PC10",
+          "element": "E3",
+          "text": "maintain disability friendly work practices",
+          "page": 32
+        },
+        {
+          "id": "CON/N8001.PC11",
+          "code": "PC11",
+          "element": "E3",
+          "text": "follow gender neutral practices at workplace",
+          "page": 32
+        },
+        {
+          "id": "CON/N8001.PC12",
+          "code": "PC12",
+          "element": "E3",
+          "text": "address discriminatory and offensive behaviour in a professional manner as per organizational policy",
+          "page": 32
+        }
+      ]
+    },
+    {
+      "id": "CON/N8002",
+      "title": "Plan and organize work to meet expected outcomes",
+      "version": "4.0",
+      "nsqfLevel": "4",
+      "credits": "1",
+      "weightagePct": 5,
+      "marks": {
+        "theory": 30,
+        "practical": 70,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Plan and prepare for work",
+          "marks": {
+            "theory": 10,
+            "practical": 20,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 36
+        },
+        {
+          "id": "E2",
+          "title": "Organise required resources as per work plan",
+          "marks": {
+            "theory": 5,
+            "practical": 15,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 36
+        },
+        {
+          "id": "E3",
+          "title": "Complete work as per the plan",
+          "marks": {
+            "theory": 15,
+            "practical": 35,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 36
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N8002.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "identify the targets and timelines set by superiors",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "determine the work requirements corresponding to task(drawings/schedules/instructions/methodology), safety, tools and equipment prior to commencement of task",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "plan the work by analyzing the required outcomes, work procedures, allotted time, resource availability and known priorities",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "prepare the work areas in coordination with team members",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "plan for waste collection and disposal prior to and after completion of work",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC6",
+          "code": "PC6",
+          "element": "E2",
+          "text": "arrange the required manpower prior to commencement of work",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC7",
+          "code": "PC7",
+          "element": "E2",
+          "text": "organize the required materials, tools and tackles required for the task",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC8",
+          "code": "PC8",
+          "element": "E3",
+          "text": "engage allocated manpower in an appropriate manner",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC9",
+          "code": "PC9",
+          "element": "E3",
+          "text": "employ correct tools, tackles and equipment for the desired work",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC10",
+          "code": "PC10",
+          "element": "E3",
+          "text": "provide guidance to the subordinates to obtain desired outcome",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC11",
+          "code": "PC11",
+          "element": "E3",
+          "text": "use resources in an optimum manner to avoid any unnecessary wastage",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC12",
+          "code": "PC12",
+          "element": "E3",
+          "text": "use tools, tackles and equipment carefully to avoid damage",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC13",
+          "code": "PC13",
+          "element": "E3",
+          "text": "ensure the work processes adopted are in line with the specified standards and instructions",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC14",
+          "code": "PC14",
+          "element": "E3",
+          "text": "complete the work with the allocated resources within specified time",
+          "page": 36
+        },
+        {
+          "id": "CON/N8002.PC15",
+          "code": "PC15",
+          "element": "E3",
+          "text": "clean and organise the workplace after completion of task",
+          "page": 36
+        }
+      ]
+    },
+    {
+      "id": "DGT/VSQ/N0101",
+      "title": "Employability Skills (30 Hours)",
+      "version": "1.0",
+      "nsqfLevel": "2",
+      "credits": "1",
+      "weightagePct": 5,
+      "marks": {
+        "theory": 20,
+        "practical": 30,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Introduction to Employability Skills",
+          "marks": {
+            "theory": 1,
+            "practical": 1,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 41
+        },
+        {
+          "id": "E2",
+          "title": "Constitutional values - Citizenship",
+          "marks": {
+            "theory": 1,
+            "practical": 1,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 41
+        },
+        {
+          "id": "E3",
+          "title": "Becoming a Professional in the 21st Century",
+          "marks": {
+            "theory": 1,
+            "practical": 3,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 41
+        },
+        {
+          "id": "E4",
+          "title": "Basic English Skills",
+          "marks": {
+            "theory": 2,
+            "practical": 3,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 41
+        },
+        {
+          "id": "E5",
+          "title": "Communication Skills",
+          "marks": {
+            "theory": 1,
+            "practical": 1,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 41
+        },
+        {
+          "id": "E6",
+          "title": "Diversity & Inclusion",
+          "marks": {
+            "theory": 1,
+            "practical": 1,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 42
+        },
+        {
+          "id": "E7",
+          "title": "Financial and Legal Literacy",
+          "marks": {
+            "theory": 3,
+            "practical": 4,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 42
+        },
+        {
+          "id": "E8",
+          "title": "Essential Digital Skills",
+          "marks": {
+            "theory": 4,
+            "practical": 6,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 42
+        },
+        {
+          "id": "E9",
+          "title": "Entrepreneurship",
+          "marks": {
+            "theory": 3,
+            "practical": 5,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 42
+        },
+        {
+          "id": "E10",
+          "title": "Customer Service",
+          "marks": {
+            "theory": 2,
+            "practical": 2,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 42
+        },
+        {
+          "id": "E11",
+          "title": "Getting ready for apprenticeship & Jobs",
+          "marks": {
+            "theory": 1,
+            "practical": 3,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 42
+        }
+      ],
+      "pcs": [
+        {
+          "id": "DGT/VSQ/N0101.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "understand the significance of employability skills in meeting the job requirements",
+          "page": 41
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC2",
+          "code": "PC2",
+          "element": "E2",
+          "text": "identify constitutional values, civic rights, duties, personal values and ethics and environmentally sustainable practices",
+          "page": 41
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC3",
+          "code": "PC3",
+          "element": "E3",
+          "text": "explain 21st Century Skills such as Self-Awareness, Behavior Skills, Positive attitude, self- motivation, problem-solving, creative thinking, time management, social and cultural awareness, emotional awareness, continuous learning mindset etc.",
+          "page": 41
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC4",
+          "code": "PC4",
+          "element": "E4",
+          "text": "speak with others using some basic English phrases or sentences",
+          "page": 41
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC5",
+          "code": "PC5",
+          "element": "E5",
+          "text": "follow good manners while communicating with others",
+          "page": 41
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC6",
+          "code": "PC6",
+          "element": "E5",
+          "text": "work with others in a team",
+          "page": 41
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC7",
+          "code": "PC7",
+          "element": "E6",
+          "text": "communicate and behave appropriately with all genders and PwD",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC8",
+          "code": "PC8",
+          "element": "E6",
+          "text": "report any issues related to sexual harassment",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC9",
+          "code": "PC9",
+          "element": "E7",
+          "text": "use various financial products and services safely and securely",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC10",
+          "code": "PC10",
+          "element": "E7",
+          "text": "calculate income, expenses, savings etc.",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC11",
+          "code": "PC11",
+          "element": "E7",
+          "text": "approach the concerned authorities for any exploitation as per legal rights and laws",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC12",
+          "code": "PC12",
+          "element": "E8",
+          "text": "operate digital devices and use its features and applications securely and safely",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC13",
+          "code": "PC13",
+          "element": "E8",
+          "text": "use internet and social media platforms securely and safely",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC14",
+          "code": "PC14",
+          "element": "E9",
+          "text": "identify and assess opportunities for potential business",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC15",
+          "code": "PC15",
+          "element": "E9",
+          "text": "identify sources for arranging money and associated financial and legal challenges",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC16",
+          "code": "PC16",
+          "element": "E10",
+          "text": "identify different types of customers",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC17",
+          "code": "PC17",
+          "element": "E10",
+          "text": "identify customer needs and address them appropriately",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC18",
+          "code": "PC18",
+          "element": "E10",
+          "text": "follow appropriate hygiene and grooming standards",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC19",
+          "code": "PC19",
+          "element": "E11",
+          "text": "create a basic biodata",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC20",
+          "code": "PC20",
+          "element": "E11",
+          "text": "search for suitable jobs and apply",
+          "page": 42
+        },
+        {
+          "id": "DGT/VSQ/N0101.PC21",
+          "code": "PC21",
+          "element": "E11",
+          "text": "identify and register apprenticeship opportunities as per requirement",
+          "page": 42
+        }
+      ]
+    }
+  ],
+  "source": {
+    "url": "https://s3.ap-south-1.amazonaws.com/nsdcproddocuments/qpPdf/CON_Q0602_v4.0.pdf",
+    "sha256": "60aa2c79b52f83c687e528dd829d87b5bbd12b439d215f3febfea6895907ca21",
+    "pages": 53,
+    "extractedAt": "2026-10-02",
+    "extractor": "tools/extract_qp.py"
+  }
+}

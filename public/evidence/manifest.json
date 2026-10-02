@@ -1,0 +1,279 @@
+[
+  {
+    "file": "conduit-wall-straps.jpg",
+    "topic": "Conduit runs fixed with saddles or clamps",
+    "title": "Conduit junction boxes.jpg",
+    "author": "Achim Hering",
+    "license": "Creative Commons Attribution 3.0 Unported (CC BY 3.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Conduit_junction_boxes.jpg",
+    "observablesHint": [
+      "vertical metal conduits run straight and parallel down a block wall",
+      "conduits clamped to a horizontal strut channel fixed to the wall",
+      "conduit fittings visible at bends and changes of direction",
+      "conduits enter the tops of the panel boards",
+      "danger signs fixed beside the panels"
+    ]
+  },
+  {
+    "file": "conduit-strut-clamps.jpg",
+    "topic": "Conduit runs fixed with saddles or clamps",
+    "title": "Installing conduit at a power facility in Queens. 10-08-2019 (48882438227).jpg",
+    "author": "MTA Capital Construction Mega Projects",
+    "license": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Installing_conduit_at_a_power_facility_in_Queens._10-08-2019_(48882438227).jpg",
+    "observablesHint": [
+      "several metal conduits run in parallel along the wall",
+      "conduits held by clamps on strut channel supports at intervals",
+      "pull box joined into the conduit run",
+      "bends formed in the conduits where the run changes direction"
+    ]
+  },
+  {
+    "file": "socket-box-wiring-hands.jpg",
+    "topic": "Switch boards or sockets being fitted",
+    "title": "Electrician installing socket 20160817.jpg",
+    "author": "Santeri Viinamäki",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Electrician_installing_socket_20160817.jpg",
+    "observablesHint": [
+      "conductors brought into a round flush-mounted box",
+      "insulation being stripped with a wire stripper",
+      "colour-coded conductors visible: brown, blue, green and yellow"
+    ]
+  },
+  {
+    "file": "socket-surface-fitting-hands.jpg",
+    "topic": "Switch boards or sockets being fitted",
+    "title": "Electrician installing socket.jpg",
+    "author": "Santeri Viinamäki",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Electrician_installing_socket.jpg",
+    "observablesHint": [
+      "surface-mounted socket box held against the wall",
+      "brown, blue and green-yellow conductors routed to the socket insert",
+      "earth conductor (green and yellow) present in the box"
+    ]
+  },
+  {
+    "file": "switchboard-south-asian.jpg",
+    "topic": "Switch boards or sockets being fitted",
+    "title": "South Asian switchboard.jpg",
+    "author": "Muzammil",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:South_Asian_switchboard.jpg",
+    "observablesHint": [
+      "row of modular switches on a switch board",
+      "rotary regulator knob mounted above the switches",
+      "fixing screws visible on the switch plates"
+    ]
+  },
+  {
+    "file": "db-open-rcbo-mcb.jpg",
+    "topic": "Distribution board or MCB panel",
+    "title": "Fuse box hager.JPG",
+    "author": "Dmitry G",
+    "license": "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Fuse_box_hager.JPG",
+    "observablesHint": [
+      "protective devices mounted on a DIN rail",
+      "devices labelled (QS1, RCBO1, RCBO2, QF1 to QF3)",
+      "separate neutral and earth terminal bars",
+      "conductors colour-coded and dressed neatly"
+    ]
+  },
+  {
+    "file": "db-finished-mcb-row.jpg",
+    "topic": "Distribution board or MCB panel",
+    "title": "Fuse box after finishing.JPG",
+    "author": "Dmitry G",
+    "license": "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Fuse_box_after_finishing.JPG",
+    "observablesHint": [
+      "MCBs and RCDs in a single row on a DIN rail",
+      "breaker ratings printed on the devices (B6, B10, B16)",
+      "circuit label strip present below the devices but not filled in",
+      "enclosure with hinged transparent cover fixed to the wall"
+    ]
+  },
+  {
+    "file": "lug-crimp-sequence.jpg",
+    "topic": "Cable joints or terminations with lugs",
+    "title": "Split ring terminal wiring.jpg",
+    "author": "Dmitry G",
+    "license": "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Split_ring_terminal_wiring.jpg",
+    "observablesHint": [
+      "four steps shown: lug and sleeve laid out, conductor stripped, lug crimped, sleeve shrunk on",
+      "lug size marking stamped on the lug",
+      "no bare conductor visible at the finished termination",
+      "heat-shrink sleeve covers the lug barrel"
+    ]
+  },
+  {
+    "file": "lug-terminations-transformer.jpg",
+    "topic": "Cable joints or terminations with lugs",
+    "title": "Terminating wires in the Manhattan tunnels. 10-08-2019 (48882438152).jpg",
+    "author": "MTA Capital Construction Mega Projects",
+    "license": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Terminating_wires_in_the_Manhattan_tunnels._10-08-2019_(48882438152).jpg",
+    "observablesHint": [
+      "cables terminated with lugs bolted to the transformer terminal pads",
+      "terminal labels visible (X1, X2, X0, H1, H3)",
+      "green earth conductors routed separately",
+      "spare lug visible on one terminal pad"
+    ]
+  },
+  {
+    "file": "earth-rod-clamp.jpg",
+    "topic": "Earthing",
+    "title": "Fil de terre et piquet de terre.jpg",
+    "author": "Cjp24",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Fil_de_terre_et_piquet_de_terre.jpg",
+    "observablesHint": [
+      "earth rod driven into the ground",
+      "bolted clamp fixing the earth conductor to the rod",
+      "green and yellow earth conductor",
+      "rod head and clamp left accessible above ground"
+    ]
+  },
+  {
+    "file": "earth-rod-clamp-tightening.jpg",
+    "topic": "Earthing",
+    "title": "Chabelley Airfield enhances weather forecasting capabilities (9381748).jpg",
+    "author": "U.S. Air Force photo by Staff Sgt. Christian Silvera",
+    "license": "Public domain (work of the U.S. federal government, Commons template PD-USGov-Military-Air Force)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force",
+    "source": "https://commons.wikimedia.org/wiki/File:Chabelley_Airfield_enhances_weather_forecasting_capabilities_(9381748).jpg",
+    "observablesHint": [
+      "earth rod driven into the ground",
+      "clamp on the rod tightened with two ratchet spanners",
+      "conductors held in the rod clamp"
+    ]
+  },
+  {
+    "file": "earth-conductors-bonded.jpg",
+    "topic": "Earthing",
+    "title": "Dornbirn-Montfortstrasse 21-Shed 4-Protection Earth-01ASD.jpg",
+    "author": "Asurnipal",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Dornbirn-Montfortstrasse_21-Shed_4-Protection_Earth-01ASD.jpg",
+    "observablesHint": [
+      "green and yellow earth conductors",
+      "ring lugs bolted to the metal mounting rail",
+      "heat-shrink sleeve over each lug barrel",
+      "each conductor has its own fixing point"
+    ]
+  },
+  {
+    "file": "site-lighting-tower.jpg",
+    "topic": "Temporary site lighting",
+    "title": "Lighting Unit - geograph.org.uk - 4905134.jpg",
+    "author": "Bill Nicholls",
+    "license": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Lighting_Unit_-_geograph.org.uk_-_4905134.jpg",
+    "observablesHint": [
+      "mobile lighting tower standing on deployed outriggers",
+      "lamp heads mounted on a raised mast",
+      "unit placed in the working area of an earthworks site",
+      "site boundary fence and traffic cones in the background"
+    ]
+  },
+  {
+    "file": "site-floodlight-pole.jpg",
+    "topic": "Temporary site lighting",
+    "title": "KVG-Abstellfläche am Alten Postareal an der Werftstraße, Kiel-Gaarden-Ost - 18.jpg",
+    "author": "DYVER",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:KVG-Abstellfl%C3%A4che_am_Alten_Postareal_an_der_Werftstra%C3%9Fe,_Kiel-Gaarden-Ost_-_18.jpg",
+    "observablesHint": [
+      "floodlight mounted at the top of a tall mast",
+      "mast stands on a ballast base at ground level",
+      "mast placed beside the temporary site fence"
+    ]
+  },
+  {
+    "file": "clamp-meter-in-use.jpg",
+    "topic": "Multimeter, clamp meter or insulation tester in use",
+    "title": "Checking generator with multimeter.jpg",
+    "author": "U.S. Air Force photo by Airman 1st Class Franklin R. Ramos",
+    "license": "Public domain (work of the U.S. federal government, Commons template PD-USGov-Military-Air Force)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force",
+    "source": "https://commons.wikimedia.org/wiki/File:Checking_generator_with_multimeter.jpg",
+    "observablesHint": [
+      "clamp meter held with test leads plugged in",
+      "probe tip placed on a battery terminal inside the equipment",
+      "reading visible on the meter display"
+    ]
+  },
+  {
+    "file": "clamp-meter-socket-voltage.jpg",
+    "topic": "Multimeter, clamp meter or insulation tester in use",
+    "title": "AC Clamp Meter measuring voltage.jpg",
+    "author": "Benjaminpvera",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:AC_Clamp_Meter_measuring_voltage.jpg",
+    "observablesHint": [
+      "test leads inserted into a socket outlet",
+      "display shows 220.0 V with AC indicated",
+      "black lead in COM and red lead in the voltage terminal of the meter"
+    ]
+  },
+  {
+    "file": "insulation-tester.jpg",
+    "topic": "Multimeter, clamp meter or insulation tester in use",
+    "title": "Isolationsmessgerät 1507.jpg",
+    "author": "Photograph: wdwd",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Isolationsmessger%C3%A4t_1507.jpg",
+    "observablesHint": [
+      "insulation tester with test leads in the insulation and COM terminals",
+      "test voltage selector set to 1000 V",
+      "display shows a resistance reading in gigaohms and the applied test voltage"
+    ]
+  },
+  {
+    "file": "ppe-insulating-gloves.jpg",
+    "topic": "PPE for electrical work",
+    "title": "Electrical safety gloves.png",
+    "author": "Powerfox",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Electrical_safety_gloves.png",
+    "observablesHint": [
+      "pair of rubber insulating gloves",
+      "markings printed on each cuff",
+      "no cuts or holes visible on the shown surface"
+    ]
+  },
+  {
+    "file": "ppe-hard-hat-gloves.jpg",
+    "topic": "PPE for electrical work",
+    "title": "White Hard hat and grey gloves.jpg",
+    "author": "Peachyeung316",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:White_Hard_hat_and_grey_gloves.jpg",
+    "observablesHint": [
+      "white safety helmet with chin strap",
+      "recommended expiry date printed on the helmet",
+      "general work gloves kept with the helmet (not insulating gloves)",
+      "photographed at a construction site"
+    ]
+  }
+]

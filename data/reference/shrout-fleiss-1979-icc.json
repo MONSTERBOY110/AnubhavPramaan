@@ -1,0 +1,67 @@
+{
+  "id": "shrout-fleiss-1979-four-ratings-six-targets",
+  "description": "Four judges rate six targets: the worked example for the six intraclass correlation forms.",
+  "source": {
+    "authors": "Shrout, P. E., & Fleiss, J. L.",
+    "year": 1979,
+    "title": "Intraclass correlations: uses in assessing rater reliability",
+    "journal": "Psychological Bulletin",
+    "volume": 86,
+    "issue": 2,
+    "pages": "420-428",
+    "table": "Table 2, four ratings on six targets (p. 423); Table 3, analysis of variance for ratings (p. 423); Table 4, correlation estimates from six intraclass correlation forms (p. 424)",
+    "doi": "10.1037/0033-2909.86.2.420",
+    "url": "https://doi.org/10.1037/0033-2909.86.2.420"
+  },
+  "originalRead": true,
+  "notes": [
+    "ratings, expected.meanSquares, expected.df and expected.icc were transcribed from a scan of the published article (Tables 2, 3 and 4).",
+    "The same ratings appear as the sf matrix in the R psych ICC documentation and as judges.dta in the Stata icc manual; both agree with Table 2 cell for cell.",
+    "expected.reproduction holds the values the Stata manual prints for these data, to 7 decimals. They are a reproduction, not the published values, and are recorded only as a tighter check."
+  ],
+  "reproductions": [
+    {
+      "name": "R package psych, ICC documentation, example matrix sf (the Shrout and Fleiss 1979 data)",
+      "url": "https://search.r-project.org/CRAN/refmans/psych/html/ICC.html"
+    },
+    {
+      "name": "StataCorp, Stata Base Reference Manual, Release 19, entry icc (Intraclass correlation coefficients), Examples 1 to 3 on judges.dta, data from Table 2 of Shrout and Fleiss (1979)",
+      "url": "https://www.stata.com/manuals/ricc.pdf"
+    }
+  ],
+  "layout": "targets x judges: one row per target, one column per judge",
+  "ratings": [
+    [9, 2, 5, 8],
+    [6, 1, 3, 2],
+    [8, 4, 6, 8],
+    [7, 1, 2, 6],
+    [10, 5, 6, 9],
+    [6, 2, 4, 7]
+  ],
+  "expected": {
+    "df": { "between": 5, "within": 18, "judges": 3, "residual": 15 },
+    "meanSquares": {
+      "decimals": 2,
+      "between": 11.24,
+      "within": 6.26,
+      "judges": 32.49,
+      "residual": 1.02
+    },
+    "icc": {
+      "decimals": 2,
+      "values": { "1,1": 0.17, "2,1": 0.29, "3,1": 0.71, "1,k": 0.44, "2,k": 0.62, "3,k": 0.91 }
+    },
+    "reproduction": {
+      "decimals": 7,
+      "from": "Stata Base Reference Manual, Release 19, icc: Example 1 (one-way), Example 2 (two-way random, absolute agreement), Example 3 (two-way mixed, consistency)",
+      "values": {
+        "1,1": 0.1657418,
+        "2,1": 0.2897638,
+        "3,1": 0.7148407,
+        "1,k": 0.4427971,
+        "2,k": 0.6200505,
+        "3,k": 0.9093155
+      }
+    }
+  }
+}

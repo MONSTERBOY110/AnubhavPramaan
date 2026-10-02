@@ -1,0 +1,66 @@
+[
+  {
+    "image": "/evidence/conduit-wall-straps.jpg",
+    "credit": "Conduit junction boxes, Achim Hering, CC BY 3.0, Wikimedia Commons (resized, metadata removed)",
+    "pcs": [
+      "CON/N0604.PC4",
+      "CON/N0602.PC7"
+    ]
+  },
+  {
+    "image": "/evidence/db-finished-mcb-row.jpg",
+    "credit": "Fuse box after finishing, Dmitry G, CC BY-SA 3.0, Wikimedia Commons (resized, metadata removed)",
+    "pcs": [
+      "CON/N0605.PC2",
+      "CON/N0605.PC5"
+    ]
+  },
+  {
+    "image": "/evidence/lug-crimp-sequence.jpg",
+    "credit": "Split ring terminal wiring, Dmitry G, CC BY-SA 3.0, Wikimedia Commons (resized, metadata removed)",
+    "pcs": [
+      "CON/N0603.PC6",
+      "CON/N0604.PC9",
+      "CON/N0602.PC6"
+    ]
+  },
+  {
+    "image": "/evidence/earth-conductors-bonded.jpg",
+    "credit": "Dornbirn-Montfortstrasse 21-Shed 4-Protection Earth-01ASD, Asurnipal, CC BY-SA 4.0, Wikimedia Commons (resized, metadata removed)",
+    "pcs": [
+      "CON/N0604.PC11",
+      "CON/N0605.PC7"
+    ]
+  },
+  {
+    "image": "/evidence/site-lighting-tower.jpg",
+    "credit": "Lighting Unit - geograph.org.uk - 4905134, Bill Nicholls, CC BY-SA 2.0, Wikimedia Commons (resized, metadata removed)",
+    "pcs": [
+      "CON/N0603.PC3",
+      "CON/N0603.PC10"
+    ]
+  },
+  {
+    "image": "/evidence/clamp-meter-socket-voltage.jpg",
+    "credit": "AC Clamp Meter measuring voltage, Benjaminpvera, CC BY-SA 4.0, Wikimedia Commons (resized, metadata removed)",
+    "pcs": [
+      "CON/N0602.PC10",
+      "CON/N0603.PC13"
+    ]
+  },
+  {
+    "image": "/evidence/ppe-insulating-gloves.jpg",
+    "credit": "Electrical safety gloves, Powerfox, CC BY-SA 4.0, Wikimedia Commons (resized, metadata removed)",
+    "pcs": [
+      "CON/N9001.PC7"
+    ]
+  },
+  {
+    "image": "/evidence/socket-surface-fitting-hands.jpg",
+    "credit": "Electrician installing socket, Santeri Viinamäki, CC BY-SA 4.0, Wikimedia Commons (resized, metadata removed)",
+    "pcs": [
+      "CON/N0604.PC8",
+      "CON/N0605.PC6"
+    ]
+  }
+]

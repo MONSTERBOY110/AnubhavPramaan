@@ -67,9 +67,9 @@ flowchart LR
 | App | Next.js 15, React 19, TypeScript, Tailwind 4, shadcn | Copied from Saakshi, already tested and deployable |
 | Validation and state | zod 4, zustand 5 | Same as Saakshi |
 | Offline | Service worker (Serwist or hand-written), IndexedDB via `idb` | App shell precache plus event outbox |
-| Voice | Bhashini ASR, NMT and TTS via server routes; AssemblyAI Hindi streaming as fallback while the Bhashini key is pending | Government language stack, 22 voice languages [V1] |
-| LLM | Saakshi `lib/analyzer/gateway.ts` (`structuredGatewayCall`), any OpenAI-compatible host (Groq default) | JSON schema output with fallbacks already handled |
-| Vision hints | A multimodal model through the same gateway | Hints only, never scores [M9] |
+| Voice | **Bhashini** ASR, NMT and TTS via server routes (primary, production). Until the key is approved: ASR by **ElevenLabs Scribe v2**, then **Groq Whisper large-v3** as automatic fallback; TTS by **ElevenLabs Flash v2.5** (Hindi), cached by text hash | Government language stack, 22 voice languages [V1]; stand-ins used only for development and role-play audio, never real worker data |
+| LLM | Saakshi `lib/analyzer/gateway.ts` (`structuredGatewayCall`) on **Azure AI Foundry**, deployment `gpt-5-mini` (OpenAI-compatible v1 endpoint), rule-based fallback when the call fails | JSON schema output with fallbacks already handled. Groq text models are not used, because the team's other live project shares that account's quota |
+| Vision hints | Azure AI Foundry `gpt-5-mini` (image input) behind `lib/hints/`; hints disabled, with the UI saying so, when the call fails | One model for text and images. Hints only, never scores [M9] |
 | Certificates | Saakshi `lib/cert/*` (canonical JSON, SHA-256 chain, QR verify page) | Already built and tested |
 | Persistence | In-memory plus Upstash KV for the demo; Postgres for production | Matches Saakshi's deployment notes |
 | Tests | Vitest, Playwright (fake microphone from WAV, offline context) | Saakshi patterns |
@@ -135,9 +135,9 @@ CertificateRecord { id; packRef; declarationHash; evidenceHashes: string[]; scor
 
 ### M4. Assessor co-pilot
 - **Measurement items:** full marks if `|reading - target| <= plusMinus`, else zero, the CSDCI and WorldSkills convention [S7, S33].
-- **Judgement items:** level 0 to 3 with the PC's own anchors and exemplar images. Marks awarded = `pc.marks * level / 3`.
+- **Judgement items:** level 0 to 3 with the PC's own anchors and exemplar images, on the WorldSkills judgement scale (0 below industry standard, 1 meets it, 2 meets and in specific respects exceeds it, 3 wholly exceeds it and is excellent) [S33]. A PC at level 1 or above earns its marks, a PC at level 0 earns none, the same full-or-zero rule as measurement items; levels 2 and 3 stay in the record as strengths. So the QP's 70% pass rule reads "the standard is met on PCs carrying 70% of the marks".
 - **Evidence hint (when online):** the vision model receives the photo and the PC's `observables` and returns, per observable, `visible | not_visible | cannot_tell` with a one-line reason. It never returns a level.
-- **Deviation rule:** a justification of at least 10 characters is required when the assessor picks level 2 or 3 while a required observable is `not_visible`, or level 0 or 1 while every observable is `visible`. Both choice and reason are stored.
+- **Deviation rule:** a justification of at least 10 characters is required when the assessor judges the standard met (level 1 or above) while an observable is `not_visible`, or not met (level 0) while every observable is `visible`. Both choice and reason are stored.
 - **Viva hint:** key points expected for the question are matched against the answer transcript and shown as "mentioned" or "not heard". The assessor scores.
 
 ### M5. Evidence integrity
@@ -171,7 +171,7 @@ CertificateRecord { id; packRef; declarationHash; evidenceHashes: string[]; scor
 
 | Route | Purpose |
 |---|---|
-| `POST /api/voice/asr`, `POST /api/voice/tts` | Bhashini proxy; AssemblyAI fallback for ASR |
+| `POST /api/voice/asr`, `POST /api/voice/tts` | Bhashini first; ASR stand-ins ElevenLabs Scribe then Groq Whisper; TTS stand-in ElevenLabs. The response names the provider that served it |
 | `POST /api/declaration/turn` | Next interview question or close |
 | `POST /api/declaration/extract` | Answer transcript to `Claim[]` |
 | `POST /api/mapping` | Claims to `MappingResult` |
@@ -195,7 +195,7 @@ Agreement improvement needs several independent human raters, so it is measured 
 - 20 synthetic Hindi declarations with expected QP, PC ids and route are written before the mapper exists and frozen by SHA-256 (`eval/mapping/FROZEN.md`). Labels are only changed through a logged correction with a reason.
 - 3 to 5 role-play voice recordings form a held-out set. Report top-1 QP accuracy, PC-link precision and recall, and route agreement, each with its set size.
 
-**Stage 2, grand finale: with versus without the tool.** Fixed in advance in `docs/STUDY-PROTOCOL.md`, committed before the finale. Modelled on Schauber et al. 2024, where 10 examiners scoring the same 4 videos reached a Fleiss' kappa of only 0.07 on pass or fail [M7].
+**Stage 2, grand finale: with versus without the tool.** Fixed in advance in `docs/STUDY-PROTOCOL.md`, committed before the finale. Modelled on Schauber et al. 2024, where 10 examiners scoring the same 4 videos reached a Fleiss' kappa of only 0.07 on pass, borderline or fail [M7].
 - **Items:** evidence from the ministry's dummy worker-assessment data (the PS says it will be provided), or openly licensed photos and videos of electrical work, each with 3 to 5 PCs and a hidden answer key.
 - **Raters:** every available assessor or volunteer. Crossover: group A scores set X unaided (plain PC text only) and set Y assisted (anchors, exemplars, hints); group B does the reverse.
 - **Report:** Fleiss' kappa and Krippendorff's alpha (ordinal) per condition, ICC(2,1) on totals, bootstrap 95% CIs, accuracy against the answer key, and the strictness index per rater.
@@ -224,7 +224,7 @@ Roots: `[S]` = `D:\Projects\Saakshi`, `[V]` = `D:\Projects\Viva`, `[SD]` = `D:\P
 | Question validation | `[S]/lib/teachback/questions.ts` (`validateQuestion`, `fallbackQuestions`) | S |
 | Bhashini ASR, TTS, NMT | `[SD]/services/agent/app/voice.py` ported to TS (about 150 lines), `[SD]/apps/web/lib/voice.ts` (`toWav16k`, `playWav`) | M |
 | Hindi normalisation and redaction | `[S]/lib/rules/normalise.ts`, `[S]/lib/session/devanagari.ts`, `[S]/lib/cert/redact.ts` | S |
-| Fallback Hindi STT | `[S]/lib/aai/*`, `public/worklets/pcm-capture.js` | S |
+| ASR and TTS stand-ins | New `lib/voice/elevenlabs.ts` (Scribe v2, Flash v2.5) and `lib/voice/groq-whisper.ts` (OpenAI-compatible `/audio/transcriptions`); keep `public/worklets/pcm-capture.js` only if capture uses it | S |
 | LLM gateway | `[S]/lib/analyzer/gateway.ts`, `config.ts` | S |
 | Rubric packs and checklist board | `[S]/lib/rules/pack.ts`, `[S]/lib/session/board.ts`, `[S]/components/checkpoint-board.tsx` | M |
 | Certificates and verify page | `[S]/lib/cert/*`, `[S]/app/api/certificate/route.ts`, `[S]/app/verify/[id]/page.tsx` | S to M (rename roles) |
@@ -233,7 +233,7 @@ Roots: `[S]` = `D:\Projects\Saakshi`, `[V]` = `D:\Projects\Viva`, `[SD]` = `D:\P
 | Video recording | `[SD]/tools/record_demo.mjs` | S |
 | Deck pipeline | `[SD]/.ppt-build/` scripts | M |
 
-**Strip from the Saakshi copy:** `lib/demo/`, `public/demo/*.pcm`, judge-solo files, the intervention and nudge flow, prohibited-claims logic, keyterm experiments and their specs, the ULIP and loan packs, `app/cover`, `tabla-preview`, `scripts/render-*.ps1`, the theme. The AssemblyAI Voice Agent "mouth" is English only, so Hindi speech output uses Bhashini TTS.
+**Strip from the Saakshi copy:** `lib/demo/`, `public/demo/*.pcm`, judge-solo files, the intervention and nudge flow, prohibited-claims logic, keyterm experiments and their specs, the ULIP and loan packs, `app/cover`, `tabla-preview`, `scripts/render-*.ps1`, the theme, and **every AssemblyAI file and setting** (the STT client, the Voice Agent "mouth", and the AssemblyAI LLM Gateway last-resort endpoint in `lib/analyzer/config.ts`). Hindi speech output uses Bhashini TTS, with ElevenLabs as the stand-in.
 
 **Build new:** service worker and outbox, camera capture, agreement module, QP packs and mapper, deviation rule, integrity checks, assessor sign-off, PIN roles.
 
@@ -242,8 +242,13 @@ Roots: `[S]` = `D:\Projects\Saakshi`, `[V]` = `D:\Projects\Viva`, `[SD]` = `D:\P
 | Variable | Used by |
 |---|---|
 | `BHASHINI_USER_ID`, `BHASHINI_API_KEY`, `BHASHINI_INFERENCE_KEY`, `BHASHINI_PIPELINE_ID` (default `64392f96daac500b55c543cd`) | Voice routes |
-| `LLM_PROVIDER_API_KEY`, `LLM_PROVIDER_BASE_URL`, model variables from Saakshi `config.ts` | Extraction, mapping, plan, hints |
-| `ASSEMBLYAI_API_KEY` | Fallback ASR |
+| `AZURE_OPENAI_BASE_URL`, `AZURE_OPENAI_API_KEY`, `AZURE_OPENAI_DEPLOYMENT` (default `gpt-5-mini`) | Extraction, mapping, viva questions, evidence hints |
+| `ELEVENLABS_API_KEY`, `ELEVENLABS_STT_MODEL` (default `scribe_v2`), `ELEVENLABS_TTS_MODEL` (default `eleven_flash_v2_5`), `ELEVENLABS_VOICE_ID` | ASR and TTS stand-ins while the Bhashini key is pending |
+| `GROQ_API_KEY`, `GROQ_WHISPER_MODEL` (default `whisper-large-v3`) | ASR fallback only; no Groq text models |
+| (Mistral) | Not used |
+| (Groq gpt-oss) | Not used |
+
+AssemblyAI is not used anywhere in this project.
 | `KV_REST_API_URL`, `KV_REST_API_TOKEN` | Optional persistence |
 | `NEXT_PUBLIC_APP_URL` | QR and verify links |
 

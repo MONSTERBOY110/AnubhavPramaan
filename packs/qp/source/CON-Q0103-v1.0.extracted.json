@@ -1,0 +1,1699 @@
+{
+  "id": "CON/Q0103",
+  "version": "1.0",
+  "title": "Mason General",
+  "nsqfLevel": "4",
+  "nos": [
+    {
+      "id": "CON/N0110",
+      "title": "Construct masonry structures using brick / block",
+      "version": "1.0",
+      "nsqfLevel": "4",
+      "credits": null,
+      "weightagePct": 20,
+      "marks": {
+        "theory": 20,
+        "practical": 80,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Carry out preparatory work before starting masonry work",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 5
+        },
+        {
+          "id": "E2",
+          "title": "Check material used for brickwork/block work",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 5
+        },
+        {
+          "id": "E3",
+          "title": "Lay brick/block for construction of load bearing/non-load bearing wall, columns and footings.",
+          "marks": {
+            "theory": 4.5,
+            "practical": 16,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 5
+        },
+        {
+          "id": "E4",
+          "title": "Check the line, level and alignment",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 6
+        },
+        {
+          "id": "E5",
+          "title": "Carry out pointing in brick masonry",
+          "marks": {
+            "theory": 4,
+            "practical": 16,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 6
+        },
+        {
+          "id": "E6",
+          "title": "Perform specialized masonry works such as arches, staircase, manholes, and walkways",
+          "marks": {
+            "theory": 4.5,
+            "practical": 16,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 6
+        },
+        {
+          "id": "E7",
+          "title": "Repair and restore brick /block masonry",
+          "marks": {
+            "theory": 1,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 6
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N0110.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "read and interpret the basic working drawings / sketches before the commencement of brick / block work",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "ensure tools are in working condition",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "set out the layouts as per instructions from superiors",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "check for adequate roughness/wetting of surface",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "identify and transfer required levels using appropriate tools",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC6",
+          "code": "PC6",
+          "element": "E2",
+          "text": "visual check for quality of bricks / blocks prior to use",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC7",
+          "code": "PC7",
+          "element": "E2",
+          "text": "ensure fine aggregate is sieved as per grade requirement",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC8",
+          "code": "PC8",
+          "element": "E2",
+          "text": "ensure bricks / blocks are soaked prior to use",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC9",
+          "code": "PC9",
+          "element": "E3",
+          "text": "appropriate tools and equipments as per the tasks at requirement such as: Different types of Trowels (of the right blade size) Masons Hammer Blocking Chisel Mashing Hammer Jointers",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC10",
+          "code": "PC10",
+          "element": "E3",
+          "text": "break bricks to required shape and size using appropriate tools",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC11",
+          "code": "PC11",
+          "element": "E3",
+          "text": "estimate the quantity of raw material required",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC12",
+          "code": "PC12",
+          "element": "E3",
+          "text": "lay and fix bricks / blocks as per specification within tolerance limit using appropriate mortar/adhesive as per applicability",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC13",
+          "code": "PC13",
+          "element": "E3",
+          "text": "maintain that rise of brick work / block work is in line & level",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC14",
+          "code": "PC14",
+          "element": "E3",
+          "text": "ensure proper curing of constructed masonry structure",
+          "page": 5
+        },
+        {
+          "id": "CON/N0110.PC15",
+          "code": "PC15",
+          "element": "E4",
+          "text": "maintain required level and specified slope for construction",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC16",
+          "code": "PC16",
+          "element": "E4",
+          "text": "check vertical and horizontal alignment using appropriate tools",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC17",
+          "code": "PC17",
+          "element": "E4",
+          "text": "maintain line and level of each course of brickwork using wooden / aluminium straight edge sections",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC18",
+          "code": "PC18",
+          "element": "E4",
+          "text": "set out 90 corners using builders square or 3-4-5 method and check right angle",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC19",
+          "code": "PC19",
+          "element": "E5",
+          "text": "perform proper pointing and raking of joint to obtain desired surface for exposed brick work",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC20",
+          "code": "PC20",
+          "element": "E5",
+          "text": "ensure proper bonding with old and new surface",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC21",
+          "code": "PC21",
+          "element": "E5",
+          "text": "ensure lime/cement mortar for pointing is prepared as per specification",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC22",
+          "code": "PC22",
+          "element": "E5",
+          "text": "fill joints with appropriate mortar to obtain specified type of pointing",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC23",
+          "code": "PC23",
+          "element": "E5",
+          "text": "carry out various types of pointing works as per specification using appropriate tools and technique",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC24",
+          "code": "PC24",
+          "element": "E5",
+          "text": "ensure proper curing of pointing",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC25",
+          "code": "PC25",
+          "element": "E6",
+          "text": "maintain set out of tread and riser of staircase as per drawing/instruction",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC26",
+          "code": "PC26",
+          "element": "E6",
+          "text": "maintain masonry works as per required bond, alignment and plumb",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC27",
+          "code": "PC27",
+          "element": "E6",
+          "text": "maintain bricks/block for manholes as per required line & level and providing channels and benching",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC28",
+          "code": "PC28",
+          "element": "E6",
+          "text": "lay and fix paver block to designed pattern & finish the joints as specified",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC29",
+          "code": "PC29",
+          "element": "E6",
+          "text": "install anchors and ties for masonry arches",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC30",
+          "code": "PC30",
+          "element": "E6",
+          "text": "install arch masonry unit by laying and aligning as per specified bond",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC31",
+          "code": "PC31",
+          "element": "E6",
+          "text": "cut creepers around corners and full joints to obtain a flushed structure",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC32",
+          "code": "PC32",
+          "element": "E6",
+          "text": "ensure proper curing of constructed masonry structure",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC33",
+          "code": "PC33",
+          "element": "E7",
+          "text": "remove deteriorated elements from masonry structures using tools such as saws drills and chisels without causing damage to adjacent structure",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC34",
+          "code": "PC34",
+          "element": "E7",
+          "text": "reinstall brick/block to match previous or existing work",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC35",
+          "code": "PC35",
+          "element": "E7",
+          "text": "perform proper pointing and raking of joint to obtain desired surface for exposed brick work",
+          "page": 6
+        },
+        {
+          "id": "CON/N0110.PC36",
+          "code": "PC36",
+          "element": "E7",
+          "text": "ensure proper bonding with old and new surface",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "id": "CON/N0111",
+      "title": "Execute plaster on internal & external surfaces of Masonry & RCC structures",
+      "version": "1.0",
+      "nsqfLevel": "4",
+      "credits": null,
+      "weightagePct": 15,
+      "marks": {
+        "theory": 20,
+        "practical": 80,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Carry out preparatory work before starting the plastering work",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 13
+        },
+        {
+          "id": "E2",
+          "title": "Check material used for plastering",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 13
+        },
+        {
+          "id": "E3",
+          "title": "Plaster internal & external masonry & RCC structures",
+          "marks": {
+            "theory": 10,
+            "practical": 40,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 13
+        },
+        {
+          "id": "E4",
+          "title": "Check for line , level & alignment",
+          "marks": {
+            "theory": 6,
+            "practical": 24,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 13
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N0111.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "read sketches for plastering work",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "select correct materials, tools, tackles and equipments, handle and store it properly at workplace",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "ensure that surface receiving plaster is prepared appropriately",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "set layouts as per the specification prior to start of plastering work",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "produce appropriate levels and make any grooves or lines on the surface as instructed",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC6",
+          "code": "PC6",
+          "element": "E2",
+          "text": "ensure sieving of fine aggregate as per grade requirement",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC7",
+          "code": "PC7",
+          "element": "E2",
+          "text": "check the quality of surface to be plastered",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC8",
+          "code": "PC8",
+          "element": "E2",
+          "text": "check for quality and consistency of cement mortar mix",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC9",
+          "code": "PC9",
+          "element": "E3",
+          "text": "ensure that the correct tools and equipments are selected for plastering work as per requirement",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC10",
+          "code": "PC10",
+          "element": "E3",
+          "text": "moisten surface sufficiently before starting of the plastering work",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC11",
+          "code": "PC11",
+          "element": "E3",
+          "text": "ensure that cement mortar is mixed in specified proportion including addition of additives if any",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC12",
+          "code": "PC12",
+          "element": "E3",
+          "text": "apply cement slurry on receiving surface uniformly",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC13",
+          "code": "PC13",
+          "element": "E3",
+          "text": "apply the plastering mix of specified thickness on the surface",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC14",
+          "code": "PC14",
+          "element": "E3",
+          "text": "finish the surface by using correct tools as per the required finish",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC15",
+          "code": "PC15",
+          "element": "E3",
+          "text": "check for horizontal & vertical alignment during and after plastering",
+          "page": 13
+        },
+        {
+          "id": "CON/N0111.PC16",
+          "code": "PC16",
+          "element": "E4",
+          "text": "check for vertical and horizontal alignment using appropriate tools",
+          "page": 14
+        },
+        {
+          "id": "CON/N0111.PC17",
+          "code": "PC17",
+          "element": "E4",
+          "text": "check for slope or maintain falls of the floor",
+          "page": 14
+        },
+        {
+          "id": "CON/N0111.PC18",
+          "code": "PC18",
+          "element": "E4",
+          "text": "check for right angle at corner if required",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "CON/N0112",
+      "title": "Carry out waterproofing work on structures using cementitious, materials",
+      "version": "1.0",
+      "nsqfLevel": "4",
+      "credits": null,
+      "weightagePct": 12,
+      "marks": {
+        "theory": 20,
+        "practical": 80,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Carry out preparatory work prior to waterproofing",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 19
+        },
+        {
+          "id": "E2",
+          "title": "Check the materials used for waterproofing",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 19
+        },
+        {
+          "id": "E3",
+          "title": "Laying out water proofing course",
+          "marks": {
+            "theory": 7,
+            "practical": 28,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 19
+        },
+        {
+          "id": "E4",
+          "title": "Carry out brick bat coba waterproofing",
+          "marks": {
+            "theory": 7,
+            "practical": 28,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 20
+        },
+        {
+          "id": "E5",
+          "title": "Check for line, level & alignment",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 20
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N0112.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "identify and correct defects including caulking by sealing joints or seams in various concrete structures",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "clean and wash the surface to be water proofed e",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "ensure bricks are soaked overnight prior to laying a course",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "prepare the surface to be waterproofed through by the following method prime coating filling holes or depressions by cementitious material washing down Hacking of existing RCC surface chipping / scraping of protrusions cleansing free of dust priming or sealing of surface removing sharp edges",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC5",
+          "code": "PC5",
+          "element": "E2",
+          "text": "check the quality of cement and sand for usability",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC6",
+          "code": "PC6",
+          "element": "E2",
+          "text": "check the consistency of grouting material",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC7",
+          "code": "PC7",
+          "element": "E2",
+          "text": "check the usability of waterproofing material",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC8",
+          "code": "PC8",
+          "element": "E3",
+          "text": "mark and transfer required levels at a regular interval in order to maintain proper slope of finished surface in case of horizontal surface",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC9",
+          "code": "PC9",
+          "element": "E3",
+          "text": "prepare waterproofing cement mortar mixture as per specification for the respective surfaces",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC10",
+          "code": "PC10",
+          "element": "E3",
+          "text": "apply waterproofing cementitious mixture to the prepared surface as specified",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC11",
+          "code": "PC11",
+          "element": "E3",
+          "text": "finish the surface using appropriate tool as per the required surface finish",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC12",
+          "code": "PC12",
+          "element": "E3",
+          "text": "protect waterproofed surfaces from any damage",
+          "page": 19
+        },
+        {
+          "id": "CON/N0112.PC13",
+          "code": "PC13",
+          "element": "E3",
+          "text": "check for further leakage of water",
+          "page": 20
+        },
+        {
+          "id": "CON/N0112.PC14",
+          "code": "PC14",
+          "element": "E4",
+          "text": "ensure all non-structural gaps are filled prior to laying brick bat course",
+          "page": 20
+        },
+        {
+          "id": "CON/N0112.PC15",
+          "code": "PC15",
+          "element": "E4",
+          "text": "prepare a cement mortar in appropriate ratio including addition of waterproofing admixture",
+          "page": 20
+        },
+        {
+          "id": "CON/N0112.PC16",
+          "code": "PC16",
+          "element": "E4",
+          "text": "spread a mortar of even thickness on the surface",
+          "page": 20
+        },
+        {
+          "id": "CON/N0112.PC17",
+          "code": "PC17",
+          "element": "E4",
+          "text": "lay brick bat on the prepared mortar ensuring proper placement and uniform gaps between bricks",
+          "page": 20
+        },
+        {
+          "id": "CON/N0112.PC18",
+          "code": "PC18",
+          "element": "E4",
+          "text": "fill all gaps in brick bat using cement mortar",
+          "page": 20
+        },
+        {
+          "id": "CON/N0112.PC19",
+          "code": "PC19",
+          "element": "E4",
+          "text": "finish the top surface smooth with cement mortar prepared in specified proportion along with admixtures",
+          "page": 20
+        },
+        {
+          "id": "CON/N0112.PC20",
+          "code": "PC20",
+          "element": "E5",
+          "text": "identify and transfer required levels using appropriate tools",
+          "page": 20
+        },
+        {
+          "id": "CON/N0112.PC21",
+          "code": "PC21",
+          "element": "E5",
+          "text": "check horizontal and vertical alignment using appropriate tools",
+          "page": 20
+        },
+        {
+          "id": "CON/N0112.PC22",
+          "code": "PC22",
+          "element": "E5",
+          "text": "mark and transfer required levels at a regular interval in order to maintain proper slope of finished surface in case of horizontal surface",
+          "page": 20
+        }
+      ]
+    },
+    {
+      "id": "CON/N0113",
+      "title": "Build structures using Random Rubble masonry",
+      "version": "1.0",
+      "nsqfLevel": "4",
+      "credits": null,
+      "weightagePct": 12,
+      "marks": {
+        "theory": 20,
+        "practical": 80,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Carry out preparatory work for Rubble Masonry",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 25
+        },
+        {
+          "id": "E2",
+          "title": "Check the material used for random rubble masonry",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 25
+        },
+        {
+          "id": "E3",
+          "title": "Lay out coursed and un coursed Random Rubble Masonry with undressed or hammer dressed stones",
+          "marks": {
+            "theory": 8,
+            "practical": 32,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 25
+        },
+        {
+          "id": "E4",
+          "title": "Carry out pointing in stone masonry",
+          "marks": {
+            "theory": 4,
+            "practical": 16,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 26
+        },
+        {
+          "id": "E5",
+          "title": "Lay out course of Dry Rubble Masonry",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 26
+        },
+        {
+          "id": "E6",
+          "title": "Check for line, level and alignment",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 26
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N0113.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "ensure that the correct tools and tackles are selected for use in the rubble",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "roughly estimate amount of materials required to complete a rubble masonry",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "ensure that the sub-base is prepared properly",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "ensure proper compaction of base prior to commencement of work",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "select the particular type of surface finish as per the site requirements",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC6",
+          "code": "PC6",
+          "element": "E1",
+          "text": "prepare the sides, edges, bed of stone to ensure proper bonding of stones",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC7",
+          "code": "PC7",
+          "element": "E1",
+          "text": "mix mortar for rubble masonry in specified ratio including dry & wet mix",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC8",
+          "code": "PC8",
+          "element": "E1",
+          "text": "identify and transfer required levels using appropriate tools prior to rubble",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC9",
+          "code": "PC9",
+          "element": "E2",
+          "text": "check for workability and proportion of cement mortar",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC10",
+          "code": "PC10",
+          "element": "E2",
+          "text": "check the quality of stones used in random rubble masonry",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC11",
+          "code": "PC11",
+          "element": "E2",
+          "text": "ensure proper soaking of stones prior to laying",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC12",
+          "code": "PC12",
+          "element": "E3",
+          "text": "work with both undressed and hammer dressed stones as per the requirement of the construction site",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC13",
+          "code": "PC13",
+          "element": "E3",
+          "text": "lay stones to build wall of un-course random rubble or course random rubble as per instruction",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC14",
+          "code": "PC14",
+          "element": "E3",
+          "text": "knock off all projecting corners of the laid stones with joints filled and flushed as per the requirements of the site for the un-course random rubble masonry",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC15",
+          "code": "PC15",
+          "element": "E3",
+          "text": "use large stones at the corners and at jambs to increase the strength as per the un-course random rubble masonry requirements",
+          "page": 25
+        },
+        {
+          "id": "CON/N0113.PC16",
+          "code": "PC16",
+          "element": "E3",
+          "text": "ensure proper curing of rubble masonry structure",
+          "page": 26
+        },
+        {
+          "id": "CON/N0113.PC17",
+          "code": "PC17",
+          "element": "E4",
+          "text": "perform raking of joints as specified prior to drying of bonding mortar",
+          "page": 26
+        },
+        {
+          "id": "CON/N0113.PC18",
+          "code": "PC18",
+          "element": "E4",
+          "text": "ensure that joints are cleaned and surface is wet prior to pointing",
+          "page": 26
+        },
+        {
+          "id": "CON/N0113.PC19",
+          "code": "PC19",
+          "element": "E4",
+          "text": "ensure lime/cement mortar for pointing is prepared as per specification",
+          "page": 26
+        },
+        {
+          "id": "CON/N0113.PC20",
+          "code": "PC20",
+          "element": "E4",
+          "text": "fill joints with appropriate mortar to obtain specified type of pointing",
+          "page": 26
+        },
+        {
+          "id": "CON/N0113.PC21",
+          "code": "PC21",
+          "element": "E4",
+          "text": "carry out various types of pointing works as per specification using appropriate tools and technique",
+          "page": 26
+        },
+        {
+          "id": "CON/N0113.PC22",
+          "code": "PC22",
+          "element": "E4",
+          "text": "ensure proper curing of pointing",
+          "page": 26
+        },
+        {
+          "id": "CON/N0113.PC23",
+          "code": "PC23",
+          "element": "E5",
+          "text": "lay and fix stones for construction of walls without use of mortar",
+          "page": 26
+        },
+        {
+          "id": "CON/N0113.PC24",
+          "code": "PC24",
+          "element": "E5",
+          "text": "knock off all projecting corner",
+          "page": 26
+        },
+        {
+          "id": "CON/N0113.PC25",
+          "code": "PC25",
+          "element": "E6",
+          "text": "mark and transfer required levels at a regular interval in order to maintain proper slope of finished surface in case of horizontal surface",
+          "page": 26
+        },
+        {
+          "id": "CON/N0113.PC26",
+          "code": "PC26",
+          "element": "E6",
+          "text": "check horizontal and vertical alignment using appropriate tools",
+          "page": 26
+        }
+      ]
+    },
+    {
+      "id": "CON/N0114",
+      "title": "Carry out IPS / Tremix flooring works",
+      "version": "1.0",
+      "nsqfLevel": "4",
+      "credits": null,
+      "weightagePct": 15,
+      "marks": {
+        "theory": 20,
+        "practical": 80,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Carry out preparatory work prior to IPS / Tremix flooring",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 32
+        },
+        {
+          "id": "E2",
+          "title": "Check for line, level and alignment",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 32
+        },
+        {
+          "id": "E3",
+          "title": "Check the materials used for IPS / Tremix flooring in case of manual mixing",
+          "marks": {
+            "theory": 2,
+            "practical": 8,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 32
+        },
+        {
+          "id": "E4",
+          "title": "Check the materials used for IPS/Tremix flooring in case of machine mixing",
+          "marks": {
+            "theory": 3.5,
+            "practical": 14,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 32
+        },
+        {
+          "id": "E5",
+          "title": "Carry out IPS Flooring work",
+          "marks": {
+            "theory": 5.5,
+            "practical": 22,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 33
+        },
+        {
+          "id": "E6",
+          "title": "Carry out Tremix / VDF Flooring work",
+          "marks": {
+            "theory": 5,
+            "practical": 20,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 33
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N0114.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "inspect the work area prior to concreting, ensure levelling in case of any undulations observed on the surface prior to concreting",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "ensure surface is prepared appropriately and report any deviation in slope and alignment in PCC",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "report any gaps in formwork to avoid leakage",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "report any misalignment in formwork/reinforcement and ensure proper cover for reinforcement is provided",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC5",
+          "code": "PC5",
+          "element": "E2",
+          "text": "mark reference level on the wall &transfer this marking to all floor locations using appropriates tools",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC6",
+          "code": "PC6",
+          "element": "E2",
+          "text": "mark flooring thickness level and provide dummy level dots at specified intervals for ensuring required slope",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC7",
+          "code": "PC7",
+          "element": "E3",
+          "text": "check the grade of cement prior to use in case of manual mixing",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC8",
+          "code": "PC8",
+          "element": "E3",
+          "text": "ensure fine aggregate is sieved as per grade requirement",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC9",
+          "code": "PC9",
+          "element": "E3",
+          "text": "check that concrete is mixed in appropriate proportion",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC10",
+          "code": "PC10",
+          "element": "E4",
+          "text": "visually assess the concrete mix for usability and workability",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC11",
+          "code": "PC11",
+          "element": "E4",
+          "text": "notify superiors for detrimental quality of concrete",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC12",
+          "code": "PC12",
+          "element": "E4",
+          "text": "ensure specified concrete mix is used at allocated location",
+          "page": 32
+        },
+        {
+          "id": "CON/N0114.PC13",
+          "code": "PC13",
+          "element": "E4",
+          "text": "check that panels prepared are of specified size and type",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC14",
+          "code": "PC14",
+          "element": "E5",
+          "text": "fix the glass, aluminum or brass strip in cement mortar with their tops at appropriate level and according to slope",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC15",
+          "code": "PC15",
+          "element": "E5",
+          "text": "ensure panels are made as per specified size",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC16",
+          "code": "PC16",
+          "element": "E5",
+          "text": "ensure concrete is poured in alternate panels/specified panels as per requirement",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC17",
+          "code": "PC17",
+          "element": "E5",
+          "text": "remove excess cement slurry and any marks on the surface",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC18",
+          "code": "PC18",
+          "element": "E5",
+          "text": "level the concrete surface with a straight edge and to the required finish with a wooden float / trowel",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC19",
+          "code": "PC19",
+          "element": "E5",
+          "text": "spread cement punning over the IPS concrete for smooth finish surface and allow it to soak into the concrete, as per requirement",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC20",
+          "code": "PC20",
+          "element": "E5",
+          "text": "provide construction joints and expansion joints as per requirement",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC21",
+          "code": "PC21",
+          "element": "E5",
+          "text": "level poured concrete to the specified levels maintaining required slope",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC22",
+          "code": "PC22",
+          "element": "E5",
+          "text": "ensure curing of the finished floor surface for the specified time",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC23",
+          "code": "PC23",
+          "element": "E6",
+          "text": "level the surface and lay stone soling / boulder soling layer",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC24",
+          "code": "PC24",
+          "element": "E6",
+          "text": "lay the floor with slope maintained in PCC work above the stone soling",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC25",
+          "code": "PC25",
+          "element": "E6",
+          "text": "remove excess water from the top layer of wet concrete without removing cement of sand particles through vacuum de-watering machines",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC26",
+          "code": "PC26",
+          "element": "E6",
+          "text": "ensure floater work within green concrete surface",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC27",
+          "code": "PC27",
+          "element": "E6",
+          "text": "carry out Tremix flooring in specified panel on RCC floors ensuring intactness of rebar and cover",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC28",
+          "code": "PC28",
+          "element": "E6",
+          "text": "cut grooves on concrete at specified intervals for construction joints",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC29",
+          "code": "PC29",
+          "element": "E6",
+          "text": "provide expansion joints as per requirement",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC30",
+          "code": "PC30",
+          "element": "E6",
+          "text": "carry out curing of finished concrete as per specifications",
+          "page": 33
+        },
+        {
+          "id": "CON/N0114.PC31",
+          "code": "PC31",
+          "element": "E6",
+          "text": "ensure finished levels have required slope",
+          "page": 33
+        }
+      ]
+    },
+    {
+      "id": "CON/N8001",
+      "title": "Work effectively in a team to deliver desired results at the workplace",
+      "version": "1.1",
+      "nsqfLevel": "3",
+      "credits": null,
+      "weightagePct": 6,
+      "marks": {
+        "theory": 30,
+        "practical": 70,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Interact and communicate in effective and conclusive manner",
+          "marks": {
+            "theory": 14,
+            "practical": 34,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 40
+        },
+        {
+          "id": "E2",
+          "title": "Support co-workers to execute project requirements",
+          "marks": {
+            "theory": 16,
+            "practical": 36,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 40
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N8001.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "pass on work related information/ requirement clearly to the team members",
+          "page": 40
+        },
+        {
+          "id": "CON/N8001.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "inform co-workers and superiors about any kind of deviations from work",
+          "page": 40
+        },
+        {
+          "id": "CON/N8001.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "address the problems effectively and report if required to immediate supervisor appropriately",
+          "page": 40
+        },
+        {
+          "id": "CON/N8001.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "receive instructions clearly from superiors and respond effectively on the same",
+          "page": 40
+        },
+        {
+          "id": "CON/N8001.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "communicate to team members/subordinates for appropriate work technique and method",
+          "page": 40
+        },
+        {
+          "id": "CON/N8001.PC6",
+          "code": "PC6",
+          "element": "E1",
+          "text": "seek clarification and advice as per the requirement and applicability",
+          "page": 40
+        },
+        {
+          "id": "CON/N8001.PC7",
+          "code": "PC7",
+          "element": "E2",
+          "text": "hand over the required material, tools tackles, equipment and work fronts timely to interfacing teams",
+          "page": 40
+        },
+        {
+          "id": "CON/N8001.PC8",
+          "code": "PC8",
+          "element": "E2",
+          "text": "work together with co-workers in a synchronized manner",
+          "page": 40
+        }
+      ]
+    },
+    {
+      "id": "CON/N8002",
+      "title": "Plan and organize work to meet expected outcomes",
+      "version": "1.0",
+      "nsqfLevel": "3",
+      "credits": null,
+      "weightagePct": 6,
+      "marks": {
+        "theory": 30,
+        "practical": 70,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Prioritize work activities to achieve desired results",
+          "marks": {
+            "theory": 9,
+            "practical": 22,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 44
+        },
+        {
+          "id": "E2",
+          "title": "Organize desired resources prior to commencement of work",
+          "marks": {
+            "theory": 21,
+            "practical": 48,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 44
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N8002.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "understand clearly the targets and timelines set by superiors",
+          "page": 44
+        },
+        {
+          "id": "CON/N8002.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "plan activities as per schedule and sequence",
+          "page": 44
+        },
+        {
+          "id": "CON/N8002.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "provide guidance to the subordinates to obtain desired outcome",
+          "page": 44
+        },
+        {
+          "id": "CON/N8002.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "plan housekeeping activities prior to and post completion of work",
+          "page": 44
+        },
+        {
+          "id": "CON/N8002.PC5",
+          "code": "PC5",
+          "element": "E2",
+          "text": "list and arrange required resources prior to commencement of work",
+          "page": 44
+        },
+        {
+          "id": "CON/N8002.PC6",
+          "code": "PC6",
+          "element": "E2",
+          "text": "select and employ correct tools, tackles and equipment for completion of desired work",
+          "page": 44
+        },
+        {
+          "id": "CON/N8002.PC7",
+          "code": "PC7",
+          "element": "E2",
+          "text": "complete the work with allocated resources",
+          "page": 44
+        },
+        {
+          "id": "CON/N8002.PC8",
+          "code": "PC8",
+          "element": "E2",
+          "text": "engage allocated manpower in an appropriate manner",
+          "page": 44
+        },
+        {
+          "id": "CON/N8002.PC9",
+          "code": "PC9",
+          "element": "E2",
+          "text": "use resources in an optimum manner to avoid any unnecessary wastage",
+          "page": 44
+        },
+        {
+          "id": "CON/N8002.PC10",
+          "code": "PC10",
+          "element": "E2",
+          "text": "employ tools, tackles and equipment with care to avoid damage to the same",
+          "page": 44
+        },
+        {
+          "id": "CON/N8002.PC11",
+          "code": "PC11",
+          "element": "E2",
+          "text": "organize work output, materials used, tools and tackles deployed",
+          "page": 44
+        },
+        {
+          "id": "CON/N8002.PC12",
+          "code": "PC12",
+          "element": "E2",
+          "text": "processes adopted to be in line with the specified standards and instructions",
+          "page": 44
+        }
+      ]
+    },
+    {
+      "id": "CON/N9001",
+      "title": "Work according to personal health, safety and environment protocol at construction site",
+      "version": "1.2",
+      "nsqfLevel": "3",
+      "credits": null,
+      "weightagePct": 14,
+      "marks": {
+        "theory": 30,
+        "practical": 70,
+        "project": 0,
+        "viva": 0
+      },
+      "elements": [
+        {
+          "id": "E1",
+          "title": "Follow safety norms as defined by organization",
+          "marks": {
+            "theory": 11,
+            "practical": 27,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 48
+        },
+        {
+          "id": "E2",
+          "title": "Adopt healthy & safe work practices",
+          "marks": {
+            "theory": 15,
+            "practical": 33,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 48
+        },
+        {
+          "id": "E3",
+          "title": "Implement good housekeeping practices",
+          "marks": {
+            "theory": 4,
+            "practical": 10,
+            "project": 0,
+            "viva": 0
+          },
+          "page": 48
+        }
+      ],
+      "pcs": [
+        {
+          "id": "CON/N9001.PC1",
+          "code": "PC1",
+          "element": "E1",
+          "text": "identify and report any hazards, risks or breaches in site safety to the appropriate authority",
+          "page": 48
+        },
+        {
+          "id": "CON/N9001.PC2",
+          "code": "PC2",
+          "element": "E1",
+          "text": "follow emergency and evacuation procedures in case of accidents, fires, natural calamities",
+          "page": 48
+        },
+        {
+          "id": "CON/N9001.PC3",
+          "code": "PC3",
+          "element": "E1",
+          "text": "follow recommended safe practices in handling construction materials, including chemical and hazardous material whenever applicable",
+          "page": 48
+        },
+        {
+          "id": "CON/N9001.PC4",
+          "code": "PC4",
+          "element": "E1",
+          "text": "participate in safety awareness programs like Tool Box Talks, safety demonstrations, mock drills, conducted at site",
+          "page": 48
+        },
+        {
+          "id": "CON/N9001.PC5",
+          "code": "PC5",
+          "element": "E1",
+          "text": "identify near miss , unsafe condition and unsafe act",
+          "page": 48
+        },
+        {
+          "id": "CON/N9001.PC6",
+          "code": "PC6",
+          "element": "E2",
+          "text": "use appropriate Personal Protective Equipment (PPE) as per work requirements including: Head Protection (Helmets) Ear protection Fall Protection Foot Protection Face and Eye Protection, Hand and Body Protection Respiratory Protection (if required)",
+          "page": 48
+        },
+        {
+          "id": "CON/N9001.PC7",
+          "code": "PC7",
+          "element": "E2",
+          "text": "handle all required tools, tackles , materials & equipment safely",
+          "page": 48
+        },
+        {
+          "id": "CON/N9001.PC8",
+          "code": "PC8",
+          "element": "E2",
+          "text": "follow safe disposal of waste, harmful and hazardous materials as per EHS guidelines",
+          "page": 48
+        },
+        {
+          "id": "CON/N9001.PC9",
+          "code": "PC9",
+          "element": "E2",
+          "text": "install and apply properly all safety equipment as instructed",
+          "page": 48
+        },
+        {
+          "id": "CON/N9001.PC10",
+          "code": "PC10",
+          "element": "E2",
+          "text": "follow safety protocol and practices as laid down by site EHS department",
+          "page": 48
+        },
+        {
+          "id": "CON/N9001.PC11",
+          "code": "PC11",
+          "element": "E3",
+          "text": "collect and deposit construction waste into identified containers before disposal, separate containers that may be needed for disposal of toxic or hazardous wastes",
+          "page": 48
+        },
+        {
+          "id": "CON/N9001.PC12",
+          "code": "PC12",
+          "element": "E3",
+          "text": "apply ergonomic principles wherever required",
+          "page": 48
+        }
+      ]
+    }
+  ],
+  "source": {
+    "url": "https://s3.ap-south-1.amazonaws.com/nsdcproddocuments/qpPdf/CON_Q0103_v1.0.pdf",
+    "sha256": "d66332625f1f1531fc58cbe2c4d1af30670d61dc7e0ff4938e32aa561dc583f8",
+    "pages": 56,
+    "extractedAt": "2026-10-02",
+    "extractor": "tools/extract_qp.py"
+  }
+}

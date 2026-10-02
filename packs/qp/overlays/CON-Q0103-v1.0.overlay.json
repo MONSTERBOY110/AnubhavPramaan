@@ -1,0 +1,3736 @@
+{
+  "header": {
+    "sector": "Construction",
+    "subSector": "Real Estate and Infrastructure construction",
+    "occupation": "Masonry",
+    "ncoCode": "NCO-2004/7122.20",
+    "status": "deactivated",
+    "use": "mapping-only",
+    "notes": [
+      "The cover of this QP says it was deactivated on 01/04/2022. It is the version the CSDCI Mason General assessment guide is built on, and it is loaded only so the mapper can tell a mason from an electrician. Replace it with the current NQR version before any real assessment.",
+      "Mapping only: this pack is used to tell a mason from an electrician. Its anchors, observables and the 18 tolerances from the CSDCI Mason General assessment guide are kept for reference, but a deactivated QP is never used to score a candidate."
+    ]
+  },
+  "pcs": {
+    "CON/N0110.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Reads length, height and width of the foundation and wall from the drawing",
+        "Points out door and window openings and the architectural finish shown",
+        "Identifies where plumbing, fire and electrical service points fall in the wall"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or cannot read the main dimensions, or misreads lengths, openings or wall thickness.",
+        "Meets standard: reads wall length, height, thickness and opening positions correctly and explains them before starting work.",
+        "Exceeds in places: also picks out service locations and finish details and relates the drawing dimensions to the marks on site.",
+        "Excellent: reads the whole drawing quickly and accurately, spots missing or clashing dimensions and asks before building."
+      ],
+      "synonyms": [
+        "नक्शा पढ़ना",
+        "ड्राइंग समझना",
+        "नक्शे के हिसाब से",
+        "नाप देखना",
+        "दरवाज़े खिड़की की जगह"
+      ]
+    },
+    "CON/N0110.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Checks trowel, hammer and chisel for loose handles, cracks or worn edges",
+        "Checks that the straight edge is straight, the spirit level reads true and the plumb bob string is sound",
+        "Sets aside a damaged or inaccurate tool and reports it"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or starts work with a loose hammer head, bent straight edge or faulty level without checking.",
+        "Meets standard: checks trowel, hammer, straight edge, try square, spirit level, plumb bob and tape before use; keeps out faulty ones.",
+        "Exceeds in places: also tests accuracy, such as reversing the spirit level and sighting along the straight edge, and cleans tools first.",
+        "Excellent: thorough, quick tool check as a habit; explains how a faulty level or square spoils the work and reports defects."
+      ],
+      "synonyms": [
+        "औज़ार चेक करना",
+        "करनी",
+        "हथौड़ी",
+        "साहुल",
+        "गुनिया",
+        "स्प्रिट लेवल",
+        "फीता"
+      ]
+    },
+    "CON/N0110.PC3": {
+      "type": "measurement",
+      "measurementTask": "Tape the overall length of the wall built on the candidate's layout and enter its difference from the drawing length in mm, either way (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 4,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 71: Overall length of wall ±4mm"
+      },
+      "observables": [
+        "Marks the wall layout on the floor with red oxide as per the drawing",
+        "Takes every length from one reference line and checks it with a tape",
+        "Length of the perpendicular wall is within 4 mm of the drawing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 13 and 71",
+      "synonyms": [
+        "लेआउट देना",
+        "निशान लगाना",
+        "गेरू से निशान",
+        "चूने से लाइन डालना",
+        "नक्शे से नाप लेना",
+        "मार्किंग करना"
+      ]
+    },
+    "CON/N0110.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Looks over the base and roughens a smooth surface with a hacking hammer",
+        "Chips off dead concrete with a point or flat chisel",
+        "Sprays water to wet the surface just before laying mortar, leaving no standing water"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or lays mortar on a smooth, dusty or dry base, or leaves dead concrete in place.",
+        "Meets standard: checks the base, roughens it where smooth, removes dead concrete and wets it before laying mortar.",
+        "Exceeds in places: roughens evenly over the whole bed, clears dust and loose bits, and wets it without leaving puddles.",
+        "Excellent: base fully prepared and evenly damp at the right time; explains how a dry or smooth base weakens the bond."
+      ],
+      "synonyms": [
+        "सतह खुरदरी करना",
+        "हैकिंग करना",
+        "टांकी मारना",
+        "पानी मारना",
+        "तर करना",
+        "सतह गीली करना"
+      ]
+    },
+    "CON/N0110.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Transfers the finished floor level from the reference level with a water tube level",
+        "Marks a reference line 300 mm above finished floor level at every corner with marker or paint",
+        "Clears air bubbles from the tube and lets the water settle before marking"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or guesses levels by eye, or marks are wrong because of air in the tube or a moving tube.",
+        "Meets standard: transfers the level from the reference mark with a tube level and marks it correctly at each corner.",
+        "Exceeds in places: bleeds air from the tube, waits for the water to settle and cross-checks the marks against each other.",
+        "Excellent: accurate, quick level transfer to all points; explains the 300 mm reference line and checks marks before use."
+      ],
+      "synonyms": [
+        "लेवल लेना",
+        "लेवल ट्रांसफर करना",
+        "नली से लेवल",
+        "पानी की नली",
+        "लेवल का निशान",
+        "पाइप लेवल"
+      ]
+    },
+    "CON/N0110.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Sets aside over-burnt, under-burnt, broken and cracked bricks",
+        "Checks bricks for uniform size and colour with straight, sharp edges",
+        "Strikes two bricks together and listens for a clear ringing sound"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or uses under-burnt, over-burnt, cracked or misshapen bricks without sorting.",
+        "Meets standard: sorts bricks by eye for burning, size, colour and damage and sets aside unfit ones before laying.",
+        "Exceeds in places: also checks the ring by striking bricks together and keeps the best-faced bricks for exposed faces.",
+        "Excellent: quick, reliable sorting; explains each defect and how it affects the strength and finish of the wall."
+      ],
+      "synonyms": [
+        "ईंट छांटना",
+        "ईंट की जांच",
+        "पक्की ईंट",
+        "पीली ईंट",
+        "झामा ईंट",
+        "अव्वल ईंट",
+        "टनटन आवाज़"
+      ]
+    },
+    "CON/N0110.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Sieves the sand through a 2.36 mm square-opening sieve before mixing",
+        "Removes stones, clay lumps and rubbish from the sand",
+        "Keeps sieved sand apart from unsieved sand"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or uses unsieved sand with stones, lumps or rubbish, or the wrong sieve.",
+        "Meets standard: sieves the sand through the 2.36 mm sieve and uses only sieved sand in the mortar.",
+        "Exceeds in places: sets the sieve at a steady angle, clears the oversize regularly and keeps sieved sand clean and covered.",
+        "Excellent: efficient, correct sieving; explains why grading and silt matter and spots silty sand by rubbing it."
+      ],
+      "synonyms": [
+        "रेत छानना",
+        "बालू छानना",
+        "छलनी",
+        "जाली से छानना",
+        "रेता छानना"
+      ]
+    },
+    "CON/N0110.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Soaks bricks in clean water for at least two hours before laying",
+        "Lets surface water drain so bricks are damp, not dripping, when laid",
+        "Keeps enough soaked bricks ready for the next part of the work"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 13",
+      "anchors": [
+        "Below standard: not attempted, or lays dry bricks that suck water from the mortar, or bricks still dripping wet.",
+        "Meets standard: soaks bricks in clean water for at least two hours and lays them surface dry but damp.",
+        "Exceeds in places: plans soaking ahead so soaked bricks are always ready, and keeps them shaded so they do not dry out.",
+        "Excellent: consistent soaking routine; explains how dry bricks weaken the joint and how soaking suits the brick."
+      ],
+      "synonyms": [
+        "ईंट भिगोना",
+        "ईंट तर करना",
+        "ईंट पानी में डालना",
+        "ईंटों पर पानी डालना",
+        "ईंट गीली करना"
+      ]
+    },
+    "CON/N0110.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Picks a brick trowel for laying and a pointing trowel or jointer for joints",
+        "Uses a mason's hammer, or a blocking chisel with a mashing hammer, to cut bricks",
+        "Keeps plumb bob, spirit level, try square, straight edge and line and pins at hand"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or uses the wrong tool, such as a trowel edge to cut bricks, or works without line or level.",
+        "Meets standard: selects the right trowel, hammer, chisel, jointer and checking tools for each step and uses them correctly.",
+        "Exceeds in places: chooses blade sizes to suit the joint and brick and keeps tools in order so the work flows without stops.",
+        "Excellent: complete, well-chosen tool kit used skilfully; explains why each tool suits its task."
+      ],
+      "synonyms": [
+        "करनी",
+        "गुरमाला",
+        "छेनी हथौड़ी",
+        "घन",
+        "जॉइंटर",
+        "सूत और कील",
+        "साहुल"
+      ]
+    },
+    "CON/N0110.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Marks the cut line on the brick before cutting",
+        "Cuts with a brick chisel and hammer, scoring all round before the final blow",
+        "Cut pieces such as half bats, three-quarter bats and closers are to size with clean edges"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or breaks bricks by guess with a trowel, giving shattered or wrong-size pieces.",
+        "Meets standard: marks and cuts bricks with chisel and hammer to the half, three-quarter or closer size needed.",
+        "Exceeds in places: scores the brick all round before the final blow, so cuts are clean and little brick is wasted.",
+        "Excellent: accurate, clean cuts first time with little waste; names each cut piece and where it goes in the bond."
+      ],
+      "synonyms": [
+        "ईंट काटना",
+        "ईंट तोड़ना",
+        "अद्धा",
+        "पौना",
+        "क्लोजर",
+        "छेनी से काटना"
+      ]
+    },
+    "CON/N0110.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Works out the wall volume from length, height and thickness",
+        "Calculates the number of bricks and the cement and sand for the mortar ratio",
+        "Adds an allowance for wastage and states the totals"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or cannot estimate, or is so far off that work stops for material or much is wasted.",
+        "Meets standard: calculates bricks, cement and sand from the wall size and mortar ratio with a sensible result.",
+        "Exceeds in places: shows the working step by step, allows for wastage and the dry volume of mortar, and checks the answer.",
+        "Excellent: quick, accurate estimate explained clearly; converts it to bags of cement and loads of sand to order."
+      ],
+      "synonyms": [
+        "माल का हिसाब",
+        "कितनी ईंट लगेगी",
+        "सीमेंट का हिसाब",
+        "अंदाज़ा लगाना",
+        "सामान का हिसाब",
+        "एस्टीमेट लगाना"
+      ]
+    },
+    "CON/N0110.PC12": {
+      "type": "measurement",
+      "measurementTask": "Measure bed and vertical joints at several places with a steel scale and enter the reading farthest from 10 mm.",
+      "tolerance": {
+        "kind": "band",
+        "target": 10,
+        "plusMinus": 3,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 71: Regular joint thickness ±3mm; page 31: Mortar Thickness: 10mm"
+      },
+      "observables": [
+        "Spreads a 10 mm mortar bed and fills every vertical joint with mortar",
+        "Lays to the specified bond, alternating courses so that vertical joints do not line up",
+        "Uses brick closers where the drawing and the bond need them"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 14",
+      "synonyms": [
+        "ईंट की चिनाई",
+        "चिनाई",
+        "chinai",
+        "ईंट जोड़ना",
+        "जुड़ाई",
+        "मसाले का जोड़",
+        "जोड़ की मोटाई"
+      ]
+    },
+    "CON/N0110.PC13": {
+      "type": "judgement",
+      "observables": [
+        "Builds the corners first and checks them for plumb, alignment and level",
+        "Ties a masons line between the corner bricks and lays each course to it",
+        "Checks plumb, alignment and level at every course as the wall rises"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or builds without line or level, so courses wave, slope or step as the wall rises.",
+        "Meets standard: raises the corners first, lays each course to a tight line and keeps the rise in line and level.",
+        "Exceeds in places: keeps course heights even by marking courses on the corners and corrects small errors before the mortar sets.",
+        "Excellent: wall rises true course after course with no correction needed; explains how errors build up if unchecked."
+      ],
+      "synonyms": [
+        "सूत बांधना",
+        "सूत पर ईंट लगाना",
+        "कोने उठाना",
+        "रद्दा",
+        "लेवल में चिनाई",
+        "लाइन में चिनाई"
+      ]
+    },
+    "CON/N0110.PC14": {
+      "type": "judgement",
+      "observables": [
+        "Writes the date of construction on the wall",
+        "Keeps the brickwork wet continuously for at least 7 days",
+        "Starts curing once the mortar has set, without washing out fresh joints"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 14",
+      "anchors": [
+        "Below standard: not attempted, or no curing, or the wall is left to dry out in the first days.",
+        "Meets standard: dates the wall and keeps the masonry wet for at least 7 days without washing out joints.",
+        "Exceeds in places: cures at regular intervals through the day, wetting both faces and the top, and shades it in hot weather.",
+        "Excellent: reliable curing routine; explains how curing gives the mortar its strength and what happens without it."
+      ],
+      "synonyms": [
+        "तराई",
+        "tarai",
+        "तराई करना",
+        "दीवार पर पानी डालना",
+        "पानी देना",
+        "गीला रखना"
+      ]
+    },
+    "CON/N0110.PC15": {
+      "type": "measurement",
+      "measurementTask": "Check the top course with a spirit level or tube level against the required level and enter the largest deviation in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 5,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 71: Level to top course ±5mm"
+      },
+      "observables": [
+        "Builds to the reference level marks transferred before laying",
+        "Checks the level of each course with a spirit level",
+        "Gives the slope shown on the drawing where one is specified, such as on a sill"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 14",
+      "synonyms": [
+        "लेवल मिलाना",
+        "लेवल में रखना",
+        "ऊपर का रद्दा लेवल",
+        "ढलान देना",
+        "ढाल",
+        "स्प्रिट लेवल"
+      ]
+    },
+    "CON/N0110.PC16": {
+      "type": "measurement",
+      "measurementTask": "Hold a plumb bob or long spirit level on the wall face over its full height and enter the largest deviation from plumb in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 5,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 71: Plumb to overall height ±5mm"
+      },
+      "observables": [
+        "Checks plumb at the corners and along the face with a plumb bob or spirit level",
+        "Checks horizontal alignment with a masons line along each course",
+        "Corrects a brick out of plumb or line while the mortar is still green"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 14",
+      "synonyms": [
+        "साहुल",
+        "sahul",
+        "साहुल लेना",
+        "साहुल मिलाना",
+        "सीधा खड़ा करना",
+        "लाइन चेक करना"
+      ]
+    },
+    "CON/N0110.PC17": {
+      "type": "measurement",
+      "measurementTask": "Stretch a line or hold the straight edge along the wall face over up to 3 m and enter the largest offset from straight in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 5,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 71: Wall alignment (up to 3meter) ±5mm"
+      },
+      "observables": [
+        "Places a wooden or aluminium straight edge along each course to check line and level",
+        "Taps bricks into line while the mortar is green",
+        "Wall face shows no bulges, hollows or stepped courses"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 14",
+      "synonyms": [
+        "पट्टी लगाना",
+        "सीधी पट्टी",
+        "एल्युमिनियम पट्टी",
+        "लाइन मिलाना",
+        "रद्दा सीधा करना",
+        "दीवार सीधी करना"
+      ]
+    },
+    "CON/N0110.PC18": {
+      "type": "measurement",
+      "measurementTask": "Check the internal corner with a builder's square or the 3-4-5 diagonal and enter the deviation from square in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 4,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 71: Internal square ness ±4mm"
+      },
+      "observables": [
+        "Places a builder's square between the two walls to check the right angle",
+        "Sets out the 90 degree corner by the 3-4-5 method and checks it",
+        "Squareness on the other side of the corner is within 5 mm"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 14 and 71",
+      "synonyms": [
+        "गुनिया",
+        "गुनिया मिलाना",
+        "कोना गुनिया में",
+        "तीन चार पांच से गुनिया",
+        "समकोण",
+        "कोना चौरस करना"
+      ]
+    },
+    "CON/N0110.PC19": {
+      "type": "judgement",
+      "observables": [
+        "Rakes out the mortar joints to a depth of 15 to 20 mm",
+        "Cleans and wets the raked joints before pointing",
+        "Finished joints are even in width and depth and the brick face is cleaned with brush or sponge"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or joints are raked too shallow or unevenly, or the pointing is patchy and smears the bricks.",
+        "Meets standard: rakes joints 15 to 20 mm, cleans and wets them and points them evenly to the required finish.",
+        "Exceeds in places: raking depth is uniform throughout, pointing lines are crisp and straight and the brick faces are left clean.",
+        "Excellent: neat, uniform pointing fit for exposed face work; explains the purpose of each step."
+      ],
+      "synonyms": [
+        "टीप",
+        "teep",
+        "टीप करना",
+        "जोड़ खुरचना",
+        "रेकिंग",
+        "जोड़ भरना",
+        "पॉइंटिंग"
+      ]
+    },
+    "CON/N0110.PC20": {
+      "type": "judgement",
+      "observables": [
+        "Rakes out loose and dry mortar and washes the old surface with water",
+        "Applies a bonding agent or cement slurry on the old surface before new mortar",
+        "Uses rich cement mortar, cleans spills with a wet sponge and cures for at least 7 days"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or puts new mortar on a dusty, dry old surface with no slurry, so it will not bond.",
+        "Meets standard: cleans and wets the old surface, applies bonding agent or slurry, then rich mortar, and cures the work.",
+        "Exceeds in places: applies the new mortar while the slurry is still tacky and leaves a clean, tight junction with no gaps.",
+        "Excellent: sound, neat joint between old and new work; explains why slurry and wetting are needed for the bond."
+      ],
+      "synonyms": [
+        "पुराने में नया जोड़ना",
+        "सीमेंट का घोल लगाना",
+        "नीरू लगाना",
+        "बॉन्डिंग केमिकल",
+        "पुरानी सतह धोना",
+        "जोड़ पकड़ना"
+      ]
+    },
+    "CON/N0110.PC21": {
+      "type": "judgement",
+      "observables": [
+        "Measures binder and sand by volume for the specified pointing ratio",
+        "Mixes dry to an even colour before adding water",
+        "Mortar is stiff and workable and is used while fresh"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or mixes by guess with no measured ratio, or the mortar is too wet, lumpy or setting.",
+        "Meets standard: measures cement or lime and sand to the specified ratio and mixes a uniform mortar of the right stiffness.",
+        "Exceeds in places: uses a gauge box for exact batches, mixes small fresh batches and keeps the mortar shaded.",
+        "Excellent: correct pointing mortar batch after batch; explains the ratio, when lime or cement is used, and its working time."
+      ],
+      "synonyms": [
+        "टीप का मसाला",
+        "मसाला बनाना",
+        "सीमेंट मसाला",
+        "चूने का मसाला",
+        "मसाले का अनुपात",
+        "गाढ़ा मसाला"
+      ]
+    },
+    "CON/N0110.PC22": {
+      "type": "judgement",
+      "observables": [
+        "Cleans and wets each raked joint before filling",
+        "Presses fresh mortar firmly into the joint with a pointing tool, leaving no voids",
+        "Removes surplus mortar from the brick face with brush or sponge"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or joints are left hollow or part filled, or mortar is smeared over the brick face.",
+        "Meets standard: fills each cleaned, wet joint fully and firmly with the right mortar, ready for the specified pointing.",
+        "Exceeds in places: fills deep joints in layers so they are solid, keeps the fill depth uniform and keeps faces clean.",
+        "Excellent: every joint solidly filled and neat; explains how hollow joints let water in and crack the pointing."
+      ],
+      "synonyms": [
+        "जोड़ भरना",
+        "टीप भरना",
+        "मसाला दबाना",
+        "जोड़ में मसाला भरना",
+        "गुरमाला से भरना"
+      ]
+    },
+    "CON/N0110.PC23": {
+      "type": "judgement",
+      "observables": [
+        "Produces flush, grooved, recessed, weathered, struck and raked pointing as asked",
+        "Uses the right jointer or pointing tool for each profile",
+        "Each profile is uniform along the whole joint"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or cannot form the pointing asked for, or the profile is uneven and smeared.",
+        "Meets standard: forms the specified pointing types with suitable tools to a uniform, clean profile.",
+        "Exceeds in places: handles several types well, with crisp edges and even depth, and slopes weathered joints to shed water.",
+        "Excellent: all six types formed neatly and quickly; explains where each type is used and why."
+      ],
+      "synonyms": [
+        "फ्लश टीप",
+        "धंसी टीप",
+        "उभरी टीप",
+        "वी टीप",
+        "पॉइंटिंग के प्रकार",
+        "जॉइंटर चलाना"
+      ]
+    },
+    "CON/N0110.PC24": {
+      "type": "judgement",
+      "observables": [
+        "Starts curing once the pointing mortar has set",
+        "Keeps the pointing damp for 7 days",
+        "Sprays gently so fresh pointing is not washed out"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or the pointing is left to dry, or curing water washes out the fresh joints.",
+        "Meets standard: keeps the pointing damp for 7 days, starting once the mortar has set, without damaging it.",
+        "Exceeds in places: cures regularly through each day and shades the work in hot or windy weather.",
+        "Excellent: reliable curing routine; explains how drying too fast causes cracked and loose pointing."
+      ],
+      "synonyms": [
+        "टीप की तराई",
+        "तराई",
+        "पानी छिड़कना",
+        "गीला रखना",
+        "सात दिन पानी देना"
+      ]
+    },
+    "CON/N0110.PC25": {
+      "type": "judgement",
+      "observables": [
+        "Marks the stair layout from the drawing and transfers the level from the reference level",
+        "Builds each riser to the required height, such as 150 mm, and each tread to its width, such as 300 mm",
+        "All risers and treads are equal and each tread is level"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or steps are uneven in rise or tread, or the flight does not fit the drawing.",
+        "Meets standard: sets out and builds the steps with risers and treads to the drawing sizes, each level and equal.",
+        "Exceeds in places: divides the total height into equal risers before starting, so the last step fits without adjustment.",
+        "Excellent: accurate, uniform flight first time; explains why equal risers matter for safety and checks each step."
+      ],
+      "synonyms": [
+        "सीढ़ी बनाना",
+        "सीढ़ी की चिनाई",
+        "पायदान",
+        "राइजर",
+        "ट्रेड",
+        "सीढ़ी की ऊंचाई"
+      ]
+    },
+    "CON/N0110.PC26": {
+      "type": "judgement",
+      "observables": [
+        "Follows the specified bond, with closers placed as per the drawing",
+        "Alternates courses so no vertical joints line up",
+        "Checks plumb, alignment and level at every course"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 15",
+      "anchors": [
+        "Below standard: not attempted, or the bond is broken with continuous vertical joints, or the work is visibly out of plumb or line.",
+        "Meets standard: keeps the required bond, alignment and plumb throughout, checking every course.",
+        "Exceeds in places: places closers and cut bricks neatly so the bond pattern is regular on both faces.",
+        "Excellent: flawless bond, line and plumb in special work such as piers and returns; explains each bond choice."
+      ],
+      "synonyms": [
+        "बॉन्ड में चिनाई",
+        "इंग्लिश बॉन्ड",
+        "फ्लेमिश बॉन्ड",
+        "सीधा जोड़ न आए",
+        "जोड़ तोड़ना",
+        "साहुल में चिनाई"
+      ]
+    },
+    "CON/N0110.PC27": {
+      "type": "judgement",
+      "observables": [
+        "Marks the manhole layout on the PCC as per the drawing",
+        "Leaves inlet and outlet openings at the right places and checks plumb, alignment and level",
+        "Forms the channel and slopes the benching towards it"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or walls out of line or plumb, openings misplaced, or channel and benching missing or flat.",
+        "Meets standard: builds the chamber to size, line and plumb with correct inlet and outlet, channel and sloping benching.",
+        "Exceeds in places: channel runs smoothly at the right fall from inlet to outlet and the benching is finished smooth.",
+        "Excellent: neat, accurate chamber that drains fully; explains why channel fall and benching slope prevent blockage."
+      ],
+      "synonyms": [
+        "मैनहोल बनाना",
+        "चैंबर बनाना",
+        "गटर चैंबर",
+        "बेंचिंग",
+        "चैनल बनाना",
+        "नाली का ढलान"
+      ]
+    },
+    "CON/N0110.PC28": {
+      "type": "judgement",
+      "observables": [
+        "Fixes level button marks about every 2 m and screeds a 20 mm sand bed to them",
+        "Lays pavers from one end in the designed pattern with tight, even joints",
+        "Taps pavers to level and fills edge gaps with cut pieces"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or the pattern is wrong, pavers rock or sit at uneven levels, or edge gaps are left open.",
+        "Meets standard: lays pavers on a levelled sand bed in the designed pattern, to level and slope, with joints finished as specified.",
+        "Exceeds in places: joints are straight and even, cut pieces fit neatly at the edges and the surface is checked with a straight edge.",
+        "Excellent: flat, firm, true pattern with neat cuts and filled joints; explains the sand bed and the need for edge restraint."
+      ],
+      "synonyms": [
+        "पेवर ब्लॉक लगाना",
+        "इंटरलॉकिंग टाइल",
+        "रेत बिछाना",
+        "पैटर्न में लगाना",
+        "रबर हथौड़ी",
+        "पेवर का लेवल"
+      ]
+    },
+    "CON/N0110.PC29": {
+      "type": "judgement",
+      "observables": [
+        "Marks the anchor and tie positions from the drawing",
+        "Fixes the specified anchors and ties at those positions, firmly bedded in mortar",
+        "Ties sit at the right level and spacing and do not obstruct the arch units"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or anchors and ties are missing, loose, or away from the drawing positions.",
+        "Meets standard: marks and fixes the specified anchors and ties firmly at the drawing positions.",
+        "Exceeds in places: checks the spacing and level of each tie before fixing and beds each one fully in mortar.",
+        "Excellent: all anchors and ties accurately placed and secure; explains how they hold the arch to the backing wall."
+      ],
+      "synonyms": [
+        "एंकर लगाना",
+        "टाई लगाना",
+        "मेहराब",
+        "डाट",
+        "सरिया डालना",
+        "होल्डफास्ट"
+      ]
+    },
+    "CON/N0110.PC30": {
+      "type": "judgement",
+      "observables": [
+        "Marks out the arch from the drawing before laying",
+        "Lays the arch bricks in the specified bond, radially, from both springings towards the crown",
+        "Checks plumb and alignment of the arch face at every course"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or the arch bricks are not radial, the bond is broken or the arch face is out of plumb.",
+        "Meets standard: lays the arch units on the layout in the specified bond, radial and in line, closing at the crown.",
+        "Exceeds in places: keeps the wedge-shaped joints even, works equally from both sides and fixes the key brick tightly.",
+        "Excellent: true, symmetrical arch with a neat bond; explains springing, crown and key brick and when the centering can come off."
+      ],
+      "synonyms": [
+        "मेहराब बनाना",
+        "डाट लगाना",
+        "कमान",
+        "चाबी की ईंट",
+        "सेंटरिंग पर ईंट",
+        "मेहराब की चिनाई"
+      ]
+    },
+    "CON/N0110.PC31": {
+      "type": "judgement",
+      "observables": [
+        "Marks the cut on each brick as per the specification",
+        "Cuts the pieces with a brick cutting machine, wearing eye and ear protection",
+        "Cut pieces fit around the corners with full joints and a flush face"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or pieces are cut by guess, chipped or ill fitting, leaving gaps or projections at corners.",
+        "Meets standard: marks and machine-cuts pieces to size so they fit around corners with full joints and a flush face.",
+        "Exceeds in places: cuts are clean and square, the machine is used safely with guard and PPE, and waste is small.",
+        "Excellent: precise cuts that sit flush first time; explains marking, safe cutting and how full joints keep out water."
+      ],
+      "synonyms": [
+        "ईंट काटना",
+        "कटर मशीन",
+        "कोने की ईंट काटना",
+        "कटिंग मशीन से काटना",
+        "सपाट करना",
+        "जोड़ भरना"
+      ]
+    },
+    "CON/N0110.PC32": {
+      "type": "judgement",
+      "observables": [
+        "Writes the date on the masonry with marker or paint",
+        "Keeps arches, steps, manholes and other work wet for at least 7 days",
+        "Keeps fresh work from being walked on or loaded while it cures"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 16",
+      "anchors": [
+        "Below standard: not attempted, or no curing, or the new work is loaded, walked on or left to dry out.",
+        "Meets standard: dates the work and keeps it wet for at least 7 days, protecting it from early loading.",
+        "Exceeds in places: uses ponding or wet sacking where suited, such as on steps and benching, and cures every face.",
+        "Excellent: complete, well-planned curing of all special work; explains why arches and steps need care before loading."
+      ],
+      "synonyms": [
+        "तराई",
+        "तराई करना",
+        "बोरी गीली रखना",
+        "पानी भरना",
+        "तारीख लिखना",
+        "सात दिन पानी"
+      ]
+    },
+    "CON/N0110.PC33": {
+      "type": "judgement",
+      "observables": [
+        "Marks the damaged area and props the work above if needed before cutting out",
+        "Cuts the joints around damaged bricks with saw, drill or chisel, working from the centre outwards",
+        "Removes the old bricks and mortar without loosening the bricks around them"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or hacks bricks out with heavy blows that crack or loosen the surrounding work.",
+        "Meets standard: removes the damaged bricks and mortar with saw, drill or chisel without damaging the adjacent work.",
+        "Exceeds in places: cuts the joints first so bricks come out cleanly, and supports the masonry above while working.",
+        "Excellent: careful, controlled removal with no damage around it; explains the sequence and the support needed."
+      ],
+      "synonyms": [
+        "खराब ईंट निकालना",
+        "पुरानी चिनाई तोड़ना",
+        "छेनी से निकालना",
+        "ड्रिल से काटना",
+        "मरम्मत",
+        "टूटी ईंट बदलना"
+      ]
+    },
+    "CON/N0110.PC34": {
+      "type": "judgement",
+      "observables": [
+        "Uses bricks that match the old ones in size, colour and texture",
+        "Follows the existing bond and joint thickness",
+        "Packs the top joint solidly so the new bricks carry load"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or the new bricks clearly differ in size or bond, or are loose or hollow jointed.",
+        "Meets standard: relays matching bricks in the existing bond, line and joint size, fully bedded and jointed.",
+        "Exceeds in places: matches colour and texture closely and packs the top joint tightly so the repair takes load.",
+        "Excellent: repair blends in and is structurally sound; explains how mismatched bricks or joints show and fail."
+      ],
+      "synonyms": [
+        "ईंट दोबारा लगाना",
+        "पुरानी जैसी चिनाई",
+        "नई ईंट मिलाना",
+        "मरम्मत की चिनाई",
+        "पैबंद लगाना"
+      ]
+    },
+    "CON/N0110.PC35": {
+      "type": "judgement",
+      "observables": [
+        "Rakes old joints out to 15 to 20 mm without chipping brick edges",
+        "Cleans and wets the joints before repointing",
+        "New pointing matches the existing profile and the surface is cleaned with brush or sponge"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or raking is shallow or damages the brick edges, or the new pointing differs badly from the old.",
+        "Meets standard: rakes out to 15 to 20 mm, cleans and wets the joints and repoints to match the existing work.",
+        "Exceeds in places: raking is uniform, brick edges stay sharp and the new pointing blends in colour and profile.",
+        "Excellent: repointing hard to tell from the original and fully sound; explains the repair sequence."
+      ],
+      "synonyms": [
+        "दोबारा टीप करना",
+        "पुरानी टीप निकालना",
+        "जोड़ खुरचना",
+        "टीप की मरम्मत",
+        "रेकिंग"
+      ]
+    },
+    "CON/N0110.PC36": {
+      "type": "judgement",
+      "observables": [
+        "Rakes out loose mortar and washes the old surface",
+        "Applies bonding agent or cement slurry to the old work before new mortar",
+        "Cleans spilled mortar with a wet sponge and cures for at least 7 days"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or new work is placed on dry, dusty old masonry with no slurry, leaving a weak joint.",
+        "Meets standard: prepares, wets and slurries the old surface, bonds the new work to it and cures the junction.",
+        "Exceeds in places: keys the new courses into the old work by toothing, so the junction will not crack.",
+        "Excellent: repair fully bonded and clean; explains why toothing, slurry and curing stop a crack at the junction."
+      ],
+      "synonyms": [
+        "पुरानी दीवार से जोड़ना",
+        "दांते छोड़ना",
+        "दांते काटना",
+        "सीमेंट का घोल",
+        "बॉन्डिंग केमिकल",
+        "जोड़ पकड़ना"
+      ]
+    },
+    "CON/N0111.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Reads the plaster area, thickness and finish type from the sketch",
+        "Notes door and window openings and service points such as pipes and switch boxes",
+        "Explains the plastering sequence the sketch calls for"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or misreads thickness, finish or openings, so the plaster is planned wrongly.",
+        "Meets standard: reads plaster area, thickness, finish type, openings and service positions correctly from the sketch.",
+        "Exceeds in places: relates the sketch to the actual wall and notes where services must go in before plastering.",
+        "Excellent: reads the sketch fully and quickly, spots missing details and asks before work starts."
+      ],
+      "synonyms": [
+        "नक्शा पढ़ना",
+        "प्लास्टर का नक्शा",
+        "प्लास्टर की मोटाई",
+        "ड्राइंग समझना",
+        "फिनिश का प्रकार"
+      ]
+    },
+    "CON/N0111.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Selects plastering trowel, wooden and metal floats, straight edge, plumb bob and spirit level",
+        "Checks that the tools are clean and undamaged before use",
+        "Stacks cement bags on a raised platform, away from walls and covered"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or uses damaged or wrong tools, or leaves cement bags on a damp floor or uncovered.",
+        "Meets standard: selects suitable plastering materials and tools, checks them and handles and stores them properly.",
+        "Exceeds in places: stacks cement off the floor and away from walls, keeps sand clean and cleans tools after use.",
+        "Excellent: tidy, well-organised workplace with everything ready; explains the storage rules and why they matter."
+      ],
+      "synonyms": [
+        "प्लास्टर का सामान",
+        "करनी",
+        "थापी",
+        "पट्टी",
+        "सीमेंट का कट्टा रखना",
+        "औज़ार संभालना"
+      ]
+    },
+    "CON/N0111.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Cleans the wall and wets it",
+        "Fills holes and voids in the masonry with rich mortar",
+        "Hacks smooth concrete surfaces with a hacking hammer"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or plasters over dust, holes or smooth concrete with no hacking or wetting.",
+        "Meets standard: cleans, hacks concrete, fills voids and wets the surface before plastering.",
+        "Exceeds in places: checks that the joints are raked, hacks evenly and wets so the surface is damp but not running.",
+        "Excellent: surface fully ready with nothing missed; explains how poor preparation causes hollow or falling plaster."
+      ],
+      "synonyms": [
+        "सतह तैयार करना",
+        "हैकिंग",
+        "टांकी मारना",
+        "दीवार साफ करना",
+        "छेद भरना",
+        "पानी मारना"
+      ]
+    },
+    "CON/N0111.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Fixes chicken mesh over the joint between concrete and masonry",
+        "Checks the wall for alignment and plumb before setting marks",
+        "Fixes 12 mm thickness marks at all four corners with plumb bob and masons line"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or no thickness marks, or marks not plumb or in line, or no mesh at the concrete joint.",
+        "Meets standard: fixes mesh at the concrete and masonry joints and sets plumb, in-line thickness marks at the corners.",
+        "Exceeds in places: adds dots and screeds between the corner marks so the whole wall can be ruled to one plane.",
+        "Excellent: marks set accurately and quickly for a true plane; explains how the marks control thickness and plumb."
+      ],
+      "synonyms": [
+        "ठिया लगाना",
+        "बटन लगाना",
+        "जाली लगाना",
+        "चिकन जाली",
+        "प्लास्टर के निशान",
+        "साहुल से निशान"
+      ]
+    },
+    "CON/N0111.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Transfers the required levels onto the wall before plastering",
+        "Provides grooves for plumbing, electrical, fire and AC services where required",
+        "Groove lines are straight, level and of even width and depth"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or levels are wrong, or grooves are crooked, uneven or in the wrong place.",
+        "Meets standard: transfers levels and makes the service grooves and plaster lines at the instructed positions.",
+        "Exceeds in places: groove lines are straight, level and uniform in width and depth, with clean edges.",
+        "Excellent: accurate levels and crisp, true grooves; explains groove sizes and how services are coordinated."
+      ],
+      "synonyms": [
+        "खांचा बनाना",
+        "ग्रूव काटना",
+        "पट्टी डालना",
+        "लेवल लेना",
+        "नाली काटना",
+        "दीवार काटना"
+      ]
+    },
+    "CON/N0111.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Sieves the plastering sand through a 2.36 mm sieve",
+        "Removes stones, clay lumps and rubbish before mixing",
+        "Uses only clean, sieved sand for the plaster"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 17",
+      "anchors": [
+        "Below standard: not attempted, or uses unsieved or dirty sand, so the plaster has stones or lumps.",
+        "Meets standard: sieves the plaster sand through the 2.36 mm sieve and uses only clean sieved sand.",
+        "Exceeds in places: checks the sand for silt by rubbing it in the palm and keeps sieved sand covered.",
+        "Excellent: efficient, correct sieving; explains how grading and silt affect cracking and finish of plaster."
+      ],
+      "synonyms": [
+        "रेत छानना",
+        "बालू छानना",
+        "छलनी",
+        "महीन रेत",
+        "जाली से छानना"
+      ]
+    },
+    "CON/N0111.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Confirms the masonry has been cured before plastering",
+        "Checks the wall for plumb and level to judge the plaster thickness needed",
+        "Checks the surface is free of dead mortar and voids"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or plasters over uncured masonry, dead mortar or voids without checking.",
+        "Meets standard: checks curing, plumb, level and soundness of the surface and points out defects before plastering.",
+        "Exceeds in places: measures how far the wall is out of plumb to plan dubbing out or extra thickness.",
+        "Excellent: thorough check with clear decisions on each defect; explains how each would show in the plaster."
+      ],
+      "synonyms": [
+        "दीवार चेक करना",
+        "सतह की जांच",
+        "साहुल देखना",
+        "पुराना मसाला हटाना",
+        "दीवार की तराई"
+      ]
+    },
+    "CON/N0111.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Mortar is of uniform colour with no streaks of unmixed cement or sand",
+        "Consistency suits plastering: it holds on the trowel and spreads without slumping",
+        "Rejects mortar that has started to set or dry out"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or uses streaky, too wet or too dry mortar, or mortar that has begun to set.",
+        "Meets standard: checks that the mix is uniform in colour and of workable consistency, and rejects stale mortar.",
+        "Exceeds in places: adjusts water carefully so the consistency stays the same batch after batch.",
+        "Excellent: consistent, correct mortar throughout; explains how extra water reduces strength and adds shrinkage."
+      ],
+      "synonyms": [
+        "मसाला चेक करना",
+        "मसाले का रंग",
+        "गाढ़ा पतला मसाला",
+        "मसाला सूखना",
+        "मसाले की जांच"
+      ]
+    },
+    "CON/N0111.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Selects bucket trowel and plastering trowel for applying mortar",
+        "Selects wooden or metal float, corner trowel, sponge and straight edge for finishing",
+        "Has plumb bob, spirit level, try square and tape ready for checking"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or works without straight edge, float or checking tools, or with damaged ones.",
+        "Meets standard: selects and checks the trowels, floats, straight edge and checking tools the plaster job needs.",
+        "Exceeds in places: matches tools to the finish, such as sponge for a sand faced finish, and keeps them clean.",
+        "Excellent: complete, well-kept tool set ready before starting; explains the use of each tool."
+      ],
+      "synonyms": [
+        "करनी",
+        "थापी",
+        "लकड़ी की थापी",
+        "पट्टी",
+        "कोने की करनी",
+        "स्पंज"
+      ]
+    },
+    "CON/N0111.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Cleans and wets the whole wall before plastering",
+        "Keeps the wall wet for at least 6 hours beforehand",
+        "Surface is damp, not running with water, when plastering starts"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 18 and 37",
+      "anchors": [
+        "Below standard: not attempted, or plasters on a dry wall that sucks water out, or on one running with water.",
+        "Meets standard: wets the surface well before plastering so it is damp but not running.",
+        "Exceeds in places: wets in good time, re-wets dried patches and allows for hot sun or wind.",
+        "Excellent: surface always at the right dampness; explains how a dry wall causes cracks and a poor bond."
+      ],
+      "synonyms": [
+        "पानी मारना",
+        "दीवार गीली करना",
+        "तर करना",
+        "पानी छिड़कना",
+        "दीवार भिगोना"
+      ]
+    },
+    "CON/N0111.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Batches cement and sand by volume to the specified ratio, such as 1:6",
+        "Mixes dry to an even colour before adding water",
+        "Adds the waterproofing agent for external plaster as specified"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or mixes by guess, adds water before dry mixing, or leaves out a specified additive.",
+        "Meets standard: batches the specified ratio by volume, dry mixes to an even colour and adds any additive as specified.",
+        "Exceeds in places: uses a gauge box for accurate batches and adds the additive at the dose and stage on its label.",
+        "Excellent: accurate, consistent mixes every time; explains the ratio chosen for internal and external plaster."
+      ],
+      "synonyms": [
+        "मसाला बनाना",
+        "एक छह का मसाला",
+        "सीमेंट रेत का अनुपात",
+        "केमिकल मिलाना",
+        "वॉटरप्रूफ पाउडर मिलाना",
+        "तसले से नापना"
+      ]
+    },
+    "CON/N0111.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Cleans and wets the surface before applying slurry",
+        "Applies cement slurry evenly over the whole receiving surface",
+        "Applies the plaster while the slurry is still wet"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or the slurry is patchy or too thin, or allowed to dry before the plaster goes on.",
+        "Meets standard: applies an even coat of slurry over the receiving surface and plasters while it is still wet.",
+        "Exceeds in places: brushes the slurry well into the surface and applies it in sections that match the plastering pace.",
+        "Excellent: uniform, well-timed slurry coat throughout; explains why slurry improves the bond on concrete."
+      ],
+      "synonyms": [
+        "सीमेंट का घोल लगाना",
+        "नीरू लगाना",
+        "स्लरी लगाना",
+        "घोल छिड़कना",
+        "सीमेंट का पानी"
+      ]
+    },
+    "CON/N0111.PC13": {
+      "type": "measurement",
+      "measurementTask": "Measure the plaster thickness at several points, at edges or by probing the green plaster, and enter the reading farthest from 12 mm.",
+      "tolerance": {
+        "kind": "band",
+        "target": 12,
+        "plusMinus": 3,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 72: Plaster thickness ±3mm; page 34: Thickness of plaster: 12 mm"
+      },
+      "observables": [
+        "Applies mortar with bucket trowel and plastering trowel",
+        "Applies mortar from bottom to top between the thickness marks",
+        "Rules off to the marks with a straight edge, leaving no hollows"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 18",
+      "synonyms": [
+        "पलस्तर करना",
+        "प्लास्टर करना",
+        "मसाला थोपना",
+        "मसाला फेंकना",
+        "प्लास्टर की मोटाई",
+        "बारह एमएम प्लास्टर"
+      ]
+    },
+    "CON/N0111.PC14": {
+      "type": "judgement",
+      "observables": [
+        "Levels the surface with a wooden or metal float",
+        "Finishes the corners with a corner trowel so they are truly straight",
+        "Gives the required finish, such as sand faced with a sponge, evenly over the whole area"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 18 and 72",
+      "anchors": [
+        "Below standard: not attempted, or the finish is patchy or not the type required, or corners are wavy and broken.",
+        "Meets standard: floats the surface level and gives the required finish evenly, with straight, neat corners.",
+        "Exceeds in places: times the finishing to the set of the plaster so the texture is even, with no trowel marks or cracks.",
+        "Excellent: uniform, high-quality finish with crisp, truly straight corners; explains how each finish is produced."
+      ],
+      "synonyms": [
+        "फिनिश करना",
+        "थापी से घिसाई",
+        "स्पंज फिनिश",
+        "कोने बनाना",
+        "चिकना करना",
+        "रेतीली फिनिश"
+      ]
+    },
+    "CON/N0111.PC15": {
+      "type": "measurement",
+      "measurementTask": "Hold a straight edge on the plastered surface in several directions and enter the largest gap under it in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 3,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 72: Surface evenness ±3mm"
+      },
+      "observables": [
+        "Runs the straight edge over the marks to trim excess mortar",
+        "Fills voids and corrects undulations while the plaster is green",
+        "Rechecks the surface with the straight edge after finishing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 18",
+      "synonyms": [
+        "पट्टी मारना",
+        "पट्टी से चेक करना",
+        "सतह बराबर करना",
+        "उभार और गड्ढे",
+        "प्लास्टर सीधा करना"
+      ]
+    },
+    "CON/N0111.PC16": {
+      "type": "measurement",
+      "measurementTask": "Check the plastered face with a plumb bob or long spirit level over its full height and enter the largest deviation from plumb in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 3,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 72: Plumb to overall height ±3mm"
+      },
+      "observables": [
+        "Checks vertical alignment with a plumb bob",
+        "Checks horizontal alignment with a masons line between the marks",
+        "Corrects areas out of plumb before the plaster sets"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 18",
+      "synonyms": [
+        "साहुल लेना",
+        "साहुल से चेक",
+        "सूत से लाइन",
+        "प्लास्टर साहुल में",
+        "सीधा करना"
+      ]
+    },
+    "CON/N0111.PC17": {
+      "type": "judgement",
+      "observables": [
+        "Checks the floor slope with a tube level against the required fall",
+        "Slope runs towards the drain or outlet with no ponding spots",
+        "Marks levels at both ends before laying to the fall"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or the floor falls the wrong way or is flat, so water would pond.",
+        "Meets standard: checks the slope with a tube level and keeps the specified fall towards the outlet.",
+        "Exceeds in places: marks levels at both ends and in between so the fall is uniform with no dips.",
+        "Excellent: accurate, uniform fall that drains fully; explains how the fall is set out from the outlet level."
+      ],
+      "synonyms": [
+        "ढलान देना",
+        "ढाल",
+        "पानी का ढाल",
+        "नली से लेवल",
+        "फर्श का स्लोप",
+        "पानी रुकना"
+      ]
+    },
+    "CON/N0111.PC18": {
+      "type": "judgement",
+      "observables": [
+        "Checks the corner with a try square",
+        "Corrects the plaster at the corner until it is square",
+        "Corner is square at the top, middle and bottom"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 18",
+      "anchors": [
+        "Below standard: not attempted, or corners are left out of square or wavy.",
+        "Meets standard: checks corners with a try square and corrects them to a right angle where required.",
+        "Exceeds in places: checks at several heights so the corner is square and straight over its full length.",
+        "Excellent: corners square and true throughout; explains how square corners help fix frames and tiles."
+      ],
+      "synonyms": [
+        "गुनिया",
+        "गुनिया से चेक",
+        "कोना गुनिया में",
+        "कोना सीधा",
+        "समकोण"
+      ]
+    },
+    "CON/N0112.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Finds the leakage points with a pond test",
+        "Cuts a V groove on each construction joint and fills it with waterproofing material",
+        "Repairs honeycombs with waterproofing material followed by pressure grouting",
+        "Forms a haunch in concrete at all corners"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 18 and 19",
+      "anchors": [
+        "Below standard: not attempted, or misses leaks, cracks or honeycombs, or seals joints without grooving or cleaning.",
+        "Meets standard: locates defects, grooves and seals the joints, repairs honeycombs and forms corner haunches as specified.",
+        "Exceeds in places: cleans and primes the grooves before sealing and fills them flush, leaving no voids.",
+        "Excellent: finds every defect systematically and repairs it durably; explains why each leak path occurred."
+      ],
+      "synonyms": [
+        "लीकेज ढूंढना",
+        "दरार भरना",
+        "वी खांचा काटना",
+        "हनीकॉम्ब भरना",
+        "ग्राउटिंग",
+        "कोने में गोला बनाना"
+      ]
+    },
+    "CON/N0112.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Chips off dead mortar and loose concrete",
+        "Scrubs the surface with a wire brush and washes it with water",
+        "Surface is free of dust, oil and loose material before treatment"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or leaves dust, loose mortar or oil on the surface to be treated.",
+        "Meets standard: chips off dead material, wire brushes and washes the surface clean.",
+        "Exceeds in places: pays attention to corners, joints and edges and lets the wash water drain off fully.",
+        "Excellent: surface perfectly clean and sound; explains how dirt or loose material breaks the waterproofing bond."
+      ],
+      "synonyms": [
+        "सतह साफ करना",
+        "छत धोना",
+        "तार ब्रश",
+        "पुराना मसाला छीलना",
+        "धूल हटाना"
+      ]
+    },
+    "CON/N0112.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Estimates and arranges the bricks needed for the course",
+        "Soaks them in a water tank or container for at least 7 hours, or overnight, before laying",
+        "Lays them damp, not dripping"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or uses dry bricks or bats that soak up water from the mortar.",
+        "Meets standard: estimates the bricks needed and soaks them overnight, or as specified, before laying.",
+        "Exceeds in places: plans soaking a day ahead and keeps enough soaked bats ready so work is not held up.",
+        "Excellent: reliable soaking routine; explains how dry bats weaken the coba and leave hollow spots."
+      ],
+      "synonyms": [
+        "ईंट भिगोना",
+        "रात भर भिगोना",
+        "रोड़ा भिगोना",
+        "ईंट तर करना",
+        "पानी की टंकी में डालना"
+      ]
+    },
+    "CON/N0112.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Hacks the RCC surface and chips or scrapes off protrusions and sharp edges",
+        "Fills holes and depressions with cementitious material",
+        "Washes the surface free of dust and applies the prime or sealing coat"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or primes over dust, holes, protrusions or sharp edges left on the surface.",
+        "Meets standard: hacks, chips, fills, washes and primes the surface in the right order before waterproofing.",
+        "Exceeds in places: rounds off sharp edges and fills depressions flush so the coat can be applied evenly.",
+        "Excellent: surface fully prepared and primed with nothing missed; explains the purpose of each step."
+      ],
+      "synonyms": [
+        "हैकिंग",
+        "सतह छीलना",
+        "प्राइमर लगाना",
+        "गड्ढे भरना",
+        "धार हटाना",
+        "सतह तैयार करना"
+      ]
+    },
+    "CON/N0112.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Checks cement bags for grade and week of manufacture",
+        "Rejects cement with lumps or an abnormal colour",
+        "Checks sand for silt content and grading"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or uses lumpy, old or wrong-grade cement, or silty sand.",
+        "Meets standard: checks cement grade, week, lumps and colour, and sand silt and grading, before use.",
+        "Exceeds in places: uses older sound stock first and checks silt by rubbing sand in the palm or a simple jar test.",
+        "Excellent: sound material judgement; explains how stale cement and silty sand weaken waterproof mortar."
+      ],
+      "synonyms": [
+        "सीमेंट चेक करना",
+        "सीमेंट की तारीख",
+        "सीमेंट में गांठ",
+        "रेत में मिट्टी",
+        "सीमेंट का ग्रेड"
+      ]
+    },
+    "CON/N0112.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Checks that the make and type of grout match the specification",
+        "Grout flows easily into the gaps",
+        "Grout does not bleed or separate"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or the grout is too thick to flow or so thin that it bleeds and separates.",
+        "Meets standard: checks the grout type and adjusts consistency so it fills gaps easily without bleeding.",
+        "Exceeds in places: mixes to the maker's water ratio and checks the flow before use and again during grouting.",
+        "Excellent: correct grout every batch; explains how bleeding and stiff grout both leave voids."
+      ],
+      "synonyms": [
+        "ग्राउट का घोल",
+        "ग्राउटिंग मसाला",
+        "घोल पतला गाढ़ा",
+        "ग्राउट भरना",
+        "ग्राउट चेक करना"
+      ]
+    },
+    "CON/N0112.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Reads the maker's instructions and matches the product to the specification",
+        "Checks the manufacturing date and batch identification",
+        "Notes the mixing proportion and coverage of the material"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or uses an expired or wrong product without reading the label.",
+        "Meets standard: checks product, date, batch, proportion and coverage against the specification before use.",
+        "Exceeds in places: works out the quantity needed from the coverage and makes sure enough of one batch is available.",
+        "Excellent: thorough material check; explains what each label detail means for the waterproofing."
+      ],
+      "synonyms": [
+        "केमिकल चेक करना",
+        "वॉटरप्रूफिंग केमिकल",
+        "एक्सपायरी देखना",
+        "डिब्बे पर लिखा पढ़ना",
+        "बैच नंबर"
+      ]
+    },
+    "CON/N0112.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Transfers the finished level from the reference level with a tube level",
+        "Marks a reference line 300 mm above finished level at all corners",
+        "Sets level marks at regular intervals to give the specified slope"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or levels are guessed, so the finished surface will be flat or fall the wrong way.",
+        "Meets standard: transfers levels and marks them at regular intervals to give the specified slope to the outlet.",
+        "Exceeds in places: works out the fall at each mark from the outlet level and checks the marks against each other.",
+        "Excellent: accurate level grid giving an even fall; explains the slope needed for drainage and how it is set."
+      ],
+      "synonyms": [
+        "लेवल लेना",
+        "ढलान के निशान",
+        "नली से लेवल",
+        "ढाल देना",
+        "लेवल के ठिए"
+      ]
+    },
+    "CON/N0112.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Measures cement, sand and waterproofing compound in the maker's proportion",
+        "Mixes thoroughly to an even colour and the required consistency",
+        "Prepares only as much as can be used within its working time"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or adds the compound by guess or leaves it out, or the mix is lumpy or too wet.",
+        "Meets standard: prepares the waterproof mortar in the specified proportion and mixes it evenly.",
+        "Exceeds in places: measures the compound accurately per bag of cement and mixes small batches to use fresh.",
+        "Excellent: correct, consistent mixes for each surface; explains why dose and mixing matter for watertightness."
+      ],
+      "synonyms": [
+        "वॉटरप्रूफ मसाला",
+        "केमिकल वाला मसाला",
+        "मसाले में केमिकल",
+        "मसाला बनाना",
+        "पाउडर मिलाना"
+      ]
+    },
+    "CON/N0112.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Applies the coats in the correct sequence on the damp, prepared surface",
+        "Brushes each coat evenly, with no pinholes or missed spots",
+        "Carries the coat up the parapet wall, to about 300 mm, and around pipe projections"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 19 and 41",
+      "anchors": [
+        "Below standard: not attempted, or the coat is patchy or thin, or skips corners, upstands and pipe junctions.",
+        "Meets standard: applies the waterproofing coats in the correct sequence, evenly, covering upstands and junctions.",
+        "Exceeds in places: applies each coat across the previous one once it has set, keeping to the maker's coverage.",
+        "Excellent: uniform, complete coating with every detail sealed; explains the sequence and curing between coats."
+      ],
+      "synonyms": [
+        "वॉटरप्रूफिंग लगाना",
+        "ब्रश से कोट",
+        "कोट लगाना",
+        "ब्रश बॉन्ड",
+        "दो कोट लगाना"
+      ]
+    },
+    "CON/N0112.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Finishes the surface with a metal float",
+        "Gives a brush finish with a coir brush where specified",
+        "Finish is uniform, with no trowel marks, cracks or loose patches"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 19",
+      "anchors": [
+        "Below standard: not attempted, or the finish is rough, cracked, patchy or not the type specified.",
+        "Meets standard: finishes with metal float and coir brush to the required finish, uniform over the area.",
+        "Exceeds in places: finishes at the right time so the surface is dense and even, with clean edges and junctions.",
+        "Excellent: high-quality, uniform finish; explains how a dense finish helps shed water."
+      ],
+      "synonyms": [
+        "फिनिश करना",
+        "ब्रश फिनिश",
+        "नारियल ब्रश",
+        "थापी से फिनिश",
+        "करनी से चिकना करना"
+      ]
+    },
+    "CON/N0112.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Barricades the area with caution tape or hard barricading",
+        "Covers the surface with tarpaulin or plastic sheet against rain and dust",
+        "Keeps people and stored material off the fresh treatment"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 20",
+      "anchors": [
+        "Below standard: not attempted, or the fresh surface is left open to traffic, rain or dust.",
+        "Meets standard: barricades and covers the waterproofed area to protect it from damage, rain and dust.",
+        "Exceeds in places: puts up warning signs and stops others storing material or walking on it until it has cured.",
+        "Excellent: surface fully protected until the next layer; explains how damage now causes leaks later."
+      ],
+      "synonyms": [
+        "रस्सी बांधकर रोकना",
+        "तिरपाल ढकना",
+        "प्लास्टिक ढकना",
+        "बैरिकेड लगाना",
+        "चलने से रोकना"
+      ]
+    },
+    "CON/N0112.PC13": {
+      "type": "judgement",
+      "observables": [
+        "Blocks the outlets and floods the surface for a pond test",
+        "Checks the underside and walls for damp patches or drips during the test",
+        "Marks and reports any leak for repair"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 20",
+      "anchors": [
+        "Below standard: not attempted, or no pond test, or damp patches below the slab are missed.",
+        "Meets standard: carries out a pond test and checks below for leaks, marking any found.",
+        "Exceeds in places: keeps water standing long enough to show slow leaks and records the water level to check for loss.",
+        "Excellent: thorough, patient leak test; explains how to trace a leak to its source and what to repair."
+      ],
+      "synonyms": [
+        "पानी भरकर टेस्ट",
+        "पॉन्ड टेस्ट",
+        "छत पर पानी भरना",
+        "रिसाव देखना",
+        "टपकना",
+        "सीलन देखना"
+      ]
+    },
+    "CON/N0112.PC14": {
+      "type": "judgement",
+      "observables": [
+        "Finds non-structural gaps, such as around pipes and at junctions",
+        "Fills them with lightweight material and finishes the surface",
+        "Leaves no gap open before the brick bat course starts"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 20",
+      "anchors": [
+        "Below standard: not attempted, or gaps are left open or stuffed with loose rubbish before the brick bats are laid.",
+        "Meets standard: fills all non-structural gaps with suitable lightweight material and finishes them before laying bats.",
+        "Exceeds in places: packs the fill firmly and finishes it flush so the bat course beds evenly over it.",
+        "Excellent: every gap found and filled neatly; explains why open gaps lead to cracks and leaks in the coba."
+      ],
+      "synonyms": [
+        "गैप भरना",
+        "खाली जगह भरना",
+        "दरार भरना",
+        "पाइप के आसपास भरना",
+        "जगह भरना"
+      ]
+    },
+    "CON/N0112.PC15": {
+      "type": "judgement",
+      "observables": [
+        "Batches cement and sand to the specified ratio, such as 1:6",
+        "Adds the waterproofing admixture at the specified dose",
+        "Dry mixes first, then adds water in the right sequence to an even, workable mortar"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 20",
+      "anchors": [
+        "Below standard: not attempted, or the ratio is guessed, the admixture is left out, or the mortar is poorly mixed.",
+        "Meets standard: prepares mortar to the specified ratio with the admixture added correctly and mixed evenly.",
+        "Exceeds in places: measures the admixture per bag of cement and sizes batches to the laying pace.",
+        "Excellent: accurate, consistent waterproof mortar throughout; explains the role of the admixture."
+      ],
+      "synonyms": [
+        "एक छह का मसाला",
+        "केमिकल वाला मसाला",
+        "वॉटरप्रूफ पाउडर",
+        "मसाला बनाना",
+        "सीमेंट रेत मिलाना"
+      ]
+    },
+    "CON/N0112.PC16": {
+      "type": "judgement",
+      "observables": [
+        "Spreads a 20 mm thick mortar bed over the waterproofed surface",
+        "Levels the bed with a straight edge",
+        "Bed thickness is even, with no thin spots"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 20",
+      "anchors": [
+        "Below standard: not attempted, or the bed is patchy, very uneven or thin in places.",
+        "Meets standard: spreads an even bed of the specified thickness and levels it with a straight edge.",
+        "Exceeds in places: works to the level marks so thickness stays even, without damaging the waterproof coat below.",
+        "Excellent: uniform, well-levelled bed laid quickly; explains why an even bed matters for the bat course."
+      ],
+      "synonyms": [
+        "मसाला बिछाना",
+        "बराबर मसाला फैलाना",
+        "पट्टी से बराबर करना",
+        "मसाले की परत",
+        "बेस कोट"
+      ]
+    },
+    "CON/N0112.PC17": {
+      "type": "measurement",
+      "measurementTask": "Measure the gaps between brick bats at several places and enter the largest deviation in mm from the regular gap set (the checklist asks for a uniform 10 to 15 mm gap) (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 3,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 73: Regular joint thickness (Brick) ±3mm; page 20: Maintain uniform gap (10 to 15 mm) between the brick."
+      },
+      "observables": [
+        "Ties a masons line to all four corners at the reference level",
+        "Lays brick bats from one corner to the other with even joints and thickness",
+        "Lays the bats to the slope, firmly bedded with no loose pieces"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 20",
+      "synonyms": [
+        "रोड़ा बिछाना",
+        "ईंट के टुकड़े बिछाना",
+        "ब्रिक बैट कोबा",
+        "कोबा करना",
+        "बराबर गैप",
+        "सूत पर रोड़ा"
+      ]
+    },
+    "CON/N0112.PC18": {
+      "type": "judgement",
+      "observables": [
+        "Keeps a uniform gap of 10 to 15 mm between the bats",
+        "Fills every gap completely with cement mortar in the correct sequence",
+        "No hollow or open joints remain"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 20",
+      "anchors": [
+        "Below standard: not attempted, or gaps are left hollow or part filled, leaving voids in the coba.",
+        "Meets standard: fills all the gaps between bats fully with cement mortar in the correct sequence.",
+        "Exceeds in places: packs mortar down into every joint with a trowel so the layer is solid throughout.",
+        "Excellent: solid, void-free coba; explains how hollow joints hold water and cause leaks and cracks."
+      ],
+      "synonyms": [
+        "गैप भरना",
+        "जोड़ भरना",
+        "मसाला भरना",
+        "रोड़े के बीच भरना",
+        "खाली जगह भरना"
+      ]
+    },
+    "CON/N0112.PC19": {
+      "type": "measurement",
+      "measurementTask": "Measure the thickness of the finishing plaster over the brick bats at several points, at edges or by probing while green, and enter the reading farthest from 20 mm.",
+      "tolerance": {
+        "kind": "band",
+        "target": 20,
+        "plusMinus": 3,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 73: Plaster thickness (protective layer) ±3mm; page 38: further finished (brush marked) with cement plaster of 20 mm thick."
+      },
+      "observables": [
+        "Spreads mortar with the specified admixture over the brick bats and levels it to the slope",
+        "Finishes the surface with a metal float and coir brush",
+        "Edges and corners of the finish are truly straight"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 20 and 73",
+      "synonyms": [
+        "ऊपर का प्लास्टर",
+        "फिनिशिंग कोट",
+        "छत का प्लास्टर",
+        "ब्रश फिनिश",
+        "ढलान में प्लास्टर",
+        "बीस एमएम प्लास्टर"
+      ]
+    },
+    "CON/N0112.PC20": {
+      "type": "judgement",
+      "observables": [
+        "Transfers levels with a water tube level",
+        "Marks each level clearly with a marker",
+        "Checks the transferred marks back against the reference"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 20",
+      "anchors": [
+        "Below standard: not attempted, or levels are guessed, or marked wrongly through misuse of the tube level.",
+        "Meets standard: transfers the required levels with a tube level and marks them clearly.",
+        "Exceeds in places: bleeds air from the tube, waits for the water to settle and rechecks each mark.",
+        "Excellent: accurate, quick level transfer; explains how the tube level works and its common errors."
+      ],
+      "synonyms": [
+        "लेवल लेना",
+        "नली से लेवल",
+        "पानी की नली",
+        "लेवल का निशान",
+        "मार्कर से निशान"
+      ]
+    },
+    "CON/N0112.PC21": {
+      "type": "measurement",
+      "measurementTask": "Hold a straight edge on the finished surface in several directions and enter the largest gap under it in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 3,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 73: Surface evenness ±3mm"
+      },
+      "observables": [
+        "Ties a reference line between the level marks and checks the surface against it",
+        "Checks upstands and vertical faces for plumb",
+        "Corrects high and low spots before the mortar sets"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 20",
+      "synonyms": [
+        "सूत से चेक करना",
+        "पट्टी से चेक",
+        "सतह बराबर",
+        "लेवल चेक करना",
+        "उभार गड्ढे ठीक करना"
+      ]
+    },
+    "CON/N0112.PC22": {
+      "type": "measurement",
+      "measurementTask": "At each level mark, measure the finished surface against its design level for the slope and enter the largest deviation in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 3,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 73: Gradient/slope ±3mm"
+      },
+      "observables": [
+        "Transfers the finished level from the reference level with a tube level",
+        "Marks a reference line 300 mm above finished level at all corners",
+        "Sets level marks at regular intervals so the surface falls to the outlet as specified"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 20",
+      "synonyms": [
+        "ढलान",
+        "ढाल देना",
+        "पानी का ढाल",
+        "लेवल के ठिए",
+        "स्लोप चेक करना",
+        "पानी रुकना"
+      ]
+    },
+    "CON/N0113.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Selects dressing hammer, spall hammer and chisels for shaping stones",
+        "Selects trowel, mortar pan, line, plumb bob, spirit level and straight edge for laying",
+        "Checks that hammer heads and handles are tight and chisel edges are sound"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 20 and 42",
+      "anchors": [
+        "Below standard: not attempted, or uses unsuitable or damaged tools, such as a loose hammer head or a mushroomed chisel.",
+        "Meets standard: selects and checks the dressing, laying and checking tools that rubble masonry needs.",
+        "Exceeds in places: keeps chisels sharp and suited to the stone and lays out the tools so the work flows.",
+        "Excellent: complete, well-kept kit; explains which hammer and chisel suit each kind of dressing."
+      ],
+      "synonyms": [
+        "पत्थर का हथौड़ा",
+        "टांकी",
+        "छेनी",
+        "घन",
+        "करनी",
+        "साहुल"
+      ]
+    },
+    "CON/N0113.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Works out the wall volume from length, height and thickness",
+        "Estimates stone, cement and sand for the given mortar ratio",
+        "States the quantities in site units, such as bags of cement"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or no estimate, or one so far off that work stops or material is wasted.",
+        "Meets standard: estimates stone, cement and sand from the wall size and mortar ratio with a sensible result.",
+        "Exceeds in places: shows the working, allows for voids and wastage and converts the result to bags and loads.",
+        "Excellent: quick, reliable estimate explained clearly; checks it against the material actually used."
+      ],
+      "synonyms": [
+        "माल का हिसाब",
+        "पत्थर का हिसाब",
+        "सीमेंट के कट्टे",
+        "अंदाज़ा लगाना",
+        "कितना पत्थर लगेगा"
+      ]
+    },
+    "CON/N0113.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Clears the base of loose soil, roots and debris",
+        "Levels the base to the required level",
+        "Wets and compacts the base before the first course"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or builds on a loose, uneven or dirty base.",
+        "Meets standard: clears, levels and prepares the sub-base so the first course beds on a firm, level surface.",
+        "Exceeds in places: checks the base level at several points and corrects soft or low spots before starting.",
+        "Excellent: firm, true sub-base prepared efficiently; explains how a poor base causes settlement and cracks."
+      ],
+      "synonyms": [
+        "बेस तैयार करना",
+        "नींव का तल",
+        "ज़मीन बराबर करना",
+        "सोलिंग",
+        "पीसीसी",
+        "PCC"
+      ]
+    },
+    "CON/N0113.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Compacts the base with a rammer or plate compactor before laying stones",
+        "Wets the base to suit compaction",
+        "Base does not yield underfoot when compaction is complete"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 21 and 29",
+      "anchors": [
+        "Below standard: not attempted, or starts laying on loose, uncompacted ground.",
+        "Meets standard: compacts the base properly before laying, so it is firm and even.",
+        "Exceeds in places: compacts in layers at the right moisture and checks firmness across the whole area.",
+        "Excellent: thorough, efficient compaction; explains how moisture and layer depth affect it."
+      ],
+      "synonyms": [
+        "कुटाई",
+        "दुरमुट",
+        "ठुकाई करना",
+        "बेस पक्का करना",
+        "प्लेट मशीन",
+        "पानी डालकर कुटाई"
+      ]
+    },
+    "CON/N0113.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Reads the required face finish from the drawing or the site condition",
+        "Names finishes such as hammer dressed, fine chiselled, tooled and pitched face",
+        "Dresses the face stones to the chosen finish"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or cannot name or choose a finish, or dresses stones to the wrong finish.",
+        "Meets standard: selects the finish the drawing or site needs and dresses the face stones to it.",
+        "Exceeds in places: keeps the finish uniform over the whole face and matches it to existing work.",
+        "Excellent: chooses and produces finishes confidently; explains where each finish suits and why."
+      ],
+      "synonyms": [
+        "पत्थर की घड़ाई",
+        "घड़ाई का प्रकार",
+        "हथौड़े की घड़ाई",
+        "छेनी की घड़ाई",
+        "पत्थर का फेस",
+        "टांकी से घड़ना"
+      ]
+    },
+    "CON/N0113.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Checks the sides, edges and bed of each stone are fit for laying",
+        "Knocks off weak corners and thin edges and dresses a firm bed",
+        "Trial fits each stone before bedding it in mortar"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or lays stones with rounded beds or thin edges, so they rock or wedge apart.",
+        "Meets standard: dresses sides, edges and beds so each stone sits firm and bonds with its neighbours.",
+        "Exceeds in places: trial fits stones before bedding and dresses only as much as needed, with little waste.",
+        "Excellent: stones fit snugly with little mortar needed; explains how good beds and sides give a strong bond."
+      ],
+      "synonyms": [
+        "पत्थर घड़ना",
+        "पत्थर का तल",
+        "किनारे तोड़ना",
+        "पत्थर बैठाना",
+        "पत्थर छांटना"
+      ]
+    },
+    "CON/N0113.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Batches cement and sand to the specified ratio, such as 1:6",
+        "Mixes dry to an even colour before adding water",
+        "Wets only as much mortar as can be used within 30 minutes"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or mixes by guess, adds water before dry mixing, or uses mortar that has set.",
+        "Meets standard: dry mixes to the specified ratio, then wets only the mortar that can be used within 30 minutes.",
+        "Exceeds in places: uses a gauge box for batching and keeps the consistency the same from batch to batch.",
+        "Excellent: correct, fresh mortar throughout; explains why mortar that has begun to set is not remixed with water."
+      ],
+      "synonyms": [
+        "मसाला बनाना",
+        "सूखा मिलाना",
+        "एक छह का मसाला",
+        "मसाला गीला करना",
+        "आधे घंटे में मसाला"
+      ]
+    },
+    "CON/N0113.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Transfers the level from the reference level with a tube level",
+        "Marks a reference line 300 mm above finished level at all corners",
+        "Fixes course and top levels before laying starts"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or starts without levels, so the courses and top level drift.",
+        "Meets standard: transfers and marks the required levels with a tube level before starting the masonry.",
+        "Exceeds in places: marks levels at all corners and checks them against each other.",
+        "Excellent: accurate level marks set quickly; explains how they control course heights and the top level."
+      ],
+      "synonyms": [
+        "लेवल लेना",
+        "नली से लेवल",
+        "लेवल का निशान",
+        "पानी की नली",
+        "लेवल ट्रांसफर"
+      ]
+    },
+    "CON/N0113.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Checks cement bags for grade, batch date and week of manufacture",
+        "Confirms the mortar proportion matches the specification",
+        "Mortar is plastic and holds on the trowel without being runny"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or uses mortar that is too stiff, too wet or of unknown proportion.",
+        "Meets standard: checks the cement, the proportion used and the workability of the mortar before laying.",
+        "Exceeds in places: adjusts water to keep workability steady and rejects mortar that has begun to stiffen.",
+        "Excellent: consistent, workable mortar throughout; explains the effect of too much or too little water."
+      ],
+      "synonyms": [
+        "मसाला चेक करना",
+        "मसाले का अनुपात",
+        "गाढ़ा पतला",
+        "सीमेंट की तारीख",
+        "सीमेंट का ग्रेड"
+      ]
+    },
+    "CON/N0113.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Checks the stones are as specified and free of cracks and weathering",
+        "Checks the stones for size, colour, finish and damage",
+        "Keeps dressed stones for the face and undressed stones for filling"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 21 and 65",
+      "anchors": [
+        "Below standard: not attempted, or uses cracked, weathered or undersized stones without checking.",
+        "Meets standard: checks stones for soundness, size, colour and finish and sorts face and filling stones.",
+        "Exceeds in places: tests doubtful stones by striking them and sets aside long stones for bond stones.",
+        "Excellent: sound stone selection throughout; explains signs of poor stone and the needs of face, hearting and bond."
+      ],
+      "synonyms": [
+        "पत्थर छांटना",
+        "पत्थर की जांच",
+        "घड़ा पत्थर",
+        "भराई का पत्थर",
+        "बॉन्ड पत्थर",
+        "पत्थर की दरार"
+      ]
+    },
+    "CON/N0113.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Soaks or wets the stones before laying",
+        "Washes dust and mud off the stones",
+        "Stones are damp, not dripping, when laid"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or lays dry, dusty stones that draw water from the mortar.",
+        "Meets standard: soaks and cleans stones before laying so they are damp when bedded.",
+        "Exceeds in places: keeps a stock of soaked stones ready and re-wets those left in the sun.",
+        "Excellent: consistent soaking routine; explains how dry or dusty stones weaken the mortar bond."
+      ],
+      "synonyms": [
+        "पत्थर भिगोना",
+        "पत्थर धोना",
+        "पत्थर तर करना",
+        "पत्थर पर पानी डालना",
+        "पानी छिड़कना"
+      ]
+    },
+    "CON/N0113.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Uses hammer dressed stones on the face where required",
+        "Uses undressed stones for hearting and filling",
+        "Dresses stones with a hammer only where the site needs it"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 21",
+      "anchors": [
+        "Below standard: not attempted, or cannot tell when to dress a stone, or dresses every stone needlessly.",
+        "Meets standard: uses hammer dressed stones where required and undressed stones where they suit, as the site needs.",
+        "Exceeds in places: dresses efficiently, picking stones that need little work, and keeps the face appearance even.",
+        "Excellent: skilled with both kinds of stone; explains when dressing is needed and how much."
+      ],
+      "synonyms": [
+        "घड़ा हुआ पत्थर",
+        "बिना घड़ा पत्थर",
+        "अनगढ़ पत्थर",
+        "हथौड़े से घड़ना",
+        "पत्थर तोड़ना"
+      ]
+    },
+    "CON/N0113.PC13": {
+      "type": "measurement",
+      "measurementTask": "Tape the overall length of the finished wall along its face and enter the length in mm.",
+      "tolerance": {
+        "kind": "band",
+        "target": 1500,
+        "plusMinus": 4,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 74: Overall length of wall ±4mm; page 42: 1500 mm (task drawing)"
+      },
+      "observables": [
+        "Uses dressed stones on the face and undressed stones for filling",
+        "Staggers vertical joints and uses enough bond stones through the wall",
+        "Length of the perpendicular wall is within 4 mm of the drawing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 21, 45 and 74",
+      "synonyms": [
+        "पत्थर की चिनाई",
+        "पत्थर की जुड़ाई",
+        "रबल चिनाई",
+        "अनगढ़ पत्थर की चिनाई",
+        "पत्थर की दीवार",
+        "बॉन्ड पत्थर लगाना"
+      ]
+    },
+    "CON/N0113.PC14": {
+      "type": "judgement",
+      "observables": [
+        "Knocks off projecting corners of the laid stones so the face is even",
+        "Packs joints fully with mortar and stone chips",
+        "Makes face joints flush where no plaster follows, not more than 20 mm thick",
+        "Joints are of regular thickness, within 5 mm either way (the page 65 sheet says 3 mm)"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 45, 65 and 74",
+      "anchors": [
+        "Below standard: not attempted, or projecting corners are left, joints are hollow, or the face is rough and uneven.",
+        "Meets standard: knocks off projections and fills joints fully and flush, giving an even face as the site requires.",
+        "Exceeds in places: joints are well packed with chips, regular in width and neatly flushed, with no mortar smeared on stones.",
+        "Excellent: even, tight face with solid, regular joints; explains why projections and hollow joints weaken the wall."
+      ],
+      "synonyms": [
+        "उभरे कोने तोड़ना",
+        "जोड़ भरना",
+        "जोड़ सपाट करना",
+        "गिट्टी भरना",
+        "पत्थर के टुकड़े भरना",
+        "फेस बराबर करना"
+      ]
+    },
+    "CON/N0113.PC15": {
+      "type": "judgement",
+      "observables": [
+        "Places large, well-shaped stones at the corners and jambs",
+        "Corner stones bond alternately into both walls",
+        "Places the largest stones in the lowest course"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 45",
+      "anchors": [
+        "Below standard: not attempted, or uses small or rounded stones at corners and jambs, leaving weak, loose corners.",
+        "Meets standard: places large, well-shaped stones at corners and jambs, bonded into both faces.",
+        "Exceeds in places: corner stones alternate in direction course by course, tying the two walls together.",
+        "Excellent: strong, true corners and jambs; explains how large corner stones tie the walls and resist cracking."
+      ],
+      "synonyms": [
+        "कोने का पत्थर",
+        "बड़ा पत्थर कोने में",
+        "कोना मज़बूत करना",
+        "चौखट के बगल का पत्थर",
+        "कोना बांधना"
+      ]
+    },
+    "CON/N0113.PC16": {
+      "type": "judgement",
+      "observables": [
+        "Uses a suitable curing method, such as spraying or wet sacking",
+        "Cures the masonry for at least 7 days",
+        "Keeps both faces and the top damp"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 22",
+      "anchors": [
+        "Below standard: not attempted, or no curing, or the wall is left to dry out in the first days.",
+        "Meets standard: cures the rubble masonry by a suitable method for at least 7 days.",
+        "Exceeds in places: cures regularly through each day and covers the top in hot or windy weather.",
+        "Excellent: reliable curing routine; explains how curing builds mortar strength in thick stone walls."
+      ],
+      "synonyms": [
+        "तराई",
+        "tarai",
+        "तराई करना",
+        "पानी देना",
+        "बोरी गीली रखना",
+        "सात दिन तराई"
+      ]
+    },
+    "CON/N0113.PC17": {
+      "type": "judgement",
+      "observables": [
+        "Rakes joints to a depth of 15 to 20 mm",
+        "Rakes while the mortar is still green",
+        "Raked joints are even, with no loose mortar left"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 22",
+      "anchors": [
+        "Below standard: not attempted, or raking waits until the mortar hardens, or is shallow and uneven.",
+        "Meets standard: rakes joints to the specified depth while the mortar is green, evenly along the joints.",
+        "Exceeds in places: keeps a uniform depth with square backs and no damage to stone edges.",
+        "Excellent: clean, uniform raking at the right time; explains how it keys the pointing to the wall."
+      ],
+      "synonyms": [
+        "जोड़ खुरचना",
+        "रेकिंग",
+        "जोड़ कुरेदना",
+        "कच्चे मसाले में खुरचना",
+        "जोड़ खोलना"
+      ]
+    },
+    "CON/N0113.PC18": {
+      "type": "judgement",
+      "observables": [
+        "Brushes dust and loose mortar out of the raked joints",
+        "Wets the joints and stone surface before pointing",
+        "Joints are damp, not running with water, when pointing starts"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 22",
+      "anchors": [
+        "Below standard: not attempted, or points into dusty, dry joints.",
+        "Meets standard: cleans out the raked joints and wets them and the surface before pointing.",
+        "Exceeds in places: re-wets joints that dry out and checks each joint is clean to its full depth.",
+        "Excellent: joints always clean and damp; explains how dust and dryness make pointing fall out."
+      ],
+      "synonyms": [
+        "जोड़ साफ करना",
+        "जोड़ गीले करना",
+        "ब्रश से सफाई",
+        "पानी मारना",
+        "जोड़ धोना"
+      ]
+    },
+    "CON/N0113.PC19": {
+      "type": "judgement",
+      "observables": [
+        "Batches binder and sand to the specified pointing ratio",
+        "Uses fine sieved sand and mixes dry to an even colour",
+        "Mixes small batches so the mortar is used fresh"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 22",
+      "anchors": [
+        "Below standard: not attempted, or mixes pointing mortar by guess, or the mortar is coarse, wet or stale.",
+        "Meets standard: prepares pointing mortar to the specified ratio with fine sand, mixed evenly and used fresh.",
+        "Exceeds in places: batches accurately and keeps colour and consistency the same across batches.",
+        "Excellent: consistent, correct pointing mortar; explains when lime or cement mortar suits stone work."
+      ],
+      "synonyms": [
+        "टीप का मसाला",
+        "मसाला बनाना",
+        "चूने का मसाला",
+        "सीमेंट मसाला",
+        "बारीक रेत"
+      ]
+    },
+    "CON/N0113.PC20": {
+      "type": "judgement",
+      "observables": [
+        "Presses fresh mortar firmly into the cleaned, wet joints",
+        "Fills joints fully to the depth needed for the specified pointing",
+        "Keeps stone faces free of smeared mortar, cleaning with brush or sponge"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 22",
+      "anchors": [
+        "Below standard: not attempted, or joints are left hollow, or overfilled and smeared over the stones.",
+        "Meets standard: fills all joints fully with fresh mortar, ready to form the specified pointing.",
+        "Exceeds in places: presses mortar in layers into deep joints and keeps the stone faces clean.",
+        "Excellent: joints solidly filled and neat throughout; explains how the fill affects durability."
+      ],
+      "synonyms": [
+        "जोड़ भरना",
+        "टीप भरना",
+        "मसाला दबाना",
+        "जोड़ में मसाला",
+        "गुरमाला से भरना"
+      ]
+    },
+    "CON/N0113.PC21": {
+      "type": "judgement",
+      "observables": [
+        "Forms V pointing and struck pointing as specified",
+        "Uses the right pointing tool for each profile",
+        "Cleans the stone surface with brush or sponge after pointing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 22 and 42",
+      "anchors": [
+        "Below standard: not attempted, or cannot form the pointing asked for, or the profile is uneven and smeared.",
+        "Meets standard: forms the specified pointing types, such as V and struck, with suitable tools to a clean profile.",
+        "Exceeds in places: profiles are uniform along the irregular stone joints and the edges are crisp.",
+        "Excellent: neat pointing of several types on rubble work; explains where each type is used."
+      ],
+      "synonyms": [
+        "वी टीप",
+        "स्ट्रक टीप",
+        "पत्थर पर टीप",
+        "टीप करना",
+        "उभरी टीप",
+        "पॉइंटिंग"
+      ]
+    },
+    "CON/N0113.PC22": {
+      "type": "judgement",
+      "observables": [
+        "Keeps the pointing damp for at least 7 days",
+        "Uses a damp method, such as wet sacking or gentle spraying",
+        "Starts curing once the pointing has set"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 22",
+      "anchors": [
+        "Below standard: not attempted, or the pointing is left to dry, or washed out by heavy watering.",
+        "Meets standard: keeps the pointing damp for at least 7 days by a damp method, starting once it has set.",
+        "Exceeds in places: cures regularly through each day and shades the work in hot sun.",
+        "Excellent: reliable curing; explains how early drying cracks the pointing and lets water in."
+      ],
+      "synonyms": [
+        "टीप की तराई",
+        "तराई",
+        "बोरी गीली रखना",
+        "पानी छिड़कना",
+        "सात दिन तराई"
+      ]
+    },
+    "CON/N0113.PC23": {
+      "type": "judgement",
+      "observables": [
+        "Selects and fits stones so each sits firm without mortar",
+        "Packs the gaps with small stones and spalls so no stone rocks",
+        "Breaks vertical joints and places through stones across the wall"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or stones rock or slip because they are not fitted, packed or bonded.",
+        "Meets standard: builds a stable dry wall with stones fitted and packed firmly and joints broken.",
+        "Exceeds in places: keeps the face true and uses through stones at intervals for stability.",
+        "Excellent: tight, stable dry walling with a good bond; explains how weight and fit hold it without mortar."
+      ],
+      "synonyms": [
+        "सूखी चिनाई",
+        "बिना मसाले की चिनाई",
+        "पत्थर जमाना",
+        "सूखा पत्थर",
+        "पत्थर फंसाना"
+      ]
+    },
+    "CON/N0113.PC24": {
+      "type": "judgement",
+      "observables": [
+        "Trims projecting corners with a stone chisel",
+        "Face of the wall is even after trimming",
+        "Trims without loosening the stone in the wall"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 22",
+      "anchors": [
+        "Below standard: not attempted, or projections are left, or trimming loosens or cracks the laid stones.",
+        "Meets standard: trims projecting corners with a stone chisel so the face is even.",
+        "Exceeds in places: trims with controlled blows so stones stay firm and the edges are clean.",
+        "Excellent: even, neat face with every projection removed safely; explains why projections are removed."
+      ],
+      "synonyms": [
+        "उभरे कोने तोड़ना",
+        "टांकी से छांटना",
+        "पत्थर छीलना",
+        "फेस बराबर करना",
+        "छेनी से काटना"
+      ]
+    },
+    "CON/N0113.PC25": {
+      "type": "measurement",
+      "measurementTask": "Check the top course with a spirit level or tube level against the required level and enter the largest deviation in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 5,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 74: Level to top course ±5mm"
+      },
+      "observables": [
+        "Transfers the finished level from the reference level with a tube level",
+        "Marks a reference line 300 mm above finished level at all corners",
+        "Brings the top course to the marked level, giving any specified slope"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 22",
+      "synonyms": [
+        "ऊपर का लेवल",
+        "लेवल मिलाना",
+        "ढलान देना",
+        "नली से लेवल",
+        "लेवल के निशान"
+      ]
+    },
+    "CON/N0113.PC26": {
+      "type": "measurement",
+      "measurementTask": "Hold a plumb bob or long spirit level on the wall face over its full height and enter the largest deviation from plumb in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 5,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 74: Plumb to overall height ±5mm"
+      },
+      "observables": [
+        "Checks line, level and alignment with masons line, tube level and try square",
+        "Wall alignment over up to 3 m is within 5 mm",
+        "Internal squareness of the L corner is within 4 mm, and within 5 mm on the other side"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 21 and 74",
+      "synonyms": [
+        "साहुल",
+        "साहुल लेना",
+        "सूत से लाइन",
+        "गुनिया",
+        "सीधा करना",
+        "लाइन चेक करना"
+      ]
+    },
+    "CON/N0114.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Inspects the base for undulations, slope and honeycombs before concreting",
+        "Levels high and low spots before the pour",
+        "Reports defects it cannot correct"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or concreting starts over undulations, wrong slope or honeycombs without inspection.",
+        "Meets standard: inspects the area, levels the undulations and deals with honeycombs before concreting.",
+        "Exceeds in places: checks levels across the area with tube level and straight edge and notes what was corrected.",
+        "Excellent: thorough pre-pour inspection; explains how base defects show up as cracks or uneven thickness."
+      ],
+      "synonyms": [
+        "जगह की जांच",
+        "बेस चेक करना",
+        "ऊंचा नीचा ठीक करना",
+        "गड्ढे भरना",
+        "लेवल देखना"
+      ]
+    },
+    "CON/N0114.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Cleans the area properly before concreting",
+        "Roughens the surface where required",
+        "Reports deviations in slope and alignment of the PCC to the supervisor"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or pours on a dirty, smooth base, or says nothing about a wrongly sloped PCC.",
+        "Meets standard: cleans and roughens the base as required and reports slope or alignment deviations to the supervisor.",
+        "Exceeds in places: measures the deviation and states it clearly when reporting, and wets the base before the pour.",
+        "Excellent: base fully ready and every deviation reported with facts and a practical fix suggested."
+      ],
+      "synonyms": [
+        "पीसीसी साफ करना",
+        "PCC",
+        "सतह खुरदरी करना",
+        "ढलान की गलती बताना",
+        "सुपरवाइजर को बताना"
+      ]
+    },
+    "CON/N0114.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Inspects formwork joints and edges for gaps",
+        "Has the formwork sealed so slurry cannot leak",
+        "Reports gaps it cannot seal to the supervisor"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or concreting goes ahead with open gaps in the formwork.",
+        "Meets standard: checks the formwork for gaps and reports or seals them before concreting.",
+        "Exceeds in places: checks the full run, including corners and bottom edges, and rechecks during the pour.",
+        "Excellent: no slurry loss at all; explains how leaks cause honeycombs and weak edges."
+      ],
+      "synonyms": [
+        "शटरिंग में गैप",
+        "शटरिंग चेक करना",
+        "रिसाव रोकना",
+        "गैप बंद करना",
+        "सेंटरिंग"
+      ]
+    },
+    "CON/N0114.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Checks formwork and reinforcement are in true alignment",
+        "Checks the cover to reinforcement from the reference line",
+        "Reports misalignment or missing cover blocks before the pour"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or misses misaligned formwork or bars lying without cover.",
+        "Meets standard: checks alignment and cover and reports any misalignment before concreting.",
+        "Exceeds in places: checks cover blocks at regular spacing and that bars stay in place during the pour.",
+        "Excellent: thorough checks with clear reports; explains how low cover leads to rusting and cracking."
+      ],
+      "synonyms": [
+        "सरिया का कवर",
+        "कवर ब्लॉक",
+        "शटरिंग सीधी करना",
+        "सरिया सीधा",
+        "गड़बड़ी बताना"
+      ]
+    },
+    "CON/N0114.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Marks the reference level 300 mm above finished floor level on the walls",
+        "Transfers it to all corners and floor locations with a tube level",
+        "Marks are clear, permanent and consistent around the room"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or reference marks are missing, wrong or inconsistent between walls.",
+        "Meets standard: marks the reference level on the wall and transfers it to all floor locations with a tube level.",
+        "Exceeds in places: joins the marks with a line around the room and cross-checks them before use.",
+        "Excellent: accurate, complete level marking done quickly; explains how it controls floor level and slope."
+      ],
+      "synonyms": [
+        "लेवल का निशान",
+        "दीवार पर लेवल",
+        "नली से लेवल",
+        "लेवल की लाइन",
+        "लेवल ट्रांसफर"
+      ]
+    },
+    "CON/N0114.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Measures down from the reference line to mark the finished floor level",
+        "Fixes level dots at the specified intervals across the floor",
+        "Sets the dots to give the required slope"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or no level dots, or dots at wrong levels so the thickness and slope vary.",
+        "Meets standard: marks the floor thickness and fixes level dots at the specified intervals to the required slope.",
+        "Exceeds in places: checks each dot against the reference line and keeps the intervals regular.",
+        "Excellent: accurate grid of dots giving even thickness and slope; explains how the dots guide the levelling."
+      ],
+      "synonyms": [
+        "ठिया लगाना",
+        "लेवल के ठिए",
+        "बटन लगाना",
+        "फर्श की मोटाई",
+        "ढलान के निशान"
+      ]
+    },
+    "CON/N0114.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Reads the grade on the cement bag",
+        "Checks the batch date and week of manufacture",
+        "Rejects bags with lumps or damage"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or uses cement without checking grade or date, or uses lumpy cement.",
+        "Meets standard: checks the grade, batch date and week of manufacture and the condition of the bags.",
+        "Exceeds in places: uses older sound stock first and keeps checked bags stacked off the floor.",
+        "Excellent: careful checks every time; explains how grade and age affect concrete strength."
+      ],
+      "synonyms": [
+        "सीमेंट का ग्रेड",
+        "सीमेंट की तारीख",
+        "कट्टा चेक करना",
+        "सीमेंट की बोरी",
+        "सीमेंट में गांठ"
+      ]
+    },
+    "CON/N0114.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Sieves the sand to the required grade",
+        "Removes stones, clay lumps and rubbish",
+        "Uses only clean sieved sand in the mix"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or uses unsieved, dirty or silty sand.",
+        "Meets standard: sieves the sand to the required grade and uses only clean sieved sand.",
+        "Exceeds in places: checks the sand for silt and keeps sieved sand covered and separate.",
+        "Excellent: correct sand every time; explains how grading and silt affect the floor."
+      ],
+      "synonyms": [
+        "रेत छानना",
+        "बालू छानना",
+        "छलनी",
+        "जाली से छानना",
+        "साफ रेत"
+      ]
+    },
+    "CON/N0114.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Checks that the mix proportion is M20 as specified",
+        "Batches cement, sand and aggregate by measured volume",
+        "Mixes until the concrete is uniform in colour"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or mixes by guess with no check on the proportion.",
+        "Meets standard: checks that the concrete is mixed to the specified M20 proportion by measured batching.",
+        "Exceeds in places: uses gauge boxes for each batch and mixes thoroughly before adding water.",
+        "Excellent: consistent, correct mixes; explains what M20 means and how proportion affects strength."
+      ],
+      "synonyms": [
+        "एम बीस का माल",
+        "M20",
+        "कंक्रीट का अनुपात",
+        "मसाला मिलाना",
+        "गिट्टी रेत सीमेंट",
+        "तसले से नापना"
+      ]
+    },
+    "CON/N0114.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Concrete is mixed properly and uniform in colour",
+        "Workability suits placing and compacting, without segregation",
+        "Water added keeps to the required water cement ratio"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or uses concrete that is streaky, segregated, too dry or too wet.",
+        "Meets standard: checks colour, mixing and workability and keeps the water cement ratio as required.",
+        "Exceeds in places: spots extra water or segregation quickly and stops the batch before it is placed.",
+        "Excellent: sound judgement of every batch; explains how extra water weakens the floor surface."
+      ],
+      "synonyms": [
+        "माल चेक करना",
+        "कंक्रीट गाढ़ा पतला",
+        "पानी ज़्यादा",
+        "माल का रंग",
+        "मसाला देखना"
+      ]
+    },
+    "CON/N0114.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Recognises poor concrete, such as segregated, stale or too wet",
+        "Stops using it and informs the supervisor at once",
+        "States what is wrong with the batch"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or places poor concrete without telling anyone.",
+        "Meets standard: stops and reports poor concrete quality to the supervisor promptly.",
+        "Exceeds in places: reports clearly with the batch, time and defect, and holds the batch aside.",
+        "Excellent: reliable escalation every time; explains the risk of using poor concrete."
+      ],
+      "synonyms": [
+        "सुपरवाइजर को बताना",
+        "खराब माल की शिकायत",
+        "माल रोकना",
+        "इंजीनियर को बताना",
+        "खराब कंक्रीट"
+      ]
+    },
+    "CON/N0114.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Confirms the concrete grade, such as M20, for each location before placing",
+        "Matches each batch to its location on the drawing",
+        "Does not place leftover concrete of another grade"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or places concrete without checking it is the grade specified for that location.",
+        "Meets standard: ensures the specified concrete, such as M20, is placed only at its allocated location.",
+        "Exceeds in places: checks the batch record or delivery note against the drawing before each pour.",
+        "Excellent: no mix-ups at all; explains why different areas need different grades."
+      ],
+      "synonyms": [
+        "सही माल डालना",
+        "एम बीस",
+        "जगह के हिसाब से माल",
+        "ग्रेड मिलाना",
+        "कंक्रीट डालना"
+      ]
+    },
+    "CON/N0114.PC13": {
+      "type": "judgement",
+      "observables": [
+        "Measures the panel sizes against the drawing",
+        "Checks that no panel exceeds 3 m",
+        "Checks the divider strip type matches the specification"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 23",
+      "anchors": [
+        "Below standard: not attempted, or panels are oversized or of the wrong type and not checked.",
+        "Meets standard: checks every panel's size and type against the specification, none over 3 m.",
+        "Exceeds in places: also measures the diagonals so panels are square, and corrects errors before concreting.",
+        "Excellent: all panels correct and square; explains why panel size limits shrinkage cracks."
+      ],
+      "synonyms": [
+        "पैनल का साइज़",
+        "खाने बनाना",
+        "पैनल नापना",
+        "कांच की पट्टी",
+        "चौकोर खाने"
+      ]
+    },
+    "CON/N0114.PC14": {
+      "type": "judgement",
+      "observables": [
+        "Fixes the glass, aluminium or brass strips as per the drawing in proper sequence",
+        "Beds the strips firmly in cement mortar",
+        "Sets the strip tops at the finished floor level and slope"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 24",
+      "anchors": [
+        "Below standard: not attempted, or strips are loose, crooked or set at wrong levels.",
+        "Meets standard: fixes the strips firmly in mortar with tops at the finished level and slope.",
+        "Exceeds in places: strips are straight and vertical, checked with line and level, with neat junctions.",
+        "Excellent: all strips true to line, level and slope first time; explains how they control the floor level."
+      ],
+      "synonyms": [
+        "कांच की पट्टी लगाना",
+        "ग्लास पट्टी",
+        "पीतल की पट्टी",
+        "एल्युमिनियम पट्टी",
+        "पट्टी का लेवल"
+      ]
+    },
+    "CON/N0114.PC15": {
+      "type": "measurement",
+      "measurementTask": "Measure the spacing between glass strips at both ends of each panel and enter the largest deviation from the drawing spacing in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 10,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 75: Spacing between the glass panel (3 meter) ±10mm"
+      },
+      "observables": [
+        "Sets out the panels from the drawing before fixing the strips",
+        "No panel exceeds 3 m",
+        "Panels are square and of equal size"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 24",
+      "synonyms": [
+        "पैनल बनाना",
+        "खाने बनाना",
+        "पट्टी की दूरी",
+        "बराबर खाने",
+        "पैनल नाप से"
+      ]
+    },
+    "CON/N0114.PC16": {
+      "type": "judgement",
+      "observables": [
+        "Pours alternate or specified panels as required",
+        "Places concrete from one end of the panel to the other",
+        "Fills the remaining panels after the first ones have hardened"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 24",
+      "anchors": [
+        "Below standard: not attempted, or pours adjoining panels together against the specified sequence.",
+        "Meets standard: pours alternate or specified panels in sequence, placing from one end to the other.",
+        "Exceeds in places: protects the edges of cast panels when filling the rest and keeps each pour continuous.",
+        "Excellent: well-planned pour sequence; explains how alternate panels control shrinkage cracks."
+      ],
+      "synonyms": [
+        "एक छोड़ एक खाना",
+        "पैनल भरना",
+        "कंक्रीट डालना",
+        "IPS फ्लोरिंग",
+        "फर्श ढालना"
+      ]
+    },
+    "CON/N0114.PC17": {
+      "type": "judgement",
+      "observables": [
+        "Removes excess slurry with straight edge and trowel",
+        "Cleans slurry and marks off the strips and edges",
+        "Surface is left free of marks"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 24",
+      "anchors": [
+        "Below standard: not attempted, or excess slurry and marks are left on the surface.",
+        "Meets standard: removes excess slurry and marks from the surface with straight edge and trowel.",
+        "Exceeds in places: cleans the strip tops and edges too, without disturbing the concrete.",
+        "Excellent: clean, mark-free surface throughout; explains why slurry build-up dusts and cracks."
+      ],
+      "synonyms": [
+        "घोल हटाना",
+        "सतह साफ करना",
+        "निशान हटाना",
+        "फालतू नीरू हटाना",
+        "पट्टी से साफ करना"
+      ]
+    },
+    "CON/N0114.PC18": {
+      "type": "measurement",
+      "measurementTask": "Hold a straight edge on the finished floor in several directions and enter the largest gap under it in mm (deviation; the guide sets no fixed target).",
+      "tolerance": {
+        "kind": "max",
+        "max": 3,
+        "unit": "mm",
+        "source": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 75: Surface evenness ±3mm"
+      },
+      "observables": [
+        "Levels the concrete with a straight edge resting on the strips",
+        "Finishes the surface with a wooden float or trowel",
+        "Edges and corners are truly straight"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 24 and 75",
+      "synonyms": [
+        "पट्टी से बराबर करना",
+        "सतह बराबर करना",
+        "थापी से फिनिश",
+        "करनी से फिनिश",
+        "फर्श बराबर"
+      ]
+    },
+    "CON/N0114.PC19": {
+      "type": "judgement",
+      "observables": [
+        "Spreads neat cement punning thinly over the green concrete",
+        "Lets it soak in, then finishes with a metal float or trowel",
+        "Surface is smooth and even, with no dusting or crazing"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 24",
+      "anchors": [
+        "Below standard: not attempted, or the punning is thick or patchy, or spread on hardened concrete.",
+        "Meets standard: spreads punning thinly on green concrete, lets it soak in and trowels it smooth.",
+        "Exceeds in places: times the trowelling so the surface is dense and uniform, without trowel marks.",
+        "Excellent: smooth, hard, even finish; explains why thick punning crazes and how timing matters."
+      ],
+      "synonyms": [
+        "नीरू मारना",
+        "नीरू करना",
+        "पनिंग",
+        "सीमेंट छिड़कना",
+        "करनी से घुटाई",
+        "चिकनाई देना"
+      ]
+    },
+    "CON/N0114.PC20": {
+      "type": "judgement",
+      "observables": [
+        "Forms construction joints with a vertical edge, removing sloped concrete",
+        "Provides expansion joints at the specified places",
+        "Joints are straight and continuous across the floor"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 24",
+      "anchors": [
+        "Below standard: not attempted, or joints are missing, sloped or in the wrong places.",
+        "Meets standard: provides vertical construction joints and expansion joints at the required places.",
+        "Exceeds in places: joints are straight, clean and full depth, with filler placed where needed.",
+        "Excellent: well-formed joints in the right places; explains how they prevent random cracking."
+      ],
+      "synonyms": [
+        "जोड़ छोड़ना",
+        "एक्सपेंशन जॉइंट",
+        "कंस्ट्रक्शन जॉइंट",
+        "किनारा सीधा करना",
+        "फिलर डालना"
+      ]
+    },
+    "CON/N0114.PC21": {
+      "type": "judgement",
+      "observables": [
+        "Levels the concrete to the strip tops and level dots",
+        "Checks the level from the reference level at every 500 mm",
+        "Keeps the specified slope towards the outlet"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 24",
+      "anchors": [
+        "Below standard: not attempted, or levels are off so the floor is humped, dished or slopes the wrong way.",
+        "Meets standard: levels the concrete to the specified levels and slope, checking from the reference level.",
+        "Exceeds in places: checks at the stated intervals and corrects before the concrete stiffens.",
+        "Excellent: floor true to level and slope throughout; explains how levels and slope are controlled."
+      ],
+      "synonyms": [
+        "लेवल मिलाना",
+        "ढलान रखना",
+        "कंक्रीट बराबर करना",
+        "लेवल चेक करना",
+        "पानी का ढाल"
+      ]
+    },
+    "CON/N0114.PC22": {
+      "type": "judgement",
+      "observables": [
+        "Builds a mortar bund around the floor and fills it with water",
+        "Starts curing once the surface has set",
+        "Keeps the floor under water for the specified time"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 24",
+      "anchors": [
+        "Below standard: not attempted, or the floor is left to dry, or walked on before curing.",
+        "Meets standard: ponds the floor inside a mortar bund and keeps it curing for the specified time.",
+        "Exceeds in places: starts at the right time and keeps the water topped up without breaks.",
+        "Excellent: unbroken curing to the full period; explains how curing prevents dusting and cracks."
+      ],
+      "synonyms": [
+        "तराई",
+        "क्यारी बनाना",
+        "पानी भरना",
+        "फर्श की तराई",
+        "मेड़ बनाना"
+      ]
+    },
+    "CON/N0114.PC23": {
+      "type": "judgement",
+      "observables": [
+        "Levels and compacts the ground before soling",
+        "Lays stones or boulders closely packed, on edge where specified",
+        "Fills voids with smaller stones or sand and compacts the layer"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or the soling is loose, uneven or laid on unlevelled ground.",
+        "Meets standard: levels the base and lays closely packed soling, filled and compacted to level.",
+        "Exceeds in places: places larger stones down first and wedges the gaps firmly, so the layer does not rock.",
+        "Excellent: firm, even soling laid efficiently; explains its role under the PCC."
+      ],
+      "synonyms": [
+        "सोलिंग",
+        "पत्थर की सोलिंग",
+        "बोल्डर बिछाना",
+        "पत्थर बिछाना",
+        "रोड़ी बिछाना"
+      ]
+    },
+    "CON/N0114.PC24": {
+      "type": "judgement",
+      "observables": [
+        "Lays PCC over the soling in the correct sequence",
+        "Keeps the specified slope with level marks",
+        "Compacts and levels the PCC to the marks"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 24",
+      "anchors": [
+        "Below standard: not attempted, or the PCC is laid without slope, or is uneven and loose.",
+        "Meets standard: lays PCC over the soling in sequence, compacted and to the specified slope.",
+        "Exceeds in places: works to level marks and checks the slope with straight edge and level as it goes.",
+        "Excellent: true, well-compacted PCC to slope; explains why the base slope matters for the finished floor."
+      ],
+      "synonyms": [
+        "पीसीसी डालना",
+        "PCC",
+        "सोलिंग पर कंक्रीट",
+        "ढलान में पीसीसी",
+        "बेस कंक्रीट"
+      ]
+    },
+    "CON/N0114.PC25": {
+      "type": "judgement",
+      "observables": [
+        "Places the suction cover properly over the wet concrete",
+        "Adjusts the motor speed so cement particles are not removed",
+        "Checks no cement particles are visible in the water drawn out"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 24 and 48",
+      "anchors": [
+        "Below standard: not attempted, or the cover is badly placed, or suction is so high that cement is drawn out.",
+        "Meets standard: sets the cover correctly and dewaters without removing cement or sand.",
+        "Exceeds in places: covers the slab edges fully, adjusts the suction as it goes and checks the water coming out.",
+        "Excellent: efficient, correct dewatering; explains the steps and how to tell when suction is too high."
+      ],
+      "synonyms": [
+        "वैक्यूम मशीन",
+        "पानी खींचना",
+        "डीवाटरिंग",
+        "ट्रिमिक्स",
+        "VDF",
+        "मैट बिछाना"
+      ]
+    },
+    "CON/N0114.PC26": {
+      "type": "judgement",
+      "observables": [
+        "Starts power floating while the concrete is still green",
+        "Runs the power floater in overlapping passes by the proper method",
+        "Surface is dense and even, without swirl marks"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 24",
+      "anchors": [
+        "Below standard: not attempted, or floats too late or too early, or runs the machine unsafely.",
+        "Meets standard: power floats the green concrete at the right time by the proper method.",
+        "Exceeds in places: makes even, overlapping passes and finishes the edges and corners by hand.",
+        "Excellent: uniform, dense finish with safe handling of the machine; explains how to judge the timing."
+      ],
+      "synonyms": [
+        "पावर फ्लोटर",
+        "हेलीकॉप्टर मशीन",
+        "फ्लोटर चलाना",
+        "मशीन से घुटाई",
+        "पावर ट्रॉवेल"
+      ]
+    },
+    "CON/N0114.PC27": {
+      "type": "judgement",
+      "observables": [
+        "Places concrete in the specified panel on the RCC floor",
+        "Keeps the reinforcement in place, without walking on or bending the bars",
+        "Keeps the cover to reinforcement during placing and vibrating"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or bars are displaced or trampled, or cover is lost during the pour.",
+        "Meets standard: carries out Tremix in the specified panel while keeping the rebar intact and the cover maintained.",
+        "Exceeds in places: uses boards or walkways over the steel and checks cover blocks during placing.",
+        "Excellent: clean, well-sequenced Tremix pour with the steel untouched; explains each stage of the process."
+      ],
+      "synonyms": [
+        "ट्रिमिक्स",
+        "Tremix",
+        "ट्रिमिक्स फ्लोरिंग",
+        "सरिया बचाना",
+        "कवर रखना",
+        "पैनल में ढलाई"
+      ]
+    },
+    "CON/N0114.PC28": {
+      "type": "judgement",
+      "observables": [
+        "Marks the groove lines on the floor at the specified intervals",
+        "Runs the groove cutting machine along the marked lines",
+        "Sets the blade to the specified cutting depth"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 25",
+      "anchors": [
+        "Below standard: not attempted, or grooves are crooked, wrongly spaced or of the wrong depth.",
+        "Meets standard: marks and cuts grooves at the specified intervals and depth along straight lines.",
+        "Exceeds in places: cuts at the right time after laying, with clean edges and no ravelling.",
+        "Excellent: straight, uniform grooves cut safely; explains why grooves control cracking."
+      ],
+      "synonyms": [
+        "खांचा काटना",
+        "ग्रूव कटिंग",
+        "कटर चलाना",
+        "जॉइंट काटना",
+        "लाइन काटना"
+      ]
+    },
+    "CON/N0114.PC29": {
+      "type": "judgement",
+      "observables": [
+        "Places filler material in the expansion joint",
+        "Seals the top with the recommended sealant",
+        "Joint runs full depth and width at the required place"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 25",
+      "anchors": [
+        "Below standard: not attempted, or no filler or sealant, or the joint is in the wrong place.",
+        "Meets standard: places filler and seals the top with the recommended sealant at the required joints.",
+        "Exceeds in places: filler runs full depth, sealant is neat and flush, and joint edges are clean.",
+        "Excellent: well-made, durable joints; explains how expansion joints let the floor move without cracking."
+      ],
+      "synonyms": [
+        "एक्सपेंशन जॉइंट",
+        "फिलर डालना",
+        "सीलेंट भरना",
+        "जोड़ भरना",
+        "गैप छोड़ना"
+      ]
+    },
+    "CON/N0114.PC30": {
+      "type": "judgement",
+      "observables": [
+        "Builds a mortar bund around the floor and fills it with water",
+        "Cures for at least 7 days",
+        "Keeps the floor closed to traffic while it cures"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 25",
+      "anchors": [
+        "Below standard: not attempted, or no curing, or curing stops early.",
+        "Meets standard: ponds and cures the finished concrete for at least 7 days as specified.",
+        "Exceeds in places: starts curing promptly once set and keeps the floor wet without a break.",
+        "Excellent: complete curing with the floor protected; explains how it adds strength and wear resistance."
+      ],
+      "synonyms": [
+        "तराई",
+        "tarai",
+        "क्यारी बनाकर पानी",
+        "सात दिन तराई",
+        "फर्श पर पानी भरना",
+        "मेड़ बनाना"
+      ]
+    },
+    "CON/N0114.PC31": {
+      "type": "judgement",
+      "observables": [
+        "Inspects the finished floor for slope with a level or tube level",
+        "Checks that water flows to the outlet without ponding",
+        "Reports or corrects any deviation"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 25",
+      "anchors": [
+        "Below standard: not attempted, or the finished slope is wrong or water ponds and this is not noticed.",
+        "Meets standard: checks the finished levels and confirms the floor has the required slope.",
+        "Exceeds in places: checks at several points, tests with water and records the results.",
+        "Excellent: thorough final check with corrections arranged; explains how slope is verified."
+      ],
+      "synonyms": [
+        "ढलान चेक करना",
+        "पानी का ढाल",
+        "पानी डालकर देखना",
+        "फर्श का स्लोप",
+        "पानी रुकना"
+      ]
+    },
+    "CON/N8001.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Explains the process and sequence to team members before each task",
+        "Gives clear calls during joint work, such as transferring levels with a tube level",
+        "Checks that team members have understood"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 25 and 50",
+      "anchors": [
+        "Below standard: not attempted, or gives no information or unclear information, so helpers make mistakes or wait.",
+        "Meets standard: passes on work information clearly and in time, so team members know what to do.",
+        "Exceeds in places: uses the drawing and simple site words to explain, such as the course sequence, and asks back to check.",
+        "Excellent: consistently clear, timely communication; the team works smoothly with no repeated questions."
+      ],
+      "synonyms": [
+        "काम समझाना",
+        "बेलदार को बताना",
+        "साथियों को बताना",
+        "काम की जानकारी देना",
+        "हेल्पर को समझाना"
+      ]
+    },
+    "CON/N8001.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Tells the supervisor before changing the work, such as shortening a wall for an obstruction",
+        "Informs the co-workers affected by the change",
+        "States the deviation and its reason clearly"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 25 and 50",
+      "anchors": [
+        "Below standard: not attempted, or changes the work, such as wall length or direction, without telling anyone.",
+        "Meets standard: informs co-workers and the supervisor of any deviation from the work as soon as it arises.",
+        "Exceeds in places: explains the reason and effect of the deviation and waits for a decision.",
+        "Excellent: always escalates deviations promptly with facts and a suggested solution."
+      ],
+      "synonyms": [
+        "गड़बड़ी बताना",
+        "बदलाव बताना",
+        "मिस्त्री को बताना",
+        "सुपरवाइजर को खबर देना",
+        "काम में बदलाव"
+      ]
+    },
+    "CON/N8001.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Notices problems such as a damaged tool, too few bricks, cramped space or poor light",
+        "Fixes what it safely can and reports the rest to the supervisor",
+        "Reports promptly with the facts"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 25 and 50",
+      "anchors": [
+        "Below standard: not attempted, or ignores a damaged tool or material shortage and carries on, or stops silently.",
+        "Meets standard: deals with problems sensibly and reports those needing a decision to the supervisor.",
+        "Exceeds in places: reports early with facts and a suggested fix, so the work is not held up.",
+        "Excellent: handles problems calmly and effectively; foresees shortages before they stop work."
+      ],
+      "synonyms": [
+        "समस्या बताना",
+        "सामान कम पड़ना",
+        "औज़ार टूटा है",
+        "रोशनी कम",
+        "सुपरवाइजर को बताना"
+      ]
+    },
+    "CON/N8001.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Listens to instructions and repeats the key points back",
+        "Follows the instructions given while performing the task",
+        "Asks when an instruction is not clear"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 25",
+      "anchors": [
+        "Below standard: not attempted, or ignores or misunderstands instructions and does the work differently.",
+        "Meets standard: receives instructions clearly and follows them while performing the task.",
+        "Exceeds in places: confirms details such as size, ratio or sequence before starting.",
+        "Excellent: follows instructions precisely and responds promptly; reports back when done."
+      ],
+      "synonyms": [
+        "निर्देश सुनना",
+        "बात मानना",
+        "काम समझना",
+        "हुकुम मानना",
+        "मिस्त्री की बात सुनना"
+      ]
+    },
+    "CON/N8001.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Shows helpers the right method, such as for mixing mortar or soaking bricks",
+        "Corrects a wrong technique politely and explains why",
+        "Demonstrates before asking others to do it"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 25",
+      "anchors": [
+        "Below standard: not attempted, or lets helpers use wrong methods without guidance.",
+        "Meets standard: explains the right technique and method to team members as the work goes on.",
+        "Exceeds in places: demonstrates the method and checks the helper's first attempt.",
+        "Excellent: a patient, effective guide; helpers improve visibly during the task."
+      ],
+      "synonyms": [
+        "तरीका बताना",
+        "सही तरीका समझाना",
+        "बेलदार को सिखाना",
+        "काम का तरीका",
+        "करके दिखाना"
+      ]
+    },
+    "CON/N8001.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Asks when information is missing, such as the mortar ratio for brickwork",
+        "Asks the right person at the right time",
+        "Confirms the answer before going ahead"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 25 and 50",
+      "anchors": [
+        "Below standard: not attempted, or guesses missing details, such as the mortar ratio, without asking.",
+        "Meets standard: seeks clarification or advice when information is missing or unclear.",
+        "Exceeds in places: asks specific questions before starting and confirms the answer.",
+        "Excellent: spots gaps in information early and resolves them without delaying work."
+      ],
+      "synonyms": [
+        "पूछना",
+        "सलाह लेना",
+        "साफ साफ पूछना",
+        "इंजीनियर से पूछना",
+        "शंका दूर करना"
+      ]
+    },
+    "CON/N8001.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Hands over materials, tools and equipment to the next team on time",
+        "Passes shared items, such as the tube level or gauge box, promptly",
+        "Hands over the work front on time"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 25, 26 and 50",
+      "anchors": [
+        "Below standard: not attempted, or holds on to shared tools or leaves the work front unready, delaying others.",
+        "Meets standard: hands over materials, tools, equipment and work fronts to the interfacing team on time.",
+        "Exceeds in places: hands over in good order with a word on status, such as curing still in progress.",
+        "Excellent: smooth, timely handovers that keep other trades working; plans them in advance."
+      ],
+      "synonyms": [
+        "सामान सौंपना",
+        "औज़ार देना",
+        "काम सौंपना",
+        "दूसरी टीम को देना",
+        "जगह खाली करना"
+      ]
+    },
+    "CON/N8001.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Works in step with co-workers, such as in erecting and dismantling a scaffold",
+        "Helps and motivates others to finish within the time given",
+        "Resolves disagreements in the team calmly"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 26",
+      "anchors": [
+        "Below standard: not attempted, or works against the team's pace, or causes conflict and delay.",
+        "Meets standard: works in step with co-workers and helps the team finish the task within the stipulated time.",
+        "Exceeds in places: communicates clearly during joint tasks and helps others without being asked.",
+        "Excellent: a strong team member who motivates others and settles conflicts; the team finishes early and well."
+      ],
+      "synonyms": [
+        "मिलकर काम करना",
+        "तालमेल",
+        "साथ में काम",
+        "टीम में काम",
+        "हाथ बंटाना"
+      ]
+    },
+    "CON/N8002.PC1": {
+      "type": "judgement",
+      "observables": [
+        "States the target in own words: type of bond, plaster or finish, and the time allowed",
+        "Reads the details from the work schedule",
+        "Asks if the target or deadline is unclear"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 26 and 53",
+      "anchors": [
+        "Below standard: not attempted, or cannot say what the target or the deadline is.",
+        "Meets standard: understands the target and timeline and explains them in own words.",
+        "Exceeds in places: breaks the target into steps with times and states them.",
+        "Excellent: clear grasp of target, quality and time; tracks progress against them during work."
+      ],
+      "synonyms": [
+        "टारगेट समझना",
+        "कितने दिन में काम",
+        "काम का लक्ष्य",
+        "समय सीमा",
+        "आज का काम"
+      ]
+    },
+    "CON/N8002.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Explains the sequence before starting, such as mark, set levels, lay, check, point and cure",
+        "Follows the planned sequence during the work",
+        "Plan fits the schedule"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 26 and 53",
+      "anchors": [
+        "Below standard: not attempted, or no plan, with steps done out of order causing rework or delay.",
+        "Meets standard: plans activities to the schedule and follows the right sequence of work.",
+        "Exceeds in places: sets priorities sensibly and adjusts the plan when conditions change.",
+        "Excellent: clear, efficient plan explained confidently; work flows with no rework or idle time."
+      ],
+      "synonyms": [
+        "काम की योजना",
+        "पहले क्या फिर क्या",
+        "काम का क्रम",
+        "प्लान बनाना",
+        "काम का शेड्यूल"
+      ]
+    },
+    "CON/N8002.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Guides helpers in tasks such as mixing mortar, marking layout and tube levelling",
+        "Checks their work and corrects it in time",
+        "Guidance leads to the required result"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 26 and 53",
+      "anchors": [
+        "Below standard: not attempted, or gives no guidance, or guidance that leads helpers to wrong results.",
+        "Meets standard: guides subordinates clearly so their work meets the desired outcome.",
+        "Exceeds in places: checks their work at key steps and corrects mistakes early.",
+        "Excellent: guidance that visibly improves the helpers' work; outcome achieved first time."
+      ],
+      "synonyms": [
+        "बेलदार को समझाना",
+        "हेल्पर को सिखाना",
+        "मार्गदर्शन",
+        "काम बताना",
+        "गलती सुधारना"
+      ]
+    },
+    "CON/N8002.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Clears and arranges the work area before starting",
+        "Keeps walkways clear and materials stacked during the work",
+        "Cleans tools and the area and removes debris at the end"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 26 and 56",
+      "anchors": [
+        "Below standard: not attempted, or the area is cluttered before and after work, with debris left behind.",
+        "Meets standard: plans and carries out housekeeping before, during and after the work.",
+        "Exceeds in places: builds clean-up into the plan so the area stays safe and tidy throughout.",
+        "Excellent: exemplary housekeeping; leaves the area better than found and explains why it matters."
+      ],
+      "synonyms": [
+        "साफ सफाई",
+        "काम के बाद सफाई",
+        "मलबा हटाना",
+        "जगह साफ करना",
+        "सामान जमाकर रखना"
+      ]
+    },
+    "CON/N8002.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Lists the materials, tools and helpers needed before starting",
+        "Arranges the right quantity, such as the number of bricks",
+        "Places materials near the work in the order of use"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 26 and 53",
+      "anchors": [
+        "Below standard: not attempted, or starts without the needed materials or tools, so work stops.",
+        "Meets standard: lists and arranges the required materials, tools and helpers before starting.",
+        "Exceeds in places: arranges correct quantities, placed near the work in the order of use.",
+        "Excellent: nothing missing and nothing in excess; explains how the quantities were worked out."
+      ],
+      "synonyms": [
+        "सामान की लिस्ट",
+        "माल पहले से मंगाना",
+        "औज़ार जुटाना",
+        "सामान का इंतज़ाम",
+        "कितनी ईंट चाहिए"
+      ]
+    },
+    "CON/N8002.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Selects the correct tools and equipment for each part of the job",
+        "Uses each tool correctly to complete the task",
+        "Does not improvise with the wrong tool"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 26",
+      "anchors": [
+        "Below standard: not attempted, or uses wrong or improvised tools that spoil the work or are unsafe.",
+        "Meets standard: selects and uses the correct tools, tackles and equipment for the work.",
+        "Exceeds in places: matches tool size and type to the task and keeps them ready in order of use.",
+        "Excellent: efficient, skilled tool use throughout; explains the choices."
+      ],
+      "synonyms": [
+        "सही औज़ार",
+        "औज़ार चुनना",
+        "मशीन चलाना",
+        "औज़ार इस्तेमाल करना",
+        "सही सामान"
+      ]
+    },
+    "CON/N8002.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Completes the task with the materials, tools and helpers allocated",
+        "Does not run short or ask for extra without reason",
+        "Uses helpers and equipment properly throughout"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 26",
+      "anchors": [
+        "Below standard: not attempted, or cannot finish with what was allocated, or wastes resources.",
+        "Meets standard: completes the work with the allocated resources, using them properly.",
+        "Exceeds in places: finishes with little left over and no shortage, by planning use carefully.",
+        "Excellent: completes fully within the allocation with a margin; explains how use was planned."
+      ],
+      "synonyms": [
+        "दिए गए सामान में काम",
+        "माल में काम पूरा",
+        "सामान का सही इस्तेमाल",
+        "काम पूरा करना",
+        "कम सामान में काम"
+      ]
+    },
+    "CON/N8002.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Gives each helper a clear task, such as mixing, carrying or soaking bricks",
+        "Keeps helpers busy without idle time",
+        "Matches the work to each person's skill"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 26 and 53",
+      "anchors": [
+        "Below standard: not attempted, or helpers stand idle or get in each other's way.",
+        "Meets standard: engages the allocated helpers properly, each with a clear task.",
+        "Exceeds in places: balances the work so the supply of mortar and bricks matches the laying pace.",
+        "Excellent: smooth, efficient crew organisation; explains how the tasks were shared."
+      ],
+      "synonyms": [
+        "बेलदार लगाना",
+        "लेबर लगाना",
+        "हेल्पर को काम देना",
+        "मज़दूर लगाना",
+        "काम बांटना"
+      ]
+    },
+    "CON/N8002.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Mixes only as much mortar as can be used in time",
+        "Reuses cut bricks as closers and bats and avoids breaking bricks",
+        "Keeps the waste of bricks, sand and cement within the allowed limit"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 26 and 53",
+      "anchors": [
+        "Below standard: not attempted, or wastes mortar, bricks or cement, such as mortar left to set.",
+        "Meets standard: uses materials carefully, with waste within the allowed limit.",
+        "Exceeds in places: plans cuts and batches to cut waste and reuses usable pieces.",
+        "Excellent: minimal waste throughout; explains how waste was avoided."
+      ],
+      "synonyms": [
+        "बर्बादी रोकना",
+        "माल बचाना",
+        "मसाला बर्बाद न करना",
+        "ईंट बचाना",
+        "किफायत से काम"
+      ]
+    },
+    "CON/N8002.PC10": {
+      "type": "judgement",
+      "observables": [
+        "Uses each tool only for its intended purpose",
+        "Cleans mortar off tools during and after work",
+        "Keeps tools safe so they are not dropped or buried in debris"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 26",
+      "anchors": [
+        "Below standard: not attempted, or misuses tools, such as hammering on a spirit level, or leaves mortar to set on them.",
+        "Meets standard: uses tools for their purpose and cleans and protects them during and after work.",
+        "Exceeds in places: keeps precision tools like the level and square safe from knocks and checks them after use.",
+        "Excellent: tools always in excellent condition; explains how care keeps them accurate."
+      ],
+      "synonyms": [
+        "औज़ार संभालना",
+        "औज़ार साफ करना",
+        "औज़ार की देखभाल",
+        "सामान टूटने से बचाना",
+        "मशीन साफ करना"
+      ]
+    },
+    "CON/N8002.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Lists the materials used and the work done",
+        "Returns and arranges tools and tackles after use",
+        "Stacks leftover material neatly for reuse"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 26",
+      "anchors": [
+        "Below standard: not attempted, or leaves tools, material and output unaccounted for and scattered.",
+        "Meets standard: organises the work output, the materials used and the tools, and lists them.",
+        "Exceeds in places: keeps a simple record of quantities used and output achieved.",
+        "Excellent: everything accounted for and in order; explains the record to the supervisor."
+      ],
+      "synonyms": [
+        "हिसाब रखना",
+        "सामान जमाना",
+        "औज़ार वापस रखना",
+        "काम का हिसाब",
+        "बचा सामान रखना"
+      ]
+    },
+    "CON/N8002.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Follows the standard procedure for each task",
+        "Works safely, with the required PPE",
+        "Takes care of the surroundings while working"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 27 and 53",
+      "anchors": [
+        "Below standard: not attempted, or skips standard steps or safety practices.",
+        "Meets standard: follows standard procedures, instructions and safe practices throughout.",
+        "Exceeds in places: checks own work against the specification at each stage.",
+        "Excellent: consistently follows standards; explains why each step and safety rule matters."
+      ],
+      "synonyms": [
+        "नियम से काम",
+        "सही तरीके से काम",
+        "मानक के हिसाब से",
+        "सेफ्टी से काम",
+        "निर्देश मानना"
+      ]
+    },
+    "CON/N9001.PC1": {
+      "type": "judgement",
+      "observables": [
+        "Points out hazards such as damaged cables or tools, unguarded machines or poor light",
+        "Reports a co-worker working at height without a harness",
+        "Fills in an incident form when asked"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 27 and 56",
+      "anchors": [
+        "Below standard: not attempted, or ignores an obvious hazard such as a damaged cable or an unguarded machine.",
+        "Meets standard: identifies hazards and safety breaches and reports them promptly to the right person.",
+        "Exceeds in places: makes the spot safe while waiting, such as barricading it, and fills in the incident form correctly.",
+        "Excellent: spots hazards others miss, reports clearly with location and risk, and follows up until fixed."
+      ],
+      "synonyms": [
+        "खतरा बताना",
+        "खतरा पहचानना",
+        "सेफ्टी वाले को बताना",
+        "असुरक्षित जगह",
+        "हादसे की रिपोर्ट"
+      ]
+    },
+    "CON/N9001.PC2": {
+      "type": "judgement",
+      "observables": [
+        "Names emergencies such as fire, flood and building collapse",
+        "Shows in a role play how to raise the alarm and leave by the escape route",
+        "Goes to the assembly point and reports for the head count"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 27",
+      "anchors": [
+        "Below standard: not attempted, or panics, or does not know the alarm, escape route or assembly point.",
+        "Meets standard: explains and follows the emergency and evacuation steps for fire, flood and collapse.",
+        "Exceeds in places: helps others evacuate calmly and reports at the assembly point for the head count.",
+        "Excellent: calm, correct response in role play for several emergencies; explains each step and its reason."
+      ],
+      "synonyms": [
+        "आग लगने पर भागना",
+        "इमरजेंसी",
+        "बाहर निकलने का रास्ता",
+        "इकट्ठा होने की जगह",
+        "अलार्म बजाना"
+      ]
+    },
+    "CON/N9001.PC3": {
+      "type": "judgement",
+      "observables": [
+        "Lifts cement bags and bricks safely, taking help for heavy loads",
+        "Wears gloves when handling cement, lime and waterproofing chemicals",
+        "Reads chemical labels and keeps containers closed"
+      ],
+      "observablesSource": "Derived from the PC text",
+      "anchors": [
+        "Below standard: not attempted, or handles cement, lime or chemicals bare handed, or lifts heavy loads unsafely.",
+        "Meets standard: handles materials and chemicals safely with PPE, following label instructions.",
+        "Exceeds in places: stores chemicals closed and away from heat and stacks materials securely.",
+        "Excellent: consistently safe handling; explains the hazards of cement burns and chemicals and guides others."
+      ],
+      "synonyms": [
+        "सामान उठाना",
+        "सीमेंट से बचाव",
+        "केमिकल संभालना",
+        "दस्ताने पहनना",
+        "चूने से बचाव"
+      ]
+    },
+    "CON/N9001.PC4": {
+      "type": "judgement",
+      "observables": [
+        "Names programmes such as tool box talks, safety demonstrations and mock drills",
+        "Lists the benefits of attending them",
+        "Takes part actively when a talk or drill is held"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 27",
+      "anchors": [
+        "Below standard: not attempted, or cannot name any safety programme, or avoids taking part.",
+        "Meets standard: names safety programmes, says why they help and takes part when they are held.",
+        "Exceeds in places: recalls what was taught in a recent talk or drill and applies it.",
+        "Excellent: active participant who raises points and helps others follow; explains the value of drills."
+      ],
+      "synonyms": [
+        "टूलबॉक्स टॉक",
+        "सेफ्टी मीटिंग",
+        "मॉक ड्रिल",
+        "सेफ्टी ट्रेनिंग",
+        "सुबह की सेफ्टी बात"
+      ]
+    },
+    "CON/N9001.PC5": {
+      "type": "judgement",
+      "observables": [
+        "Names unsafe conditions such as poor light or ventilation, crowding, unguarded machines or faulty tools",
+        "Names unsafe acts such as not wearing PPE or using faulty machines",
+        "Explains what a near miss is and that it must be reported"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 27",
+      "anchors": [
+        "Below standard: not attempted, or cannot tell an unsafe act from an unsafe condition or say what a near miss is.",
+        "Meets standard: identifies near misses, unsafe conditions and unsafe acts with site examples.",
+        "Exceeds in places: points them out in the actual work area and says how each could be corrected.",
+        "Excellent: sharp eye for risk; explains how reporting near misses prevents accidents."
+      ],
+      "synonyms": [
+        "बाल बाल बचना",
+        "असुरक्षित काम",
+        "असुरक्षित हालत",
+        "खतरे वाली जगह",
+        "नियर मिस"
+      ]
+    },
+    "CON/N9001.PC6": {
+      "type": "judgement",
+      "observables": [
+        "Wears helmet, safety shoes, gloves and goggles suited to the task",
+        "Uses ear, fall and respiratory protection when the task needs them",
+        "Names the PPE parts used by a mason and wears each correctly fastened"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 27 and 28",
+      "anchors": [
+        "Below standard: not attempted, or works without the required PPE, such as no helmet or shoes, or wears it unfastened.",
+        "Meets standard: selects and wears the PPE each task needs, correctly fitted, throughout the work.",
+        "Exceeds in places: checks PPE for damage before use and picks task-specific items, such as goggles for chiselling.",
+        "Excellent: correct PPE habit without reminders; explains what each item protects against and corrects others."
+      ],
+      "synonyms": [
+        "हेलमेट पहनना",
+        "सेफ्टी जूते",
+        "दस्ताने",
+        "चश्मा",
+        "सेफ्टी बेल्ट",
+        "मास्क",
+        "PPE"
+      ]
+    },
+    "CON/N9001.PC7": {
+      "type": "judgement",
+      "observables": [
+        "Carries cement bags and bricks with a straight back, in safe loads",
+        "Uses power tools such as drills and vibrators with guards in place and dry hands",
+        "Keeps tools off walkways and edges where they could fall"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 28 and 56",
+      "anchors": [
+        "Below standard: not attempted, or handles tools or loads unsafely, such as power tools without guards or overloading.",
+        "Meets standard: handles tools, materials and equipment safely throughout the work.",
+        "Exceeds in places: explains the handling method for each item and keeps the work area safe.",
+        "Excellent: consistently safe, skilled handling; guides others to do the same."
+      ],
+      "synonyms": [
+        "औज़ार संभालना",
+        "सामान ढोना",
+        "मशीन सावधानी से चलाना",
+        "कट्टा उठाना",
+        "सुरक्षित तरीके से उठाना"
+      ]
+    },
+    "CON/N9001.PC8": {
+      "type": "judgement",
+      "observables": [
+        "Puts hazardous waste, such as waste shuttering oil and chemicals, in the designated container",
+        "Takes precautions such as gloves when handling harmful waste",
+        "Does not dump chemicals or slurry into drains or soil"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 28",
+      "anchors": [
+        "Below standard: not attempted, or dumps chemicals, oil or slurry on the ground or into drains.",
+        "Meets standard: disposes of waste and hazardous material safely into designated containers, with precautions.",
+        "Exceeds in places: keeps hazardous waste separate and labelled and tells the supervisor when containers are full.",
+        "Excellent: careful disposal throughout; explains the harm caused by wrong disposal."
+      ],
+      "synonyms": [
+        "कचरा फेंकना",
+        "खतरनाक कचरा",
+        "केमिकल का डिब्बा",
+        "तेल का कचरा",
+        "कचरा सही जगह डालना"
+      ]
+    },
+    "CON/N9001.PC9": {
+      "type": "judgement",
+      "observables": [
+        "Identifies fire extinguisher types such as DCP, CO2 and foam",
+        "Demonstrates using an extinguisher: pull the pin, aim at the base, squeeze and sweep",
+        "Demonstrates the use of a fire blanket and breathing apparatus"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 28 and 56",
+      "anchors": [
+        "Below standard: not attempted, or cannot identify or operate the extinguisher, fire blanket or breathing set.",
+        "Meets standard: identifies and demonstrates the correct use of the safety equipment as instructed.",
+        "Exceeds in places: picks the right extinguisher for the type of fire and checks its gauge before use.",
+        "Excellent: confident, correct demonstration of every item; explains which to use when."
+      ],
+      "synonyms": [
+        "आग बुझाने का सिलेंडर",
+        "फायर एक्सटिंग्विशर",
+        "फायर ब्लैंकेट",
+        "सिलेंडर चलाना",
+        "सेफ्टी का सामान लगाना"
+      ]
+    },
+    "CON/N9001.PC10": {
+      "type": "judgement",
+      "observables": [
+        "States the assembly point and emergency numbers for fire and ambulance",
+        "Lists first aid box contents and gives basic first aid steps",
+        "Follows site hygiene practices"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 28",
+      "anchors": [
+        "Below standard: not attempted, or does not know the assembly point, emergency numbers or basic first aid.",
+        "Meets standard: follows the site EHS protocol and states the emergency plan, numbers and first aid basics.",
+        "Exceeds in places: describes first aid for common site injuries and follows hygiene practice without reminders.",
+        "Excellent: thorough knowledge and practice of the protocol; helps others follow it."
+      ],
+      "synonyms": [
+        "सेफ्टी के नियम",
+        "फर्स्ट एड",
+        "मरहम पट्टी",
+        "एम्बुलेंस बुलाना",
+        "इकट्ठा होने की जगह"
+      ]
+    },
+    "CON/N9001.PC11": {
+      "type": "judgement",
+      "observables": [
+        "Sorts waste by type, such as concrete, metal, binding wire and organic waste",
+        "Puts each type in its designated container or yard",
+        "Shifts waste by wheelbarrow, chute or mortar pan to the yard"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), page 28",
+      "anchors": [
+        "Below standard: not attempted, or mixes all waste together or leaves debris lying around.",
+        "Meets standard: collects waste into the right containers by type and shifts it safely to the yard.",
+        "Exceeds in places: keeps toxic waste separate and moves debris regularly so the area stays clear.",
+        "Excellent: exemplary waste handling; explains which waste can be reused or recycled."
+      ],
+      "synonyms": [
+        "मलबा हटाना",
+        "कचरा अलग करना",
+        "मलबा उठाना",
+        "ठेले में ले जाना",
+        "कचरा डिब्बे में डालना"
+      ]
+    },
+    "CON/N9001.PC12": {
+      "type": "judgement",
+      "observables": [
+        "Lifts with a straight back and bent knees, without twisting",
+        "Uses handling aids such as wheelbarrows for heavy loads",
+        "Avoids lifting above shoulder level and works at a comfortable height"
+      ],
+      "observablesSource": "CSDCI Assessment Guide, Mason General (CON/Q0103 ver. 1.0), pages 28 and 58",
+      "anchors": [
+        "Below standard: not attempted, or lifts with a bent back, twists under load or overreaches.",
+        "Meets standard: applies ergonomic principles in lifting, carrying and working posture.",
+        "Exceeds in places: sets up the work at a comfortable height and uses aids for heavy loads.",
+        "Excellent: safe posture as a habit; explains how poor posture causes back injury."
+      ],
+      "synonyms": [
+        "सही तरीके से उठाना",
+        "कमर सीधी रखना",
+        "घुटने मोड़कर उठाना",
+        "झुककर न उठाना",
+        "बोझ उठाने का तरीका"
+      ]
+    }
+  }
+}

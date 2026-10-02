@@ -1,0 +1,1344 @@
+{
+  "summary": {
+    "set": "frozen",
+    "mode": "llm",
+    "n": 20,
+    "endpoint": "azure:gpt-5-mini",
+    "prompts": {
+      "extract": "extract-v1",
+      "link": "link-v4"
+    },
+    "date": "2026-10-02",
+    "fromCache": [
+      "D07"
+    ],
+    "startedAt": "2026-10-02T06:34:09.506Z",
+    "seconds": 2647,
+    "reported": true,
+    "top1": 20,
+    "pcMicro": {
+      "tp": 798,
+      "fp": 65,
+      "fn": 127,
+      "precision": 0.9246813441483198,
+      "recall": 0.8627027027027027
+    },
+    "pcMacro": {
+      "precision": 0.8437406550389639,
+      "recall": 0.8724249246573026
+    },
+    "routeFlat": 19,
+    "routeWeighted": 17,
+    "byCategory": {
+      "full": {
+        "n": 6,
+        "top1": 6,
+        "precision": 0.9819004524886877,
+        "recall": 0.868
+      },
+      "partial": {
+        "n": 5,
+        "top1": 5,
+        "precision": 0.9011627906976745,
+        "recall": 0.8516483516483516
+      },
+      "short": {
+        "n": 4,
+        "top1": 4,
+        "precision": 0.5588235294117647,
+        "recall": 0.8636363636363636
+      },
+      "hinglish": {
+        "n": 3,
+        "top1": 3,
+        "precision": 0.832,
+        "recall": 0.832
+      },
+      "other-trade": {
+        "n": 2,
+        "top1": 2,
+        "precision": 0.9555555555555556,
+        "recall": 0.8958333333333334
+      }
+    },
+    "tokensPerDeclaration": {
+      "prompt": 21661,
+      "completion": 15037
+    },
+    "contentFilter": {
+      "blockedAnswers": 2,
+      "answers": 156,
+      "where": [
+        {
+          "id": "D02",
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "D06",
+          "answers": [
+            1
+          ]
+        }
+      ],
+      "note": "2 of 156 answers (D02, D06) blocked by the provider's content filter and handled by rule-based extraction, as in the live app"
+    },
+    "pureAi": {
+      "n": 18,
+      "top1": 18,
+      "pcMicro": {
+        "tp": 664,
+        "fp": 63,
+        "fn": 104,
+        "precision": 0.9133425034387895,
+        "recall": 0.8645833333333334
+      },
+      "pcMacro": {
+        "precision": 0.8280960676710369,
+        "recall": 0.8742483889853956
+      },
+      "routeFlat": 18,
+      "routeWeighted": 16,
+      "byCategory": {
+        "full": {
+          "n": 4,
+          "top1": 4,
+          "precision": 0.9803921568627451,
+          "recall": 0.8746355685131195
+        },
+        "partial": {
+          "n": 5,
+          "top1": 5,
+          "precision": 0.9011627906976745,
+          "recall": 0.8516483516483516
+        },
+        "short": {
+          "n": 4,
+          "top1": 4,
+          "precision": 0.5588235294117647,
+          "recall": 0.8636363636363636
+        },
+        "hinglish": {
+          "n": 3,
+          "top1": 3,
+          "precision": 0.832,
+          "recall": 0.832
+        },
+        "other-trade": {
+          "n": 2,
+          "top1": 2,
+          "precision": 0.9555555555555556,
+          "recall": 0.8958333333333334
+        }
+      },
+      "tokensPerDeclaration": {
+        "prompt": 21270,
+        "completion": 14464
+      }
+    },
+    "models": [
+      "gpt-5-mini"
+    ],
+    "tokens": {
+      "prompt": 433212,
+      "completion": 300740
+    },
+    "linkErrors": 0,
+    "extractionFallbacks": 2,
+    "promptVersion": "link-v4",
+    "scoredFrom": "eval/mapping/runs/20261002-1204-frozen-llm.json"
+  },
+  "rows": [
+    {
+      "id": "D01",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 98,
+      "predictedPcs": 90,
+      "tp": 90,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1,
+      "recall": 0.9183673469387755,
+      "coverage": {
+        "flat": 0.7563025210084033,
+        "weighted": 0.8903809523809527
+      },
+      "routeFlat": {
+        "expected": "direct-assessment",
+        "predicted": "direct-assessment"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "direct-assessment"
+      },
+      "claims": 115,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 3,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 28809,
+          "completion": 28699
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 237,
+      "falsePositives": {},
+      "falseNegatives": {
+        "CON/N0605.PC5": 1,
+        "CON/N8001.PC8": 1,
+        "CON/N8002.PC4": 1,
+        "CON/N8002.PC8": 1,
+        "CON/N8002.PC13": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "DGT/VSQ/N0101.PC7": 1,
+        "DGT/VSQ/N0101.PC13": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D02",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 97,
+      "predictedPcs": 83,
+      "tp": 82,
+      "fp": 1,
+      "fn": 15,
+      "precision": 0.9879518072289156,
+      "recall": 0.845360824742268,
+      "coverage": {
+        "flat": 0.6974789915966386,
+        "weighted": 0.8664987373737377
+      },
+      "routeFlat": {
+        "expected": "direct-assessment",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "direct-assessment"
+      },
+      "claims": 110,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 2,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 29319,
+          "completion": 25018
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 1,
+        "contentFilterBlocked": [
+          1
+        ]
+      },
+      "seconds": 293.1,
+      "falsePositives": {
+        "CON/N8002.PC9": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0603.PC9": 1,
+        "CON/N0605.PC13": 1,
+        "CON/N8001.PC1": 1,
+        "CON/N8001.PC6": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8001.PC8": 1,
+        "CON/N8001.PC9": 1,
+        "CON/N8002.PC10": 1,
+        "CON/N8002.PC11": 1,
+        "CON/N9001.PC2": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC10": 1,
+        "DGT/VSQ/N0101.PC13": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D03",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 70,
+      "predictedPcs": 66,
+      "tp": 64,
+      "fp": 2,
+      "fn": 6,
+      "precision": 0.9696969696969697,
+      "recall": 0.9142857142857143,
+      "coverage": {
+        "flat": 0.5546218487394958,
+        "weighted": 0.7307559523809526
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "direct-assessment"
+      },
+      "claims": 94,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 1,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 26191,
+          "completion": 20689
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 171.7,
+      "falsePositives": {
+        "CON/N0602.PC7": 1,
+        "CON/N9001.PC9": 1
+      },
+      "falseNegatives": {
+        "CON/N8001.PC6": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8001.PC9": 1,
+        "CON/N9001.PC13": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "DGT/VSQ/N0101.PC9": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D04",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 69,
+      "predictedPcs": 62,
+      "tp": 58,
+      "fp": 4,
+      "fn": 11,
+      "precision": 0.9354838709677419,
+      "recall": 0.8405797101449275,
+      "coverage": {
+        "flat": 0.5210084033613446,
+        "weighted": 0.6856277056277061
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "upskill-first"
+      },
+      "claims": 85,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 5,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 25179,
+          "completion": 21601
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 184.2,
+      "falsePositives": {
+        "CON/N0603.PC3": 1,
+        "CON/N0603.PC2": 1,
+        "CON/N9001.PC9": 1,
+        "CON/N8002.PC4": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC3": 1,
+        "CON/N0605.PC5": 1,
+        "CON/N0605.PC9": 1,
+        "CON/N0605.PC11": 1,
+        "CON/N0605.PC12": 1,
+        "CON/N8001.PC1": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8002.PC10": 1,
+        "CON/N8002.PC13": 1,
+        "CON/N9001.PC13": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D05",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 106,
+      "predictedPcs": 88,
+      "tp": 88,
+      "fp": 0,
+      "fn": 18,
+      "precision": 1,
+      "recall": 0.8301886792452831,
+      "coverage": {
+        "flat": 0.7394957983193278,
+        "weighted": 0.8649550865800871
+      },
+      "routeFlat": {
+        "expected": "direct-assessment",
+        "predicted": "direct-assessment"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "direct-assessment"
+      },
+      "claims": 110,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 8,
+        "linksDropped": 9,
+        "tokens": {
+          "prompt": 29149,
+          "completion": 27960
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 222.8,
+      "falsePositives": {},
+      "falseNegatives": {
+        "CON/N0602.PC9": 1,
+        "CON/N0603.PC10": 1,
+        "CON/N0605.PC11": 1,
+        "CON/N0605.PC12": 1,
+        "CON/N8001.PC1": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8001.PC6": 1,
+        "CON/N8001.PC8": 1,
+        "CON/N8001.PC10": 1,
+        "CON/N8001.PC11": 1,
+        "CON/N8001.PC12": 1,
+        "CON/N8002.PC12": 1,
+        "CON/N9001.PC17": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "DGT/VSQ/N0101.PC7": 1,
+        "DGT/VSQ/N0101.PC8": 1,
+        "DGT/VSQ/N0101.PC11": 1,
+        "DGT/VSQ/N0101.PC13": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D06",
+      "category": "full",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 60,
+      "predictedPcs": 53,
+      "tp": 52,
+      "fp": 1,
+      "fn": 8,
+      "precision": 0.9811320754716981,
+      "recall": 0.8666666666666667,
+      "coverage": {
+        "flat": 0.44537815126050423,
+        "weighted": 0.6170169552669557
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "upskill-first"
+      },
+      "claims": 62,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 21029,
+          "completion": 15366
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 1,
+        "contentFilterBlocked": [
+          1
+        ]
+      },
+      "seconds": 147,
+      "falsePositives": {
+        "CON/N8001.PC1": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1,
+        "CON/N0602.PC2": 1,
+        "CON/N0602.PC3": 1,
+        "CON/N0602.PC4": 1,
+        "CON/N0602.PC6": 1,
+        "CON/N0602.PC11": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "DGT/VSQ/N0101.PC9": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D07",
+      "category": "partial",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 27,
+      "predictedPcs": 25,
+      "tp": 21,
+      "fp": 4,
+      "fn": 6,
+      "precision": 0.84,
+      "recall": 0.7777777777777778,
+      "coverage": {
+        "flat": 0.21008403361344538,
+        "weighted": 0.3244772727272727
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 40,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 1,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 20081,
+          "completion": 12001
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 0,
+      "falsePositives": {
+        "CON/N0602.PC7": 1,
+        "CON/N0605.PC2": 1,
+        "CON/N9001.PC11": 1,
+        "CON/N8002.PC4": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC4": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8001.PC8": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC12": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D08",
+      "category": "partial",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 31,
+      "predictedPcs": 31,
+      "tp": 27,
+      "fp": 4,
+      "fn": 4,
+      "precision": 0.8709677419354839,
+      "recall": 0.8709677419354839,
+      "coverage": {
+        "flat": 0.2605042016806723,
+        "weighted": 0.3496675685425685
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 43,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 20399,
+          "completion": 12281
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 112.1,
+      "falsePositives": {
+        "CON/N0605.PC4": 1,
+        "CON/N9001.PC11": 1,
+        "CON/N9001.PC4": 1,
+        "CON/N8002.PC1": 1
+      },
+      "falseNegatives": {
+        "CON/N8001.PC4": 1,
+        "CON/N9001.PC12": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "DGT/VSQ/N0101.PC9": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D09",
+      "category": "partial",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 37,
+      "predictedPcs": 38,
+      "tp": 34,
+      "fp": 4,
+      "fn": 3,
+      "precision": 0.8947368421052632,
+      "recall": 0.918918918918919,
+      "coverage": {
+        "flat": 0.31932773109243695,
+        "weighted": 0.42188041125541137
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 43,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 1,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 21256,
+          "completion": 14147
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 138.1,
+      "falsePositives": {
+        "CON/N0605.PC1": 1,
+        "CON/N0602.PC6": 1,
+        "CON/N9001.PC9": 1,
+        "CON/N8001.PC1": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC9": 1,
+        "CON/N9001.PC10": 1,
+        "DGT/VSQ/N0101.PC9": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D10",
+      "category": "partial",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 30,
+      "predictedPcs": 30,
+      "tp": 25,
+      "fp": 5,
+      "fn": 5,
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "coverage": {
+        "flat": 0.25210084033613445,
+        "weighted": 0.29428030303030317
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 53,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 2,
+        "linksDropped": 2,
+        "tokens": {
+          "prompt": 20925,
+          "completion": 16429
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 140,
+      "falsePositives": {
+        "CON/N9001.PC11": 1,
+        "CON/N9001.PC4": 1,
+        "CON/N9001.PC5": 1,
+        "CON/N8002.PC6": 1,
+        "CON/N8002.PC7": 1
+      },
+      "falseNegatives": {
+        "CON/N8002.PC8": 1,
+        "CON/N8002.PC10": 1,
+        "CON/N9001.PC8": 1,
+        "DGT/VSQ/N0101.PC13": 1,
+        "DGT/VSQ/N0101.PC16": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D11",
+      "category": "partial",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 57,
+      "predictedPcs": 48,
+      "tp": 48,
+      "fp": 0,
+      "fn": 9,
+      "precision": 1,
+      "recall": 0.8421052631578947,
+      "coverage": {
+        "flat": 0.40336134453781514,
+        "weighted": 0.5718230519480524
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 59,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 4,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 21786,
+          "completion": 17250
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 155.3,
+      "falsePositives": {},
+      "falseNegatives": {
+        "CON/N0603.PC3": 1,
+        "CON/N0603.PC13": 1,
+        "CON/N0603.PC14": 1,
+        "CON/N0605.PC16": 1,
+        "CON/N8001.PC7": 1,
+        "CON/N8001.PC9": 1,
+        "DGT/VSQ/N0101.PC6": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC10": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D12",
+      "category": "short",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 5,
+      "predictedPcs": 8,
+      "tp": 3,
+      "fp": 5,
+      "fn": 2,
+      "precision": 0.375,
+      "recall": 0.6,
+      "coverage": {
+        "flat": 0.06722689075630252,
+        "weighted": 0.1032007575757576
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 7,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 2,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 15908,
+          "completion": 3346
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 47.2,
+      "falsePositives": {
+        "CON/N0602.PC10": 1,
+        "CON/N0604.PC8": 1,
+        "CON/N0604.PC9": 1,
+        "CON/N8001.PC5": 1,
+        "CON/N8002.PC10": 1
+      },
+      "falseNegatives": {
+        "CON/N8001.PC1": 1,
+        "CON/N8002.PC8": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D13",
+      "category": "short",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 0,
+      "predictedPcs": 8,
+      "tp": 0,
+      "fp": 8,
+      "fn": 0,
+      "precision": 0,
+      "recall": 1,
+      "coverage": {
+        "flat": 0.06722689075630252,
+        "weighted": 0.06383333333333334
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 6,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 15779,
+          "completion": 3364
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 45.7,
+      "falsePositives": {
+        "CON/N0605.PC2": 1,
+        "CON/N0605.PC4": 1,
+        "CON/N0605.PC11": 1,
+        "CON/N0605.PC14": 1,
+        "CON/N9001.PC11": 1,
+        "DGT/VSQ/N0101.PC12": 1,
+        "DGT/VSQ/N0101.PC9": 1,
+        "DGT/VSQ/N0101.PC10": 1
+      },
+      "falseNegatives": {},
+      "answers": 8
+    },
+    {
+      "id": "D14",
+      "category": "short",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 13,
+      "predictedPcs": 14,
+      "tp": 12,
+      "fp": 2,
+      "fn": 1,
+      "precision": 0.8571428571428571,
+      "recall": 0.9230769230769231,
+      "coverage": {
+        "flat": 0.11764705882352941,
+        "weighted": 0.1890584415584416
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 14,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 2,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 16436,
+          "completion": 4603
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 53.8,
+      "falsePositives": {
+        "CON/N0603.PC1": 1,
+        "CON/N0604.PC1": 1
+      },
+      "falseNegatives": {
+        "DGT/VSQ/N0101.PC9": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D15",
+      "category": "short",
+      "style": "hindi",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 4,
+      "predictedPcs": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "coverage": {
+        "flat": 0.03361344537815126,
+        "weighted": 0.03773809523809524
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 5,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 15750,
+          "completion": 2115
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 27.5,
+      "falsePositives": {},
+      "falseNegatives": {},
+      "answers": 8
+    },
+    {
+      "id": "D16",
+      "category": "hinglish",
+      "style": "hinglish-roman",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 70,
+      "predictedPcs": 54,
+      "tp": 51,
+      "fp": 3,
+      "fn": 19,
+      "precision": 0.9444444444444444,
+      "recall": 0.7285714285714285,
+      "coverage": {
+        "flat": 0.453781512605042,
+        "weighted": 0.6291098484848489
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "direct-assessment",
+        "predicted": "upskill-first"
+      },
+      "claims": 67,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 3,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 23012,
+          "completion": 17127
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 150,
+      "falsePositives": {
+        "CON/N9001.PC9": 1,
+        "CON/N9001.PC5": 1,
+        "CON/N8001.PC7": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC8": 1,
+        "CON/N0603.PC1": 1,
+        "CON/N0603.PC2": 1,
+        "CON/N0603.PC5": 1,
+        "CON/N0603.PC6": 1,
+        "CON/N0603.PC9": 1,
+        "CON/N0603.PC10": 1,
+        "CON/N0603.PC11": 1,
+        "CON/N0603.PC12": 1,
+        "CON/N0603.PC13": 1,
+        "CON/N0603.PC14": 1,
+        "CON/N0603.PC15": 1,
+        "CON/N0605.PC5": 1,
+        "CON/N0605.PC8": 1,
+        "CON/N0605.PC16": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N8002.PC8": 1,
+        "CON/N9001.PC13": 1,
+        "DGT/VSQ/N0101.PC6": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D17",
+      "category": "hinglish",
+      "style": "hinglish-devanagari",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 25,
+      "predictedPcs": 37,
+      "tp": 24,
+      "fp": 13,
+      "fn": 1,
+      "precision": 0.6486486486486487,
+      "recall": 0.96,
+      "coverage": {
+        "flat": 0.31092436974789917,
+        "weighted": 0.421868686868687
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 52,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 0,
+        "linksDropped": 2,
+        "tokens": {
+          "prompt": 20298,
+          "completion": 17336
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 148.2,
+      "falsePositives": {
+        "CON/N0602.PC5": 1,
+        "CON/N9001.PC16": 1,
+        "CON/N0604.PC6": 1,
+        "CON/N0605.PC4": 1,
+        "CON/N0605.PC9": 1,
+        "CON/N0605.PC11": 1,
+        "CON/N0605.PC14": 1,
+        "CON/N8001.PC2": 1,
+        "CON/N0603.PC7": 1,
+        "CON/N9001.PC11": 1,
+        "CON/N8002.PC1": 1,
+        "CON/N8002.PC3": 1,
+        "CON/N8001.PC1": 1
+      },
+      "falseNegatives": {
+        "CON/N0604.PC10": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D18",
+      "category": "hinglish",
+      "style": "hinglish-roman",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 30,
+      "predictedPcs": 34,
+      "tp": 29,
+      "fp": 5,
+      "fn": 1,
+      "precision": 0.8529411764705882,
+      "recall": 0.9666666666666667,
+      "coverage": {
+        "flat": 0.2857142857142857,
+        "weighted": 0.428954725829726
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 41,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 0,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 19760,
+          "completion": 11573
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 110.1,
+      "falsePositives": {
+        "CON/N9001.PC16": 1,
+        "CON/N8002.PC2": 1,
+        "CON/N8002.PC1": 1,
+        "CON/N9001.PC9": 1,
+        "DGT/VSQ/N0101.PC12": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC1": 1
+      },
+      "answers": 8
+    },
+    {
+      "id": "D19",
+      "category": "other-trade",
+      "style": "hindi",
+      "expectedQp": "CON/Q0103",
+      "predictedQp": "CON/Q0103",
+      "top1": true,
+      "expectedPcs": 67,
+      "predictedPcs": 60,
+      "tp": 59,
+      "fp": 1,
+      "fn": 8,
+      "precision": 0.9833333333333333,
+      "recall": 0.8805970149253731,
+      "coverage": {
+        "flat": 0.36363636363636365,
+        "weighted": 0.42846666666666666
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 79,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 0,
+        "linksDropped": 1,
+        "tokens": {
+          "prompt": 23621,
+          "completion": 18125
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 154,
+      "falsePositives": {
+        "CON/N0112.PC15": 1
+      },
+      "falseNegatives": {
+        "CON/N0110.PC9": 1,
+        "CON/N0111.PC7": 1,
+        "CON/N0111.PC16": 1,
+        "CON/N0112.PC9": 1,
+        "CON/N0112.PC22": 1,
+        "CON/N8001.PC1": 1,
+        "CON/N8001.PC4": 1,
+        "CON/N9001.PC3": 1
+      },
+      "answers": 6
+    },
+    {
+      "id": "D20",
+      "category": "other-trade",
+      "style": "hindi",
+      "expectedQp": "CON/Q0103",
+      "predictedQp": "CON/Q0103",
+      "top1": true,
+      "expectedPcs": 29,
+      "predictedPcs": 30,
+      "tp": 27,
+      "fp": 3,
+      "fn": 2,
+      "precision": 0.9,
+      "recall": 0.9310344827586207,
+      "coverage": {
+        "flat": 0.18181818181818182,
+        "weighted": 0.15691499999999997
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 37,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v4",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 0,
+        "linksDropped": 1,
+        "tokens": {
+          "prompt": 18525,
+          "completion": 11710
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0,
+        "contentFilterBlocked": []
+      },
+      "seconds": 109.1,
+      "falsePositives": {
+        "CON/N0113.PC21": 1,
+        "CON/N8001.PC5": 1,
+        "CON/N8002.PC3": 1
+      },
+      "falseNegatives": {
+        "CON/N0114.PC15": 1,
+        "CON/N8001.PC1": 1
+      },
+      "answers": 6
+    }
+  ]
+}

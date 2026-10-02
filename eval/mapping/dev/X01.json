@@ -1,0 +1,92 @@
+{
+  "id": "X01",
+  "category": "partial",
+  "style": "hinglish-devanagari",
+  "persona": "DEV SET, not part of the frozen evaluation. Five years doing house wiring and some distribution boards in Kanpur; uses some English words.",
+  "lang": "hi",
+  "turns": [
+    {
+      "topic": "intro",
+      "q": "अपने काम के बारे में बताइए। कितने साल से कर रहे हैं, कहाँ-कहाँ काम किया है?",
+      "answer": "पाँच साल से कानपुर में बिजली का काम कर रहा हूँ। ज़्यादातर घरों की wiring, कभी-कभी दुकानों में DB भी लगाया।"
+    },
+    {
+      "topic": "tools",
+      "q": "कौन-कौन से औज़ार और मीटर चलाते हैं, और उनसे क्या-क्या करते हैं?",
+      "answer": "प्लास, पेचकस, टेस्टर और drill machine। drill चलाने से पहले उसका wire देख लेता हूँ कहीं कटा तो नहीं। तार का insulation छीलकर twist करके जोड़ता हूँ। multimeter से देखता हूँ कि line में voltage आ रहा है या नहीं।"
+    },
+    {
+      "topic": "wiring",
+      "q": "मकान या बिल्डिंग में वायरिंग कैसे करते हैं? शुरू से आख़िर तक बताइए।",
+      "answer": "दीवार में खांचा कटने के बाद PVC पाइप डालता हूँ और saddle से पक्का करता हूँ। फिर पाइप में तार खींचता हूँ। switch board और socket फिट करता हूँ। Earthing का काम मेरे उस्ताद करते थे, मैंने नहीं किया।"
+    },
+    {
+      "topic": "panels",
+      "q": "डिस्ट्रीब्यूशन बोर्ड या पैनल लगाने, जोड़ने या ठीक करने का काम किया है?",
+      "answer": "दुकान के DB में MCB लगाए हैं load देखकर। कोई MCB बार-बार trip करे तो check करके खराब MCB बदल देता हूँ।"
+    },
+    {
+      "topic": "safety",
+      "q": "काम के समय अपनी और दूसरों की सुरक्षा के लिए क्या-क्या करते हैं?",
+      "answer": "मेन switch बंद करके ही काम करता हूँ, और रबर की चप्पल और दस्ताने पहनता हूँ।"
+    }
+  ],
+  "labels": [
+    {
+      "pc": "CON/N0602.PC1",
+      "evidence": "drill चलाने से पहले उसका wire देख लेता हूँ कहीं कटा तो नहीं"
+    },
+    {
+      "pc": "CON/N0602.PC6",
+      "evidence": "तार का insulation छीलकर twist करके जोड़ता हूँ"
+    },
+    {
+      "pc": "CON/N0602.PC8",
+      "evidence": "multimeter से देखता हूँ कि line में voltage आ रहा है या नहीं"
+    },
+    {
+      "pc": "CON/N0604.PC4",
+      "evidence": "दीवार में खांचा कटने के बाद PVC पाइप डालता हूँ"
+    },
+    {
+      "pc": "CON/N0604.PC5",
+      "evidence": "saddle से पक्का करता हूँ"
+    },
+    {
+      "pc": "CON/N0604.PC6",
+      "evidence": "पाइप में तार खींचता हूँ"
+    },
+    {
+      "pc": "CON/N0604.PC8",
+      "evidence": "switch board और socket फिट करता हूँ"
+    },
+    {
+      "pc": "CON/N9001.PC7",
+      "evidence": "रबर की चप्पल और दस्ताने पहनता हूँ"
+    },
+    {
+      "pc": "CON/N0602.PC9",
+      "evidence": "दुकान के DB में MCB लगाए हैं load देखकर",
+      "note": "A shop board is permanent, so README rule 7 puts it under N0602.PC9, not N0605."
+    }
+  ],
+  "expected": {
+    "qp": "CON/Q0602",
+    "pcIds": [
+      "CON/N0602.PC1",
+      "CON/N0602.PC6",
+      "CON/N0602.PC8",
+      "CON/N0602.PC9",
+      "CON/N0604.PC4",
+      "CON/N0604.PC5",
+      "CON/N0604.PC6",
+      "CON/N0604.PC8",
+      "CON/N9001.PC7"
+    ],
+    "coverageFlat": 0.0756,
+    "coverageWeighted": 0.1496,
+    "routeFlat": "upskill-first",
+    "routeWeighted": "upskill-first"
+  },
+  "notes": "Dev set only. Earthing is the teacher's work (not labelled). The shop DB is permanent, so it is N0602.PC9 by README rule 7; switching off the main in a house is not N0603.PC7 (site lighting) by the same rule."
+}

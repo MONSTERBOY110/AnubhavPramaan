@@ -1,0 +1,413 @@
+{
+  "id": "D16",
+  "category": "hinglish",
+  "style": "hinglish-roman",
+  "persona": "Fully experienced construction electrician, 12 years, started as a helper in Kalyan and now works with a contractor on high-rise residential towers in the Mumbai region: flat wiring, site temporary lighting and temporary DBs. Answers in Roman-script Hinglish as an urban worker would type or speak.",
+  "lang": "hi-en",
+  "turns": [
+    {
+      "topic": "intro",
+      "q": "अपने काम के बारे में बताइए। कितने साल से कर रहे हैं, कहाँ-कहाँ काम किया है?",
+      "answer": "Main 12 saal se electrician ka kaam kar raha hoon, mostly building wiring aur MCB DB fitting. Pehle Kalyan mein helper tha, phir contractor ke saath Mumbai aa gaya. Abhi Thane mein 32 floor ki residential tower pe hoon, wahan flat ki wiring, site ki temporary lighting aur temporary DB main dekhta hoon. Har tarah ka kaam aata hai."
+    },
+    {
+      "topic": "tools",
+      "q": "कौन-कौन से औज़ार और मीटर चलाते हैं, और उनसे क्या-क्या करते हैं?",
+      "answer": "Tools mein plier, stripper, screwdriver, line tester, drill machine, grinder aur bending spring. Drill ya grinder chalane se pehle uska cable, plug aur switch check karta hoon. Switch aur MCB ke terminal mein wire screwdriver se tight karke connection banata hoon. Wire ka size gauge se aur conduit ki length measuring tape se naapta hoon. Hacksaw se conduit kaat ke spring daal ke bend karta hoon. Wire jodne ho toh stripper se insulation nikaal ke twist karke joint banata hoon. GI pipe pe die se threading karta hoon, coupling lagata hoon, aur pipe ke liye clamp wale bracket bana ke fix karta hoon. Multimeter se voltage aur continuity check karta hoon. Naya connection chalu karte waqt tong tester se load current naapta hoon. Short circuit ya leakage ho toh multimeter se ek ek circuit alag karke fault pakadta hoon. Load dekh ke sahi rating ka MCB aur ELCB lagata hoon. Kaam ke baad tools saaf karke bag mein rakhta hoon."
+    },
+    {
+      "topic": "wiring",
+      "q": "मकान या बिल्डिंग में वायरिंग कैसे करते हैं? शुरू से आख़िर तक बताइए।",
+      "answer": "Pehle drawing dekh ke point aur DB ki jagah samajhte hain, single phase wiring diagram main padh leta hoon. Phir size ke hisaab se PVC conduit, flexible pipe, box aur clamp select karte hain. Tape se naap leke pipe kaat ke, bend karke, joint karte hain. Slab casting se pehle slab mein conduit bichhate hain, aur block wall mein chase katwa ke pipe daalte hain. Pipe ko saddle aur clamp se lock karte hain. Zarurat ho toh drill se hole karte hain aur cutter se wall kaatte hain. Phir fish wire se wire pipe mein kheench ke har point pe nikaalte hain. Switch, socket, fan hook, light fitting sab lagate hain. Wire ka end strip karke lug laga ke terminal mein tight karte hain. Wiring ke beech mein aur baad mein megger aur multimeter se circuit test karte hain. Earthing ke liye pit mein plate daal ke salt aur charcoal bharte hain aur earth wire DB tak laate hain."
+    },
+    {
+      "topic": "site-lighting",
+      "q": "कंस्ट्रक्शन साइट पर अस्थायी लाइट का काम किया है? क्या-क्या करते हैं?",
+      "answer": "Haan, bahut kiya hai. Shuru mein source pe cable, light, socket aur temporary panel check karte hain. Cable ko poles pe overhead ya zameen mein pipe daal ke le jaate hain. Jitni roshni chahiye uske hisaab se LED flood light kitne watt ki lagani hai woh decide karta hoon aur oonchi jagah pe mazboot lagata hoon. Light ko bracket mein nut bolt se kaste hain aur wire junction box ya temporary board tak kheenchte hain. Cable chhoti pade toh straight joint banake PVC tape se lapet dete hain. Cable ke end pe sahi lug laga ke termination karte hain. Live connection jodne ya kholne se pehle main off karke, gloves pehen ke hi haath lagata hoon. Wall mein dabe ya khule pade wire pe tag aur marking lagate hain. Slab upar jaaye toh lights ek floor se doosre floor pe shift karte hain. Fuse bulb aur kharab choke badalte hain, kharab fitting repair karte hain ya poori fitting badal dete hain. Light na jale toh tester se line check karke dhoondhte hain ki supply kahan tooti hai. Kati hui cable badalte hain, kharab MCB, fuse aur switch bhi badalte hain. Site ka DG set operator dekhta hai, uski servicing main nahi karta."
+    },
+    {
+      "topic": "panels",
+      "q": "डिस्ट्रीब्यूशन बोर्ड या पैनल लगाने, जोड़ने या ठीक करने का काम किया है?",
+      "answer": "Site ke temporary DB main banata hoon. DB banane se pehle SLD aur company ki safety instructions dekhta hoon. Load ke hisaab se sahi rating ke MCB, RCCB, socket aur wire board mein fit karta hoon. Supply dene se pehle saare screw aur wire tight hain ya nahi, check karta hoon. DB ko main cable se jod ke test karta hoon ki sab theek chal raha hai. DB ko baarish aur aag se bachane ke liye covered box mein stand pe upar fix karte hain. Socket mein cable jodte waqt termination proper karta hoon. Panel body ki earthing main khud karta hoon. Live DB ke paas danger board aur barricade lagate hain. Roz subah DB khol ke dekhta hoon koi wire garam ya loose toh nahi. Kuch trip ho ya jale toh turant pahunchta hoon, test karke pata karta hoon ki trip kyun hua. Shutdown lene se pehle supervisor aur team ko bata deta hoon. Kharab MCB ya contactor SLD ke hisaab se badal deta hoon. Floor badalta hai toh DB isolate karke naye floor pe shift karte hain. Register mein entry supervisor karta hai, main nahi likhta."
+    },
+    {
+      "topic": "safety",
+      "q": "काम के समय अपनी और दूसरों की सुरक्षा के लिए क्या-क्या करते हैं?",
+      "answer": "Safety mein helmet, safety shoes, gloves pehenta hoon, upar kaam ho toh full body harness lagata hoon. Height pe chadhne se pehle height pass banwata hoon. Roz subah toolbox talk mein jo bolte hain woh follow karta hoon. Kahin khula wire ya open shaft dikhe toh safety officer ko turant batata hoon. Waste wire ke tukde aur PVC ka kachra alag drum mein daalta hoon. Bhaari coil uthate waqt kamar seedhi rakh ke ghutne mod ke uthata hoon. Fire extinguisher ki training li hai."
+    },
+    {
+      "topic": "team-planning",
+      "q": "टीम में काम कैसे करते हैं, और काम शुरू करने से पहले तैयारी कैसे करते हैं?",
+      "answer": "Meri team mein teen helper hain. Subah engineer se din ka kaam samajh ke helpers ko bata deta hoon kaun kis floor pe kya karega. Koi problem solve na ho toh supervisor ko turant bolta hoon. Samajh na aaye toh engineer se pooch leta hoon. Plumber aur POP wale ke saath milke kaam karte hain. Kaam shuru karne se pehle dekhta hoon ki is hafte ka target kya hai. Drawing dekh ke material aur tools ki list banata hoon aur store se wire, pipe, box mangwa leta hoon. Kaam khatam hone pe jagah saaf karke material samet deta hoon."
+    },
+    {
+      "topic": "other",
+      "q": "फ़ोन से भुगतान, पैसों का हिसाब या ग्राहक से बात, ये सब कैसे करते हैं?",
+      "answer": "Payment UPI se leta hoon, OTP kisi ko nahi batata. WhatsApp pe site ki photo aur naap supervisor ko bhejta hoon. Builder ke engineer log se thoda English mein baat kar leta hoon, jaise 'sir, DB ready hai, checking kar lo'. Ghar ka hisaab wife dekhti hai."
+    }
+  ],
+  "labels": [
+    {
+      "pc": "CON/N0602.PC1",
+      "evidence": "Drill ya grinder chalane se pehle uska cable, plug aur switch check karta hoon"
+    },
+    {
+      "pc": "CON/N0602.PC2",
+      "evidence": "Switch aur MCB ke terminal mein wire screwdriver se tight karke connection banata hoon"
+    },
+    {
+      "pc": "CON/N0602.PC3",
+      "evidence": "Short circuit ya leakage ho toh multimeter se ek ek circuit alag karke fault pakadta hoon"
+    },
+    {
+      "pc": "CON/N0602.PC4",
+      "evidence": "Wire ka size gauge se aur conduit ki length measuring tape se naapta hoon"
+    },
+    {
+      "pc": "CON/N0602.PC5",
+      "evidence": "Hacksaw se conduit kaat ke spring daal ke bend karta hoon"
+    },
+    {
+      "pc": "CON/N0602.PC6",
+      "evidence": "stripper se insulation nikaal ke twist karke joint banata hoon"
+    },
+    {
+      "pc": "CON/N0602.PC7",
+      "evidence": "GI pipe pe die se threading karta hoon, coupling lagata hoon, aur pipe ke liye clamp wale bracket bana ke fix karta hoon"
+    },
+    {
+      "pc": "CON/N0602.PC8",
+      "evidence": "Multimeter se voltage aur continuity check karta hoon"
+    },
+    {
+      "pc": "CON/N0602.PC9",
+      "evidence": "Load dekh ke sahi rating ka MCB aur ELCB lagata hoon"
+    },
+    {
+      "pc": "CON/N0602.PC10",
+      "evidence": "Naya connection chalu karte waqt tong tester se load current naapta hoon"
+    },
+    {
+      "pc": "CON/N0602.PC11",
+      "evidence": "Kaam ke baad tools saaf karke bag mein rakhta hoon"
+    },
+    {
+      "pc": "CON/N0603.PC1",
+      "evidence": "source pe cable, light, socket aur temporary panel check karte hain"
+    },
+    {
+      "pc": "CON/N0603.PC2",
+      "evidence": "Cable ko poles pe overhead ya zameen mein pipe daal ke le jaate hain"
+    },
+    {
+      "pc": "CON/N0603.PC3",
+      "evidence": "LED flood light kitne watt ki lagani hai woh decide karta hoon aur oonchi jagah pe mazboot lagata hoon"
+    },
+    {
+      "pc": "CON/N0603.PC4",
+      "evidence": "Light ko bracket mein nut bolt se kaste hain aur wire junction box ya temporary board tak kheenchte hain"
+    },
+    {
+      "pc": "CON/N0603.PC5",
+      "evidence": "straight joint banake PVC tape se lapet dete hain"
+    },
+    {
+      "pc": "CON/N0603.PC6",
+      "evidence": "Cable ke end pe sahi lug laga ke termination karte hain"
+    },
+    {
+      "pc": "CON/N0603.PC7",
+      "evidence": "Live connection jodne ya kholne se pehle main off karke, gloves pehen ke hi haath lagata hoon"
+    },
+    {
+      "pc": "CON/N0603.PC9",
+      "evidence": "Wall mein dabe ya khule pade wire pe tag aur marking lagate hain"
+    },
+    {
+      "pc": "CON/N0603.PC10",
+      "evidence": "lights ek floor se doosre floor pe shift karte hain"
+    },
+    {
+      "pc": "CON/N0603.PC11",
+      "evidence": "kharab fitting repair karte hain ya poori fitting badal dete hain"
+    },
+    {
+      "pc": "CON/N0603.PC12",
+      "evidence": "Fuse bulb aur kharab choke badalte hain"
+    },
+    {
+      "pc": "CON/N0603.PC13",
+      "evidence": "Light na jale toh tester se line check karke dhoondhte hain ki supply kahan tooti hai"
+    },
+    {
+      "pc": "CON/N0603.PC14",
+      "evidence": "Kati hui cable badalte hain"
+    },
+    {
+      "pc": "CON/N0603.PC15",
+      "evidence": "kharab MCB, fuse aur switch bhi badalte hain"
+    },
+    {
+      "pc": "CON/N0604.PC1",
+      "evidence": "size ke hisaab se PVC conduit, flexible pipe, box aur clamp select karte hain"
+    },
+    {
+      "pc": "CON/N0604.PC2",
+      "evidence": "single phase wiring diagram main padh leta hoon"
+    },
+    {
+      "pc": "CON/N0604.PC3",
+      "evidence": "Tape se naap leke pipe kaat ke, bend karke, joint karte hain"
+    },
+    {
+      "pc": "CON/N0604.PC4",
+      "evidence": "Slab casting se pehle slab mein conduit bichhate hain, aur block wall mein chase katwa ke pipe daalte hain"
+    },
+    {
+      "pc": "CON/N0604.PC5",
+      "evidence": "Pipe ko saddle aur clamp se lock karte hain"
+    },
+    {
+      "pc": "CON/N0604.PC6",
+      "evidence": "fish wire se wire pipe mein kheench ke har point pe nikaalte hain"
+    },
+    {
+      "pc": "CON/N0604.PC7",
+      "evidence": "drill se hole karte hain aur cutter se wall kaatte hain"
+    },
+    {
+      "pc": "CON/N0604.PC8",
+      "evidence": "Switch, socket, fan hook, light fitting sab lagate hain"
+    },
+    {
+      "pc": "CON/N0604.PC9",
+      "evidence": "Wire ka end strip karke lug laga ke terminal mein tight karte hain"
+    },
+    {
+      "pc": "CON/N0604.PC10",
+      "evidence": "Wiring ke beech mein aur baad mein megger aur multimeter se circuit test karte hain"
+    },
+    {
+      "pc": "CON/N0604.PC11",
+      "evidence": "Earthing ke liye pit mein plate daal ke salt aur charcoal bharte hain aur earth wire DB tak laate hain"
+    },
+    {
+      "pc": "CON/N0605.PC1",
+      "evidence": "DB banane se pehle SLD aur company ki safety instructions dekhta hoon"
+    },
+    {
+      "pc": "CON/N0605.PC2",
+      "evidence": "Load ke hisaab se sahi rating ke MCB, RCCB, socket aur wire board mein fit karta hoon"
+    },
+    {
+      "pc": "CON/N0605.PC3",
+      "evidence": "Supply dene se pehle saare screw aur wire tight hain ya nahi, check karta hoon"
+    },
+    {
+      "pc": "CON/N0605.PC4",
+      "evidence": "DB ko main cable se jod ke test karta hoon ki sab theek chal raha hai"
+    },
+    {
+      "pc": "CON/N0605.PC5",
+      "evidence": "DB ko baarish aur aag se bachane ke liye covered box mein stand pe upar fix karte hain"
+    },
+    {
+      "pc": "CON/N0605.PC6",
+      "evidence": "Socket mein cable jodte waqt termination proper karta hoon"
+    },
+    {
+      "pc": "CON/N0605.PC7",
+      "evidence": "Panel body ki earthing main khud karta hoon"
+    },
+    {
+      "pc": "CON/N0605.PC8",
+      "evidence": "Live DB ke paas danger board aur barricade lagate hain"
+    },
+    {
+      "pc": "CON/N0605.PC9",
+      "evidence": "Roz subah DB khol ke dekhta hoon koi wire garam ya loose toh nahi"
+    },
+    {
+      "pc": "CON/N0605.PC11",
+      "evidence": "Kuch trip ho ya jale toh turant pahunchta hoon"
+    },
+    {
+      "pc": "CON/N0605.PC12",
+      "evidence": "test karke pata karta hoon ki trip kyun hua"
+    },
+    {
+      "pc": "CON/N0605.PC13",
+      "evidence": "Shutdown lene se pehle supervisor aur team ko bata deta hoon"
+    },
+    {
+      "pc": "CON/N0605.PC14",
+      "evidence": "Kharab MCB ya contactor SLD ke hisaab se badal deta hoon"
+    },
+    {
+      "pc": "CON/N0605.PC16",
+      "evidence": "DB isolate karke naye floor pe shift karte hain"
+    },
+    {
+      "pc": "CON/N9001.PC1",
+      "evidence": "khula wire ya open shaft dikhe toh safety officer ko turant batata hoon"
+    },
+    {
+      "pc": "CON/N9001.PC4",
+      "evidence": "Roz subah toolbox talk mein jo bolte hain woh follow karta hoon"
+    },
+    {
+      "pc": "CON/N9001.PC7",
+      "evidence": "helmet, safety shoes, gloves pehenta hoon, upar kaam ho toh full body harness lagata hoon"
+    },
+    {
+      "pc": "CON/N9001.PC12",
+      "evidence": "Height pe chadhne se pehle height pass banwata hoon"
+    },
+    {
+      "pc": "CON/N9001.PC13",
+      "evidence": "Waste wire ke tukde aur PVC ka kachra alag drum mein daalta hoon"
+    },
+    {
+      "pc": "CON/N9001.PC14",
+      "evidence": "Bhaari coil uthate waqt kamar seedhi rakh ke ghutne mod ke uthata hoon"
+    },
+    {
+      "pc": "CON/N8001.PC1",
+      "evidence": "helpers ko bata deta hoon kaun kis floor pe kya karega"
+    },
+    {
+      "pc": "CON/N8001.PC3",
+      "evidence": "Koi problem solve na ho toh supervisor ko turant bolta hoon"
+    },
+    {
+      "pc": "CON/N8001.PC4",
+      "evidence": "Subah engineer se din ka kaam samajh ke"
+    },
+    {
+      "pc": "CON/N8001.PC6",
+      "evidence": "Samajh na aaye toh engineer se pooch leta hoon"
+    },
+    {
+      "pc": "CON/N8001.PC8",
+      "evidence": "Plumber aur POP wale ke saath milke kaam karte hain"
+    },
+    {
+      "pc": "CON/N8002.PC1",
+      "evidence": "dekhta hoon ki is hafte ka target kya hai"
+    },
+    {
+      "pc": "CON/N8002.PC2",
+      "evidence": "Drawing dekh ke material aur tools ki list banata hoon"
+    },
+    {
+      "pc": "CON/N8002.PC7",
+      "evidence": "store se wire, pipe, box mangwa leta hoon"
+    },
+    {
+      "pc": "CON/N8002.PC8",
+      "evidence": "helpers ko bata deta hoon kaun kis floor pe kya karega",
+      "note": "Same span as N8001.PC1: assigning each helper a floor and a task is engaging the allocated manpower."
+    },
+    {
+      "pc": "CON/N8002.PC15",
+      "evidence": "Kaam khatam hone pe jagah saaf karke material samet deta hoon"
+    },
+    {
+      "pc": "DGT/VSQ/N0101.PC4",
+      "evidence": "engineer log se thoda English mein baat kar leta hoon"
+    },
+    {
+      "pc": "DGT/VSQ/N0101.PC6",
+      "evidence": "Plumber aur POP wale ke saath milke kaam karte hain",
+      "note": "Same span as N8001.PC8."
+    },
+    {
+      "pc": "DGT/VSQ/N0101.PC9",
+      "evidence": "Payment UPI se leta hoon, OTP kisi ko nahi batata"
+    },
+    {
+      "pc": "DGT/VSQ/N0101.PC12",
+      "evidence": "WhatsApp pe site ki photo aur naap supervisor ko bhejta hoon"
+    }
+  ],
+  "expected": {
+    "qp": "CON/Q0602",
+    "pcIds": [
+      "CON/N0602.PC1",
+      "CON/N0602.PC2",
+      "CON/N0602.PC3",
+      "CON/N0602.PC4",
+      "CON/N0602.PC5",
+      "CON/N0602.PC6",
+      "CON/N0602.PC7",
+      "CON/N0602.PC8",
+      "CON/N0602.PC9",
+      "CON/N0602.PC10",
+      "CON/N0602.PC11",
+      "CON/N0603.PC1",
+      "CON/N0603.PC2",
+      "CON/N0603.PC3",
+      "CON/N0603.PC4",
+      "CON/N0603.PC5",
+      "CON/N0603.PC6",
+      "CON/N0603.PC7",
+      "CON/N0603.PC9",
+      "CON/N0603.PC10",
+      "CON/N0603.PC11",
+      "CON/N0603.PC12",
+      "CON/N0603.PC13",
+      "CON/N0603.PC14",
+      "CON/N0603.PC15",
+      "CON/N0604.PC1",
+      "CON/N0604.PC2",
+      "CON/N0604.PC3",
+      "CON/N0604.PC4",
+      "CON/N0604.PC5",
+      "CON/N0604.PC6",
+      "CON/N0604.PC7",
+      "CON/N0604.PC8",
+      "CON/N0604.PC9",
+      "CON/N0604.PC10",
+      "CON/N0604.PC11",
+      "CON/N0605.PC1",
+      "CON/N0605.PC2",
+      "CON/N0605.PC3",
+      "CON/N0605.PC4",
+      "CON/N0605.PC5",
+      "CON/N0605.PC6",
+      "CON/N0605.PC7",
+      "CON/N0605.PC8",
+      "CON/N0605.PC9",
+      "CON/N0605.PC11",
+      "CON/N0605.PC12",
+      "CON/N0605.PC13",
+      "CON/N0605.PC14",
+      "CON/N0605.PC16",
+      "CON/N8001.PC1",
+      "CON/N8001.PC3",
+      "CON/N8001.PC4",
+      "CON/N8001.PC6",
+      "CON/N8001.PC8",
+      "CON/N8002.PC1",
+      "CON/N8002.PC2",
+      "CON/N8002.PC7",
+      "CON/N8002.PC8",
+      "CON/N8002.PC15",
+      "CON/N9001.PC1",
+      "CON/N9001.PC4",
+      "CON/N9001.PC7",
+      "CON/N9001.PC12",
+      "CON/N9001.PC13",
+      "CON/N9001.PC14",
+      "DGT/VSQ/N0101.PC4",
+      "DGT/VSQ/N0101.PC6",
+      "DGT/VSQ/N0101.PC9",
+      "DGT/VSQ/N0101.PC12"
+    ],
+    "coverageFlat": 0.5882,
+    "coverageWeighted": 0.8319,
+    "routeFlat": "upskill-first",
+    "routeWeighted": "direct-assessment"
+  },
+  "notes": "Not labelled on purpose: N0603.PC16 (he says the DG set operator services the generator, not him), N0603.PC8 (no upkeep of site fixtures mentioned), N0605.PC15 (he says the supervisor writes the register, not him), N0605.PC10 (switching off supply after the day's work is not mentioned), N9001.PC5 (fire extinguisher training only, never says he operated one), N0101.PC10 (his wife keeps the household accounts). The line tester appears only in the tool list and in tracing a lighting fault (N0603.PC13); the meter PCs N0602.PC8 and PC10 rest on the multimeter and tong tester. 'Har tarah ka kaam aata hai' in the intro is a general claim and supports nothing."
+}

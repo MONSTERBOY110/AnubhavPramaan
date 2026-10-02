@@ -1,0 +1,213 @@
+{
+  "id": "D18",
+  "category": "hinglish",
+  "style": "hinglish-roman",
+  "persona": "Partly experienced electrician, 2 years with a wiring contractor in Bengaluru, still learning: house and flat conduit wiring and some temporary site lighting. Has not done panel work, cannot yet read a wiring diagram or use a multimeter, and leaves planning to his senior.",
+  "lang": "hi-en",
+  "turns": [
+    {
+      "topic": "intro",
+      "q": "अपने काम के बारे में बताइए। कितने साल से कर रहे हैं, कहाँ-कहाँ काम किया है?",
+      "answer": "Main 2 saal se Bengaluru mein ek contractor ke saath electrician helper ka kaam kar raha hoon. Gaon se aaya tha, yahan bhaiya log ke saath seekha. Mostly flats aur independent houses ki wiring karte hain, kabhi kabhi site pe temporary light bhi lagate hain. Abhi seekh raha hoon."
+    },
+    {
+      "topic": "tools",
+      "q": "कौन-कौन से औज़ार और मीटर चलाते हैं, और उनसे क्या-क्या करते हैं?",
+      "answer": "Plier, screwdriver, line tester, wire stripper, hacksaw, bending spring aur drill machine chalata hoon. Drill lagane se pehle wire aur plug dekh leta hoon kahin kata toh nahi. Switch board mein wire screwdriver se tight karke connection deta hoon. PVC pipe ki length tape se naapta hoon, hacksaw se kaat ke spring daal ke mod deta hoon. Wire ka insulation stripper se nikaal ke twist karke joint banata hoon. Kahin short ho toh line tester se point point check karke fault dhoondhta hoon. Multimeter abhi seekh raha hoon, woh bhaiya chalate hain. Shaam ko tools poonch ke bag mein rakhta hoon."
+    },
+    {
+      "topic": "wiring",
+      "q": "मकान या बिल्डिंग में वायरिंग कैसे करते हैं? शुरू से आख़िर तक बताइए।",
+      "answer": "Pehle bhaiya batate hain kahan switch board aur point aayega, diagram abhi theek se padhna nahi aata. Size dekh ke 20 aur 25 mm ka PVC pipe, box aur saddle chhaant leta hoon. Naap ke pipe kaat ke bend ke saath jodta hoon. Brick wall mein cutter se chase kaat ke pipe daalta hoon, slab mein bhi pipe bichhaya hai. Pipe ko saddle aur clamp se fix karta hoon. Box ke liye drill se hole karta hoon. Fish wire se wire kheench ke har box mein nikaalta hoon. Switch, socket, holder aur fan box lagata hoon. Wire ka end chheel ke terminal mein tight karta hoon. Wiring ke baad line tester se har point pe supply check karta hoon. Earthing ke liye pit khodne aur plate daalne mein help ki hai."
+    },
+    {
+      "topic": "site-lighting",
+      "q": "कंस्ट्रक्शन साइट पर अस्थायी लाइट का काम किया है? क्या-क्या करते हैं?",
+      "answer": "Haan, do teen site pe kiya hai. Bhaiya ke saath pehle cable aur lights check karte hain. Cable ko bamboo pole pe baandh ke upar se le jaate hain. Halogen ko bracket pe nut bolt se kas ke wire board tak kheenchta hoon. Cable chhoti ho toh joint karke tape lapet deta hoon. Floor badle toh lights upar shift karte hain. Fuse bulb badalta hoon. Light na jale toh tester se dekhta hoon supply kahan ruki hai. Kati cable ho toh nayi daal deta hoon. Kaun si light kitne watt ki lagegi woh supervisor decide karte hain."
+    },
+    {
+      "topic": "panels",
+      "q": "डिस्ट्रीब्यूशन बोर्ड या पैनल लगाने, जोड़ने या ठीक करने का काम किया है?",
+      "answer": "Panel ka kaam abhi nahi kiya. DB mein MCB lagana senior log karte hain, main sirf wire pakdaata hoon."
+    },
+    {
+      "topic": "safety",
+      "q": "काम के समय अपनी और दूसरों की सुरक्षा के लिए क्या-क्या करते हैं?",
+      "answer": "Helmet aur shoes pehenta hoon. Baaki safety ka itna pata nahi, supervisor jo bolte hain woh karta hoon."
+    },
+    {
+      "topic": "team-planning",
+      "q": "टीम में काम कैसे करते हैं, और काम शुरू करने से पहले तैयारी कैसे करते हैं?",
+      "answer": "Subah bhaiya jo kaam dete hain woh karta hoon. Samajh na aaye toh unse pooch leta hoon. Planning bhaiya hi karte hain. Kaam ke baad kachra aur bacha pipe saaf kar deta hoon."
+    },
+    {
+      "topic": "other",
+      "q": "फ़ोन से भुगतान, पैसों का हिसाब या ग्राहक से बात, ये सब कैसे करते हैं?",
+      "answer": "UPI se ghar paise bhejta hoon, PIN kisi ko nahi batata. Hisaab zyada nahi rakhta."
+    }
+  ],
+  "labels": [
+    {
+      "pc": "CON/N0602.PC1",
+      "evidence": "Drill lagane se pehle wire aur plug dekh leta hoon"
+    },
+    {
+      "pc": "CON/N0602.PC2",
+      "evidence": "Switch board mein wire screwdriver se tight karke connection deta hoon"
+    },
+    {
+      "pc": "CON/N0602.PC3",
+      "evidence": "Kahin short ho toh line tester se point point check karke fault dhoondhta hoon",
+      "note": "Rule 8: a line tester can support finding faults."
+    },
+    {
+      "pc": "CON/N0602.PC4",
+      "evidence": "PVC pipe ki length tape se naapta hoon"
+    },
+    {
+      "pc": "CON/N0602.PC5",
+      "evidence": "hacksaw se kaat ke spring daal ke mod deta hoon"
+    },
+    {
+      "pc": "CON/N0602.PC6",
+      "evidence": "Wire ka insulation stripper se nikaal ke twist karke joint banata hoon"
+    },
+    {
+      "pc": "CON/N0602.PC11",
+      "evidence": "Shaam ko tools poonch ke bag mein rakhta hoon"
+    },
+    {
+      "pc": "CON/N0603.PC1",
+      "evidence": "Bhaiya ke saath pehle cable aur lights check karte hain"
+    },
+    {
+      "pc": "CON/N0603.PC2",
+      "evidence": "Cable ko bamboo pole pe baandh ke upar se le jaate hain"
+    },
+    {
+      "pc": "CON/N0603.PC4",
+      "evidence": "Halogen ko bracket pe nut bolt se kas ke wire board tak kheenchta hoon"
+    },
+    {
+      "pc": "CON/N0603.PC5",
+      "evidence": "joint karke tape lapet deta hoon"
+    },
+    {
+      "pc": "CON/N0603.PC10",
+      "evidence": "Floor badle toh lights upar shift karte hain"
+    },
+    {
+      "pc": "CON/N0603.PC12",
+      "evidence": "Fuse bulb badalta hoon"
+    },
+    {
+      "pc": "CON/N0603.PC13",
+      "evidence": "Light na jale toh tester se dekhta hoon supply kahan ruki hai"
+    },
+    {
+      "pc": "CON/N0603.PC14",
+      "evidence": "Kati cable ho toh nayi daal deta hoon"
+    },
+    {
+      "pc": "CON/N0604.PC1",
+      "evidence": "Size dekh ke 20 aur 25 mm ka PVC pipe, box aur saddle chhaant leta hoon"
+    },
+    {
+      "pc": "CON/N0604.PC3",
+      "evidence": "Naap ke pipe kaat ke bend ke saath jodta hoon"
+    },
+    {
+      "pc": "CON/N0604.PC4",
+      "evidence": "Brick wall mein cutter se chase kaat ke pipe daalta hoon"
+    },
+    {
+      "pc": "CON/N0604.PC5",
+      "evidence": "Pipe ko saddle aur clamp se fix karta hoon"
+    },
+    {
+      "pc": "CON/N0604.PC6",
+      "evidence": "Fish wire se wire kheench ke har box mein nikaalta hoon"
+    },
+    {
+      "pc": "CON/N0604.PC7",
+      "evidence": "Box ke liye drill se hole karta hoon"
+    },
+    {
+      "pc": "CON/N0604.PC8",
+      "evidence": "Switch, socket, holder aur fan box lagata hoon"
+    },
+    {
+      "pc": "CON/N0604.PC9",
+      "evidence": "Wire ka end chheel ke terminal mein tight karta hoon"
+    },
+    {
+      "pc": "CON/N0604.PC10",
+      "evidence": "Wiring ke baad line tester se har point pe supply check karta hoon",
+      "note": "Rule 8: a line tester can support testing a circuit after wiring."
+    },
+    {
+      "pc": "CON/N0604.PC11",
+      "evidence": "Earthing ke liye pit khodne aur plate daalne mein help ki hai"
+    },
+    {
+      "pc": "CON/N9001.PC7",
+      "evidence": "Helmet aur shoes pehenta hoon"
+    },
+    {
+      "pc": "CON/N8001.PC4",
+      "evidence": "Subah bhaiya jo kaam dete hain woh karta hoon"
+    },
+    {
+      "pc": "CON/N8001.PC6",
+      "evidence": "Samajh na aaye toh unse pooch leta hoon"
+    },
+    {
+      "pc": "CON/N8002.PC15",
+      "evidence": "Kaam ke baad kachra aur bacha pipe saaf kar deta hoon"
+    },
+    {
+      "pc": "DGT/VSQ/N0101.PC9",
+      "evidence": "UPI se ghar paise bhejta hoon, PIN kisi ko nahi batata"
+    }
+  ],
+  "expected": {
+    "qp": "CON/Q0602",
+    "pcIds": [
+      "CON/N0602.PC1",
+      "CON/N0602.PC2",
+      "CON/N0602.PC3",
+      "CON/N0602.PC4",
+      "CON/N0602.PC5",
+      "CON/N0602.PC6",
+      "CON/N0602.PC11",
+      "CON/N0603.PC1",
+      "CON/N0603.PC2",
+      "CON/N0603.PC4",
+      "CON/N0603.PC5",
+      "CON/N0603.PC10",
+      "CON/N0603.PC12",
+      "CON/N0603.PC13",
+      "CON/N0603.PC14",
+      "CON/N0604.PC1",
+      "CON/N0604.PC3",
+      "CON/N0604.PC4",
+      "CON/N0604.PC5",
+      "CON/N0604.PC6",
+      "CON/N0604.PC7",
+      "CON/N0604.PC8",
+      "CON/N0604.PC9",
+      "CON/N0604.PC10",
+      "CON/N0604.PC11",
+      "CON/N8001.PC4",
+      "CON/N8001.PC6",
+      "CON/N8002.PC15",
+      "CON/N9001.PC7",
+      "DGT/VSQ/N0101.PC9"
+    ],
+    "coverageFlat": 0.2521,
+    "coverageWeighted": 0.4303,
+    "routeFlat": "upskill-first",
+    "routeWeighted": "upskill-first"
+  },
+  "notes": "Not labelled on purpose: N0602.PC8 and PC10 (he says he is still learning the multimeter and his senior uses it; under rule 8 his line tester cannot stand in for a meter), N0602.PC7 and PC9 (not mentioned), N0603.PC3 (the supervisor decides the light wattage, not him), N0604.PC2 (he says he cannot read a diagram yet), all of N0605 (he has not done panel work; holding wires while seniors fit MCBs is someone else's work), N9001 apart from PPE ('supervisor jo bolte hain woh karta hoon' is a general claim), N8002 planning (his senior plans), and N0101.PC10 (he keeps no accounts)."
+}

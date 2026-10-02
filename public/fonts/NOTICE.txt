@@ -1,0 +1,22 @@
+AnubhavPramaan - vendored web fonts
+===================================
+
+Self-hosted rather than loaded from a CDN, so the installed app renders Hindi with the
+network off (offline assessment camps). Both faces are licensed under the SIL Open Font
+License 1.1, whose full text is in OFL-1.1.txt beside this file.
+
+noto-sans-latin.woff2
+  Family     Noto Sans, variable, wght 400 to 700
+  Copyright  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
+  Licence    SIL Open Font License 1.1 - https://scripts.sil.org/OFL
+  Subset     latin, as served by Google Fonts
+  Retrieved  2026-10-02 from the Google Fonts CSS API (family=Noto+Sans:wght@400..700), the block
+             marked "latin"
+
+noto-sans-devanagari.woff2
+  Family     Noto Sans Devanagari, variable, version 2.006
+  Copyright  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/devanagari)
+  Licence    SIL Open Font License 1.1 - https://scripts.sil.org/OFL
+  Subset     devanagari, as served by Google Fonts
+  Retrieved  copied from the team's SagarDrishti repository, where it was fetched on 2026-09-25
+             by the same method (family=Noto+Sans+Devanagari:wght@400..700)

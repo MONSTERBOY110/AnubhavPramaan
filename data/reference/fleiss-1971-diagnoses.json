@@ -1,0 +1,124 @@
+{
+  "id": "fleiss-1971-psychiatric-diagnoses",
+  "description": "Worked example for Fleiss' kappa: 30 patients, each diagnosed by 6 psychiatrists (not the same 6 for every patient) into 5 categories.",
+  "source": {
+    "authors": "Fleiss, J. L.",
+    "year": 1971,
+    "title": "Measuring nominal scale agreement among many raters",
+    "journal": "Psychological Bulletin",
+    "volume": 76,
+    "issue": 5,
+    "pages": "378-382",
+    "table": "Table 1, diagnoses on 30 subjects (table number as given in the documentation of the R package lagree; the original was not read)",
+    "doi": "10.1037/h0031619",
+    "url": "https://doi.org/10.1037/h0031619"
+  },
+  "originalRead": false,
+  "transcribedFrom": [
+    {
+      "fields": ["counts"],
+      "name": "R package raters 2.1.1 (CRAN), dataset diagnostic, which cites Fleiss (1971)",
+      "url": "https://cran.r-project.org/package=raters"
+    },
+    {
+      "fields": ["categories", "ratings"],
+      "name": "R package irr 0.85 (CRAN), dataset diagnoses, which cites Fleiss (1971); category names are its factor levels without the leading number, and ratings use that number (1 to 5)",
+      "url": "https://cran.r-project.org/package=irr"
+    },
+    {
+      "fields": ["expected.kappaPrinted", "expected.categoryKappas"],
+      "name": "Printed output of kappam.fleiss(diagnoses) and kappam.fleiss(diagnoses, detail = TRUE) in the R irr documentation (rdrr.io, documentation built 2 May 2019)",
+      "url": "https://rdrr.io/cran/irr/man/kappam.fleiss.html"
+    },
+    {
+      "fields": ["expected.kappaUnrounded"],
+      "name": "statsmodels test suite, test_fleiss_kappa_irr in statsmodels/stats/tests/test_inter_rater.py, which records the value R irr returns for kappam.fleiss(diagnoses)",
+      "url": "https://github.com/statsmodels/statsmodels/blob/main/statsmodels/stats/tests/test_inter_rater.py"
+    }
+  ],
+  "notes": [
+    "The original article is behind the APA paywall and OpenAlex lists it as closed access, so it was not read for this file. Every number here is transcribed from the reproductions in transcribedFrom, not from the paper.",
+    "The raters count table agrees cell for cell with the counts of the irr ratings matrix, and its first 15 rows agree with the dataset distrib.6raters in the R package irrCAC 1.4.",
+    "Fleiss published counts per category, not who said what. The irr ratings matrix spreads each row's counts over six columns, so a column is not the same psychiatrist from patient to patient."
+  ],
+  "categories": ["Depression", "Personality Disorder", "Schizophrenia", "Neurosis", "Other"],
+  "ratersPerSubject": 6,
+  "counts": [
+    [0, 0, 0, 6, 0],
+    [0, 3, 0, 0, 3],
+    [0, 1, 4, 0, 1],
+    [0, 0, 0, 0, 6],
+    [0, 3, 0, 3, 0],
+    [2, 0, 4, 0, 0],
+    [0, 0, 4, 0, 2],
+    [2, 0, 3, 1, 0],
+    [2, 0, 0, 4, 0],
+    [0, 0, 0, 0, 6],
+    [1, 0, 0, 5, 0],
+    [1, 1, 0, 4, 0],
+    [0, 3, 3, 0, 0],
+    [1, 0, 0, 5, 0],
+    [0, 2, 0, 3, 1],
+    [0, 0, 5, 0, 1],
+    [3, 0, 0, 1, 2],
+    [5, 1, 0, 0, 0],
+    [0, 2, 0, 4, 0],
+    [1, 0, 2, 0, 3],
+    [0, 0, 0, 0, 6],
+    [0, 1, 0, 5, 0],
+    [0, 2, 0, 1, 3],
+    [2, 0, 0, 4, 0],
+    [1, 0, 0, 4, 1],
+    [0, 5, 0, 1, 0],
+    [4, 0, 0, 0, 2],
+    [0, 2, 0, 4, 0],
+    [1, 0, 5, 0, 0],
+    [0, 0, 0, 0, 6]
+  ],
+  "ratings": [
+    [4, 4, 4, 4, 4, 4],
+    [2, 2, 2, 5, 5, 5],
+    [2, 3, 3, 3, 3, 5],
+    [5, 5, 5, 5, 5, 5],
+    [2, 2, 2, 4, 4, 4],
+    [1, 1, 3, 3, 3, 3],
+    [3, 3, 3, 3, 5, 5],
+    [1, 1, 3, 3, 3, 4],
+    [1, 1, 4, 4, 4, 4],
+    [5, 5, 5, 5, 5, 5],
+    [1, 4, 4, 4, 4, 4],
+    [1, 2, 4, 4, 4, 4],
+    [2, 2, 2, 3, 3, 3],
+    [1, 4, 4, 4, 4, 4],
+    [2, 2, 4, 4, 4, 5],
+    [3, 3, 3, 3, 3, 5],
+    [1, 1, 1, 4, 5, 5],
+    [1, 1, 1, 1, 1, 2],
+    [2, 2, 4, 4, 4, 4],
+    [1, 3, 3, 5, 5, 5],
+    [5, 5, 5, 5, 5, 5],
+    [2, 4, 4, 4, 4, 4],
+    [2, 2, 4, 5, 5, 5],
+    [1, 1, 4, 4, 4, 4],
+    [1, 4, 4, 4, 4, 5],
+    [2, 2, 2, 2, 2, 4],
+    [1, 1, 1, 1, 5, 5],
+    [2, 2, 4, 4, 4, 4],
+    [1, 3, 3, 3, 3, 3],
+    [5, 5, 5, 5, 5, 5]
+  ],
+  "expected": {
+    "kappaPrinted": {
+      "value": 0.43,
+      "decimals": 2
+    },
+    "kappaUnrounded": {
+      "value": 0.4302445,
+      "decimals": 7
+    },
+    "categoryKappas": {
+      "values": [0.245, 0.245, 0.52, 0.471, 0.566],
+      "decimals": 3
+    }
+  }
+}

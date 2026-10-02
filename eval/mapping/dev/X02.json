@@ -1,0 +1,51 @@
+{
+  "id": "X02",
+  "category": "other-trade",
+  "style": "hindi",
+  "persona": "DEV SET, not part of the frozen evaluation. A plasterer and mason from Bihar working in Delhi; mentions helping the electrician once.",
+  "lang": "hi",
+  "turns": [
+    {
+      "topic": "intro",
+      "q": "अपने काम के बारे में बताइए। कितने साल से कर रहे हैं, कहाँ-कहाँ काम किया है?",
+      "answer": "दस साल से मिस्त्री का काम करता हूँ, दिल्ली में मकान बनते हैं वहाँ। ज़्यादातर प्लास्टर और ईंट की चिनाई।"
+    },
+    {
+      "topic": "main-work",
+      "q": "आप मुख्य रूप से कौन-कौन सा काम करते हैं? कैसे करते हैं, बताइए।",
+      "answer": "प्लास्टर से पहले दीवार पर पानी छिड़ककर गीला करता हूँ। सीमेंट और रेत का मसाला सही अनुपात में बनाता हूँ। लेवल पट्टी लगाकर बराबर प्लास्टर करता हूँ और बाद में तराई करता हूँ। एक बार बिजली वाले के लिए दीवार में खांचा काटा था, बाकी बिजली का काम नहीं करता।"
+    },
+    {
+      "topic": "safety",
+      "q": "काम के समय अपनी और दूसरों की सुरक्षा के लिए क्या-क्या करते हैं?",
+      "answer": "मचान पर चढ़ते समय हेलमेट और बेल्ट पहनता हूँ।"
+    }
+  ],
+  "labels": [
+    {
+      "pc": "CON/N0111.PC10",
+      "evidence": "प्लास्टर से पहले दीवार पर पानी छिड़ककर गीला करता हूँ"
+    },
+    {
+      "pc": "CON/N0111.PC11",
+      "evidence": "सीमेंट और रेत का मसाला सही अनुपात में बनाता हूँ"
+    },
+    {
+      "pc": "CON/N0111.PC13",
+      "evidence": "लेवल पट्टी लगाकर बराबर प्लास्टर करता हूँ"
+    }
+  ],
+  "expected": {
+    "qp": "CON/Q0103",
+    "pcIds": [
+      "CON/N0111.PC10",
+      "CON/N0111.PC11",
+      "CON/N0111.PC13"
+    ],
+    "coverageFlat": 0.0182,
+    "coverageWeighted": 0.0321,
+    "routeFlat": "upskill-first",
+    "routeWeighted": "upskill-first"
+  },
+  "notes": "Dev set only. Used to check that a mason is not matched to the electrician pack; PC labels here are partial on purpose."
+}

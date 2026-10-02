@@ -1,0 +1,82 @@
+{
+  "id": "D15",
+  "category": "short",
+  "style": "hindi",
+  "persona": "Shy site helper of about four years who says very little and defers to his supervisor. Only a few concrete things come out: he replaces blown fuses and bulbs on the site lights and wears gloves.",
+  "lang": "hi",
+  "turns": [
+    {
+      "topic": "intro",
+      "q": "अपने काम के बारे में बताइए। कितने साल से कर रहे हैं, कहाँ-कहाँ काम किया है?",
+      "answer": "जी, चार साल से। साइट पर हेल्पर हूँ।"
+    },
+    {
+      "topic": "tools",
+      "q": "कौन-कौन से औज़ार और मीटर चलाते हैं, और उनसे क्या-क्या करते हैं?",
+      "answer": "जी, पेचकस, प्लायर। थोड़ा-थोड़ा।"
+    },
+    {
+      "topic": "wiring",
+      "q": "मकान या बिल्डिंग में वायरिंग कैसे करते हैं? शुरू से आख़िर तक बताइए।",
+      "answer": "वो उतना नहीं आता जी।"
+    },
+    {
+      "topic": "site-lighting",
+      "q": "कंस्ट्रक्शन साइट पर अस्थायी लाइट का काम किया है? क्या-क्या करते हैं?",
+      "answer": "हाँ जी। फ्यूज़ उड़ जाए तो बदल देता हूँ। बल्ब भी।"
+    },
+    {
+      "topic": "panels",
+      "q": "डिस्ट्रीब्यूशन बोर्ड या पैनल लगाने, जोड़ने या ठीक करने का काम किया है?",
+      "answer": "नहीं जी।"
+    },
+    {
+      "topic": "safety",
+      "q": "काम के समय अपनी और दूसरों की सुरक्षा के लिए क्या-क्या करते हैं?",
+      "answer": "दस्ताने पहनता हूँ। जूते भी।"
+    },
+    {
+      "topic": "team-planning",
+      "q": "टीम में काम कैसे करते हैं, और काम शुरू करने से पहले तैयारी कैसे करते हैं?",
+      "answer": "जो साहब बोलते हैं, वो करता हूँ।"
+    },
+    {
+      "topic": "other",
+      "q": "फ़ोन से भुगतान, पैसों का हिसाब या ग्राहक से बात, ये सब कैसे करते हैं?",
+      "answer": "भैया करते हैं।"
+    }
+  ],
+  "labels": [
+    {
+      "pc": "CON/N0603.PC12",
+      "evidence": "बदल देता हूँ। बल्ब भी",
+      "note": "'बल्ब भी' completes the previous sentence (he replaces bulbs too), so the span crosses the sentence break."
+    },
+    {
+      "pc": "CON/N0603.PC15",
+      "evidence": "फ्यूज़ उड़ जाए तो बदल देता हूँ"
+    },
+    {
+      "pc": "CON/N9001.PC7",
+      "evidence": "दस्ताने पहनता हूँ"
+    },
+    {
+      "pc": "CON/N8001.PC4",
+      "evidence": "जो साहब बोलते हैं, वो करता हूँ"
+    }
+  ],
+  "expected": {
+    "qp": "CON/Q0602",
+    "pcIds": [
+      "CON/N0603.PC12",
+      "CON/N0603.PC15",
+      "CON/N8001.PC4",
+      "CON/N9001.PC7"
+    ],
+    "coverageFlat": 0.0336,
+    "coverageWeighted": 0.0377,
+    "routeFlat": "upskill-first",
+    "routeWeighted": "upskill-first"
+  },
+  "notes": "A shy worker who says almost nothing. Labelled: replacing blown fuses and bulbs (an answer to the site-lighting question, so read as site lighting), gloves, and doing what his supervisor tells him. Not labelled: the tool names with 'थोड़ा-थोड़ा' (no activity), 'वो उतना नहीं आता' (a negation), 'नहीं जी' for panels, and money matters, which his brother handles (someone else's work). Shoes are part of the same PPE label."
+}

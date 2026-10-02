@@ -1,0 +1,165 @@
+{
+  "summary": {
+    "set": "dev",
+    "mode": "llm",
+    "n": 2,
+    "top1": 2,
+    "pcMicro": {
+      "tp": 11,
+      "fp": 10,
+      "fn": 1,
+      "precision": 0.5238095238095238,
+      "recall": 0.9166666666666666
+    },
+    "pcMacro": {
+      "precision": 0.4951923076923077,
+      "recall": 0.9444444444444444
+    },
+    "routeFlat": 2,
+    "routeWeighted": 2,
+    "byCategory": {
+      "partial": {
+        "n": 1,
+        "top1": 1,
+        "precision": 0.6153846153846154,
+        "recall": 0.8888888888888888
+      },
+      "other-trade": {
+        "n": 1,
+        "top1": 1,
+        "precision": 0.375,
+        "recall": 1
+      }
+    },
+    "models": [
+      "gpt-5-mini"
+    ],
+    "tokens": {
+      "prompt": 29394,
+      "completion": 8109
+    },
+    "linkErrors": 0,
+    "extractionFallbacks": 0,
+    "promptVersion": "link-v3",
+    "endpoint": "azure:gpt-5-mini",
+    "prompts": {
+      "extract": "extract-v1",
+      "link": "link-v3"
+    },
+    "date": "2026-10-02",
+    "tokensPerDeclaration": {
+      "prompt": 14697,
+      "completion": 4055
+    },
+    "startedAt": "2026-10-02T05:57:10.840Z",
+    "seconds": 89
+  },
+  "rows": [
+    {
+      "id": "X01",
+      "category": "partial",
+      "style": "hinglish-devanagari",
+      "expectedQp": "CON/Q0602",
+      "predictedQp": "CON/Q0602",
+      "top1": true,
+      "expectedPcs": 9,
+      "predictedPcs": 13,
+      "tp": 8,
+      "fp": 5,
+      "fn": 1,
+      "precision": 0.6153846153846154,
+      "recall": 0.8888888888888888,
+      "coverage": {
+        "flat": 0.1092436974789916,
+        "weighted": 0.18878787878787887
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 15,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v3",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 0,
+        "linksDropped": 1,
+        "tokens": {
+          "prompt": 15365,
+          "completion": 5333
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 55.6,
+      "falsePositives": {
+        "CON/N0605.PC2": 1,
+        "CON/N0602.PC10": 1,
+        "CON/N0605.PC9": 1,
+        "CON/N0605.PC14": 1,
+        "CON/N9001.PC11": 1
+      },
+      "falseNegatives": {
+        "CON/N0602.PC9": 1
+      }
+    },
+    {
+      "id": "X02",
+      "category": "other-trade",
+      "style": "hindi",
+      "expectedQp": "CON/Q0103",
+      "predictedQp": "CON/Q0103",
+      "top1": true,
+      "expectedPcs": 3,
+      "predictedPcs": 8,
+      "tp": 3,
+      "fp": 5,
+      "fn": 0,
+      "precision": 0.375,
+      "recall": 1,
+      "coverage": {
+        "flat": 0.048484848484848485,
+        "weighted": 0.07684476190476192
+      },
+      "routeFlat": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "routeWeighted": {
+        "expected": "upskill-first",
+        "predicted": "upskill-first"
+      },
+      "claims": 9,
+      "linkErrors": [],
+      "ledger": {
+        "promptVersion": "link-v3",
+        "models": [
+          "gpt-5-mini"
+        ],
+        "claimsRejected": 1,
+        "linksDropped": 0,
+        "tokens": {
+          "prompt": 14029,
+          "completion": 2776
+        },
+        "rateLimitWaits": 0,
+        "extractionFallbacks": 0
+      },
+      "seconds": 33.3,
+      "falsePositives": {
+        "CON/N0110.PC12": 1,
+        "CON/N0111.PC15": 1,
+        "CON/N0111.PC14": 1,
+        "CON/N0111.PC5": 1,
+        "CON/N9001.PC6": 1
+      },
+      "falseNegatives": {}
+    }
+  ]
+}

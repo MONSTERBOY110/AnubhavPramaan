@@ -1,0 +1,286 @@
+{
+  "id": "demo-electrician-1",
+  "title": "Demo calibration set: openly licensed photos of electrical work",
+  "qp": "CON/Q0602",
+  "note": "A demo set of 7 openly licensed Wikimedia Commons photos, not the study set: the pre-registered study runs on the ministry's dummy data.",
+  "items": [
+    {
+      "id": "I01",
+      "image": "/evidence/socket-box-wiring-hands.jpg",
+      "credit": "Electrician installing socket 20160817, Santeri Viinamäki, CC BY-SA 4.0, Wikimedia Commons (resized, metadata removed)",
+      "pcs": [
+        "CON/N0604.PC8",
+        "CON/N0605.PC6",
+        "CON/N0602.PC6"
+      ],
+      "hints": {
+        "CON/N0604.PC8": [
+          {
+            "status": "not_visible",
+            "reason": "No packed fixtures, trolley or wheelbarrow are visible — only hands and loose cables at the wall box."
+          },
+          {
+            "status": "not_visible",
+            "reason": "No switch or socket plates are installed in the pictured area, so their positions relative to any drawing cannot be confirmed."
+          },
+          {
+            "status": "not_visible",
+            "reason": "There are no plates or fitted coverings visible in the image to assess levelness, flush fit or screw tightness."
+          }
+        ],
+        "CON/N0605.PC6": [
+          {
+            "status": "cannot_tell",
+            "reason": "Photo shows stripped conductors of varying lengths but does not show the socket terminal depth or final insertion to confirm correct length."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "Wires are visible and some are held near the terminals, but the photo does not show them actually placed or secured in labeled phase/neutral/earth terminals."
+          },
+          {
+            "status": "not_visible",
+            "reason": "No visible insulating tape, sleeving on the exposed terminations, or circuit identification labels on the cables in the photo."
+          }
+        ],
+        "CON/N0602.PC6": [
+          {
+            "status": "cannot_tell",
+            "reason": "Photo shows a wire stripper and stripped conductors but does not provide a close enough view of the copper to confirm presence or absence of nicks."
+          },
+          {
+            "status": "not_visible",
+            "reason": "Several individual bare conductors are visible and not joined into a tight, even twist; no completed twisted splice is shown."
+          },
+          {
+            "status": "not_visible",
+            "reason": "Multiple bare copper ends are exposed in the box and no tape or connector covering the joints is visible."
+          }
+        ]
+      }
+    },
+    {
+      "id": "I02",
+      "image": "/evidence/db-open-rcbo-mcb.jpg",
+      "credit": "Fuse box hager, Dmitry G, CC BY-SA 3.0, Wikimedia Commons (resized, metadata removed)",
+      "pcs": [
+        "CON/N0605.PC2",
+        "CON/N0605.PC3",
+        "CON/N0605.PC7"
+      ],
+      "hints": {
+        "CON/N0605.PC2": [
+          {
+            "status": "cannot_tell",
+            "reason": "The photo shows the distribution board internals but not the SLD or full circuit list, so capacity and ways versus the SLD cannot be verified."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "MCBs/RCCBs appear mounted in the enclosure, but the single-line diagram and device ratings/positions are not provided, so correspondence cannot be confirmed."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "Wire colors and terminations are visible, but actual conductor cross-sections and the required sizes from the drawing/ratings are not shown, so matching cannot be determined."
+          }
+        ],
+        "CON/N0605.PC3": [
+          {
+            "status": "cannot_tell",
+            "reason": "The photo shows the wiring and terminals but does not show any person or action checking for looseness, so the check cannot be confirmed."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "Screws are visible and appear seated, but tightness (torque) cannot be verified from the image alone."
+          },
+          {
+            "status": "visible",
+            "reason": "Terminals show insulated ferrules and intact insulation with no exposed bare copper or stray strands visible."
+          }
+        ],
+        "CON/N0605.PC7": [
+          {
+            "status": "visible",
+            "reason": "A green/yellow conductor with a ring lug is bolted to the panel/mounting bracket at the right, showing the panel body bonded to an earth connection."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "The photo shows the lug and bolt but does not provide enough detail to confirm the tightness of the connection or whether the contact area is clean, bare metal."
+          },
+          {
+            "status": "visible",
+            "reason": "Multiple green/yellow earth conductors are terminated at the earth/neutral terminal strip at the top of the enclosure, indicating connection to an earth bar within the panel."
+          }
+        ]
+      }
+    },
+    {
+      "id": "I03",
+      "image": "/evidence/conduit-strut-clamps.jpg",
+      "credit": "Installing conduit at a power facility in Queens. 10-08-2019 (48882438227), MTA Capital Construction Mega Projects, CC BY 2.0, Wikimedia Commons (resized, metadata removed)",
+      "pcs": [
+        "CON/N0604.PC4",
+        "CON/N0602.PC7"
+      ],
+      "hints": {
+        "CON/N0604.PC4": [
+          {
+            "status": "cannot_tell",
+            "reason": "The photo shows installed conduit but does not include the referenced drawing or route, so alignment with the drawing cannot be confirmed."
+          },
+          {
+            "status": "visible",
+            "reason": "Conduit runs are predominantly straight and horizontal with visible bends and a junction box at the left end."
+          },
+          {
+            "status": "not_visible",
+            "reason": "Conduits are surface-mounted on supports below the slab/wall surface rather than placed inside a chased wall or below a plaster line."
+          },
+          {
+            "status": "visible",
+            "reason": "Multiple couplers and formed bends are visible at joint locations and no open gaps are evident in the photographed area."
+          }
+        ],
+        "CON/N0602.PC7": [
+          {
+            "status": "not_visible",
+            "reason": "No pipe vise or die set is visible; the image shows installed conduit, not a threading operation."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "Couplings and joints are visible and appear aligned but the photo does not show thread condition or confirm couplings are fully screwed on."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "Support strut and clamps are visible and appear installed, but the photo cannot show whether the bracket is firmly fixed or if the conduit moves when pushed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "I04",
+      "image": "/evidence/earth-rod-clamp.jpg",
+      "credit": "Fil de terre et piquet de terre, Cjp24, CC BY-SA 4.0, Wikimedia Commons (resized, metadata removed)",
+      "pcs": [
+        "CON/N0604.PC11"
+      ],
+      "hints": {
+        "CON/N0604.PC11": [
+          {
+            "status": "not_visible",
+            "reason": "A clamp securing the conductor to the rod is visible but there is no clearly visible lug under the terminal—no lug can be confirmed."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "A continuity test result or testing instrument is not shown; the photo does not show whether the earth wire was checked end-to-end."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "The wire is clearly green-and-yellow and reaches the earth rod in the photo, but the image does not show whether it reaches every metal box and socket earth."
+          }
+        ]
+      }
+    },
+    {
+      "id": "I05",
+      "image": "/evidence/site-floodlight-pole.jpg",
+      "credit": "KVG-Abstellfläche am Alten Postareal an der Werftstraße, Kiel-Gaarden-Ost - 18, DYVER, CC BY-SA 4.0, Wikimedia Commons (resized, metadata removed)",
+      "pcs": [
+        "CON/N0603.PC4",
+        "CON/N0603.PC10"
+      ],
+      "hints": {
+        "CON/N0603.PC4": [
+          {
+            "status": "cannot_tell",
+            "reason": "Photo is taken from a distance and does not show the screw/bolt/clamp details or allow testing that the light/bracket do not move when pushed."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "Wires and a cable path are visible but the conduit entry, insulation condition and any scraping are not clearly shown in the image."
+          },
+          {
+            "status": "not_visible",
+            "reason": "The distribution board/outgoing terminals are not visible in the photo, so connection to the correct terminal cannot be seen."
+          }
+        ],
+        "CON/N0603.PC10": [
+          {
+            "status": "not_visible",
+            "reason": "Cable runs are visible lying low and across the ground/road rather than shown following an evidently short, elevated safe route."
+          },
+          {
+            "status": "not_visible",
+            "reason": "Cable is not consistently routed on supports or tied at each vertical support — it is draped and anchored intermittently to fence and pole only."
+          },
+          {
+            "status": "not_visible",
+            "reason": "Visible sections of the cable run along the ground and below the lamp pole, clearly well under 2 m above ground level."
+          }
+        ]
+      }
+    },
+    {
+      "id": "I06",
+      "image": "/evidence/lug-terminations-transformer.jpg",
+      "credit": "Terminating wires in the Manhattan tunnels. 10-08-2019 (48882438152), MTA Capital Construction Mega Projects, CC BY 2.0, Wikimedia Commons (resized, metadata removed)",
+      "pcs": [
+        "CON/N0603.PC6",
+        "CON/N0604.PC9"
+      ],
+      "hints": {
+        "CON/N0603.PC6": [
+          {
+            "status": "visible",
+            "reason": "Conductors at the terminals show lugs/ferrules fitted with no exposed bare copper visible beyond the terminations."
+          },
+          {
+            "status": "visible",
+            "reason": "Most conductors are terminated with crimped ring/spade lugs bolted to the busbar, indicating use of lugs."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "Photo shows final terminations but does not show the work sequence or whether a post‑tightening tug check was performed."
+          }
+        ],
+        "CON/N0604.PC9": [
+          {
+            "status": "cannot_tell",
+            "reason": "Image does not show any isolation switch position, lockout or test instrument readout to confirm the supply is off and dead."
+          },
+          {
+            "status": "visible",
+            "reason": "Phase conductors (dark insulated cables) are on separate transformer lugs and green insulated conductors are routed to an earth/ground point, visible on the right."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "No obvious stray copper strands are visible at the terminations, but the photo cannot confirm whether screws are properly tightened."
+          }
+        ]
+      }
+    },
+    {
+      "id": "I07",
+      "image": "/evidence/switchboard-south-asian.jpg",
+      "credit": "South Asian switchboard, Muzammil, CC BY-SA 4.0, Wikimedia Commons (resized, metadata removed)",
+      "pcs": [
+        "CON/N0604.PC8"
+      ],
+      "hints": {
+        "CON/N0604.PC8": [
+          {
+            "status": "cannot_tell",
+            "reason": "Image shows fixed fixtures on a surface but does not show how the fixtures were carried or whether they were in packaging/trolley."
+          },
+          {
+            "status": "cannot_tell",
+            "reason": "Photo shows installed switch plates but there is no drawing or reference position visible to confirm they match the drawing."
+          },
+          {
+            "status": "not_visible",
+            "reason": "Plates appear uneven and not fully flush with gaps and at least one screw position looks empty/misaligned, so they are not clearly level, flush and firmly screwed."
+          }
+        ]
+      }
+    }
+  ],
+  "hintSource": "azure:gpt-5-mini through /api/hints/evidence, frozen 2026-10-02 11:33 IST"
+}

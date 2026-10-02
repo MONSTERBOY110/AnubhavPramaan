@@ -1,0 +1,79 @@
+{
+  "id": "krippendorff-2011-computing-alpha",
+  "description": "The worked examples in Krippendorff's step-by-step guide to computing alpha: binary, nominal with two observers, and four observers with missing values under four metrics.",
+  "source": {
+    "authors": "Krippendorff, K.",
+    "year": 2011,
+    "title": "Computing Krippendorff's Alpha-Reliability",
+    "journal": "Departmental Papers (ASC), Annenberg School for Communication, University of Pennsylvania",
+    "volume": null,
+    "issue": "43",
+    "pages": "1-10",
+    "table": "Example A (p. 2 to 3), example B (p. 3 to 4), example C reliability data matrix and coincidence matrix (p. 4), nominal alpha (p. 5), ordinal, interval and ratio alphas (p. 8)",
+    "doi": null,
+    "url": "https://repository.upenn.edu/asc_papers/43"
+  },
+  "originalRead": true,
+  "version": "Dated 2011.1.25 on page 1",
+  "pdf": {
+    "url": "https://repository.upenn.edu/server/api/core/bitstreams/0421f871-f005-4322-b06a-a66bec328e3b/content",
+    "file": "mwebreliability4.pdf",
+    "sha256": "34a0ef7a8ea663d9e4bda60ede9d8364e97ed847e000951a17750487d09c69ee"
+  },
+  "notes": [
+    "Every number was transcribed from the PDF above. Data are kept as printed: one row per observer, one column per unit, null where the paper prints a dot for a missing value.",
+    "Example C is the paper's 4 observers by 12 units matrix; section D reuses it for the ordinal, interval and ratio metrics.",
+    "coincidences.asPrinted keeps the paper's notation: fractions as text and a dot for an empty cell."
+  ],
+  "examples": {
+    "A": {
+      "section": "A. Binary or dichotomous data, two observers, no missing data",
+      "pages": "2-3",
+      "observers": ["Meg", "Owen"],
+      "data": [
+        [0, 1, 0, 0, 0, 0, 0, 0, 1, 0],
+        [1, 1, 1, 0, 0, 1, 0, 0, 0, 0]
+      ],
+      "pairableValues": 20,
+      "expected": { "decimals": 3, "alpha": { "nominal": 0.095 } }
+    },
+    "B": {
+      "section": "B. Nominal data, two observers, no missing data",
+      "pages": "3-4",
+      "observers": ["Ben", "Gerry"],
+      "data": [
+        ["a", "a", "b", "b", "d", "c", "c", "c", "e", "d", "d", "a"],
+        ["b", "a", "b", "b", "b", "c", "c", "c", "e", "d", "d", "d"]
+      ],
+      "pairableValues": 24,
+      "expected": { "decimals": 3, "alpha": { "nominal": 0.692 } }
+    },
+    "C": {
+      "section": "C. Nominal data, any number of observers, missing data; D. Any metric, any number of observers, missing data",
+      "pages": "4-8",
+      "observers": ["A", "B", "C", "D"],
+      "data": [
+        [1, 2, 3, 3, 2, 1, 4, 1, 2, null, null, null],
+        [1, 2, 3, 3, 2, 2, 4, 1, 2, 5, null, 3],
+        [null, 3, 3, 3, 2, 3, 4, 2, 2, 5, 1, null],
+        [1, 2, 3, 3, 2, 4, 4, 1, 2, 5, 1, null]
+      ],
+      "pairableValues": 40,
+      "coincidences": {
+        "values": [1, 2, 3, 4, 5],
+        "asPrinted": [
+          ["7", "4/3", "1/3", "1/3", "."],
+          ["4/3", "10", "4/3", "1/3", "."],
+          ["1/3", "4/3", "8", "1/3", "."],
+          ["1/3", "1/3", "1/3", "4", "."],
+          [".", ".", ".", ".", "3"]
+        ],
+        "marginals": [9, 13, 10, 5, 3]
+      },
+      "expected": {
+        "decimals": 3,
+        "alpha": { "nominal": 0.743, "ordinal": 0.815, "interval": 0.849, "ratio": 0.797 }
+      }
+    }
+  }
+}

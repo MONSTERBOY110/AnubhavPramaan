@@ -28,3 +28,17 @@ test-results/
 # OS
 .DS_Store
 Thumbs.db
+
+# Carried over from the Saakshi base
+.pnpm-store/
+dist/
+.playwright-mcp/
+.vscode/
+.idea/
+scratch/
+*.log
+.impeccable/
+.claude/
+
+# Cached TTS clips from the ElevenLabs stand-in (saves credits; regenerable)
+.cache/

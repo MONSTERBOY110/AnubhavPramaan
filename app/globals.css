@@ -1,0 +1,124 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/*
+  AnubhavPramaan: a calm, official surface. White ground, deep ink, one saffron accent for the
+  thing to act on, green only where the assessor decides. Every AI output carries the word
+  "suggestion" and a dashed outline, so a suggestion never looks like a decision.
+*/
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/fonts/noto-sans-latin.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Devanagari";
+  src: url("/fonts/noto-sans-devanagari.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-soft: var(--paper-soft);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+  --color-saffron: var(--saffron);
+  --color-saffron-deep: var(--saffron-deep);
+  --color-saffron-soft: var(--saffron-soft);
+  --color-decide: var(--decide);
+  --color-decide-soft: var(--decide-soft);
+  --color-alert: var(--alert);
+  --color-alert-soft: var(--alert-soft);
+
+  --font-sans: "Noto Sans", "Noto Sans Devanagari", "Nirmala UI", system-ui, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", Consolas, monospace;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+}
+
+:root {
+  --paper: #ffffff;
+  --paper-soft: #f5f7fb;
+  --ink: #1b2559;
+  --ink-soft: #5f6b7a;
+  --line: #d9dee8;
+  /* Saffron fills carry ink text; saffron-deep is the text-safe shade (4.6:1 on white). */
+  --saffron: #e07a1f;
+  --saffron-deep: #a8520a;
+  --saffron-soft: #fdf1e6;
+  --decide: #2e7d32;
+  --decide-soft: #e8f3e9;
+  --alert: #b42318;
+  --alert-soft: #fdecea;
+
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--paper);
+  --card-foreground: var(--ink);
+  --popover: var(--paper);
+  --popover-foreground: var(--ink);
+  --primary: var(--ink);
+  --primary-foreground: #ffffff;
+  --secondary: var(--paper-soft);
+  --secondary-foreground: var(--ink);
+  --muted: var(--paper-soft);
+  --muted-foreground: var(--ink-soft);
+  --accent: var(--saffron-soft);
+  --accent-foreground: var(--ink);
+  --destructive: var(--alert);
+  --border: var(--line);
+  --input: var(--line);
+  --ring: var(--saffron);
+  --radius: 8px;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+  }
+
+  ::selection {
+    background: var(--saffron-soft);
+    color: var(--ink);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--saffron);
+    outline-offset: 2px;
+  }
+}

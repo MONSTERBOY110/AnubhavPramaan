@@ -1,0 +1,59 @@
+{
+  "id": "D13",
+  "category": "short",
+  "style": "hindi",
+  "persona": "Says he has done electrical work for five or six years but answers every question with a yes or a general claim. Nothing he says names a concrete activity.",
+  "lang": "hi",
+  "turns": [
+    {
+      "topic": "intro",
+      "q": "अपने काम के बारे में बताइए। कितने साल से कर रहे हैं, कहाँ-कहाँ काम किया है?",
+      "answer": "बिजली का काम करता हूँ। पाँच-छह साल हो गए।"
+    },
+    {
+      "topic": "tools",
+      "q": "कौन-कौन से औज़ार और मीटर चलाते हैं, और उनसे क्या-क्या करते हैं?",
+      "answer": "सब चला लेता हूँ।"
+    },
+    {
+      "topic": "wiring",
+      "q": "मकान या बिल्डिंग में वायरिंग कैसे करते हैं? शुरू से आख़िर तक बताइए।",
+      "answer": "सब आता है।"
+    },
+    {
+      "topic": "site-lighting",
+      "q": "कंस्ट्रक्शन साइट पर अस्थायी लाइट का काम किया है? क्या-क्या करते हैं?",
+      "answer": "हाँ, किया है।"
+    },
+    {
+      "topic": "panels",
+      "q": "डिस्ट्रीब्यूशन बोर्ड या पैनल लगाने, जोड़ने या ठीक करने का काम किया है?",
+      "answer": "हाँ।"
+    },
+    {
+      "topic": "safety",
+      "q": "काम के समय अपनी और दूसरों की सुरक्षा के लिए क्या-क्या करते हैं?",
+      "answer": "ध्यान रखता हूँ।"
+    },
+    {
+      "topic": "team-planning",
+      "q": "टीम में काम कैसे करते हैं, और काम शुरू करने से पहले तैयारी कैसे करते हैं?",
+      "answer": "ठीक है, सब हो जाता है।"
+    },
+    {
+      "topic": "other",
+      "q": "फ़ोन से भुगतान, पैसों का हिसाब या ग्राहक से बात, ये सब कैसे करते हैं?",
+      "answer": "हाँ, कर लेता हूँ।"
+    }
+  ],
+  "labels": [],
+  "expected": {
+    "qp": "CON/Q0602",
+    "pcIds": [],
+    "coverageFlat": 0.0,
+    "coverageWeighted": 0,
+    "routeFlat": "upskill-first",
+    "routeWeighted": "upskill-first"
+  },
+  "notes": "Every answer is a yes or a general claim ('सब चला लेता हूँ', 'सब आता है', 'ध्यान रखता हूँ', 'कर लेता हूँ'), so no PC is labelled. The file checks that bare claims are not turned into evidence; an assessor would have to ask follow-up questions."
+}

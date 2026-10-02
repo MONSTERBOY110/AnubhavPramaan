@@ -1,0 +1,188 @@
+{
+  "id": "D17",
+  "category": "hinglish",
+  "style": "hinglish-devanagari",
+  "persona": "Partly experienced electrician, 5 years as a factory maintenance electrician in a knitting unit in Ludhiana: motors, starters, factory panels and fault finding. Has never done conduit house wiring or construction-site work; speaks Devanagari Hindi with English technical words.",
+  "lang": "hi-en",
+  "turns": [
+    {
+      "topic": "intro",
+      "q": "अपने काम के बारे में बताइए। कितने साल से कर रहे हैं, कहाँ-कहाँ काम किया है?",
+      "answer": "मैं पाँच साल से लुधियाना में एक knitting factory में maintenance electrician हूँ। मैं mostly industrial maintenance करता हूँ, MCB, contactor, motor starter सब। Motor, starter, panel और fault finding मेरा main काम है। मकान की conduit wiring और construction site का काम मैंने नहीं किया।"
+    },
+    {
+      "topic": "tools",
+      "q": "कौन-कौन से औज़ार और मीटर चलाते हैं, और उनसे क्या-क्या करते हैं?",
+      "answer": "Tools में plier, screwdriver, cutter, stripper, spanner set, drill machine, multimeter, tong tester और megger है। Drill चलाने से पहले उसकी wire और plug देख लेता हूँ। Panel में terminal पर wire screwdriver से tight करके connection बनाता हूँ और खोलता भी हूँ। Wire का size gauge से नापता हूँ, cable की लंबाई फीते से नापकर काटता हूँ। Motor की lead जोड़नी हो तो stripper से insulation हटाकर twist करके joint बनाता हूँ, फिर sleeve चढ़ाता हूँ। Multimeter से supply voltage और continuity check करता हूँ, megger से motor winding का insulation देखता हूँ। Tong tester से motor का load current नापकर देखता हूँ कि connection सही बना है। Motor trip हो या चले नहीं तो multimeter और megger से एक-एक point check करके fault पकड़ता हूँ। Shift खत्म होने पर meter और tools साफ़ करके अलमारी में रख देता हूँ।"
+    },
+    {
+      "topic": "wiring",
+      "q": "मकान या बिल्डिंग में वायरिंग कैसे करते हैं? शुरू से आख़िर तक बताइए।",
+      "answer": "घर की wiring मैंने नहीं की, conduit में तार खींचने का काम भी नहीं किया। Factory में नई motor लगे तो उसकी cable tray पर बिछाकर lug लगाकर motor के terminal box में terminate करता हूँ। Single phase motor का wiring diagram पढ़कर capacitor वाले connection कर लेता हूँ। Panel में cable gland के लिए drill से छेद करता हूँ। नई line चालू करने से पहले और बाद में megger और multimeter से circuit test करता हूँ। पिछले साल नया earth pit बना तो plate डालने और earth wire panel तक लाने में electrician साहब की मदद की।"
+    },
+    {
+      "topic": "site-lighting",
+      "q": "कंस्ट्रक्शन साइट पर अस्थायी लाइट का काम किया है? क्या-क्या करते हैं?",
+      "answer": "Construction site पर काम नहीं किया। Factory के shed में high-bay light और tubelight खराब हो तो बदलता हूँ, choke भी बदला है।"
+    },
+    {
+      "topic": "panels",
+      "q": "डिस्ट्रीब्यूशन बोर्ड या पैनल लगाने, जोड़ने या ठीक करने का काम किया है?",
+      "answer": "हाँ, factory के MCC panel और DB का पूरा maintenance मेरे पास है। Motor के current के हिसाब से overload relay set करता हूँ और सही rating का contactor और MCB लगाता हूँ। DOL और star-delta starter की wiring करता हूँ। हर हफ्ते panel खोलकर देखता हूँ कोई terminal ढीला या गरम तो नहीं। Breakdown हो तो तुरंत जाता हूँ, पता करता हूँ कि trip क्यों हुआ, जला हुआ contactor या fuse बदल देता हूँ। Shutdown से पहले production supervisor को बताता हूँ।"
+    },
+    {
+      "topic": "safety",
+      "q": "काम के समय अपनी और दूसरों की सुरक्षा के लिए क्या-क्या करते हैं?",
+      "answer": "Panel पर काम से पहले supply बंद करके lock और tag लगाता हूँ। Rubber gloves और safety shoes पहनता हूँ। Machine के पास wire खुला दिखे तो incharge को बताता हूँ। एक बार panel में आग लगी थी तो CO2 वाला cylinder मैंने चलाया था।"
+    },
+    {
+      "topic": "team-planning",
+      "q": "टीम में काम कैसे करते हैं, और काम शुरू करने से पहले तैयारी कैसे करते हैं?",
+      "answer": "Shift में हम दो electrician और एक helper हैं। Shift incharge से सुबह काम की list लेता हूँ और उसी हिसाब से करता हूँ। कोई fault मुझसे न सुलझे तो incharge को तुरंत बताता हूँ। Breakdown में दूसरे electrician के साथ मिलकर काम करते हैं ताकि machine जल्दी चले। Store से spare contactor, relay और cable पहले से निकलवाकर रखता हूँ।"
+    },
+    {
+      "topic": "other",
+      "q": "फ़ोन से भुगतान, पैसों का हिसाब या ग्राहक से बात, ये सब कैसे करते हैं?",
+      "answer": "Salary bank में आती है, UPI से payment करता हूँ, OTP किसी को नहीं बताता। WhatsApp पर fault की photo incharge को भेजता हूँ।"
+    }
+  ],
+  "labels": [
+    {
+      "pc": "CON/N0602.PC1",
+      "evidence": "Drill चलाने से पहले उसकी wire और plug देख लेता हूँ"
+    },
+    {
+      "pc": "CON/N0602.PC2",
+      "evidence": "Panel में terminal पर wire screwdriver से tight करके connection बनाता हूँ और खोलता भी हूँ"
+    },
+    {
+      "pc": "CON/N0602.PC3",
+      "evidence": "Motor trip हो या चले नहीं तो multimeter और megger से एक-एक point check करके fault पकड़ता हूँ"
+    },
+    {
+      "pc": "CON/N0602.PC4",
+      "evidence": "Wire का size gauge से नापता हूँ"
+    },
+    {
+      "pc": "CON/N0602.PC6",
+      "evidence": "stripper से insulation हटाकर twist करके joint बनाता हूँ"
+    },
+    {
+      "pc": "CON/N0602.PC8",
+      "evidence": "Multimeter से supply voltage और continuity check करता हूँ"
+    },
+    {
+      "pc": "CON/N0602.PC9",
+      "evidence": "Motor के current के हिसाब से overload relay set करता हूँ और सही rating का contactor और MCB लगाता हूँ",
+      "note": "Factory panel work: rule 7 maps it to the general breaker and starter PC, not CON/N0605."
+    },
+    {
+      "pc": "CON/N0602.PC10",
+      "evidence": "Tong tester से motor का load current नापकर देखता हूँ कि connection सही बना है"
+    },
+    {
+      "pc": "CON/N0602.PC11",
+      "evidence": "meter और tools साफ़ करके अलमारी में रख देता हूँ"
+    },
+    {
+      "pc": "CON/N0604.PC2",
+      "evidence": "Single phase motor का wiring diagram पढ़कर capacitor वाले connection कर लेता हूँ"
+    },
+    {
+      "pc": "CON/N0604.PC3",
+      "evidence": "cable की लंबाई फीते से नापकर काटता हूँ"
+    },
+    {
+      "pc": "CON/N0604.PC7",
+      "evidence": "Panel में cable gland के लिए drill से छेद करता हूँ"
+    },
+    {
+      "pc": "CON/N0604.PC8",
+      "evidence": "high-bay light और tubelight खराब हो तो बदलता हूँ",
+      "note": "Factory shed lighting is permanent, so rule 7 maps it to fixing fittings in a permanent structure, not CON/N0603."
+    },
+    {
+      "pc": "CON/N0604.PC9",
+      "evidence": "lug लगाकर motor के terminal box में terminate करता हूँ"
+    },
+    {
+      "pc": "CON/N0604.PC10",
+      "evidence": "नई line चालू करने से पहले और बाद में megger और multimeter से circuit test करता हूँ"
+    },
+    {
+      "pc": "CON/N0604.PC11",
+      "evidence": "plate डालने और earth wire panel तक लाने में electrician साहब की मदद की"
+    },
+    {
+      "pc": "CON/N9001.PC1",
+      "evidence": "Machine के पास wire खुला दिखे तो incharge को बताता हूँ"
+    },
+    {
+      "pc": "CON/N9001.PC5",
+      "evidence": "एक बार panel में आग लगी थी तो CO2 वाला cylinder मैंने चलाया था"
+    },
+    {
+      "pc": "CON/N9001.PC7",
+      "evidence": "Rubber gloves और safety shoes पहनता हूँ"
+    },
+    {
+      "pc": "CON/N8001.PC3",
+      "evidence": "कोई fault मुझसे न सुलझे तो incharge को तुरंत बताता हूँ"
+    },
+    {
+      "pc": "CON/N8001.PC4",
+      "evidence": "Shift incharge से सुबह काम की list लेता हूँ और उसी हिसाब से करता हूँ"
+    },
+    {
+      "pc": "CON/N8001.PC8",
+      "evidence": "Breakdown में दूसरे electrician के साथ मिलकर काम करते हैं"
+    },
+    {
+      "pc": "CON/N8002.PC7",
+      "evidence": "Store से spare contactor, relay और cable पहले से निकलवाकर रखता हूँ"
+    },
+    {
+      "pc": "DGT/VSQ/N0101.PC9",
+      "evidence": "UPI से payment करता हूँ, OTP किसी को नहीं बताता"
+    },
+    {
+      "pc": "DGT/VSQ/N0101.PC12",
+      "evidence": "WhatsApp पर fault की photo incharge को भेजता हूँ"
+    }
+  ],
+  "expected": {
+    "qp": "CON/Q0602",
+    "pcIds": [
+      "CON/N0602.PC1",
+      "CON/N0602.PC2",
+      "CON/N0602.PC3",
+      "CON/N0602.PC4",
+      "CON/N0602.PC6",
+      "CON/N0602.PC8",
+      "CON/N0602.PC9",
+      "CON/N0602.PC10",
+      "CON/N0602.PC11",
+      "CON/N0604.PC2",
+      "CON/N0604.PC3",
+      "CON/N0604.PC7",
+      "CON/N0604.PC8",
+      "CON/N0604.PC9",
+      "CON/N0604.PC10",
+      "CON/N0604.PC11",
+      "CON/N8001.PC3",
+      "CON/N8001.PC4",
+      "CON/N8001.PC8",
+      "CON/N8002.PC7",
+      "CON/N9001.PC1",
+      "CON/N9001.PC5",
+      "CON/N9001.PC7",
+      "DGT/VSQ/N0101.PC9",
+      "DGT/VSQ/N0101.PC12"
+    ],
+    "coverageFlat": 0.2101,
+    "coverageWeighted": 0.3257,
+    "routeFlat": "upskill-first",
+    "routeWeighted": "upskill-first"
+  },
+  "notes": "Rule 7 decides this file: all CON/N0603 and CON/N0605 PCs are unlabelled. The factory MCC panel and DB work (weekly inspection, breakdown response, replacing contactors and fuses, telling the supervisor before a shutdown) and the shed lights and choke he replaces are permanent factory installations, not temporary construction-site ones; they map to N0602.PC9 and N0604.PC8 or to nothing. He says he has never done house conduit wiring, so N0604.PC1, PC4, PC5, PC6 are unlabelled; laying cable on a tray is not laying conduit. N0602.PC5 and PC7 (bending and threading conduit) are not mentioned. Lock and tag before panel work is a factory practice with no matching general PC here. The opening turn is general and supports nothing."
+}
