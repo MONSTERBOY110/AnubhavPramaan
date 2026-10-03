@@ -4,7 +4,7 @@ AI-assisted skill assessment for Recognition of Prior Learning (RPL), built for 
 
 A worker describes their work by voice in Hindi. The tool turns it into a structured self-declaration, maps it to the closest NSQF qualification pack with NCVET's 70% rule, gives the assessor a standardised checklist with evidence aids, and seals a tamper-evident record that only a human assessor can sign.
 
-<!-- Demo video: add the YouTube link here once it is uploaded. -->
+**Demo video (2:06):** https://youtu.be/ka0dOzk6eBg
 
 ![Parkho, the assessor's checklist: each criterion with written anchors for levels 0 to 3, what to check, and the worker's own words linked by the tool with a question to ask](screenshots/01-parkho.jpg)
 
